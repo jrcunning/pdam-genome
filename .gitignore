@@ -1,0 +1,5 @@
+data/bams/*
+data/denovo/*
+data/raw_shotgun/*
+data/*.fasta
+ref/*blastdb.n*
