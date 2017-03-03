@@ -1,1 +1,2 @@
-1e-10 1948 39 9 1939 30
+e-value	coral_hits	sym_hits	both_hits	coral_only	sym_only
+1e-10	    1948	      39	       9	    1939	      30

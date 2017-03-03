@@ -1,29 +1,29 @@
 all: blast_results/blast_summary_all.txt
 
-blast_results/blast_summary_all.txt: data/coral_seqs_1e-1.fasta data/coral_seqs_1e-2.fasta data/coral_seqs_1e-3.fasta data/coral_seqs_1e-4.fasta data/coral_seqs_1e-5.fasta data/coral_seqs_1e-10.fasta
-	cat blast_results/*_summary.txt > blast_results/blast_summary_all.txt
+blast_results/blast_summary_all.txt: blast_results/1e-1_summary.txt blast_results/1e-2_summary.txt blast_results/1e-3_summary.txt blast_results/1e-4_summary.txt blast_results/1e-5_summary.txt blast_results/1e-10_summary.txt
+	awk 'FNR==1 && NR!=1 { while (/^e-value/) getline; } 1 {print}' blast_results/*_summary.txt | awk 'NR == 1; NR > 1 {print $0 | "sort -gr"}' > blast_results/summary.txt
 
-data/coral_seqs_1e-1.fasta: Shell/filter_coral_seqs.sh ref/coral_blastdb.nsq ref/sym_blastdb.nsq
+blast_results/1e-1_summary.txt: Shell/filter_coral_seqs.sh ref/coral_blastdb.nsq ref/sym_blastdb.nsq
 	bash Shell/filter_coral_seqs.sh \
 	data/weedy_coral_01Feb2017_zhEnG/weedy_coral_01Feb2017_zhEnG.fasta \
 	1e-1
-data/coral_seqs_1e-2.fasta: Shell/filter_coral_seqs.sh ref/coral_blastdb.nsq ref/sym_blastdb.nsq
+blast_results/1e-2_summary.txt: Shell/filter_coral_seqs.sh ref/coral_blastdb.nsq ref/sym_blastdb.nsq
 	bash Shell/filter_coral_seqs.sh \
 	data/weedy_coral_01Feb2017_zhEnG/weedy_coral_01Feb2017_zhEnG.fasta \
 	1e-2
-data/coral_seqs_1e-3.fasta: Shell/filter_coral_seqs.sh ref/coral_blastdb.nsq ref/sym_blastdb.nsq
+blast_results/1e-3_summary.txt: Shell/filter_coral_seqs.sh ref/coral_blastdb.nsq ref/sym_blastdb.nsq
 	bash Shell/filter_coral_seqs.sh \
 	data/weedy_coral_01Feb2017_zhEnG/weedy_coral_01Feb2017_zhEnG.fasta \
 	1e-3
-data/coral_seqs_1e-4.fasta: Shell/filter_coral_seqs.sh ref/coral_blastdb.nsq ref/sym_blastdb.nsq
+blast_results/1e-4_summary.txt: Shell/filter_coral_seqs.sh ref/coral_blastdb.nsq ref/sym_blastdb.nsq
 	bash Shell/filter_coral_seqs.sh \
 	data/weedy_coral_01Feb2017_zhEnG/weedy_coral_01Feb2017_zhEnG.fasta \
 	1e-4
-data/coral_seqs_1e-5.fasta: Shell/filter_coral_seqs.sh ref/coral_blastdb.nsq ref/sym_blastdb.nsq
+blast_results/1e-5_summary.txt: Shell/filter_coral_seqs.sh ref/coral_blastdb.nsq ref/sym_blastdb.nsq
 	bash Shell/filter_coral_seqs.sh \
 	data/weedy_coral_01Feb2017_zhEnG/weedy_coral_01Feb2017_zhEnG.fasta \
 	1e-5
-data/coral_seqs_1e-10.fasta: Shell/filter_coral_seqs.sh ref/coral_blastdb.nsq ref/sym_blastdb.nsq
+blast_results/1e-10_summary.txt: Shell/filter_coral_seqs.sh ref/coral_blastdb.nsq ref/sym_blastdb.nsq
 	bash Shell/filter_coral_seqs.sh \
 	data/weedy_coral_01Feb2017_zhEnG/weedy_coral_01Feb2017_zhEnG.fasta \
 	1e-10
@@ -35,7 +35,10 @@ ref/sym_blastdb.nsq: ref/symbB.v1.0.genome.fa
 	makeblastdb -dbtype nucl -in $< -out ref/sym_blastdb
 
 
-
+#filter_fasta.py \
+#  -f data/weedy_coral_01Feb2017_zhEnG/weedy_coral_01Feb2017_zhEnG.fasta \
+#  -s blast_results/$2_coral_only_seqids.txt \
+#  -o data/coral_seqs_$2.fasta
 
 
 
