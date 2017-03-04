@@ -3,4 +3,4 @@ data/denovo/*
 data/raw_shotgun/*
 data/*.fasta
 data/weedy_coral_01Feb2017_zhEnG/*
-ref/*blastdb.n*
+ref/*

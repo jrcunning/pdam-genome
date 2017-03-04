@@ -1,2 +1,2 @@
-e-value	coral_hits	sym_hits	both_hits	coral_only	sym_only
-1e-2	    2081	     177	     134	    1947	      43
+e-value	cni_hits	sym_hits	both_hits	cni_only	sym_only
+1e-2	    2108	     242	     194	    1914	      48
