@@ -28,7 +28,7 @@ blast_results/1e-10_summary.txt: Shell/filter_coral_seqs.sh ref/cni_blastdb.nal 
 	data/weedy_coral_01Feb2017_zhEnG/weedy_coral_01Feb2017_zhEnG.fasta \
 	1e-10
 
-ref/cni_blastdb.nal: ref/adi_v1.0.scaffold.fa ref/Nemve1.fasta ref/GCA_001417965.1_Aiptasia_genome_1.1_genomic.fna
+ref/cni_blastdb.nal: ref/adi_v1.0.scaffold.fa ref/Spis.genome.scaffold.final.fa ref/Nemve1.fasta ref/GCA_001417965.1_Aiptasia_genome_1.1_genomic.fna
 	bash Shell/make_blastdb.sh ref/cni_blastdb $^
 
 ref/sym_blastdb.nal: ref/symbB.v1.0.genome.fa ref/Smic.genome.scaffold.final.fa
