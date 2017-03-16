@@ -16,8 +16,6 @@ SczhEnG_307
 SczhEnG_3284
 SczhEnG_3309
 SczhEnG_3525
-SczhEnG_3550
-SczhEnG_3646
 SczhEnG_3687
 SczhEnG_3738
 SczhEnG_3828
