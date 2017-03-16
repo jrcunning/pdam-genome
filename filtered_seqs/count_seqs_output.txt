@@ -1,0 +1,5 @@
+
+27  : filtered_seqs/1e-5_sym_only.fasta (Sequence lengths (mean +/- std): 4032.4444 +/- 6597.3713)
+714  : filtered_seqs/1e-5_no_hits.fasta (Sequence lengths (mean +/- std): 1745.0070 +/- 1531.0660)
+3616  : filtered_seqs/1e-5_coral_only.fasta (Sequence lengths (mean +/- std): 60539.2329 +/- 150036.0016)
+4357  : Total
