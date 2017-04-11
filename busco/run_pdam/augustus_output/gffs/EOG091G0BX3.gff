@@ -1,0 +1,28 @@
+SczhEnG_2968	AUGUSTUS	gene	95073	104231	0.01	+	.	g1
+SczhEnG_2968	AUGUSTUS	transcript	95073	104231	0.01	+	.	g1.t1
+SczhEnG_2968	AUGUSTUS	tss	95073	95073	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+SczhEnG_2968	AUGUSTUS	exon	95073	95735	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+SczhEnG_2968	AUGUSTUS	exon	96663	96908	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+SczhEnG_2968	AUGUSTUS	exon	97521	97613	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+SczhEnG_2968	AUGUSTUS	start_codon	97556	97558	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+SczhEnG_2968	AUGUSTUS	intron	97614	97787	0.48	+	.	transcript_id "g1.t1"; gene_id "g1";
+SczhEnG_2968	AUGUSTUS	intron	98121	99110	0.47	+	.	transcript_id "g1.t1"; gene_id "g1";
+SczhEnG_2968	AUGUSTUS	intron	99498	100214	0.62	+	.	transcript_id "g1.t1"; gene_id "g1";
+SczhEnG_2968	AUGUSTUS	intron	100977	103073	0.12	+	.	transcript_id "g1.t1"; gene_id "g1";
+SczhEnG_2968	AUGUSTUS	intron	103092	103168	0.35	+	.	transcript_id "g1.t1"; gene_id "g1";
+SczhEnG_2968	AUGUSTUS	intron	103285	103887	0.15	+	.	transcript_id "g1.t1"; gene_id "g1";
+SczhEnG_2968	AUGUSTUS	CDS	97556	97613	0.46	+	0	transcript_id "g1.t1"; gene_id "g1";
+SczhEnG_2968	AUGUSTUS	CDS	97788	98120	0.39	+	2	transcript_id "g1.t1"; gene_id "g1";
+SczhEnG_2968	AUGUSTUS	exon	97788	98120	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+SczhEnG_2968	AUGUSTUS	CDS	99111	99497	0.49	+	2	transcript_id "g1.t1"; gene_id "g1";
+SczhEnG_2968	AUGUSTUS	exon	99111	99497	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+SczhEnG_2968	AUGUSTUS	CDS	100215	100976	0.22	+	2	transcript_id "g1.t1"; gene_id "g1";
+SczhEnG_2968	AUGUSTUS	exon	100215	100976	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+SczhEnG_2968	AUGUSTUS	CDS	103074	103091	0.38	+	2	transcript_id "g1.t1"; gene_id "g1";
+SczhEnG_2968	AUGUSTUS	exon	103074	103091	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+SczhEnG_2968	AUGUSTUS	CDS	103169	103284	0.25	+	2	transcript_id "g1.t1"; gene_id "g1";
+SczhEnG_2968	AUGUSTUS	exon	103169	103284	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+SczhEnG_2968	AUGUSTUS	CDS	103888	103998	0.33	+	0	transcript_id "g1.t1"; gene_id "g1";
+SczhEnG_2968	AUGUSTUS	exon	103888	104231	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+SczhEnG_2968	AUGUSTUS	stop_codon	103996	103998	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+SczhEnG_2968	AUGUSTUS	tts	104231	104231	.	+	.	transcript_id "g1.t1"; gene_id "g1";

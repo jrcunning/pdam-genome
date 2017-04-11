@@ -1,0 +1,20 @@
+SczhEnG_3257	AUGUSTUS	gene	855653	862498	0.01	-	.	g2
+SczhEnG_3257	AUGUSTUS	transcript	855653	862498	0.01	-	.	g2.t1
+SczhEnG_3257	AUGUSTUS	tts	855653	855653	.	-	.	transcript_id "g2.t1"; gene_id "g2";
+SczhEnG_3257	AUGUSTUS	exon	855653	855818	.	-	.	transcript_id "g2.t1"; gene_id "g2";
+SczhEnG_3257	AUGUSTUS	exon	856127	856498	.	-	.	transcript_id "g2.t1"; gene_id "g2";
+SczhEnG_3257	AUGUSTUS	stop_codon	856322	856324	.	-	0	transcript_id "g2.t1"; gene_id "g2";
+SczhEnG_3257	AUGUSTUS	intron	856499	857594	0.01	-	.	transcript_id "g2.t1"; gene_id "g2";
+SczhEnG_3257	AUGUSTUS	intron	857719	858712	0.01	-	.	transcript_id "g2.t1"; gene_id "g2";
+SczhEnG_3257	AUGUSTUS	CDS	856322	856498	0.01	-	0	transcript_id "g2.t1"; gene_id "g2";
+SczhEnG_3257	AUGUSTUS	CDS	857595	857718	0.03	-	1	transcript_id "g2.t1"; gene_id "g2";
+SczhEnG_3257	AUGUSTUS	exon	857595	857718	.	-	.	transcript_id "g2.t1"; gene_id "g2";
+SczhEnG_3257	AUGUSTUS	CDS	858713	858858	0.01	-	0	transcript_id "g2.t1"; gene_id "g2";
+SczhEnG_3257	AUGUSTUS	exon	858713	858952	.	-	.	transcript_id "g2.t1"; gene_id "g2";
+SczhEnG_3257	AUGUSTUS	start_codon	858856	858858	.	-	0	transcript_id "g2.t1"; gene_id "g2";
+SczhEnG_3257	AUGUSTUS	exon	862104	862215	.	-	.	transcript_id "g2.t1"; gene_id "g2";
+SczhEnG_3257	AUGUSTUS	exon	862319	862498	.	-	.	transcript_id "g2.t1"; gene_id "g2";
+SczhEnG_3257	AUGUSTUS	tss	862498	862498	.	-	.	transcript_id "g2.t1"; gene_id "g2";
+SczhEnG_3257	AUGUSTUS	protein_match	856385	856498	2.76	-	0	target "unknown_A[83..120]"; target_start 8; transcript_id "g2.t1"; gene_id "g2";
+SczhEnG_3257	AUGUSTUS	protein_match	857595	857718	7.88	-	1	target "unknown_A[41..82]"; target_start 8; transcript_id "g2.t1"; gene_id "g2";
+SczhEnG_3257	AUGUSTUS	protein_match	858713	858834	3.33	-	0	target "unknown_A[1..41]"; target_start 8; transcript_id "g2.t1"; gene_id "g2";

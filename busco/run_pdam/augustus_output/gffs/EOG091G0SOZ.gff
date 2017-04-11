@@ -1,0 +1,23 @@
+SczhEnG_3487	AUGUSTUS	gene	402252	412100	0.01	+	.	g2
+SczhEnG_3487	AUGUSTUS	transcript	402252	412100	0.01	+	.	g2.t1
+SczhEnG_3487	AUGUSTUS	tss	402252	402252	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+SczhEnG_3487	AUGUSTUS	exon	402252	402742	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+SczhEnG_3487	AUGUSTUS	exon	403521	404803	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+SczhEnG_3487	AUGUSTUS	start_codon	403729	403731	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+SczhEnG_3487	AUGUSTUS	intron	404804	405441	0.72	+	.	transcript_id "g2.t1"; gene_id "g2";
+SczhEnG_3487	AUGUSTUS	intron	405651	406207	0.63	+	.	transcript_id "g2.t1"; gene_id "g2";
+SczhEnG_3487	AUGUSTUS	intron	406284	406372	0.33	+	.	transcript_id "g2.t1"; gene_id "g2";
+SczhEnG_3487	AUGUSTUS	intron	406406	407474	0.24	+	.	transcript_id "g2.t1"; gene_id "g2";
+SczhEnG_3487	AUGUSTUS	CDS	403729	404803	0.57	+	0	transcript_id "g2.t1"; gene_id "g2";
+SczhEnG_3487	AUGUSTUS	CDS	405442	405650	0.79	+	2	transcript_id "g2.t1"; gene_id "g2";
+SczhEnG_3487	AUGUSTUS	exon	405442	405650	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+SczhEnG_3487	AUGUSTUS	CDS	406208	406283	0.62	+	0	transcript_id "g2.t1"; gene_id "g2";
+SczhEnG_3487	AUGUSTUS	exon	406208	406283	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+SczhEnG_3487	AUGUSTUS	CDS	406373	406405	0.37	+	2	transcript_id "g2.t1"; gene_id "g2";
+SczhEnG_3487	AUGUSTUS	exon	406373	406405	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+SczhEnG_3487	AUGUSTUS	CDS	407475	407773	0.48	+	2	transcript_id "g2.t1"; gene_id "g2";
+SczhEnG_3487	AUGUSTUS	exon	407475	407793	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+SczhEnG_3487	AUGUSTUS	stop_codon	407771	407773	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+SczhEnG_3487	AUGUSTUS	exon	410275	410593	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+SczhEnG_3487	AUGUSTUS	exon	411936	412100	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+SczhEnG_3487	AUGUSTUS	tts	412100	412100	.	+	.	transcript_id "g2.t1"; gene_id "g2";

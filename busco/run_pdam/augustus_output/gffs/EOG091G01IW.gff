@@ -1,0 +1,31 @@
+SczhEnG_346	AUGUSTUS	gene	1143	9523	0.07	+	.	g1
+SczhEnG_346	AUGUSTUS	transcript	1143	9523	0.07	+	.	g1.t1
+SczhEnG_346	AUGUSTUS	exon	1143	1203	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+SczhEnG_346	AUGUSTUS	start_codon	1153	1155	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+SczhEnG_346	AUGUSTUS	intron	1204	4040	0.13	+	.	transcript_id "g1.t1"; gene_id "g1";
+SczhEnG_346	AUGUSTUS	intron	4204	4430	0.99	+	.	transcript_id "g1.t1"; gene_id "g1";
+SczhEnG_346	AUGUSTUS	intron	4601	5521	0.96	+	.	transcript_id "g1.t1"; gene_id "g1";
+SczhEnG_346	AUGUSTUS	intron	5615	5907	0.68	+	.	transcript_id "g1.t1"; gene_id "g1";
+SczhEnG_346	AUGUSTUS	intron	5989	6850	0.72	+	.	transcript_id "g1.t1"; gene_id "g1";
+SczhEnG_346	AUGUSTUS	intron	6989	7651	0.9	+	.	transcript_id "g1.t1"; gene_id "g1";
+SczhEnG_346	AUGUSTUS	intron	7703	8175	0.91	+	.	transcript_id "g1.t1"; gene_id "g1";
+SczhEnG_346	AUGUSTUS	intron	8252	9241	0.89	+	.	transcript_id "g1.t1"; gene_id "g1";
+SczhEnG_346	AUGUSTUS	CDS	1153	1203	0.23	+	0	transcript_id "g1.t1"; gene_id "g1";
+SczhEnG_346	AUGUSTUS	CDS	4041	4203	0.99	+	0	transcript_id "g1.t1"; gene_id "g1";
+SczhEnG_346	AUGUSTUS	exon	4041	4203	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+SczhEnG_346	AUGUSTUS	CDS	4431	4600	0.99	+	2	transcript_id "g1.t1"; gene_id "g1";
+SczhEnG_346	AUGUSTUS	exon	4431	4600	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+SczhEnG_346	AUGUSTUS	CDS	5522	5614	0.78	+	0	transcript_id "g1.t1"; gene_id "g1";
+SczhEnG_346	AUGUSTUS	exon	5522	5614	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+SczhEnG_346	AUGUSTUS	CDS	5908	5988	0.86	+	0	transcript_id "g1.t1"; gene_id "g1";
+SczhEnG_346	AUGUSTUS	exon	5908	5988	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+SczhEnG_346	AUGUSTUS	CDS	6851	6988	0.97	+	0	transcript_id "g1.t1"; gene_id "g1";
+SczhEnG_346	AUGUSTUS	exon	6851	6988	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+SczhEnG_346	AUGUSTUS	CDS	7652	7702	0.91	+	0	transcript_id "g1.t1"; gene_id "g1";
+SczhEnG_346	AUGUSTUS	exon	7652	7702	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+SczhEnG_346	AUGUSTUS	CDS	8176	8251	0.96	+	0	transcript_id "g1.t1"; gene_id "g1";
+SczhEnG_346	AUGUSTUS	exon	8176	8251	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+SczhEnG_346	AUGUSTUS	CDS	9242	9327	0.93	+	2	transcript_id "g1.t1"; gene_id "g1";
+SczhEnG_346	AUGUSTUS	exon	9242	9523	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+SczhEnG_346	AUGUSTUS	stop_codon	9325	9327	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+SczhEnG_346	AUGUSTUS	tts	9523	9523	.	+	.	transcript_id "g1.t1"; gene_id "g1";

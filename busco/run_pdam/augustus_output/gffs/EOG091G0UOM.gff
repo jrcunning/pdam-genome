@@ -1,0 +1,11 @@
+SczhEnG_3973	AUGUSTUS	gene	347069	349229	0.03	+	.	g1
+SczhEnG_3973	AUGUSTUS	transcript	347069	349229	0.03	+	.	g1.t1
+SczhEnG_3973	AUGUSTUS	tss	347069	347069	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+SczhEnG_3973	AUGUSTUS	exon	347069	349229	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+SczhEnG_3973	AUGUSTUS	start_codon	347160	347162	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+SczhEnG_3973	AUGUSTUS	CDS	347160	347630	0.92	+	0	transcript_id "g1.t1"; gene_id "g1";
+SczhEnG_3973	AUGUSTUS	stop_codon	347628	347630	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+SczhEnG_3973	AUGUSTUS	tts	349229	349229	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+SczhEnG_3973	AUGUSTUS	protein_match	347178	347327	3.5	+	0	target "unknown_A[1..50]"; target_start 6; transcript_id "g1.t1"; gene_id "g1";
+SczhEnG_3973	AUGUSTUS	protein_match	347346	347408	5.78	+	0	target "unknown_B[1..21]"; target_start 62; transcript_id "g1.t1"; gene_id "g1";
+SczhEnG_3973	AUGUSTUS	protein_match	347409	347597	3.75	+	0	target "unknown_C[1..63]"; target_start 83; transcript_id "g1.t1"; gene_id "g1";

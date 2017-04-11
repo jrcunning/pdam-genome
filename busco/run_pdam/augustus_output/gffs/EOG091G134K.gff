@@ -1,0 +1,19 @@
+SczhEnG_789	AUGUSTUS	gene	469660	472211	0.01	+	.	g1
+SczhEnG_789	AUGUSTUS	transcript	469660	472211	0.01	+	.	g1.t1
+SczhEnG_789	AUGUSTUS	tss	469660	469660	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+SczhEnG_789	AUGUSTUS	exon	469660	469751	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+SczhEnG_789	AUGUSTUS	exon	471059	471109	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+SczhEnG_789	AUGUSTUS	start_codon	471074	471076	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+SczhEnG_789	AUGUSTUS	intron	471110	471208	0.01	+	.	transcript_id "g1.t1"; gene_id "g1";
+SczhEnG_789	AUGUSTUS	intron	471290	471906	0.01	+	.	transcript_id "g1.t1"; gene_id "g1";
+SczhEnG_789	AUGUSTUS	CDS	471074	471109	0.01	+	0	transcript_id "g1.t1"; gene_id "g1";
+SczhEnG_789	AUGUSTUS	CDS	471209	471289	0.01	+	0	transcript_id "g1.t1"; gene_id "g1";
+SczhEnG_789	AUGUSTUS	exon	471209	471289	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+SczhEnG_789	AUGUSTUS	CDS	471907	472173	0.01	+	0	transcript_id "g1.t1"; gene_id "g1";
+SczhEnG_789	AUGUSTUS	exon	471907	472211	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+SczhEnG_789	AUGUSTUS	stop_codon	472171	472173	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+SczhEnG_789	AUGUSTUS	tts	472211	472211	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+SczhEnG_789	AUGUSTUS	protein_match	471209	471226	7.94	+	0	target "unknown_A[1..6]"; target_start 12; transcript_id "g1.t1"; gene_id "g1";
+SczhEnG_789	AUGUSTUS	protein_match	471266	471283	7.63	+	0	target "unknown_B[1..6]"; target_start 31; transcript_id "g1.t1"; gene_id "g1";
+SczhEnG_789	AUGUSTUS	protein_match	471287	471289	13.2	+	0	target "unknown_C[1..1]"; target_start 38; transcript_id "g1.t1"; gene_id "g1";
+SczhEnG_789	AUGUSTUS	protein_match	471907	472155	10.3	+	0	target "unknown_C[2..84]"; target_start 38; transcript_id "g1.t1"; gene_id "g1";

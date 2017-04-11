@@ -1,0 +1,70 @@
+# Please cite: Mario Stanke, Mark Diekhans, Robert Baertsch, David Haussler (2008),
+# Using native and syntenically mapped cDNA alignments to improve de novo gene finding
+# Bioinformatics 24: 637-644, doi 10.1093/bioinformatics/btn013
+# No extrinsic information on sequences given.
+# Initialising the parameters using config directory /nethome/rcunning/local/augustus-3.2.3/config/ ...
+# Using protein profile unknown
+# --[0..50]--> unknown_A (44) <--[1..9]--> unknown_B (29) <--[0..1]--> unknown_C (25) <--[0..1]--> unknown_D (10) <--[0..187]--
+# fly version. Using default transition matrix.
+# Looks like ./tmp/SczhEnG_1813pdam_4083876357_.temp is in fasta format.
+# We have hints for 0 sequences and for 0 of the sequences in the input set.
+#
+# ----- prediction on sequence number 1 (length = 10237, name = SczhEnG_1813) -----
+#
+# Constraints/Hints:
+# (none)
+# Predicted genes for sequence number 1 on both strands
+# start gene g1
+SczhEnG_1813	AUGUSTUS	gene	78272	79605	0.15	+	.	g1
+SczhEnG_1813	AUGUSTUS	transcript	78272	79605	0.15	+	.	g1.t1
+SczhEnG_1813	AUGUSTUS	intron	78272	78448	1	+	.	transcript_id "g1.t1"; gene_id "g1";
+SczhEnG_1813	AUGUSTUS	intron	78596	79084	1	+	.	transcript_id "g1.t1"; gene_id "g1";
+SczhEnG_1813	AUGUSTUS	CDS	78449	78595	1	+	0	transcript_id "g1.t1"; gene_id "g1";
+SczhEnG_1813	AUGUSTUS	exon	78449	78595	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+SczhEnG_1813	AUGUSTUS	CDS	79085	79453	0.39	+	0	transcript_id "g1.t1"; gene_id "g1";
+SczhEnG_1813	AUGUSTUS	exon	79085	79605	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+SczhEnG_1813	AUGUSTUS	stop_codon	79451	79453	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+SczhEnG_1813	AUGUSTUS	tts	79605	79605	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+# coding sequence = [ggtcctgtgcatgtgtttaatgctaatttagagtggagtgcaccaaaaagtgttgaactaaagaaaactgataaaggat
+# atggcttcagtgtgattggctctgctccagttattattcagagtgtagaggagcaaggacctgctaaggatgctggaattcaagcaggagacataatc
+# acagctgtaaatctgactgactgtaaatggggtgatcattcttctgttgtgtccttaattcgtaatacggagacttgtgtcacacttgagactgtaac
+# accctcctctctgcagcacattgcttcattgtacaatgtcaagctaacaagggatgatcaagtggtaaccagtgactatagtggctccataggtagtc
+# acagctcaggatcttccagaaacagtacgctcaatgggttaagctctcaagaaagcagtagccctcctggatcaacaagatctgatactcctgttcga
+# cacagtgtgctactggacatgggcaatgagtcaattttgtggtag]
+# protein sequence = [GPVHVFNANLEWSAPKSVELKKTDKGYGFSVIGSAPVIIQSVEEQGPAKDAGIQAGDIITAVNLTDCKWGDHSSVVSL
+# IRNTETCVTLETVTPSSLQHIASLYNVKLTRDDQVVTSDYSGSIGSHSSGSSRNSTLNGLSSQESSSPPGSTRSDTPVRHSVLLDMGNESILW]
+# end gene g1
+###
+# start gene g2
+SczhEnG_1813	AUGUSTUS	gene	80162	84826	0.01	-	.	g2
+SczhEnG_1813	AUGUSTUS	transcript	80162	84826	0.01	-	.	g2.t1
+SczhEnG_1813	AUGUSTUS	tts	80162	80162	.	-	.	transcript_id "g2.t1"; gene_id "g2";
+SczhEnG_1813	AUGUSTUS	exon	80162	81360	.	-	.	transcript_id "g2.t1"; gene_id "g2";
+SczhEnG_1813	AUGUSTUS	exon	83223	83511	.	-	.	transcript_id "g2.t1"; gene_id "g2";
+SczhEnG_1813	AUGUSTUS	stop_codon	83254	83256	.	-	0	transcript_id "g2.t1"; gene_id "g2";
+SczhEnG_1813	AUGUSTUS	intron	83512	83630	0.02	-	.	transcript_id "g2.t1"; gene_id "g2";
+SczhEnG_1813	AUGUSTUS	CDS	83254	83511	0.01	-	0	transcript_id "g2.t1"; gene_id "g2";
+SczhEnG_1813	AUGUSTUS	CDS	83631	83735	0.02	-	0	transcript_id "g2.t1"; gene_id "g2";
+SczhEnG_1813	AUGUSTUS	exon	83631	83907	.	-	.	transcript_id "g2.t1"; gene_id "g2";
+SczhEnG_1813	AUGUSTUS	start_codon	83733	83735	.	-	0	transcript_id "g2.t1"; gene_id "g2";
+SczhEnG_1813	AUGUSTUS	exon	84650	84826	.	-	.	transcript_id "g2.t1"; gene_id "g2";
+SczhEnG_1813	AUGUSTUS	tss	84826	84826	.	-	.	transcript_id "g2.t1"; gene_id "g2";
+SczhEnG_1813	AUGUSTUS	protein_match	83269	83298	4.27	-	0	target "unknown_D[1..10]"; target_start 106; transcript_id "g2.t1"; gene_id "g2";
+SczhEnG_1813	AUGUSTUS	protein_match	83302	83376	7.09	-	0	target "unknown_C[1..25]"; target_start 80; transcript_id "g2.t1"; gene_id "g2";
+SczhEnG_1813	AUGUSTUS	protein_match	83377	83463	5.45	-	0	target "unknown_B[1..29]"; target_start 51; transcript_id "g2.t1"; gene_id "g2";
+SczhEnG_1813	AUGUSTUS	protein_match	83479	83511	4.21	-	0	target "unknown_A[34..44]"; target_start 2; transcript_id "g2.t1"; gene_id "g2";
+SczhEnG_1813	AUGUSTUS	protein_match	83631	83729	3.56	-	0	target "unknown_A[1..33]"; target_start 2; transcript_id "g2.t1"; gene_id "g2";
+# coding sequence = [atggatgatattattgagaatggaaagaacaagaaatgggtagtctgtaagttgtgtggatcaaaagttctgcgacctt
+# gcgcggccagtcacgaacaaagagagctattcttacctttcatgcagaaaaagaaggactttgctggcgctgaagaacatcaaggtgaaatccttcaa
+# gaacattggatggtatcagatatgtttacgttcgaaaatgttggcttttcaatgactgtggattcaatcaaatatttagcctgtgccgattgtgagtg
+# tggaccaataggctggcatgacattaatgacaagacgaagttttatgttgctgttgcacgagtagggcatcaagatctatcacaataa]
+# protein sequence = [MDDIIENGKNKKWVVCKLCGSKVLRPCAASHEQRELFLPFMQKKKDFAGAEEHQGEILQEHWMVSDMFTFENVGFSMT
+# VDSIKYLACADCECGPIGWHDINDKTKFYVAVARVGHQDLSQ]
+# sequence of block unknown_D   106 [YVAVARVGHQ] 116
+# sequence of block unknown_C    80 [SIKYLACADCECGPIGWHDINDKTK] 105
+# sequence of block unknown_B    51 [EHQGEILQEHWMVSDMFTFENVGFSMTVD] 80
+# sequence of block unknown_A     2 [DIIENGKNKKWVVCKLCGSKVLRPCAASHEQRELFLPFMQKKKD] 46
+# end gene g2
+###
+# command line:
+# augustus --codingseq=1 --proteinprofile=/nethome/rcunning/local/busco/metazoa_odb9/prfl/EOG091G0XXM.prfl --predictionStart=78272 --predictionEnd=88508 --species=fly ./tmp/SczhEnG_1813pdam_4083876357_.temp

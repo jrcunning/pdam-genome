@@ -1,0 +1,25 @@
+SczhEnG_3584	AUGUSTUS	gene	112522	123904	0.01	-	.	g1
+SczhEnG_3584	AUGUSTUS	transcript	112522	123904	0.01	-	.	g1.t1
+SczhEnG_3584	AUGUSTUS	tts	112522	112522	.	-	.	transcript_id "g1.t1"; gene_id "g1";
+SczhEnG_3584	AUGUSTUS	exon	112522	112820	.	-	.	transcript_id "g1.t1"; gene_id "g1";
+SczhEnG_3584	AUGUSTUS	exon	112934	113084	.	-	.	transcript_id "g1.t1"; gene_id "g1";
+SczhEnG_3584	AUGUSTUS	exon	116411	117117	.	-	.	transcript_id "g1.t1"; gene_id "g1";
+SczhEnG_3584	AUGUSTUS	stop_codon	116890	116892	.	-	0	transcript_id "g1.t1"; gene_id "g1";
+SczhEnG_3584	AUGUSTUS	intron	117118	117317	0.95	-	.	transcript_id "g1.t1"; gene_id "g1";
+SczhEnG_3584	AUGUSTUS	intron	117486	117726	0.96	-	.	transcript_id "g1.t1"; gene_id "g1";
+SczhEnG_3584	AUGUSTUS	intron	117889	118148	0.9	-	.	transcript_id "g1.t1"; gene_id "g1";
+SczhEnG_3584	AUGUSTUS	intron	118311	119845	0.74	-	.	transcript_id "g1.t1"; gene_id "g1";
+SczhEnG_3584	AUGUSTUS	intron	120019	123589	0.18	-	.	transcript_id "g1.t1"; gene_id "g1";
+SczhEnG_3584	AUGUSTUS	CDS	116890	117117	0.98	-	0	transcript_id "g1.t1"; gene_id "g1";
+SczhEnG_3584	AUGUSTUS	CDS	117318	117485	0.96	-	0	transcript_id "g1.t1"; gene_id "g1";
+SczhEnG_3584	AUGUSTUS	exon	117318	117485	.	-	.	transcript_id "g1.t1"; gene_id "g1";
+SczhEnG_3584	AUGUSTUS	CDS	117727	117888	0.95	-	0	transcript_id "g1.t1"; gene_id "g1";
+SczhEnG_3584	AUGUSTUS	exon	117727	117888	.	-	.	transcript_id "g1.t1"; gene_id "g1";
+SczhEnG_3584	AUGUSTUS	CDS	118149	118310	0.99	-	0	transcript_id "g1.t1"; gene_id "g1";
+SczhEnG_3584	AUGUSTUS	exon	118149	118310	.	-	.	transcript_id "g1.t1"; gene_id "g1";
+SczhEnG_3584	AUGUSTUS	CDS	119846	120018	0.94	-	2	transcript_id "g1.t1"; gene_id "g1";
+SczhEnG_3584	AUGUSTUS	exon	119846	120018	.	-	.	transcript_id "g1.t1"; gene_id "g1";
+SczhEnG_3584	AUGUSTUS	CDS	123590	123710	0.18	-	0	transcript_id "g1.t1"; gene_id "g1";
+SczhEnG_3584	AUGUSTUS	exon	123590	123904	.	-	.	transcript_id "g1.t1"; gene_id "g1";
+SczhEnG_3584	AUGUSTUS	start_codon	123708	123710	.	-	0	transcript_id "g1.t1"; gene_id "g1";
+SczhEnG_3584	AUGUSTUS	tss	123904	123904	.	-	.	transcript_id "g1.t1"; gene_id "g1";

@@ -1,0 +1,31 @@
+SczhEnG_276	AUGUSTUS	gene	362524	374407	0.01	+	.	g2
+SczhEnG_276	AUGUSTUS	transcript	362524	374407	0.01	+	.	g2.t1
+SczhEnG_276	AUGUSTUS	tss	362524	362524	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+SczhEnG_276	AUGUSTUS	exon	362524	362693	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+SczhEnG_276	AUGUSTUS	start_codon	362592	362594	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+SczhEnG_276	AUGUSTUS	intron	362694	362848	0.08	+	.	transcript_id "g2.t1"; gene_id "g2";
+SczhEnG_276	AUGUSTUS	intron	362974	368122	0.01	+	.	transcript_id "g2.t1"; gene_id "g2";
+SczhEnG_276	AUGUSTUS	intron	368190	368464	0.01	+	.	transcript_id "g2.t1"; gene_id "g2";
+SczhEnG_276	AUGUSTUS	intron	368564	369617	0.01	+	.	transcript_id "g2.t1"; gene_id "g2";
+SczhEnG_276	AUGUSTUS	intron	369757	370633	0.01	+	.	transcript_id "g2.t1"; gene_id "g2";
+SczhEnG_276	AUGUSTUS	CDS	362592	362693	0.12	+	0	transcript_id "g2.t1"; gene_id "g2";
+SczhEnG_276	AUGUSTUS	CDS	362849	362973	0.08	+	0	transcript_id "g2.t1"; gene_id "g2";
+SczhEnG_276	AUGUSTUS	exon	362849	362973	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+SczhEnG_276	AUGUSTUS	CDS	368123	368189	0.01	+	1	transcript_id "g2.t1"; gene_id "g2";
+SczhEnG_276	AUGUSTUS	exon	368123	368189	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+SczhEnG_276	AUGUSTUS	CDS	368465	368563	0.01	+	0	transcript_id "g2.t1"; gene_id "g2";
+SczhEnG_276	AUGUSTUS	exon	368465	368563	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+SczhEnG_276	AUGUSTUS	CDS	369618	369756	0.01	+	0	transcript_id "g2.t1"; gene_id "g2";
+SczhEnG_276	AUGUSTUS	exon	369618	369756	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+SczhEnG_276	AUGUSTUS	CDS	370634	370701	0.01	+	2	transcript_id "g2.t1"; gene_id "g2";
+SczhEnG_276	AUGUSTUS	exon	370634	370913	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+SczhEnG_276	AUGUSTUS	stop_codon	370699	370701	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+SczhEnG_276	AUGUSTUS	exon	373652	374407	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+SczhEnG_276	AUGUSTUS	tts	374407	374407	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+SczhEnG_276	AUGUSTUS	protein_match	362643	362693	3.61	+	0	target "unknown_A[1..17]"; target_start 17; transcript_id "g2.t1"; gene_id "g2";
+SczhEnG_276	AUGUSTUS	protein_match	362849	362884	5.61	+	0	target "unknown_A[18..29]"; target_start 17; transcript_id "g2.t1"; gene_id "g2";
+SczhEnG_276	AUGUSTUS	protein_match	362891	362973	7.24	+	0	target "unknown_B[1..28]"; target_start 48; transcript_id "g2.t1"; gene_id "g2";
+SczhEnG_276	AUGUSTUS	protein_match	368123	368189	3.94	+	1	target "unknown_B[28..50]"; target_start 48; transcript_id "g2.t1"; gene_id "g2";
+SczhEnG_276	AUGUSTUS	protein_match	368474	368563	5.84	+	0	target "unknown_C[1..30]"; target_start 101; transcript_id "g2.t1"; gene_id "g2";
+SczhEnG_276	AUGUSTUS	protein_match	369618	369756	5.66	+	2	target "unknown_C[31..77]"; target_start 100; transcript_id "g2.t1"; gene_id "g2";
+SczhEnG_276	AUGUSTUS	protein_match	370634	370668	11	+	2	target "unknown_C[77..88]"; target_start 101; transcript_id "g2.t1"; gene_id "g2";

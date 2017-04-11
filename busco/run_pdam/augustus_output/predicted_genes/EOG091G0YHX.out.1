@@ -1,0 +1,52 @@
+# Please cite: Mario Stanke, Mark Diekhans, Robert Baertsch, David Haussler (2008),
+# Using native and syntenically mapped cDNA alignments to improve de novo gene finding
+# Bioinformatics 24: 637-644, doi 10.1093/bioinformatics/btn013
+# No extrinsic information on sequences given.
+# Initialising the parameters using config directory /nethome/rcunning/local/augustus-3.2.3/config/ ...
+# Using protein profile unknown
+# --[3..54]--> unknown_A (82) <--[0..24]--> unknown_B (32) <--[0..730]--
+# fly version. Using default transition matrix.
+# Looks like ./tmp/SczhEnG_1030pdam_4083876357_.temp is in fasta format.
+# We have hints for 0 sequences and for 0 of the sequences in the input set.
+#
+# ----- prediction on sequence number 1 (length = 11287, name = SczhEnG_1030) -----
+#
+# Constraints/Hints:
+# (none)
+# Predicted genes for sequence number 1 on both strands
+# start gene g1
+SczhEnG_1030	AUGUSTUS	gene	963691	969028	0.01	+	.	g1
+SczhEnG_1030	AUGUSTUS	transcript	963691	969028	0.01	+	.	g1.t1
+SczhEnG_1030	AUGUSTUS	tss	963691	963691	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+SczhEnG_1030	AUGUSTUS	exon	963691	963882	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+SczhEnG_1030	AUGUSTUS	exon	966300	966397	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+SczhEnG_1030	AUGUSTUS	start_codon	966300	966302	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+SczhEnG_1030	AUGUSTUS	intron	966398	967186	0.1	+	.	transcript_id "g1.t1"; gene_id "g1";
+SczhEnG_1030	AUGUSTUS	intron	967313	968347	0.01	+	.	transcript_id "g1.t1"; gene_id "g1";
+SczhEnG_1030	AUGUSTUS	intron	968461	968943	0.01	+	.	transcript_id "g1.t1"; gene_id "g1";
+SczhEnG_1030	AUGUSTUS	CDS	966300	966397	0.1	+	0	transcript_id "g1.t1"; gene_id "g1";
+SczhEnG_1030	AUGUSTUS	CDS	967187	967312	0.03	+	1	transcript_id "g1.t1"; gene_id "g1";
+SczhEnG_1030	AUGUSTUS	exon	967187	967312	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+SczhEnG_1030	AUGUSTUS	CDS	968348	968460	0.01	+	1	transcript_id "g1.t1"; gene_id "g1";
+SczhEnG_1030	AUGUSTUS	exon	968348	968460	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+SczhEnG_1030	AUGUSTUS	CDS	968944	968978	0.01	+	2	transcript_id "g1.t1"; gene_id "g1";
+SczhEnG_1030	AUGUSTUS	exon	968944	969028	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+SczhEnG_1030	AUGUSTUS	stop_codon	968976	968978	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+SczhEnG_1030	AUGUSTUS	tts	969028	969028	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+SczhEnG_1030	AUGUSTUS	protein_match	966318	966397	10.1	+	0	target "unknown_A[1..27]"; target_start 6; transcript_id "g1.t1"; gene_id "g1";
+SczhEnG_1030	AUGUSTUS	protein_match	967187	967312	9.35	+	0	target "unknown_A[28..69]"; target_start 5; transcript_id "g1.t1"; gene_id "g1";
+SczhEnG_1030	AUGUSTUS	protein_match	968348	968387	9.4	+	1	target "unknown_A[69..82]"; target_start 6; transcript_id "g1.t1"; gene_id "g1";
+SczhEnG_1030	AUGUSTUS	protein_match	968388	968460	10.2	+	0	target "unknown_B[1..25]"; target_start 88; transcript_id "g1.t1"; gene_id "g1";
+SczhEnG_1030	AUGUSTUS	protein_match	968944	968966	4.17	+	2	target "unknown_B[25..32]"; target_start 88; transcript_id "g1.t1"; gene_id "g1";
+# coding sequence = [atggctaagaaaaccgacaagaaaaaggggcgctctgccatcaatgaagttgtgactcgtgaatacacgataaacgtac
+# acaagagaatccatggcattggcttcaagagacgagcaccaagggccatcaaggaaatcaaaaagtttgctgagaaaatgatgggaacacctgatatt
+# cgtgttgacaccaaccttaacaaacatgtgtggtccaagggaatcagaaatgtgccattcagggtcaggattcgtttagcacgtaaaaggaacgaaga
+# tgaagactctgttcacaagctgtacactcttgtcactcatgtccctgtggcttcattcaagggtctgcaaacacagaaggtggaaagtgaggattaa]
+# protein sequence = [MAKKTDKKKGRSAINEVVTREYTINVHKRIHGIGFKRRAPRAIKEIKKFAEKMMGTPDIRVDTNLNKHVWSKGIRNVP
+# FRVRIRLARKRNEDEDSVHKLYTLVTHVPVASFKGLQTQKVESED]
+# sequence of block unknown_A     6 [KKKGRSAINEVVTREYTINVHKRIHGIGFKRRAPRAIKEIKKFAEKMMGTPDIRVDTNLNKHVWSKGIRNVPFRVRIRLARK] 88
+# sequence of block unknown_B    88 [RNEDEDSVHKLYTLVTHVPVASFKGLQTQKVE] 120
+# end gene g1
+###
+# command line:
+# augustus --codingseq=1 --proteinprofile=/nethome/rcunning/local/busco/metazoa_odb9/prfl/EOG091G0YHX.prfl --predictionStart=962176 --predictionEnd=973462 --species=fly ./tmp/SczhEnG_1030pdam_4083876357_.temp

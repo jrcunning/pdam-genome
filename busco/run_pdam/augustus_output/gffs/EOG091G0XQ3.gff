@@ -1,0 +1,9 @@
+SczhEnG_4080	AUGUSTUS	gene	385122	387356	0.04	+	.	g1
+SczhEnG_4080	AUGUSTUS	transcript	385122	387356	0.04	+	.	g1.t1
+SczhEnG_4080	AUGUSTUS	tss	385122	385122	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+SczhEnG_4080	AUGUSTUS	exon	385122	386053	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+SczhEnG_4080	AUGUSTUS	start_codon	385218	385220	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+SczhEnG_4080	AUGUSTUS	CDS	385218	385757	1	+	0	transcript_id "g1.t1"; gene_id "g1";
+SczhEnG_4080	AUGUSTUS	stop_codon	385755	385757	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+SczhEnG_4080	AUGUSTUS	exon	387004	387356	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+SczhEnG_4080	AUGUSTUS	tts	387356	387356	.	+	.	transcript_id "g1.t1"; gene_id "g1";

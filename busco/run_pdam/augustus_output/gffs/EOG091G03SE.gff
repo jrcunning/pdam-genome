@@ -1,0 +1,29 @@
+SczhEnG_142	AUGUSTUS	gene	583020	592108	0.01	-	.	g1
+SczhEnG_142	AUGUSTUS	transcript	583020	592108	0.01	-	.	g1.t1
+SczhEnG_142	AUGUSTUS	exon	583020	583240	.	-	.	transcript_id "g1.t1"; gene_id "g1";
+SczhEnG_142	AUGUSTUS	exon	586580	587158	.	-	.	transcript_id "g1.t1"; gene_id "g1";
+SczhEnG_142	AUGUSTUS	stop_codon	587140	587142	.	-	0	transcript_id "g1.t1"; gene_id "g1";
+SczhEnG_142	AUGUSTUS	intron	587159	587224	0.96	-	.	transcript_id "g1.t1"; gene_id "g1";
+SczhEnG_142	AUGUSTUS	intron	587303	587872	0.94	-	.	transcript_id "g1.t1"; gene_id "g1";
+SczhEnG_142	AUGUSTUS	intron	588042	588257	0.93	-	.	transcript_id "g1.t1"; gene_id "g1";
+SczhEnG_142	AUGUSTUS	intron	588367	588814	0.88	-	.	transcript_id "g1.t1"; gene_id "g1";
+SczhEnG_142	AUGUSTUS	intron	589035	589590	0.95	-	.	transcript_id "g1.t1"; gene_id "g1";
+SczhEnG_142	AUGUSTUS	intron	589737	590438	0.91	-	.	transcript_id "g1.t1"; gene_id "g1";
+SczhEnG_142	AUGUSTUS	intron	590645	591881	0.36	-	.	transcript_id "g1.t1"; gene_id "g1";
+SczhEnG_142	AUGUSTUS	CDS	587140	587158	0.75	-	1	transcript_id "g1.t1"; gene_id "g1";
+SczhEnG_142	AUGUSTUS	CDS	587225	587302	0.98	-	1	transcript_id "g1.t1"; gene_id "g1";
+SczhEnG_142	AUGUSTUS	exon	587225	587302	.	-	.	transcript_id "g1.t1"; gene_id "g1";
+SczhEnG_142	AUGUSTUS	CDS	587873	588041	1	-	2	transcript_id "g1.t1"; gene_id "g1";
+SczhEnG_142	AUGUSTUS	exon	587873	588041	.	-	.	transcript_id "g1.t1"; gene_id "g1";
+SczhEnG_142	AUGUSTUS	CDS	588258	588366	0.88	-	0	transcript_id "g1.t1"; gene_id "g1";
+SczhEnG_142	AUGUSTUS	exon	588258	588366	.	-	.	transcript_id "g1.t1"; gene_id "g1";
+SczhEnG_142	AUGUSTUS	CDS	588815	589034	0.93	-	1	transcript_id "g1.t1"; gene_id "g1";
+SczhEnG_142	AUGUSTUS	exon	588815	589034	.	-	.	transcript_id "g1.t1"; gene_id "g1";
+SczhEnG_142	AUGUSTUS	CDS	589591	589736	0.94	-	0	transcript_id "g1.t1"; gene_id "g1";
+SczhEnG_142	AUGUSTUS	exon	589591	589736	.	-	.	transcript_id "g1.t1"; gene_id "g1";
+SczhEnG_142	AUGUSTUS	CDS	590439	590644	0.44	-	2	transcript_id "g1.t1"; gene_id "g1";
+SczhEnG_142	AUGUSTUS	exon	590439	590644	.	-	.	transcript_id "g1.t1"; gene_id "g1";
+SczhEnG_142	AUGUSTUS	CDS	591882	592026	0.4	-	0	transcript_id "g1.t1"; gene_id "g1";
+SczhEnG_142	AUGUSTUS	exon	591882	592108	.	-	.	transcript_id "g1.t1"; gene_id "g1";
+SczhEnG_142	AUGUSTUS	start_codon	592024	592026	.	-	0	transcript_id "g1.t1"; gene_id "g1";
+SczhEnG_142	AUGUSTUS	tss	592108	592108	.	-	.	transcript_id "g1.t1"; gene_id "g1";

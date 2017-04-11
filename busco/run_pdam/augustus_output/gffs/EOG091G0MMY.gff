@@ -1,0 +1,20 @@
+SczhEnG_2444	AUGUSTUS	gene	220248	224552	0.03	+	.	g1
+SczhEnG_2444	AUGUSTUS	transcript	220248	224552	0.03	+	.	g1.t1
+SczhEnG_2444	AUGUSTUS	tss	220248	220248	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+SczhEnG_2444	AUGUSTUS	exon	220248	220891	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+SczhEnG_2444	AUGUSTUS	start_codon	220322	220324	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+SczhEnG_2444	AUGUSTUS	intron	220892	222725	0.85	+	.	transcript_id "g1.t1"; gene_id "g1";
+SczhEnG_2444	AUGUSTUS	CDS	220322	220891	0.91	+	0	transcript_id "g1.t1"; gene_id "g1";
+SczhEnG_2444	AUGUSTUS	CDS	222726	222923	0.85	+	0	transcript_id "g1.t1"; gene_id "g1";
+SczhEnG_2444	AUGUSTUS	exon	222726	222975	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+SczhEnG_2444	AUGUSTUS	stop_codon	222921	222923	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+SczhEnG_2444	AUGUSTUS	exon	223953	224552	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+SczhEnG_2444	AUGUSTUS	tts	224552	224552	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+SczhEnG_2444	AUGUSTUS	protein_match	220328	220378	2.88	+	0	target "unknown_A[1..17]"; target_start 2; transcript_id "g1.t1"; gene_id "g1";
+SczhEnG_2444	AUGUSTUS	protein_match	220397	220468	6.71	+	0	target "unknown_C[1..24]"; target_start 25; transcript_id "g1.t1"; gene_id "g1";
+SczhEnG_2444	AUGUSTUS	protein_match	220475	220582	5.6	+	0	target "unknown_D[1..36]"; target_start 51; transcript_id "g1.t1"; gene_id "g1";
+SczhEnG_2444	AUGUSTUS	protein_match	220595	220633	5.66	+	0	target "unknown_E[1..13]"; target_start 91; transcript_id "g1.t1"; gene_id "g1";
+SczhEnG_2444	AUGUSTUS	protein_match	220637	220861	4.05	+	0	target "unknown_F[1..75]"; target_start 105; transcript_id "g1.t1"; gene_id "g1";
+SczhEnG_2444	AUGUSTUS	protein_match	220871	220891	4.74	+	0	target "unknown_G[1..7]"; target_start 183; transcript_id "g1.t1"; gene_id "g1";
+SczhEnG_2444	AUGUSTUS	protein_match	222726	222761	4.77	+	0	target "unknown_G[8..19]"; target_start 183; transcript_id "g1.t1"; gene_id "g1";
+SczhEnG_2444	AUGUSTUS	protein_match	222825	222899	3.85	+	0	target "unknown_I[1..25]"; target_start 223; transcript_id "g1.t1"; gene_id "g1";

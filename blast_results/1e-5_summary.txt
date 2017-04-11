@@ -1,2 +1,0 @@
-e-value	cni_hits	sym_hits	both_hits	cni_only	sym_only
-1e-5	    3670	      81	      54	    3616	      27

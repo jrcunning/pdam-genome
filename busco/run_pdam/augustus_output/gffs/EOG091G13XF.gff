@@ -1,0 +1,11 @@
+SczhEnG_929	AUGUSTUS	gene	333812	335743	0.05	+	.	g1
+SczhEnG_929	AUGUSTUS	transcript	333812	335743	0.05	+	.	g1.t1
+SczhEnG_929	AUGUSTUS	tss	333812	333812	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+SczhEnG_929	AUGUSTUS	exon	333812	334195	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+SczhEnG_929	AUGUSTUS	exon	334813	334854	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+SczhEnG_929	AUGUSTUS	exon	335151	335743	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+SczhEnG_929	AUGUSTUS	start_codon	335155	335157	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+SczhEnG_929	AUGUSTUS	CDS	335155	335442	0.3	+	0	transcript_id "g1.t1"; gene_id "g1";
+SczhEnG_929	AUGUSTUS	stop_codon	335440	335442	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+SczhEnG_929	AUGUSTUS	tts	335743	335743	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+SczhEnG_929	AUGUSTUS	protein_match	335308	335439	8.39	+	0	target "unknown_B[1..44]"; target_start 51; transcript_id "g1.t1"; gene_id "g1";

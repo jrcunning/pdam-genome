@@ -1,0 +1,21 @@
+SczhEnG_99	AUGUSTUS	gene	298631	302190	0.02	-	.	g1
+SczhEnG_99	AUGUSTUS	transcript	298631	302190	0.02	-	.	g1.t1
+SczhEnG_99	AUGUSTUS	tts	298631	298631	.	-	.	transcript_id "g1.t1"; gene_id "g1";
+SczhEnG_99	AUGUSTUS	exon	298631	298840	.	-	.	transcript_id "g1.t1"; gene_id "g1";
+SczhEnG_99	AUGUSTUS	stop_codon	298673	298675	.	-	0	transcript_id "g1.t1"; gene_id "g1";
+SczhEnG_99	AUGUSTUS	intron	298841	299611	0.13	-	.	transcript_id "g1.t1"; gene_id "g1";
+SczhEnG_99	AUGUSTUS	intron	299947	300623	0.1	-	.	transcript_id "g1.t1"; gene_id "g1";
+SczhEnG_99	AUGUSTUS	CDS	298673	298840	0.18	-	0	transcript_id "g1.t1"; gene_id "g1";
+SczhEnG_99	AUGUSTUS	CDS	299612	299946	0.06	-	2	transcript_id "g1.t1"; gene_id "g1";
+SczhEnG_99	AUGUSTUS	exon	299612	299946	.	-	.	transcript_id "g1.t1"; gene_id "g1";
+SczhEnG_99	AUGUSTUS	CDS	300624	300903	0.11	-	0	transcript_id "g1.t1"; gene_id "g1";
+SczhEnG_99	AUGUSTUS	exon	300624	300913	.	-	.	transcript_id "g1.t1"; gene_id "g1";
+SczhEnG_99	AUGUSTUS	start_codon	300901	300903	.	-	0	transcript_id "g1.t1"; gene_id "g1";
+SczhEnG_99	AUGUSTUS	exon	301915	302190	.	-	.	transcript_id "g1.t1"; gene_id "g1";
+SczhEnG_99	AUGUSTUS	tss	302190	302190	.	-	.	transcript_id "g1.t1"; gene_id "g1";
+SczhEnG_99	AUGUSTUS	protein_match	298691	298756	7.37	-	0	target "unknown_D[1..22]"; target_start 233; transcript_id "g1.t1"; gene_id "g1";
+SczhEnG_99	AUGUSTUS	protein_match	298757	298840	12.5	-	0	target "unknown_C[40..67]"; target_start 166; transcript_id "g1.t1"; gene_id "g1";
+SczhEnG_99	AUGUSTUS	protein_match	299612	299728	14.4	-	0	target "unknown_C[1..39]"; target_start 166; transcript_id "g1.t1"; gene_id "g1";
+SczhEnG_99	AUGUSTUS	protein_match	299729	299946	8.63	-	2	target "unknown_B[48..120]"; target_start 46; transcript_id "g1.t1"; gene_id "g1";
+SczhEnG_99	AUGUSTUS	protein_match	300624	300765	9.96	-	0	target "unknown_B[1..48]"; target_start 46; transcript_id "g1.t1"; gene_id "g1";
+SczhEnG_99	AUGUSTUS	protein_match	300766	300903	10.1	-	0	target "unknown_A[1..46]"; target_start 0; transcript_id "g1.t1"; gene_id "g1";

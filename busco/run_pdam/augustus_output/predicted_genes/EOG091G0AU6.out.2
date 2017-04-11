@@ -1,0 +1,51 @@
+# Please cite: Mario Stanke, Mark Diekhans, Robert Baertsch, David Haussler (2008),
+# Using native and syntenically mapped cDNA alignments to improve de novo gene finding
+# Bioinformatics 24: 637-644, doi 10.1093/bioinformatics/btn013
+# No extrinsic information on sequences given.
+# Initialising the parameters using config directory /nethome/rcunning/local/augustus-3.2.3/config/ ...
+# Using protein profile unknown
+# --[3..298]--> unknown_A (21) <--[6..20]--> unknown_B (19) <--[12..158]--> unknown_D (13) <--[0..1]--> unknown_E (12) <--[8..13]--> unknown_G (37) <--[8..12]--> unknown_I (16) <--[0..3]--> unknown_J (28) <--[1..34]--> unknown_K (9) <--[1..4]--> unknown_L (45) <--[10..15]--> unknown_M (10) <--[0..1]--> unknown_N (18) <--[2..1830]--
+# BUSCO_pdam_4083876357 version. Using default transition matrix.
+# admissible start codons and their probabilities: ATG(1), CTG(0), TTG(0)
+# Looks like ./tmp/SczhEnG_3342pdam_4083876357_.temp is in fasta format.
+# We have hints for 0 sequences and for 0 of the sequences in the input set.
+#
+# ----- prediction on sequence number 1 (length = 5293, name = SczhEnG_3342) -----
+#
+# Constraints/Hints:
+# (none)
+# Predicted genes for sequence number 1 on both strands
+# start gene g1
+SczhEnG_3342	AUGUSTUS	gene	209319	210384	0.61	-	.	g1
+SczhEnG_3342	AUGUSTUS	transcript	209319	210384	0.61	-	.	g1.t1
+SczhEnG_3342	AUGUSTUS	intron	209319	210159	0.69	-	.	transcript_id "g1.t1"; gene_id "g1";
+SczhEnG_3342	AUGUSTUS	CDS	210160	210384	0.72	-	0	transcript_id "g1.t1"; gene_id "g1";
+SczhEnG_3342	AUGUSTUS	start_codon	210382	210384	.	-	0	transcript_id "g1.t1"; gene_id "g1";
+# coding sequence = [atggagtgtggtaggaacgataatggcacacacaacagaagtgaactaaactcggatgatgatattaacggactgcaca
+# acgaaatcactaccaaagatgttgtgctaaggcgacccttgcacacatacccggcaacttcaagtgttcgtaagacagcgtataagcacggtcgcagc
+# gcgcacgtcccgcgtccaggaggctttagagtcagacatggattcctg]
+# protein sequence = [MECGRNDNGTHNRSELNSDDDINGLHNEITTKDVVLRRPLHTYPATSSVRKTAYKHGRSAHVPRPGGFRVRHGFL]
+# end gene g1
+###
+# start gene g2
+SczhEnG_3342	AUGUSTUS	gene	213495	214456	0.42	-	.	g2
+SczhEnG_3342	AUGUSTUS	transcript	213495	214456	0.42	-	.	g2.t1
+SczhEnG_3342	AUGUSTUS	stop_codon	213495	213497	.	-	0	transcript_id "g2.t1"; gene_id "g2";
+SczhEnG_3342	AUGUSTUS	intron	213576	213756	0.48	-	.	transcript_id "g2.t1"; gene_id "g2";
+SczhEnG_3342	AUGUSTUS	intron	213838	214083	0.72	-	.	transcript_id "g2.t1"; gene_id "g2";
+SczhEnG_3342	AUGUSTUS	intron	214134	214332	0.98	-	.	transcript_id "g2.t1"; gene_id "g2";
+SczhEnG_3342	AUGUSTUS	CDS	213495	213575	0.64	-	0	transcript_id "g2.t1"; gene_id "g2";
+SczhEnG_3342	AUGUSTUS	CDS	213757	213837	0.72	-	0	transcript_id "g2.t1"; gene_id "g2";
+SczhEnG_3342	AUGUSTUS	CDS	214084	214133	0.98	-	2	transcript_id "g2.t1"; gene_id "g2";
+SczhEnG_3342	AUGUSTUS	CDS	214333	214456	0.91	-	0	transcript_id "g2.t1"; gene_id "g2";
+SczhEnG_3342	AUGUSTUS	start_codon	214454	214456	.	-	0	transcript_id "g2.t1"; gene_id "g2";
+# coding sequence = [atgtcattggacaaacatgatgctgttccagtggacacacatgtgtggcagataactgcaaaacactacatgccccaac
+# ttgcaaggaccaagtctcttactgccaaggtttataagcaaattggtgatcattacagggacctctttgggaattatgctggatgggcacaatcggtt
+# ctttttgtagctgatttaaagagatttcaagatactcagactaccagtttaacaaatttaaactcaaaatctgccaaggtctatggaatccgacatgc
+# cgtcaacaagcagctccaagcgtcccgccaaaaagaaaaagaagaaccggatataggctaa]
+# protein sequence = [MSLDKHDAVPVDTHVWQITAKHYMPQLARTKSLTAKVYKQIGDHYRDLFGNYAGWAQSVLFVADLKRFQDTQTTSLTN
+# LNSKSAKVYGIRHAVNKQLQASRQKEKEEPDIG]
+# end gene g2
+###
+# command line:
+# augustus --codingseq=1 --proteinprofile=/nethome/rcunning/local/busco/metazoa_odb9/prfl/EOG091G0AU6.prfl --predictionStart=209319 --predictionEnd=219516 --species=BUSCO_pdam_4083876357 ./tmp/SczhEnG_3342pdam_4083876357_.temp

@@ -1,6 +1,10 @@
-data/bams/*
-data/denovo/*
-data/raw_shotgun/*
-data/*.fasta
-data/weedy_coral_01Feb2017_zhEnG/*
-ref/*
+data/*
+!data/Makefile
+!data/Shell/make_blastdb.sh
+
+busco/tmp*
+
+snap/*
+!snap/pdam.hmm
+
+pdam.maker.output/*

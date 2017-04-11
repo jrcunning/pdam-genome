@@ -1,0 +1,39 @@
+# Please cite: Mario Stanke, Mark Diekhans, Robert Baertsch, David Haussler (2008),
+# Using native and syntenically mapped cDNA alignments to improve de novo gene finding
+# Bioinformatics 24: 637-644, doi 10.1093/bioinformatics/btn013
+# No extrinsic information on sequences given.
+# Initialising the parameters using config directory /nethome/rcunning/local/augustus-3.2.3/config/ ...
+# Using protein profile unknown
+# --[0..41]--> unknown_A (166) <--[0..42]--
+# fly version. Using default transition matrix.
+# Looks like ./tmp/SczhEnG_4384pdam_4083876357_.temp is in fasta format.
+# We have hints for 0 sequences and for 0 of the sequences in the input set.
+#
+# ----- prediction on sequence number 1 (length = 10489, name = SczhEnG_4384) -----
+#
+# Constraints/Hints:
+# (none)
+# Predicted genes for sequence number 1 on both strands
+# start gene g1
+SczhEnG_4384	AUGUSTUS	gene	100519	103511	0.01	+	.	g1
+SczhEnG_4384	AUGUSTUS	transcript	100519	103511	0.01	+	.	g1.t1
+SczhEnG_4384	AUGUSTUS	exon	100519	100645	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+SczhEnG_4384	AUGUSTUS	exon	102052	103511	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+SczhEnG_4384	AUGUSTUS	start_codon	102054	102056	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+SczhEnG_4384	AUGUSTUS	CDS	102054	102560	0.96	+	0	transcript_id "g1.t1"; gene_id "g1";
+SczhEnG_4384	AUGUSTUS	stop_codon	102558	102560	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+SczhEnG_4384	AUGUSTUS	tts	103511	103511	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+SczhEnG_4384	AUGUSTUS	protein_match	102057	102554	12.2	+	0	target "unknown_A[1..166]"; target_start 1; transcript_id "g1.t1"; gene_id "g1";
+# coding sequence = [atggctgctaccctacgtccttatctgaatgccgtccgtgcgactctcactgcgtccatgtgtttggaaaatttcgatt
+# cccaggtggtggaaaggcataacaaacctgaagtggaggtccgaagcagtaaggagctgcttctaacgccagtcatcatcagccgaaatgaaaaagag
+# aaggtgctcattgaaggttccatcaactctctgagaatcagcattgctgtgaaacaagctgacgagattgagaagatcctgtgcaagaagttcatgcg
+# ttttatgatgatgcgtgccgaaaacttctttatccttcgaaggaagccagttgagggatacgacataagcttcctcatcaccaactttcacacggagc
+# aaatgttcaagcacaagcttgttgattttgttattcagttcatggaggaaatagacaaggagatcagtgaaatgaagttggctgtcaatgctagggcg
+# cgtatttgtgcagaagaatttctcaagaatttttag]
+# protein sequence = [MAATLRPYLNAVRATLTASMCLENFDSQVVERHNKPEVEVRSSKELLLTPVIISRNEKEKVLIEGSINSLRISIAVKQ
+# ADEIEKILCKKFMRFMMMRAENFFILRRKPVEGYDISFLITNFHTEQMFKHKLVDFVIQFMEEIDKEISEMKLAVNARARICAEEFLKNF]
+# sequence of block unknown_A     1 [AATLRPYLNAVRATLTASMCLENFDSQVVERHNKPEVEVRSSKELLLTPVIISRNEKEKVLIEGSINSLRISIAVKQADEIEKILCKKFMRFMMMRAENFFILRRKPVEGYDISFLITNFHTEQMFKHKLVDFVIQFMEEIDKEISEMKLAVNARARICAEEFLKN] 167
+# end gene g1
+###
+# command line:
+# augustus --codingseq=1 --proteinprofile=/nethome/rcunning/local/busco/metazoa_odb9/prfl/EOG091G0OI8.prfl --predictionStart=97063 --predictionEnd=107551 --species=fly ./tmp/SczhEnG_4384pdam_4083876357_.temp

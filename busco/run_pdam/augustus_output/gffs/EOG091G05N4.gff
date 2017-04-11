@@ -1,0 +1,25 @@
+SczhEnG_458	AUGUSTUS	gene	210478	216543	0.01	-	.	g1
+SczhEnG_458	AUGUSTUS	transcript	210478	216543	0.01	-	.	g1.t1
+SczhEnG_458	AUGUSTUS	exon	210478	210771	.	-	.	transcript_id "g1.t1"; gene_id "g1";
+SczhEnG_458	AUGUSTUS	stop_codon	210536	210538	.	-	0	transcript_id "g1.t1"; gene_id "g1";
+SczhEnG_458	AUGUSTUS	intron	210772	211165	0.81	-	.	transcript_id "g1.t1"; gene_id "g1";
+SczhEnG_458	AUGUSTUS	intron	211245	212679	0.68	-	.	transcript_id "g1.t1"; gene_id "g1";
+SczhEnG_458	AUGUSTUS	intron	212745	212907	0.67	-	.	transcript_id "g1.t1"; gene_id "g1";
+SczhEnG_458	AUGUSTUS	intron	213070	213896	0.83	-	.	transcript_id "g1.t1"; gene_id "g1";
+SczhEnG_458	AUGUSTUS	intron	214146	214298	0.97	-	.	transcript_id "g1.t1"; gene_id "g1";
+SczhEnG_458	AUGUSTUS	intron	214791	215084	0.97	-	.	transcript_id "g1.t1"; gene_id "g1";
+SczhEnG_458	AUGUSTUS	CDS	210536	210771	0.96	-	2	transcript_id "g1.t1"; gene_id "g1";
+SczhEnG_458	AUGUSTUS	CDS	211166	211244	0.68	-	0	transcript_id "g1.t1"; gene_id "g1";
+SczhEnG_458	AUGUSTUS	exon	211166	211244	.	-	.	transcript_id "g1.t1"; gene_id "g1";
+SczhEnG_458	AUGUSTUS	CDS	212680	212744	0.74	-	2	transcript_id "g1.t1"; gene_id "g1";
+SczhEnG_458	AUGUSTUS	exon	212680	212744	.	-	.	transcript_id "g1.t1"; gene_id "g1";
+SczhEnG_458	AUGUSTUS	CDS	212908	213069	0.84	-	2	transcript_id "g1.t1"; gene_id "g1";
+SczhEnG_458	AUGUSTUS	exon	212908	213069	.	-	.	transcript_id "g1.t1"; gene_id "g1";
+SczhEnG_458	AUGUSTUS	CDS	213897	214145	0.96	-	2	transcript_id "g1.t1"; gene_id "g1";
+SczhEnG_458	AUGUSTUS	exon	213897	214145	.	-	.	transcript_id "g1.t1"; gene_id "g1";
+SczhEnG_458	AUGUSTUS	CDS	214299	214790	1	-	2	transcript_id "g1.t1"; gene_id "g1";
+SczhEnG_458	AUGUSTUS	exon	214299	214790	.	-	.	transcript_id "g1.t1"; gene_id "g1";
+SczhEnG_458	AUGUSTUS	CDS	215085	216477	0.24	-	0	transcript_id "g1.t1"; gene_id "g1";
+SczhEnG_458	AUGUSTUS	exon	215085	216543	.	-	.	transcript_id "g1.t1"; gene_id "g1";
+SczhEnG_458	AUGUSTUS	start_codon	216475	216477	.	-	0	transcript_id "g1.t1"; gene_id "g1";
+SczhEnG_458	AUGUSTUS	tss	216543	216543	.	-	.	transcript_id "g1.t1"; gene_id "g1";

@@ -1,0 +1,52 @@
+# Please cite: Mario Stanke, Mark Diekhans, Robert Baertsch, David Haussler (2008),
+# Using native and syntenically mapped cDNA alignments to improve de novo gene finding
+# Bioinformatics 24: 637-644, doi 10.1093/bioinformatics/btn013
+# No extrinsic information on sequences given.
+# Initialising the parameters using config directory /nethome/rcunning/local/augustus-3.2.3/config/ ...
+# Using protein profile unknown
+# --[0..141]--> unknown_A (13) <--[0..1]--> unknown_B (23) <--[0..2]--> unknown_C (34) <--[0..1]--> unknown_D (20) <--[0..3]--> unknown_E (19) <--[1..5]--> unknown_F (20) <--[0..56]--
+# fly version. Using default transition matrix.
+# Looks like ./tmp/SczhEnG_992pdam_4083876357_.temp is in fasta format.
+# We have hints for 0 sequences and for 0 of the sequences in the input set.
+#
+# ----- prediction on sequence number 1 (length = 10369, name = SczhEnG_992) -----
+#
+# Constraints/Hints:
+# (none)
+# Predicted genes for sequence number 1 on both strands
+# start gene g1
+SczhEnG_992	AUGUSTUS	gene	526297	529765	0.01	-	.	g1
+SczhEnG_992	AUGUSTUS	transcript	526297	529765	0.01	-	.	g1.t1
+SczhEnG_992	AUGUSTUS	exon	526297	526523	.	-	.	transcript_id "g1.t1"; gene_id "g1";
+SczhEnG_992	AUGUSTUS	stop_codon	526481	526483	.	-	0	transcript_id "g1.t1"; gene_id "g1";
+SczhEnG_992	AUGUSTUS	intron	526524	528518	0.39	-	.	transcript_id "g1.t1"; gene_id "g1";
+SczhEnG_992	AUGUSTUS	CDS	526481	526523	0.41	-	1	transcript_id "g1.t1"; gene_id "g1";
+SczhEnG_992	AUGUSTUS	CDS	528519	529000	0.12	-	0	transcript_id "g1.t1"; gene_id "g1";
+SczhEnG_992	AUGUSTUS	exon	528519	529479	.	-	.	transcript_id "g1.t1"; gene_id "g1";
+SczhEnG_992	AUGUSTUS	start_codon	528998	529000	.	-	0	transcript_id "g1.t1"; gene_id "g1";
+SczhEnG_992	AUGUSTUS	exon	529729	529765	.	-	.	transcript_id "g1.t1"; gene_id "g1";
+SczhEnG_992	AUGUSTUS	tss	529765	529765	.	-	.	transcript_id "g1.t1"; gene_id "g1";
+SczhEnG_992	AUGUSTUS	protein_match	528548	528607	3.37	-	0	target "unknown_F[1..20]"; target_start 131; transcript_id "g1.t1"; gene_id "g1";
+SczhEnG_992	AUGUSTUS	protein_match	528617	528673	4.33	-	0	target "unknown_E[1..19]"; target_start 109; transcript_id "g1.t1"; gene_id "g1";
+SczhEnG_992	AUGUSTUS	protein_match	528677	528736	5.9	-	0	target "unknown_D[1..20]"; target_start 88; transcript_id "g1.t1"; gene_id "g1";
+SczhEnG_992	AUGUSTUS	protein_match	528737	528838	6.96	-	0	target "unknown_C[1..34]"; target_start 54; transcript_id "g1.t1"; gene_id "g1";
+SczhEnG_992	AUGUSTUS	protein_match	528845	528913	8.41	-	0	target "unknown_B[1..23]"; target_start 29; transcript_id "g1.t1"; gene_id "g1";
+SczhEnG_992	AUGUSTUS	protein_match	528914	528952	5.92	-	0	target "unknown_A[1..13]"; target_start 16; transcript_id "g1.t1"; gene_id "g1";
+# coding sequence = [atggctctaagcgatcaactcatgaacggaaaggaatcaagtacacatccggtggtttacatctcgagaaaagagactt
+# ttagtgcgagtcatcgtttacacagtacgaaactgagcgacgaagagaatcgacgaatatttgggaagtgcaataacaagaacggacacgggcataat
+# tatactgtgaaggtgacagtttgtggaccagtggaccccctaactggcatggtcatgaacttgacggacttaaaaacgcacatgggtagcgttttgga
+# acctttggatcataaaaatcttgacttggacgtaccatacttcagcgatgtgtgttcaacagcagagaatattgctgtgtatatttggaagtgcttgt
+# caaaacgtctgcccgagggaattttgtttgaagtaaaaatcgacgaaactggcaagaattctgctcgttacaggggtggaatgagcgctaatctcccg
+# tttgacgtatttgctgacaaggagaatttgttgaacaatcaaaagcttctgtag]
+# protein sequence = [MALSDQLMNGKESSTHPVVYISRKETFSASHRLHSTKLSDEENRRIFGKCNNKNGHGHNYTVKVTVCGPVDPLTGMVM
+# NLTDLKTHMGSVLEPLDHKNLDLDVPYFSDVCSTAENIAVYIWKCLSKRLPEGILFEVKIDETGKNSARYRGGMSANLPFDVFADKENLLNNQKLL]
+# sequence of block unknown_F   131 [ILFEVKIDETGKNSARYRGG] 151
+# sequence of block unknown_E   109 [CSTAENIAVYIWKCLSKRL] 128
+# sequence of block unknown_D    88 [SVLEPLDHKNLDLDVPYFSD] 108
+# sequence of block unknown_C    54 [GHGHNYTVKVTVCGPVDPLTGMVMNLTDLKTHMG] 88
+# sequence of block unknown_B    29 [SHRLHSTKLSDEENRRIFGKCNN] 52
+# sequence of block unknown_A    16 [PVVYISRKETFSA] 29
+# end gene g1
+###
+# command line:
+# augustus --codingseq=1 --proteinprofile=/nethome/rcunning/local/busco/metazoa_odb9/prfl/EOG091G0TKH.prfl --predictionStart=523551 --predictionEnd=533919 --species=fly ./tmp/SczhEnG_992pdam_4083876357_.temp

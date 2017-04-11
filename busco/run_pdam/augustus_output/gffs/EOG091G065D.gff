@@ -1,0 +1,19 @@
+SczhEnG_3341	AUGUSTUS	gene	157054	165914	0.02	+	.	g1
+SczhEnG_3341	AUGUSTUS	transcript	157054	165914	0.02	+	.	g1.t1
+SczhEnG_3341	AUGUSTUS	exon	157054	157370	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+SczhEnG_3341	AUGUSTUS	start_codon	157067	157069	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+SczhEnG_3341	AUGUSTUS	intron	157371	158395	0.26	+	.	transcript_id "g1.t1"; gene_id "g1";
+SczhEnG_3341	AUGUSTUS	intron	158647	161677	0.97	+	.	transcript_id "g1.t1"; gene_id "g1";
+SczhEnG_3341	AUGUSTUS	intron	162123	163819	0.74	+	.	transcript_id "g1.t1"; gene_id "g1";
+SczhEnG_3341	AUGUSTUS	intron	164858	165788	0.32	+	.	transcript_id "g1.t1"; gene_id "g1";
+SczhEnG_3341	AUGUSTUS	CDS	157067	157370	0.74	+	0	transcript_id "g1.t1"; gene_id "g1";
+SczhEnG_3341	AUGUSTUS	CDS	158396	158646	0.96	+	2	transcript_id "g1.t1"; gene_id "g1";
+SczhEnG_3341	AUGUSTUS	exon	158396	158646	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+SczhEnG_3341	AUGUSTUS	CDS	161678	162122	0.98	+	0	transcript_id "g1.t1"; gene_id "g1";
+SczhEnG_3341	AUGUSTUS	exon	161678	162122	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+SczhEnG_3341	AUGUSTUS	CDS	163820	164857	0.13	+	2	transcript_id "g1.t1"; gene_id "g1";
+SczhEnG_3341	AUGUSTUS	exon	163820	164857	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+SczhEnG_3341	AUGUSTUS	CDS	165789	165838	0.34	+	2	transcript_id "g1.t1"; gene_id "g1";
+SczhEnG_3341	AUGUSTUS	exon	165789	165914	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+SczhEnG_3341	AUGUSTUS	stop_codon	165836	165838	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+SczhEnG_3341	AUGUSTUS	tts	165914	165914	.	+	.	transcript_id "g1.t1"; gene_id "g1";

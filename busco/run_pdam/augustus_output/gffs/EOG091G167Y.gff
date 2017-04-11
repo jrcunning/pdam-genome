@@ -1,0 +1,12 @@
+SczhEnG_1092	AUGUSTUS	gene	63346	65511	0.01	+	.	g1
+SczhEnG_1092	AUGUSTUS	transcript	63346	65511	0.01	+	.	g1.t1
+SczhEnG_1092	AUGUSTUS	tss	63346	63346	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+SczhEnG_1092	AUGUSTUS	exon	63346	63386	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+SczhEnG_1092	AUGUSTUS	exon	64726	65511	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+SczhEnG_1092	AUGUSTUS	start_codon	64822	64824	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+SczhEnG_1092	AUGUSTUS	CDS	64822	65334	0.01	+	0	transcript_id "g1.t1"; gene_id "g1";
+SczhEnG_1092	AUGUSTUS	stop_codon	65332	65334	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+SczhEnG_1092	AUGUSTUS	tts	65511	65511	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+SczhEnG_1092	AUGUSTUS	protein_match	64996	65109	1.9	+	0	target "unknown_A[1..38]"; target_start 58; transcript_id "g1.t1"; gene_id "g1";
+SczhEnG_1092	AUGUSTUS	protein_match	65110	65241	4.49	+	0	target "unknown_B[1..44]"; target_start 96; transcript_id "g1.t1"; gene_id "g1";
+SczhEnG_1092	AUGUSTUS	protein_match	65260	65328	4.87	+	0	target "unknown_C[1..23]"; target_start 146; transcript_id "g1.t1"; gene_id "g1";

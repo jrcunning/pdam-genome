@@ -1,0 +1,18 @@
+SczhEnG_2160	AUGUSTUS	gene	377698	382261	0.01	-	.	g2
+SczhEnG_2160	AUGUSTUS	transcript	377698	382261	0.01	-	.	g2.t1
+SczhEnG_2160	AUGUSTUS	tts	377698	377698	.	-	.	transcript_id "g2.t1"; gene_id "g2";
+SczhEnG_2160	AUGUSTUS	exon	377698	377962	.	-	.	transcript_id "g2.t1"; gene_id "g2";
+SczhEnG_2160	AUGUSTUS	stop_codon	377731	377733	.	-	0	transcript_id "g2.t1"; gene_id "g2";
+SczhEnG_2160	AUGUSTUS	intron	377963	379084	0.59	-	.	transcript_id "g2.t1"; gene_id "g2";
+SczhEnG_2160	AUGUSTUS	intron	379222	379750	0.69	-	.	transcript_id "g2.t1"; gene_id "g2";
+SczhEnG_2160	AUGUSTUS	CDS	377731	377962	0.52	-	1	transcript_id "g2.t1"; gene_id "g2";
+SczhEnG_2160	AUGUSTUS	CDS	379085	379221	0.7	-	0	transcript_id "g2.t1"; gene_id "g2";
+SczhEnG_2160	AUGUSTUS	exon	379085	379221	.	-	.	transcript_id "g2.t1"; gene_id "g2";
+SczhEnG_2160	AUGUSTUS	CDS	379751	379753	0.69	-	0	transcript_id "g2.t1"; gene_id "g2";
+SczhEnG_2160	AUGUSTUS	exon	379751	379765	.	-	.	transcript_id "g2.t1"; gene_id "g2";
+SczhEnG_2160	AUGUSTUS	start_codon	379751	379753	.	-	0	transcript_id "g2.t1"; gene_id "g2";
+SczhEnG_2160	AUGUSTUS	exon	381678	382261	.	-	.	transcript_id "g2.t1"; gene_id "g2";
+SczhEnG_2160	AUGUSTUS	tss	382261	382261	.	-	.	transcript_id "g2.t1"; gene_id "g2";
+SczhEnG_2160	AUGUSTUS	protein_match	377734	377962	7.39	-	1	target "unknown_B[33..109]"; target_start 14; transcript_id "g2.t1"; gene_id "g2";
+SczhEnG_2160	AUGUSTUS	protein_match	379085	379182	6.65	-	0	target "unknown_B[1..33]"; target_start 14; transcript_id "g2.t1"; gene_id "g2";
+SczhEnG_2160	AUGUSTUS	protein_match	379186	379221	8.02	-	0	target "unknown_A[1..12]"; target_start 1; transcript_id "g2.t1"; gene_id "g2";

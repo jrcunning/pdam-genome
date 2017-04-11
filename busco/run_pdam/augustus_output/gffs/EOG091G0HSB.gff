@@ -1,0 +1,20 @@
+SczhEnG_4055	AUGUSTUS	gene	500690	504259	0.01	-	.	g1
+SczhEnG_4055	AUGUSTUS	transcript	500690	504259	0.01	-	.	g1.t1
+SczhEnG_4055	AUGUSTUS	tts	500690	500690	.	-	.	transcript_id "g1.t1"; gene_id "g1";
+SczhEnG_4055	AUGUSTUS	exon	500690	500966	.	-	.	transcript_id "g1.t1"; gene_id "g1";
+SczhEnG_4055	AUGUSTUS	stop_codon	500755	500757	.	-	0	transcript_id "g1.t1"; gene_id "g1";
+SczhEnG_4055	AUGUSTUS	intron	500967	502269	0.01	-	.	transcript_id "g1.t1"; gene_id "g1";
+SczhEnG_4055	AUGUSTUS	intron	502714	503752	0.01	-	.	transcript_id "g1.t1"; gene_id "g1";
+SczhEnG_4055	AUGUSTUS	CDS	500755	500966	0.03	-	2	transcript_id "g1.t1"; gene_id "g1";
+SczhEnG_4055	AUGUSTUS	CDS	502270	502713	0.01	-	2	transcript_id "g1.t1"; gene_id "g1";
+SczhEnG_4055	AUGUSTUS	exon	502270	502713	.	-	.	transcript_id "g1.t1"; gene_id "g1";
+SczhEnG_4055	AUGUSTUS	CDS	503753	503810	0.01	-	0	transcript_id "g1.t1"; gene_id "g1";
+SczhEnG_4055	AUGUSTUS	exon	503753	503978	.	-	.	transcript_id "g1.t1"; gene_id "g1";
+SczhEnG_4055	AUGUSTUS	start_codon	503808	503810	.	-	0	transcript_id "g1.t1"; gene_id "g1";
+SczhEnG_4055	AUGUSTUS	exon	504173	504259	.	-	.	transcript_id "g1.t1"; gene_id "g1";
+SczhEnG_4055	AUGUSTUS	tss	504259	504259	.	-	.	transcript_id "g1.t1"; gene_id "g1";
+SczhEnG_4055	AUGUSTUS	protein_match	500788	500966	3.63	-	2	target "unknown_C[66..125]"; target_start 102; transcript_id "g1.t1"; gene_id "g1";
+SczhEnG_4055	AUGUSTUS	protein_match	502270	502465	4.77	-	0	target "unknown_C[1..66]"; target_start 102; transcript_id "g1.t1"; gene_id "g1";
+SczhEnG_4055	AUGUSTUS	protein_match	502466	502672	5.03	-	0	target "unknown_B[1..69]"; target_start 33; transcript_id "g1.t1"; gene_id "g1";
+SczhEnG_4055	AUGUSTUS	protein_match	502676	502713	2.63	-	2	target "unknown_A[13..25]"; target_start 7; transcript_id "g1.t1"; gene_id "g1";
+SczhEnG_4055	AUGUSTUS	protein_match	503753	503789	3	-	0	target "unknown_A[1..13]"; target_start 7; transcript_id "g1.t1"; gene_id "g1";

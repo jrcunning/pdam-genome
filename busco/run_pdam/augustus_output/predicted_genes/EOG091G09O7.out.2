@@ -1,0 +1,51 @@
+# Please cite: Mario Stanke, Mark Diekhans, Robert Baertsch, David Haussler (2008),
+# Using native and syntenically mapped cDNA alignments to improve de novo gene finding
+# Bioinformatics 24: 637-644, doi 10.1093/bioinformatics/btn013
+# No extrinsic information on sequences given.
+# Initialising the parameters using config directory /nethome/rcunning/local/augustus-3.2.3/config/ ...
+# Using protein profile unknown
+# --[10..101]--> unknown_B (76) <--[0..1]--> unknown_C (36) <--[0..2]--> unknown_D (31) <--[5..13]--> unknown_E (19) <--[0..14]--> unknown_F (23) <--[3..36]--> unknown_G (12) <--[2..5]--> unknown_H (36) <--[0..11]--> unknown_I (16) <--[4..27]--> unknown_J (9) <--[0..1]--> unknown_K (39) <--[0..99]--
+# fly version. Using default transition matrix.
+# Looks like ./tmp/SczhEnG_651pdam_4083876357_.temp is in fasta format.
+# We have hints for 0 sequences and for 0 of the sequences in the input set.
+#
+# ----- prediction on sequence number 1 (length = 10312, name = SczhEnG_651) -----
+#
+# Constraints/Hints:
+# (none)
+# Predicted genes for sequence number 1 on both strands
+# start gene g1
+SczhEnG_651	AUGUSTUS	gene	18699	26453	0.01	-	.	g1
+SczhEnG_651	AUGUSTUS	transcript	18699	26453	0.01	-	.	g1.t1
+SczhEnG_651	AUGUSTUS	intron	18699	18749	0.62	-	.	transcript_id "g1.t1"; gene_id "g1";
+SczhEnG_651	AUGUSTUS	intron	18989	19539	0.11	-	.	transcript_id "g1.t1"; gene_id "g1";
+SczhEnG_651	AUGUSTUS	intron	19628	19754	0.21	-	.	transcript_id "g1.t1"; gene_id "g1";
+SczhEnG_651	AUGUSTUS	intron	19853	21363	0.02	-	.	transcript_id "g1.t1"; gene_id "g1";
+SczhEnG_651	AUGUSTUS	intron	21470	23758	0.01	-	.	transcript_id "g1.t1"; gene_id "g1";
+SczhEnG_651	AUGUSTUS	CDS	18750	18988	0.08	-	2	transcript_id "g1.t1"; gene_id "g1";
+SczhEnG_651	AUGUSTUS	exon	18750	18988	.	-	.	transcript_id "g1.t1"; gene_id "g1";
+SczhEnG_651	AUGUSTUS	CDS	19540	19627	0.15	-	0	transcript_id "g1.t1"; gene_id "g1";
+SczhEnG_651	AUGUSTUS	exon	19540	19627	.	-	.	transcript_id "g1.t1"; gene_id "g1";
+SczhEnG_651	AUGUSTUS	CDS	19755	19852	0.08	-	2	transcript_id "g1.t1"; gene_id "g1";
+SczhEnG_651	AUGUSTUS	exon	19755	19852	.	-	.	transcript_id "g1.t1"; gene_id "g1";
+SczhEnG_651	AUGUSTUS	CDS	21364	21469	0.02	-	0	transcript_id "g1.t1"; gene_id "g1";
+SczhEnG_651	AUGUSTUS	exon	21364	21469	.	-	.	transcript_id "g1.t1"; gene_id "g1";
+SczhEnG_651	AUGUSTUS	CDS	23759	23800	0.01	-	0	transcript_id "g1.t1"; gene_id "g1";
+SczhEnG_651	AUGUSTUS	exon	23759	24002	.	-	.	transcript_id "g1.t1"; gene_id "g1";
+SczhEnG_651	AUGUSTUS	start_codon	23798	23800	.	-	0	transcript_id "g1.t1"; gene_id "g1";
+SczhEnG_651	AUGUSTUS	exon	26308	26453	.	-	.	transcript_id "g1.t1"; gene_id "g1";
+SczhEnG_651	AUGUSTUS	tss	26453	26453	.	-	.	transcript_id "g1.t1"; gene_id "g1";
+# coding sequence = [atggtagtcgaggagcagattaactatattgtcatggccaacaccctcagcttggcagcagtttacagattttgcaaat
+# gttctgaaggcttttataggaacaagctatttggcattaccatttgctttttatcagagtggattagtggtttgaagtttaatctgaaagatgtcagc
+# tatgccagactgtccaccttcccagtcttctttggacagctgacgggagcttatgaggggataggaacttgtttgacacatgatcaccatttgagggc
+# gaattggaacctgcctcgtgacttatttggtttgtgcatctcagtaatgggcatcacagttatcgaaattgcggagtctgttttattcactaagatcc
+# attccaaaagtaaatctcaccttggtgcagttattgcaggtccaagtatggatccagatagcaatccagtttctcctgtggactctaatagcattgac
+# tctcaccatcctgtgtcaaactcaccagatgatttgtccaccagtgtaaattcggagactcaagttcttattccaaaggagacagaggaacttcagtt
+# taag]
+# protein sequence = [MVVEEQINYIVMANTLSLAAVYRFCKCSEGFYRNKLFGITICFLSEWISGLKFNLKDVSYARLSTFPVFFGQLTGAYE
+# GIGTCLTHDHHLRANWNLPRDLFGLCISVMGITVIEIAESVLFTKIHSKSKSHLGAVIAGPSMDPDSNPVSPVDSNSIDSHHPVSNSPDDLSTSVNSE
+# TQVLIPKETEELQFK]
+# end gene g1
+###
+# command line:
+# augustus --codingseq=1 --proteinprofile=/nethome/rcunning/local/busco/metazoa_odb9/prfl/EOG091G09O7.prfl --predictionStart=18699 --predictionEnd=29010 --species=fly ./tmp/SczhEnG_651pdam_4083876357_.temp

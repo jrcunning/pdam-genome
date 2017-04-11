@@ -1,0 +1,9 @@
+SczhEnG_4384	AUGUSTUS	gene	100519	103511	0.01	+	.	g1
+SczhEnG_4384	AUGUSTUS	transcript	100519	103511	0.01	+	.	g1.t1
+SczhEnG_4384	AUGUSTUS	exon	100519	100645	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+SczhEnG_4384	AUGUSTUS	exon	102052	103511	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+SczhEnG_4384	AUGUSTUS	start_codon	102054	102056	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+SczhEnG_4384	AUGUSTUS	CDS	102054	102560	0.96	+	0	transcript_id "g1.t1"; gene_id "g1";
+SczhEnG_4384	AUGUSTUS	stop_codon	102558	102560	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+SczhEnG_4384	AUGUSTUS	tts	103511	103511	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+SczhEnG_4384	AUGUSTUS	protein_match	102057	102554	12.2	+	0	target "unknown_A[1..166]"; target_start 1; transcript_id "g1.t1"; gene_id "g1";

@@ -1,0 +1,27 @@
+SczhEnG_1560	AUGUSTUS	gene	69629	72508	0.01	-	.	g1
+SczhEnG_1560	AUGUSTUS	transcript	69629	72508	0.01	-	.	g1.t1
+SczhEnG_1560	AUGUSTUS	exon	69629	70069	.	-	.	transcript_id "g1.t1"; gene_id "g1";
+SczhEnG_1560	AUGUSTUS	stop_codon	69696	69698	.	-	0	transcript_id "g1.t1"; gene_id "g1";
+SczhEnG_1560	AUGUSTUS	intron	70070	70850	0.95	-	.	transcript_id "g1.t1"; gene_id "g1";
+SczhEnG_1560	AUGUSTUS	intron	71117	71461	0.73	-	.	transcript_id "g1.t1"; gene_id "g1";
+SczhEnG_1560	AUGUSTUS	intron	71495	71681	0.05	-	.	transcript_id "g1.t1"; gene_id "g1";
+SczhEnG_1560	AUGUSTUS	CDS	69696	70069	0.94	-	2	transcript_id "g1.t1"; gene_id "g1";
+SczhEnG_1560	AUGUSTUS	CDS	70851	71116	1	-	1	transcript_id "g1.t1"; gene_id "g1";
+SczhEnG_1560	AUGUSTUS	exon	70851	71116	.	-	.	transcript_id "g1.t1"; gene_id "g1";
+SczhEnG_1560	AUGUSTUS	CDS	71462	71494	0.73	-	1	transcript_id "g1.t1"; gene_id "g1";
+SczhEnG_1560	AUGUSTUS	exon	71462	71494	.	-	.	transcript_id "g1.t1"; gene_id "g1";
+SczhEnG_1560	AUGUSTUS	CDS	71682	72439	0.08	-	0	transcript_id "g1.t1"; gene_id "g1";
+SczhEnG_1560	AUGUSTUS	exon	71682	72508	.	-	.	transcript_id "g1.t1"; gene_id "g1";
+SczhEnG_1560	AUGUSTUS	start_codon	72437	72439	.	-	0	transcript_id "g1.t1"; gene_id "g1";
+SczhEnG_1560	AUGUSTUS	tss	72508	72508	.	-	.	transcript_id "g1.t1"; gene_id "g1";
+SczhEnG_1560	AUGUSTUS	protein_match	69750	69785	6.56	-	0	target "unknown_T[1..12]"; target_start 447; transcript_id "g1.t1"; gene_id "g1";
+SczhEnG_1560	AUGUSTUS	protein_match	69837	69908	7.81	-	0	target "unknown_S[1..24]"; target_start 406; transcript_id "g1.t1"; gene_id "g1";
+SczhEnG_1560	AUGUSTUS	protein_match	69990	70067	3.99	-	0	target "unknown_Q[1..26]"; target_start 353; transcript_id "g1.t1"; gene_id "g1";
+SczhEnG_1560	AUGUSTUS	protein_match	71699	71731	8.52	-	0	target "unknown_N[1..11]"; target_start 236; transcript_id "g1.t1"; gene_id "g1";
+SczhEnG_1560	AUGUSTUS	protein_match	71732	71758	7.34	-	0	target "unknown_M[1..9]"; target_start 227; transcript_id "g1.t1"; gene_id "g1";
+SczhEnG_1560	AUGUSTUS	protein_match	71759	71779	6.06	-	0	target "unknown_L[1..7]"; target_start 220; transcript_id "g1.t1"; gene_id "g1";
+SczhEnG_1560	AUGUSTUS	protein_match	71810	71848	4.29	-	0	target "unknown_K[1..13]"; target_start 197; transcript_id "g1.t1"; gene_id "g1";
+SczhEnG_1560	AUGUSTUS	protein_match	72038	72079	4.22	-	0	target "unknown_F[1..14]"; target_start 120; transcript_id "g1.t1"; gene_id "g1";
+SczhEnG_1560	AUGUSTUS	protein_match	72173	72220	7.07	-	0	target "unknown_C[1..16]"; target_start 73; transcript_id "g1.t1"; gene_id "g1";
+SczhEnG_1560	AUGUSTUS	protein_match	72221	72379	4.36	-	0	target "unknown_B[1..53]"; target_start 20; transcript_id "g1.t1"; gene_id "g1";
+SczhEnG_1560	AUGUSTUS	protein_match	72380	72433	3.9	-	0	target "unknown_A[1..18]"; target_start 2; transcript_id "g1.t1"; gene_id "g1";

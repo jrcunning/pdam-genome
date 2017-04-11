@@ -1,0 +1,14 @@
+#!/bin/bash
+#BSUB -J busco
+#BSUB -o %J.out
+#BSUB -e %J.err
+#BSUB -n 15
+#BSUB -q general
+#BSUB -P crf
+#BSUB -W 168:00
+#
+
+module load blast
+
+cd /scratch/projects/crf/pdam-genome/busco
+python ~/local/busco/BUSCO.py -f -c 15 --long -i ../data/filter/pdam.fasta -o pdam -l ~/local/busco/metazoa_odb9 -m geno

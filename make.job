@@ -1,0 +1,17 @@
+#!/bin/bash
+#BSUB -J pdam_make
+#BSUB -o %J.out
+#BSUB -e %J.err
+#BSUB -q parallel
+#BSUB -n 96
+#BSUB -R "span[ptile=16]”
+#BSUB -P crf
+#
+
+module load openmpi-gcc
+module load blast
+
+export LD_PRELOAD=/share/apps/openmpi/1.6.2/gcc/4.4.6/lib/libmpi.so
+export OMPI_MCA_mpi_warn_on_fork=0
+
+cd /scratch/projects/crf/pdam-genome && make

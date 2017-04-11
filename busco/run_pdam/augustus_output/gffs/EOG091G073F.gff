@@ -1,0 +1,29 @@
+SczhEnG_101	AUGUSTUS	gene	524792	536999	0.01	+	.	g1
+SczhEnG_101	AUGUSTUS	transcript	524792	536999	0.01	+	.	g1.t1
+SczhEnG_101	AUGUSTUS	tss	524792	524792	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+SczhEnG_101	AUGUSTUS	exon	524792	524860	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+SczhEnG_101	AUGUSTUS	exon	525749	526362	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+SczhEnG_101	AUGUSTUS	exon	527209	527490	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+SczhEnG_101	AUGUSTUS	start_codon	527392	527394	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+SczhEnG_101	AUGUSTUS	intron	527491	527582	0.58	+	.	transcript_id "g1.t1"; gene_id "g1";
+SczhEnG_101	AUGUSTUS	intron	527775	529468	0.6	+	.	transcript_id "g1.t1"; gene_id "g1";
+SczhEnG_101	AUGUSTUS	intron	529740	530611	0.88	+	.	transcript_id "g1.t1"; gene_id "g1";
+SczhEnG_101	AUGUSTUS	intron	530757	532858	0.46	+	.	transcript_id "g1.t1"; gene_id "g1";
+SczhEnG_101	AUGUSTUS	intron	532958	533887	0.2	+	.	transcript_id "g1.t1"; gene_id "g1";
+SczhEnG_101	AUGUSTUS	intron	534027	536352	0.09	+	.	transcript_id "g1.t1"; gene_id "g1";
+SczhEnG_101	AUGUSTUS	CDS	527392	527490	0.58	+	0	transcript_id "g1.t1"; gene_id "g1";
+SczhEnG_101	AUGUSTUS	CDS	527583	527774	0.58	+	0	transcript_id "g1.t1"; gene_id "g1";
+SczhEnG_101	AUGUSTUS	exon	527583	527774	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+SczhEnG_101	AUGUSTUS	CDS	529469	529739	0.79	+	0	transcript_id "g1.t1"; gene_id "g1";
+SczhEnG_101	AUGUSTUS	exon	529469	529739	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+SczhEnG_101	AUGUSTUS	CDS	530612	530756	0.61	+	2	transcript_id "g1.t1"; gene_id "g1";
+SczhEnG_101	AUGUSTUS	exon	530612	530756	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+SczhEnG_101	AUGUSTUS	CDS	532859	532957	0.41	+	1	transcript_id "g1.t1"; gene_id "g1";
+SczhEnG_101	AUGUSTUS	exon	532859	532957	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+SczhEnG_101	AUGUSTUS	CDS	533888	534026	0.1	+	1	transcript_id "g1.t1"; gene_id "g1";
+SczhEnG_101	AUGUSTUS	exon	533888	534026	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+SczhEnG_101	AUGUSTUS	CDS	536353	536529	0.1	+	0	transcript_id "g1.t1"; gene_id "g1";
+SczhEnG_101	AUGUSTUS	exon	536353	536534	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+SczhEnG_101	AUGUSTUS	stop_codon	536527	536529	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+SczhEnG_101	AUGUSTUS	exon	536648	536999	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+SczhEnG_101	AUGUSTUS	tts	536999	536999	.	+	.	transcript_id "g1.t1"; gene_id "g1";

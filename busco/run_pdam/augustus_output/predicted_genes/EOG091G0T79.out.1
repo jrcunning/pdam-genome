@@ -1,0 +1,41 @@
+# Please cite: Mario Stanke, Mark Diekhans, Robert Baertsch, David Haussler (2008),
+# Using native and syntenically mapped cDNA alignments to improve de novo gene finding
+# Bioinformatics 24: 637-644, doi 10.1093/bioinformatics/btn013
+# No extrinsic information on sequences given.
+# Initialising the parameters using config directory /nethome/rcunning/local/augustus-3.2.3/config/ ...
+# Using protein profile unknown
+# --[0..53]--> unknown_A (14) <--[0..3]--> unknown_B (30) <--[6..13]--> unknown_D (22) <--[4..5]--> unknown_E (23) <--[2..5]--> unknown_F (11) <--[1..8]--> unknown_G (11) <--[0..36]--> unknown_H (10) <--[0..1]--> unknown_I (17) <--[0..4]--> unknown_J (22) <--[9..26]--> unknown_L (20) <--[1..45]--
+# fly version. Using default transition matrix.
+# Looks like ./tmp/SczhEnG_354pdam_4083876357_.temp is in fasta format.
+# We have hints for 0 sequences and for 0 of the sequences in the input set.
+#
+# ----- prediction on sequence number 1 (length = 10396, name = SczhEnG_354) -----
+#
+# Constraints/Hints:
+# (none)
+# Predicted genes for sequence number 1 on both strands
+# start gene g1
+SczhEnG_354	AUGUSTUS	gene	282376	286772	0.03	+	.	g1
+SczhEnG_354	AUGUSTUS	transcript	282376	286772	0.03	+	.	g1.t1
+SczhEnG_354	AUGUSTUS	tss	282376	282376	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+SczhEnG_354	AUGUSTUS	exon	282376	282518	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+SczhEnG_354	AUGUSTUS	exon	283744	283793	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+SczhEnG_354	AUGUSTUS	start_codon	283745	283747	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+SczhEnG_354	AUGUSTUS	intron	283794	283918	0.53	+	.	transcript_id "g1.t1"; gene_id "g1";
+SczhEnG_354	AUGUSTUS	CDS	283745	283793	0.92	+	0	transcript_id "g1.t1"; gene_id "g1";
+SczhEnG_354	AUGUSTUS	CDS	283919	284298	0.46	+	2	transcript_id "g1.t1"; gene_id "g1";
+SczhEnG_354	AUGUSTUS	exon	283919	284615	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+SczhEnG_354	AUGUSTUS	stop_codon	284296	284298	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+SczhEnG_354	AUGUSTUS	exon	286372	286772	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+SczhEnG_354	AUGUSTUS	tts	286772	286772	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+# coding sequence = [atgttaaagttcacagagggtacatcggacacgaaaccgcgacagaaagatgcgtcagacgcccttctcaaagaagccg
+# aaaagaaaggaatctacaagaatttctttgttgatgtcctgggtcctaatcaacggatacagttggacgacgactgctatgacgtcgcttttgccgtt
+# ggcgtgtttactctaaaccacgtgaaggcggaaggcgccatggatgaaatggcacgagttgtcaggccaggcggattggtcagcttcacaataagaga
+# ggatgtgatgtttgaacaagaatatgggtacgaagcaaaaatggatcagctgtgtcgggagaaagtctggaaactagtgtccaagagtgaggaagact
+# atcacagcaaaaccgatataaggaaatgctacttttacatttatcaagttatgtag]
+# protein sequence = [MLKFTEGTSDTKPRQKDASDALLKEAEKKGIYKNFFVDVLGPNQRIQLDDDCYDVAFAVGVFTLNHVKAEGAMDEMAR
+# VVRPGGLVSFTIREDVMFEQEYGYEAKMDQLCREKVWKLVSKSEEDYHSKTDIRKCYFYIYQVM]
+# end gene g1
+###
+# command line:
+# augustus --codingseq=1 --proteinprofile=/nethome/rcunning/local/busco/metazoa_odb9/prfl/EOG091G0T79.prfl --predictionStart=278741 --predictionEnd=289136 --species=fly ./tmp/SczhEnG_354pdam_4083876357_.temp

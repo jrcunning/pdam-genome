@@ -1,0 +1,19 @@
+SczhEnG_2243	AUGUSTUS	gene	456611	462106	0.01	+	.	g1
+SczhEnG_2243	AUGUSTUS	transcript	456611	462106	0.01	+	.	g1.t1
+SczhEnG_2243	AUGUSTUS	exon	456611	456779	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+SczhEnG_2243	AUGUSTUS	exon	458774	459077	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+SczhEnG_2243	AUGUSTUS	start_codon	458933	458935	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+SczhEnG_2243	AUGUSTUS	intron	459078	460265	0.01	+	.	transcript_id "g1.t1"; gene_id "g1";
+SczhEnG_2243	AUGUSTUS	intron	460361	461326	0.01	+	.	transcript_id "g1.t1"; gene_id "g1";
+SczhEnG_2243	AUGUSTUS	CDS	458933	459077	0.01	+	0	transcript_id "g1.t1"; gene_id "g1";
+SczhEnG_2243	AUGUSTUS	CDS	460266	460360	0.01	+	2	transcript_id "g1.t1"; gene_id "g1";
+SczhEnG_2243	AUGUSTUS	exon	460266	460360	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+SczhEnG_2243	AUGUSTUS	CDS	461327	461614	0.01	+	0	transcript_id "g1.t1"; gene_id "g1";
+SczhEnG_2243	AUGUSTUS	exon	461327	462106	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+SczhEnG_2243	AUGUSTUS	stop_codon	461612	461614	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+SczhEnG_2243	AUGUSTUS	tts	462106	462106	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+SczhEnG_2243	AUGUSTUS	protein_match	458954	458992	2.35	+	0	target "unknown_A[1..13]"; target_start 7; transcript_id "g1.t1"; gene_id "g1";
+SczhEnG_2243	AUGUSTUS	protein_match	459014	459049	5.62	+	0	target "unknown_C[1..12]"; target_start 27; transcript_id "g1.t1"; gene_id "g1";
+SczhEnG_2243	AUGUSTUS	protein_match	460289	460360	1.41	+	0	target "unknown_D[1..24]"; target_start 56; transcript_id "g1.t1"; gene_id "g1";
+SczhEnG_2243	AUGUSTUS	protein_match	461327	461329	0.826	+	0	target "unknown_D[25..25]"; target_start 56; transcript_id "g1.t1"; gene_id "g1";
+SczhEnG_2243	AUGUSTUS	protein_match	461399	461590	2.21	+	0	target "unknown_F[1..64]"; target_start 104; transcript_id "g1.t1"; gene_id "g1";

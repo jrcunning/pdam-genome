@@ -1,0 +1,57 @@
+# Please cite: Mario Stanke, Mark Diekhans, Robert Baertsch, David Haussler (2008),
+# Using native and syntenically mapped cDNA alignments to improve de novo gene finding
+# Bioinformatics 24: 637-644, doi 10.1093/bioinformatics/btn013
+# No extrinsic information on sequences given.
+# Initialising the parameters using config directory /nethome/rcunning/local/augustus-3.2.3/config/ ...
+# Using protein profile unknown
+# --[0..77]--> unknown_A (18) <--[0..3]--> unknown_B (35) <--[0..1]--> unknown_C (14) <--[1..5]--> unknown_D (28) <--[0..1]--> unknown_E (26) <--[0..1]--> unknown_F (52) <--[0..1]--> unknown_G (13) <--[0..0]--
+# BUSCO_pdam_4083876357 version. Using default transition matrix.
+# admissible start codons and their probabilities: ATG(1), CTG(0), TTG(0)
+# Looks like ./tmp/SczhEnG_2791pdam_4083876357_.temp is in fasta format.
+# We have hints for 0 sequences and for 0 of the sequences in the input set.
+#
+# ----- prediction on sequence number 1 (length = 17195, name = SczhEnG_2791) -----
+#
+# Constraints/Hints:
+# (none)
+# Predicted genes for sequence number 1 on both strands
+# start gene g1
+SczhEnG_2791	AUGUSTUS	gene	609388	610950	0.08	-	.	g1
+SczhEnG_2791	AUGUSTUS	transcript	609388	610950	0.08	-	.	g1.t1
+SczhEnG_2791	AUGUSTUS	stop_codon	609388	609390	.	-	0	transcript_id "g1.t1"; gene_id "g1";
+SczhEnG_2791	AUGUSTUS	intron	609490	610115	0.99	-	.	transcript_id "g1.t1"; gene_id "g1";
+SczhEnG_2791	AUGUSTUS	intron	610235	610835	0.99	-	.	transcript_id "g1.t1"; gene_id "g1";
+SczhEnG_2791	AUGUSTUS	CDS	609388	609489	0.93	-	0	transcript_id "g1.t1"; gene_id "g1";
+SczhEnG_2791	AUGUSTUS	CDS	610116	610234	0.99	-	2	transcript_id "g1.t1"; gene_id "g1";
+SczhEnG_2791	AUGUSTUS	CDS	610836	610950	0.09	-	0	transcript_id "g1.t1"; gene_id "g1";
+SczhEnG_2791	AUGUSTUS	start_codon	610948	610950	.	-	0	transcript_id "g1.t1"; gene_id "g1";
+# coding sequence = [atgctggatagaaacaggagaataaaagcacatcctgagagattccaagaaactgaagaagaatttgacctagtggtta
+# cagtggaagaaagggtgtatgatcaagttatagagtatcttgaatcacgtggcgctcaaagctactcgccagtccatgtcataaaccttgatattcag
+# gataaccatgaagaagctacattaggagcattccttatatgtgaaatgtgtcaagctattgaaggcctagatgacttagaaaatgaaattgatgaagc
+# tattcctaaactagaaaagaaatggaaaagaaatttgcttcacacagtagctttctattag]
+# protein sequence = [MLDRNRRIKAHPERFQETEEEFDLVVTVEERVYDQVIEYLESRGAQSYSPVHVINLDIQDNHEEATLGAFLICEMCQA
+# IEGLDDLENEIDEAIPKLEKKWKRNLLHTVAFY]
+# end gene g1
+###
+# start gene g2
+SczhEnG_2791	AUGUSTUS	gene	617830	619622	0.46	+	.	g2
+SczhEnG_2791	AUGUSTUS	transcript	617830	619622	0.46	+	.	g2.t1
+SczhEnG_2791	AUGUSTUS	start_codon	617830	617832	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+SczhEnG_2791	AUGUSTUS	intron	617863	617952	0.82	+	.	transcript_id "g2.t1"; gene_id "g2";
+SczhEnG_2791	AUGUSTUS	intron	617995	618660	0.59	+	.	transcript_id "g2.t1"; gene_id "g2";
+SczhEnG_2791	AUGUSTUS	intron	618845	619539	0.85	+	.	transcript_id "g2.t1"; gene_id "g2";
+SczhEnG_2791	AUGUSTUS	CDS	617830	617862	0.89	+	0	transcript_id "g2.t1"; gene_id "g2";
+SczhEnG_2791	AUGUSTUS	CDS	617953	617994	0.83	+	0	transcript_id "g2.t1"; gene_id "g2";
+SczhEnG_2791	AUGUSTUS	CDS	618661	618844	0.87	+	0	transcript_id "g2.t1"; gene_id "g2";
+SczhEnG_2791	AUGUSTUS	CDS	619540	619622	0.91	+	2	transcript_id "g2.t1"; gene_id "g2";
+SczhEnG_2791	AUGUSTUS	stop_codon	619620	619622	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+# coding sequence = [atggcggacggagtggaagaggcgacagatgtgcttcttgaggaaaaaaaggaatcaagcccatcgtctaatgtggaga
+# cagaatttaatggtgacaacccagaaaaaagtgaaaaaaggaaactcctagagtcatggcttaacaagatcatgagaataaagatctctgatggaaga
+# acattaattggttccttcctatgcactgatcaagataggaatataattttaggatcatgtcaggagtttgttggttcttcagatgagaaagaagagcc
+# acggattcttggtttagccatggtgccaggaaaacacattgtttctattgaagttgatgtggagtga]
+# protein sequence = [MADGVEEATDVLLEEKKESSPSSNVETEFNGDNPEKSEKRKLLESWLNKIMRIKISDGRTLIGSFLCTDQDRNIILGS
+# CQEFVGSSDEKEEPRILGLAMVPGKHIVSIEVDVE]
+# end gene g2
+###
+# command line:
+# augustus --codingseq=1 --proteinprofile=/nethome/rcunning/local/busco/metazoa_odb9/prfl/EOG091G0MLX.prfl --predictionStart=605125 --predictionEnd=622319 --species=BUSCO_pdam_4083876357 ./tmp/SczhEnG_2791pdam_4083876357_.temp

@@ -1,0 +1,76 @@
+# Please cite: Mario Stanke, Mark Diekhans, Robert Baertsch, David Haussler (2008),
+# Using native and syntenically mapped cDNA alignments to improve de novo gene finding
+# Bioinformatics 24: 637-644, doi 10.1093/bioinformatics/btn013
+# No extrinsic information on sequences given.
+# Initialising the parameters using config directory /nethome/rcunning/local/augustus-3.2.3/config/ ...
+# Using protein profile unknown
+# --[6..74]--> unknown_B (8) <--[0..9]--> unknown_C (11) <--[0..3]--> unknown_D (24) <--[0..9]--> unknown_E (24) <--[7..21]--> unknown_G (18) <--[0..3]--> unknown_H (26) <--[0..374]--
+# BUSCO_pdam_4083876357 version. Using default transition matrix.
+# admissible start codons and their probabilities: ATG(1), CTG(0), TTG(0)
+# Looks like ./tmp/SczhEnG_1726pdam_4083876357_.temp is in fasta format.
+# We have hints for 0 sequences and for 0 of the sequences in the input set.
+#
+# ----- prediction on sequence number 1 (length = 6349, name = SczhEnG_1726) -----
+#
+# Constraints/Hints:
+# (none)
+# Predicted genes for sequence number 1 on both strands
+# start gene g1
+SczhEnG_1726	AUGUSTUS	gene	517665	518139	0.22	+	.	g1
+SczhEnG_1726	AUGUSTUS	transcript	517665	518139	0.22	+	.	g1.t1
+SczhEnG_1726	AUGUSTUS	intron	517665	517725	0.45	+	.	transcript_id "g1.t1"; gene_id "g1";
+SczhEnG_1726	AUGUSTUS	CDS	517726	518139	0.22	+	0	transcript_id "g1.t1"; gene_id "g1";
+SczhEnG_1726	AUGUSTUS	stop_codon	518137	518139	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+# coding sequence = [agaaagggtagagtggtattagaaaaagtcacagaagaaggaaaagagatatctggtgcagaaggtcgactaatcaatc
+# caggacacgccattgaagctggatggtttctcctgcagtatgctacacgtacacaaaacgacgaactggcaagaattgccatcgacaagtttatagtt
+# cagtcatttgacacaggatgggatgacatgtacggcgggattctttattacttggatgcaagtggcttctcgccaacacagctggagtggaacatgaa
+# actttggtggcctcatgcggaggcactgattgcactcctcatggcttacaaggagactagagaggaacgctttatggagaagttcgacctcgtattcc
+# agtacacattctcgcatgtaaatactgggcttatcaattaa]
+# protein sequence = [RKGRVVLEKVTEEGKEISGAEGRLINPGHAIEAGWFLLQYATRTQNDELARIAIDKFIVQSFDTGWDDMYGGILYYLD
+# ASGFSPTQLEWNMKLWWPHAEALIALLMAYKETREERFMEKFDLVFQYTFSHVNTGLIN]
+# end gene g1
+###
+# start gene g2
+SczhEnG_1726	AUGUSTUS	gene	519641	522941	0.01	-	.	g2
+SczhEnG_1726	AUGUSTUS	transcript	519641	522941	0.01	-	.	g2.t1
+SczhEnG_1726	AUGUSTUS	stop_codon	519641	519643	.	-	0	transcript_id "g2.t1"; gene_id "g2";
+SczhEnG_1726	AUGUSTUS	intron	519756	520843	0.02	-	.	transcript_id "g2.t1"; gene_id "g2";
+SczhEnG_1726	AUGUSTUS	intron	520880	521167	0.01	-	.	transcript_id "g2.t1"; gene_id "g2";
+SczhEnG_1726	AUGUSTUS	intron	521204	521689	0.37	-	.	transcript_id "g2.t1"; gene_id "g2";
+SczhEnG_1726	AUGUSTUS	intron	521762	522662	0.29	-	.	transcript_id "g2.t1"; gene_id "g2";
+SczhEnG_1726	AUGUSTUS	intron	522819	522900	0.94	-	.	transcript_id "g2.t1"; gene_id "g2";
+SczhEnG_1726	AUGUSTUS	CDS	519641	519755	0.18	-	1	transcript_id "g2.t1"; gene_id "g2";
+SczhEnG_1726	AUGUSTUS	CDS	520844	520879	0.01	-	1	transcript_id "g2.t1"; gene_id "g2";
+SczhEnG_1726	AUGUSTUS	CDS	521168	521203	0.03	-	1	transcript_id "g2.t1"; gene_id "g2";
+SczhEnG_1726	AUGUSTUS	CDS	521690	521761	0.39	-	1	transcript_id "g2.t1"; gene_id "g2";
+SczhEnG_1726	AUGUSTUS	CDS	522663	522818	0.98	-	1	transcript_id "g2.t1"; gene_id "g2";
+SczhEnG_1726	AUGUSTUS	CDS	522901	522941	0.93	-	0	transcript_id "g2.t1"; gene_id "g2";
+SczhEnG_1726	AUGUSTUS	start_codon	522939	522941	.	-	0	transcript_id "g2.t1"; gene_id "g2";
+SczhEnG_1726	AUGUSTUS	protein_match	519719	519755	1.56	-	1	target "unknown_H[14..26]"; target_start 100; transcript_id "g2.t1"; gene_id "g2";
+SczhEnG_1726	AUGUSTUS	protein_match	520844	520879	1.21	-	1	target "unknown_H[2..14]"; target_start 100; transcript_id "g2.t1"; gene_id "g2";
+SczhEnG_1726	AUGUSTUS	protein_match	521168	521172	0.16	-	0	target "unknown_H[1..2]"; target_start 100; transcript_id "g2.t1"; gene_id "g2";
+SczhEnG_1726	AUGUSTUS	protein_match	521173	521203	1.47	-	1	target "unknown_G[8..18]"; target_start 82; transcript_id "g2.t1"; gene_id "g2";
+SczhEnG_1726	AUGUSTUS	protein_match	521690	521712	1.48	-	0	target "unknown_G[1..8]"; target_start 82; transcript_id "g2.t1"; gene_id "g2";
+SczhEnG_1726	AUGUSTUS	protein_match	521737	521761	2.23	-	1	target "unknown_E[16..24]"; target_start 50; transcript_id "g2.t1"; gene_id "g2";
+SczhEnG_1726	AUGUSTUS	protein_match	522663	522709	3.11	-	0	target "unknown_E[1..16]"; target_start 50; transcript_id "g2.t1"; gene_id "g2";
+SczhEnG_1726	AUGUSTUS	protein_match	522710	522781	2.33	-	0	target "unknown_D[1..24]"; target_start 26; transcript_id "g2.t1"; gene_id "g2";
+SczhEnG_1726	AUGUSTUS	protein_match	522785	522817	5.14	-	0	target "unknown_C[1..11]"; target_start 14; transcript_id "g2.t1"; gene_id "g2";
+SczhEnG_1726	AUGUSTUS	protein_match	522818	522818	1	-	1	target "unknown_B[8..8]"; target_start 6; transcript_id "g2.t1"; gene_id "g2";
+SczhEnG_1726	AUGUSTUS	protein_match	522901	522923	1.31	-	0	target "unknown_B[1..8]"; target_start 6; transcript_id "g2.t1"; gene_id "g2";
+# coding sequence = [atggttggatcaaggcatttgcgagggaccgtactctcacgagttcgcaaccttcttcgttcgggtggaataaaaaagc
+# caccactttggtttccagtggtcgaggcatttcctcccttaaaggagacgaaactgactagaaaaagtgacgaagagttgatgcacaagattctatac
+# cctgaagatgaattcagaaggcttttttacaagagattcaatacaagccagcctctgtccctgtggggagaacatcattcttactgtgacagatttgt
+# ggaaggatgcatggagaaagtgaacatgggctatttcaatgatgacttggctgtggcagatatagactttttgaaaaatgtaattcaaatacccaaat
+# taaaagagcagatgtttggtgtcacaaagacaccatctgaagaaaagattctgttgtatgtccatgaacatccagaattttaa]
+# protein sequence = [MVGSRHLRGTVLSRVRNLLRSGGIKKPPLWFPVVEAFPPLKETKLTRKSDEELMHKILYPEDEFRRLFYKRFNTSQPL
+# SLWGEHHSYCDRFVEGCMEKVNMGYFNDDLAVADIDFLKNVIQIPKLKEQMFGVTKTPSEEKILLYVHEHPEF]
+# sequence of block unknown_H   100 [MGYFNDDLAVADIDFLKNVIQIPKLK] 126
+# sequence of block unknown_G    82 [EHHSYCDRFVEGCMEKVN] 100
+# sequence of block unknown_E    50 [EELMHKILYPEDEFRRLFYKRFNT] 74
+# sequence of block unknown_D    26 [PPLWFPVVEAFPPLKETKLTRKSD] 50
+# sequence of block unknown_C    14 [VRNLLRSGGIK] 25
+# sequence of block unknown_B     6 [LRGTVLSR] 14
+# end gene g2
+###
+# command line:
+# augustus --codingseq=1 --proteinprofile=/nethome/rcunning/local/busco/metazoa_odb9/prfl/EOG091G18YA.prfl --predictionStart=517665 --predictionEnd=527826 --species=BUSCO_pdam_4083876357 ./tmp/SczhEnG_1726pdam_4083876357_.temp

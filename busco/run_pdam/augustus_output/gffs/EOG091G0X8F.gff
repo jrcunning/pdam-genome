@@ -1,0 +1,33 @@
+SczhEnG_3381	AUGUSTUS	gene	414427	419398	0.01	-	.	g1
+SczhEnG_3381	AUGUSTUS	transcript	414427	419398	0.01	-	.	g1.t1
+SczhEnG_3381	AUGUSTUS	exon	414427	414654	.	-	.	transcript_id "g1.t1"; gene_id "g1";
+SczhEnG_3381	AUGUSTUS	exon	416069	416569	.	-	.	transcript_id "g1.t1"; gene_id "g1";
+SczhEnG_3381	AUGUSTUS	stop_codon	416536	416538	.	-	0	transcript_id "g1.t1"; gene_id "g1";
+SczhEnG_3381	AUGUSTUS	intron	416570	416931	0.01	-	.	transcript_id "g1.t1"; gene_id "g1";
+SczhEnG_3381	AUGUSTUS	intron	417033	417442	0.02	-	.	transcript_id "g1.t1"; gene_id "g1";
+SczhEnG_3381	AUGUSTUS	intron	417529	417860	0.02	-	.	transcript_id "g1.t1"; gene_id "g1";
+SczhEnG_3381	AUGUSTUS	intron	417945	418392	0.01	-	.	transcript_id "g1.t1"; gene_id "g1";
+SczhEnG_3381	AUGUSTUS	intron	418472	419106	0.01	-	.	transcript_id "g1.t1"; gene_id "g1";
+SczhEnG_3381	AUGUSTUS	intron	419156	419340	0.01	-	.	transcript_id "g1.t1"; gene_id "g1";
+SczhEnG_3381	AUGUSTUS	CDS	416536	416569	0.02	-	1	transcript_id "g1.t1"; gene_id "g1";
+SczhEnG_3381	AUGUSTUS	CDS	416932	417032	0.01	-	0	transcript_id "g1.t1"; gene_id "g1";
+SczhEnG_3381	AUGUSTUS	exon	416932	417032	.	-	.	transcript_id "g1.t1"; gene_id "g1";
+SczhEnG_3381	AUGUSTUS	CDS	417443	417528	0.01	-	2	transcript_id "g1.t1"; gene_id "g1";
+SczhEnG_3381	AUGUSTUS	exon	417443	417528	.	-	.	transcript_id "g1.t1"; gene_id "g1";
+SczhEnG_3381	AUGUSTUS	CDS	417861	417944	0.01	-	2	transcript_id "g1.t1"; gene_id "g1";
+SczhEnG_3381	AUGUSTUS	exon	417861	417944	.	-	.	transcript_id "g1.t1"; gene_id "g1";
+SczhEnG_3381	AUGUSTUS	CDS	418393	418471	0.01	-	0	transcript_id "g1.t1"; gene_id "g1";
+SczhEnG_3381	AUGUSTUS	exon	418393	418471	.	-	.	transcript_id "g1.t1"; gene_id "g1";
+SczhEnG_3381	AUGUSTUS	CDS	419107	419155	0.01	-	1	transcript_id "g1.t1"; gene_id "g1";
+SczhEnG_3381	AUGUSTUS	exon	419107	419155	.	-	.	transcript_id "g1.t1"; gene_id "g1";
+SczhEnG_3381	AUGUSTUS	CDS	419341	419363	0.01	-	0	transcript_id "g1.t1"; gene_id "g1";
+SczhEnG_3381	AUGUSTUS	exon	419341	419398	.	-	.	transcript_id "g1.t1"; gene_id "g1";
+SczhEnG_3381	AUGUSTUS	start_codon	419361	419363	.	-	0	transcript_id "g1.t1"; gene_id "g1";
+SczhEnG_3381	AUGUSTUS	tss	419398	419398	.	-	.	transcript_id "g1.t1"; gene_id "g1";
+SczhEnG_3381	AUGUSTUS	protein_match	416545	416569	10.1	-	1	target "unknown_A[141..149]"; target_start 0; transcript_id "g1.t1"; gene_id "g1";
+SczhEnG_3381	AUGUSTUS	protein_match	416932	417032	11.8	-	0	target "unknown_A[108..141]"; target_start 0; transcript_id "g1.t1"; gene_id "g1";
+SczhEnG_3381	AUGUSTUS	protein_match	417443	417528	7.02	-	2	target "unknown_A[79..107]"; target_start 0; transcript_id "g1.t1"; gene_id "g1";
+SczhEnG_3381	AUGUSTUS	protein_match	417861	417944	10.4	-	2	target "unknown_A[51..79]"; target_start 0; transcript_id "g1.t1"; gene_id "g1";
+SczhEnG_3381	AUGUSTUS	protein_match	418393	418471	11.5	-	0	target "unknown_A[25..51]"; target_start 0; transcript_id "g1.t1"; gene_id "g1";
+SczhEnG_3381	AUGUSTUS	protein_match	419107	419155	10.4	-	1	target "unknown_A[8..24]"; target_start 0; transcript_id "g1.t1"; gene_id "g1";
+SczhEnG_3381	AUGUSTUS	protein_match	419341	419363	9.69	-	0	target "unknown_A[1..8]"; target_start 0; transcript_id "g1.t1"; gene_id "g1";

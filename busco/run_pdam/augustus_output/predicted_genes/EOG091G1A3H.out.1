@@ -1,0 +1,49 @@
+# Please cite: Mario Stanke, Mark Diekhans, Robert Baertsch, David Haussler (2008),
+# Using native and syntenically mapped cDNA alignments to improve de novo gene finding
+# Bioinformatics 24: 637-644, doi 10.1093/bioinformatics/btn013
+# No extrinsic information on sequences given.
+# Initialising the parameters using config directory /nethome/rcunning/local/augustus-3.2.3/config/ ...
+# Using protein profile unknown
+# --[28..152]--> unknown_C (30) <--[1..5]--> unknown_D (14) <--[3..9]--> unknown_E (28) <--[1..12]--> unknown_F (25) <--[1..11]--> unknown_G (28) <--[9..179]--> unknown_I (55) <--[0..20]--
+# BUSCO_pdam_4083876357 version. Using default transition matrix.
+# admissible start codons and their probabilities: ATG(1), CTG(0), TTG(0)
+# Looks like ./tmp/SczhEnG_760pdam_4083876357_.temp is in fasta format.
+# We have hints for 0 sequences and for 0 of the sequences in the input set.
+#
+# ----- prediction on sequence number 1 (length = 7513, name = SczhEnG_760) -----
+#
+# Constraints/Hints:
+# (none)
+# Predicted genes for sequence number 1 on both strands
+# start gene g1
+SczhEnG_760	AUGUSTUS	gene	206166	210554	0.08	-	.	g1
+SczhEnG_760	AUGUSTUS	transcript	206166	210554	0.08	-	.	g1.t1
+SczhEnG_760	AUGUSTUS	stop_codon	206166	206168	.	-	0	transcript_id "g1.t1"; gene_id "g1";
+SczhEnG_760	AUGUSTUS	intron	206283	206382	0.62	-	.	transcript_id "g1.t1"; gene_id "g1";
+SczhEnG_760	AUGUSTUS	intron	206509	207168	1	-	.	transcript_id "g1.t1"; gene_id "g1";
+SczhEnG_760	AUGUSTUS	intron	207245	207390	0.43	-	.	transcript_id "g1.t1"; gene_id "g1";
+SczhEnG_760	AUGUSTUS	intron	207442	208204	0.84	-	.	transcript_id "g1.t1"; gene_id "g1";
+SczhEnG_760	AUGUSTUS	intron	208315	208718	0.87	-	.	transcript_id "g1.t1"; gene_id "g1";
+SczhEnG_760	AUGUSTUS	intron	208836	210494	0.43	-	.	transcript_id "g1.t1"; gene_id "g1";
+SczhEnG_760	AUGUSTUS	CDS	206166	206282	0.52	-	0	transcript_id "g1.t1"; gene_id "g1";
+SczhEnG_760	AUGUSTUS	CDS	206383	206508	0.96	-	0	transcript_id "g1.t1"; gene_id "g1";
+SczhEnG_760	AUGUSTUS	CDS	207169	207244	0.54	-	1	transcript_id "g1.t1"; gene_id "g1";
+SczhEnG_760	AUGUSTUS	CDS	207391	207441	0.84	-	1	transcript_id "g1.t1"; gene_id "g1";
+SczhEnG_760	AUGUSTUS	CDS	208205	208314	1	-	0	transcript_id "g1.t1"; gene_id "g1";
+SczhEnG_760	AUGUSTUS	CDS	208719	208835	0.97	-	0	transcript_id "g1.t1"; gene_id "g1";
+SczhEnG_760	AUGUSTUS	CDS	210495	210554	0.42	-	0	transcript_id "g1.t1"; gene_id "g1";
+SczhEnG_760	AUGUSTUS	start_codon	210552	210554	.	-	0	transcript_id "g1.t1"; gene_id "g1";
+# coding sequence = [atgttttctttgacagacattcagccaggacccactgatatcggagaaattcttgtgaaggttcaagatgatctgcgac
+# acctcaaagagcaaattatttcacaaggagtctccactgaaattatcgacctcaggacacttgagagtgccattgaaagaactgaacaaagtgtcagg
+# gataaagctgagcagatcgtccactccgccaacaaccaagtgctaactttaccgtcacttgaaggacctgttactggttcaacaaaaaaaaagcagca
+# agaagctgtaggggatcaacgtatggtagcattcaagaggagctcttcaccaagaaaagaaaggagtcttttagaaccaatagcaattgcaaaagaag
+# ggaataaaccaggacccaatgcccctgctcctgggcaacaggctagagatcttagaagtttaaaaatcattagtaatccagctcatccagcagcaagg
+# aacatcctaagtgaaagatatggcattgctcttccatatattgtggataaacatgaacaaccagctcagtctcctatgatcttttatggaacagaacc
+# aagcatcaacccagaatcttttcgctttgtactacagacaccagaagttgttaatattgacaccgtctatggatcaaaaagatcataa]
+# protein sequence = [MFSLTDIQPGPTDIGEILVKVQDDLRHLKEQIISQGVSTEIIDLRTLESAIERTEQSVRDKAEQIVHSANNQVLTLPS
+# LEGPVTGSTKKKQQEAVGDQRMVAFKRSSSPRKERSLLEPIAIAKEGNKPGPNAPAPGQQARDLRSLKIISNPAHPAARNILSERYGIALPYIVDKHE
+# QPAQSPMIFYGTEPSINPESFRFVLQTPEVVNIDTVYGSKRS]
+# end gene g1
+###
+# command line:
+# augustus --codingseq=1 --proteinprofile=/nethome/rcunning/local/busco/metazoa_odb9/prfl/EOG091G1A3H.prfl --predictionStart=205991 --predictionEnd=216176 --species=BUSCO_pdam_4083876357 ./tmp/SczhEnG_760pdam_4083876357_.temp
