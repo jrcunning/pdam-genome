@@ -57,13 +57,11 @@ all_complete_Gb_bac.fasta:
 	cd ref/bacteria && make
 	cd ..
 
-# Make Cnidarian BLAST database
-ref/cni_blastdb.nal: ref/PocilloporaDamicornis_transcriptome.fa ref/adi_v1.0.scaffold.fa ref/Spis.genome.scaffold.final.fa ref/Nemve1.fasta ref/GCA_001417965.1_Aiptasia_genome_1.1_genomic.fna
-	bash Shell/make_blastdb.sh ref/cni_blastdb $^
-
 # Make Symbiodinium BLAST database
 ref/sym_blastdb.nal:
-	bash Shell/make_blastdb.sh ref/sym_blastdb ref/symbB.v1.0.genome.fa ref/Smic.genome.scaffold.final.fa
+	makeblastdb -dbtype nucl -in ref/symbB.v1.0.genome.fa -out ref/symbB.v1.0.genome.fa_blastdb
+	makeblastdb -dbtype nucl -in ref/Smic.genome.scaffold.final.fa -out ref/Smic.genome.scaffold.final.fa_blastdb
+	blastdb_aliastool -dblist ref/symbB.v1.0.genome.fa_blastdb,ref/Smic.genome.scaffold.final.fa_blastdb -dbtype nucl -out ref/sym_blastdb -title "sym"
 
 # Add length annotations to scaffolds
 filter/allseqs.fasta: weedy_coral_01Feb2017_zhEnG/weedy_coral_01Feb2017_zhEnG.fasta
