@@ -13,13 +13,13 @@ pred_pass=0 #use ab-initio predictions in maker_gff: 1 = yes, 0 = no
 other_pass=0 #passthrough anyything else in maker_gff: 1 = yes, 0 = no
 
 #-----EST Evidence (for best results provide a file for at least one)
-est=data/ref/PocilloporaDamicornis_transcriptome.fa #set of ESTs or assembled mRNA-seq in fasta format
+est=data/ref/PocilloporaDamicornis_transcriptome.fa,data/ref/Pocillopora_damicornis_cds_100.final.clstr.fna #set of ESTs or assembled mRNA-seq in fasta format
 altest=data/ref/Spis.Trinity.cov10.longest.fa #EST/cDNA sequence file in fasta format from an alternate organism
 est_gff= #aligned ESTs or mRNA-seq from an external GFF3 file
 altest_gff= #aligned ESTs from a closly relate species in GFF3 format
 
 #-----Protein Homology Evidence (for best results provide a file for at least one)
-protein=data/ref/uniprot_sprot.fasta  #protein sequence file in fasta format (i.e. from mutiple oransisms)
+protein=data/ref/uniprot_sprot.fasta,data/ref/all_coral.faa  #protein sequence file in fasta format (i.e. from mutiple oransisms)
 protein_gff=  #aligned protein homology evidence from an external GFF3 file
 
 #-----Repeat Masking (leave values blank to skip repeat masking)

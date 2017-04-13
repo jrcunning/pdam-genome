@@ -1,4 +1,8 @@
-all: pdam.maker.output/pdam.all.renamed.function.gff
+all: gag_out/genome.stats
+
+# Generate annotation statistics using GAG
+gag_out/genome.stats: pdam.maker.output/pdam.all.renamed.function.gff
+	python ~/local/GAG/gag.py --fasta data/filter/pdam.fasta --gff pdam.maker.output/pdam.all.gff --fix_start_stop --out gag_out
 
 # Add putative gene function annotations
 pdam.maker.output/pdam.all.renamed.function.gff: pdam.maker.output/blastp.output.renamed
