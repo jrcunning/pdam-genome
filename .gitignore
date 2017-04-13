@@ -8,7 +8,7 @@ snap/*
 !snap/pdam.hmm
 
 pdam.maker.output/*
-!pdam.maker.output/pdam.all.renamed.function.gff
+!pdam.maker.output/pdam.all.renamed.function.gff.tar.gz
 
 gag_out/*
 !gag_out/genome.stats
