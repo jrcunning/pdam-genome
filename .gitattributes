@@ -1,1 +1,8 @@
 pdam.maker.output/pdam.all.renamed.function.gff.tar.gz filter=lfs diff=lfs merge=lfs -text
+
+busco/* linguist-vendored
+data/* linguist-vendored
+gag-out/* linguist-vendored
+maker-ctl/* linguist-vendored
+pdam.maker.output/* linguist-vendored
+snap/* linguist-vendored
