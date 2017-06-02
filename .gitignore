@@ -1,6 +1,8 @@
 data/*
 !data/Makefile
 !data/Shell/make_blastdb.sh
+!data/ref/bacteria/Makefile
+!data/ref/viruses/Makefile
 
 busco/tmp*
 
