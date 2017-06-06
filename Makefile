@@ -28,6 +28,10 @@ pdam.maker.output/blastp.output: pdam.maker.output/pdam.all.gff
 	cd data/ref && makeblastdb -in uniprot_sprot.fasta -dbtype prot -out uniprot_sprot.db
 	blastp -db data/ref/uniprot_sprot.db -query pdam.maker.output/pdam.all.maker.proteins.fasta -outfmt 6 -num_threads 96 -out pdam.maker.output/blastp.output
 
+# Run InterProScan on MAKER proteins
+interproscan/pdam_ips.gff3: pdam.maker.output/pdam.all.maker.proteins.fasta
+        interproscan.sh -i pdam.maker.output/pdam.all.maker.proteins.fasta -b interproscan/pdam_ips --goterms -f GFF3
+
 # Re-run MAKER using SNAP HMM file, collect results
 pdam.maker.output/pdam.all.gff: snap/pdam.hmm
 	mpiexec -mca btl ^openib -n 96 maker -base pdam maker_ctl/1/maker_opts.ctl maker_ctl/1/maker_bopts.ctl maker_ctl/1/maker_exe.ctl -fix_nucleotides
