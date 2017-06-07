@@ -8,4 +8,4 @@
 
 module load blast
 
-cd /scratch/projects/crf/pdam-genome/gene_search && make
+cd ~/projects/pdam-genome/gene_search && make

@@ -1,7 +1,7 @@
 #
-# Alias file created 06/05/2017 21:00:34
+# Alias file created 06/07/2017 12:25:45
 #
 TITLE Cnidarians
-DBLIST "/nethome/rcunning/ref/Orbicella/GCF_002042975.1_ofav_dov_v1_genomic.fna_blastdb" "/nethome/rcunning/ref/Nematostella/Nemve1.fasta_blastdb" "/nethome/rcunning/ref/Acropora/adi_v1.0.scaffold.fa_blastdb" "/nethome/rcunning/ref/Hydra/GCF_000004095.1_Hydra_RP_1.0_genomic.fna_blastdb" "/nethome/rcunning/ref/Aiptasia/GCA_001417965.1_Aiptasia_genome_1.1_genomic.fna_blastdb" "/nethome/rcunning/ref/Pocillopora/pdam.fasta_blastdb" 
-NSEQ 47123
-LENGTH 2604118875
+DBLIST "/nethome/rcunning/ref/Discosoma/dspp.genome.renamed.fa_blastdb" "/nethome/rcunning/ref/Amplexidiscus/afen.genome.renamed.fa_blastdb" "/nethome/rcunning/ref/Orbicella/GCF_002042975.1_ofav_dov_v1_genomic.fna_blastdb" "/nethome/rcunning/ref/Nematostella/Nemve1.fasta_blastdb" "/nethome/rcunning/ref/Acropora/adi_v1.0.scaffold.fa_blastdb" "/nethome/rcunning/ref/Hydra/GCF_000004095.1_Hydra_RP_1.0_genomic.fna_blastdb" "/nethome/rcunning/ref/Aiptasia/GCA_001417965.1_Aiptasia_genome_1.1_genomic.fna_blastdb" "/nethome/rcunning/ref/Pocillopora/pdam.fasta_blastdb" 
+NSEQ 59203
+LENGTH 3418506885
