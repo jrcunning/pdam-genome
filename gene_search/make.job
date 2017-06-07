@@ -1,0 +1,11 @@
+#!/bin/bash
+#BSUB -J human
+#BSUB -o %J.out
+#BSUB -e %J.err
+#BSUB -q general
+#BSUB -n 15
+#
+
+module load blast
+
+cd /scratch/projects/crf/pdam-genome/gene_search && make

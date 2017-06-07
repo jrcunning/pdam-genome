@@ -1,0 +1,1113 @@
+TBLASTN 2.2.29+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: Cnidarians
+           47,123 sequences; 2,604,118,875 total letters
+
+
+
+Query= AAB47805.1 ankyrin [Homo sapiens]
+
+Length=1856
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  NW_004181557.1 Hydra vulgaris strain 105 unplaced genomic scaff...    435   2e-122
+  scaffold_20                                                           362   8e-99 
+  NW_004171590.1 Hydra vulgaris strain 105 unplaced genomic scaff...    354   3e-96 
+  LJWW01000341.1 Exaiptasia pallida isolate CC7 scaffold342, whol...    352   1e-95 
+  LJWW01000442.1 Exaiptasia pallida isolate CC7 scaffold443, whol...    350   5e-95 
+  scaffold_17                                                           343   9e-93 
+  LJWW01000210.1 Exaiptasia pallida isolate CC7 scaffold211, whol...    338   4e-91 
+  NW_018149715.1 Orbicella faveolata isolate FL unplaced genomic ...    335   2e-90 
+  adi_Scaffold578                                                       335   2e-90 
+  SczhEnG_750                                                           333   1e-89 
+  NW_018150178.1 Orbicella faveolata isolate FL unplaced genomic ...    326   2e-87 
+  SczhEnG_1987                                                          311   7e-83 
+  adi_Scaffold1951                                                      307   1e-81 
+  adi_Scaffold1590                                                      236   3e-77 
+  adi_Scaffold2375                                                      290   1e-76 
+  NW_018149312.1 Orbicella faveolata isolate FL unplaced genomic ...    270   2e-70 
+  SczhEnG_795                                                           266   3e-69 
+  NW_018149812.1 Orbicella faveolata isolate FL unplaced genomic ...    262   7e-68 
+  NW_018149706.1 Orbicella faveolata isolate FL unplaced genomic ...    249   6e-64 
+  adi_Scaffold42                                                        241   1e-61 
+  NW_018150375.1 Orbicella faveolata isolate FL unplaced genomic ...    239   8e-61 
+  adi_Scaffold482                                                       238   1e-60 
+  SczhEnG_3349                                                          231   2e-58 
+  SczhEnG_2993                                                          223   4e-56 
+  NW_018149967.1 Orbicella faveolata isolate FL unplaced genomic ...    209   7e-52 
+  LJWW01000021.1 Exaiptasia pallida isolate CC7 scaffold21, whole...    207   3e-51 
+  adi_Scaffold2459                                                      204   3e-50 
+  adi_Scaffold290                                                       204   3e-50 
+  adi_Scaffold716                                                       191   3e-49 
+  NW_004166929.1 Hydra vulgaris strain 105 unplaced genomic scaff...    197   3e-48 
+  adi_Scaffold2451                                                      196   6e-48 
+  adi_Scaffold1390                                                      186   7e-45 
+  NW_018149531.1 Orbicella faveolata isolate FL unplaced genomic ...    182   2e-43 
+  adi_Scaffold439                                                       174   2e-41 
+  adi_Scaffold123                                                       174   3e-41 
+  LJWW01000234.1 Exaiptasia pallida isolate CC7 scaffold235, whol...    174   3e-41 
+  LJWW01000126.1 Exaiptasia pallida isolate CC7 scaffold126, whol...    170   4e-40 
+  LJWW01000018.1 Exaiptasia pallida isolate CC7 scaffold18, whole...    169   1e-39 
+  LJWW01000104.1 Exaiptasia pallida isolate CC7 scaffold104, whol...    167   5e-39 
+  adi_Scaffold1570                                                      166   1e-38 
+
+
+
+Lambda      K        H
+   0.315    0.131    0.378 
+
+Gapped
+Lambda      K        H
+   0.267   0.0410    0.140 
+
+Effective search space used: 1472583030570
+
+
+Query= NP_001612.1 aryl hydrocarbon receptor [Homo sapiens]
+
+Length=848
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  LJWW01001447.1 Exaiptasia pallida isolate CC7 scaffold1473, who...  97.4    2e-18
+  scaffold_12                                                         69.7    6e-10
+  NW_018148921.1 Orbicella faveolata isolate FL unplaced genomic ...  68.6    1e-09
+  adi_Scaffold413                                                     67.8    2e-09
+  LJWW01000070.1 Exaiptasia pallida isolate CC7 scaffold70, whole...  65.9    9e-09
+  scaffold_274                                                        65.1    1e-08
+  NW_018149382.1 Orbicella faveolata isolate FL unplaced genomic ...  64.7    2e-08
+  SczhEnG_417                                                         64.3    2e-08
+  adi_Scaffold41                                                      63.9    3e-08
+  scaffold_35                                                         63.9    3e-08
+  NW_018149449.1 Orbicella faveolata isolate FL unplaced genomic ...  63.9    3e-08
+  SczhEnG_3409                                                        63.9    3e-08
+  LJWW01000439.1 Exaiptasia pallida isolate CC7 scaffold440, whol...  63.2    6e-08
+  LJWW01000166.1 Exaiptasia pallida isolate CC7 scaffold166, whol...  63.2    6e-08
+  scaffold_3829                                                       61.2    2e-07
+  adi_Scaffold58                                                      60.5    4e-07
+  NW_004168920.1 Hydra vulgaris strain 105 unplaced genomic scaff...  58.2    2e-06
+  SczhEnG_2066                                                        55.5    1e-05
+  NW_004172811.1 Hydra vulgaris strain 105 unplaced genomic scaff...  48.5    0.002
+  NW_004169114.1 Hydra vulgaris strain 105 unplaced genomic scaff...  48.5    0.002
+  NW_018149995.1 Orbicella faveolata isolate FL unplaced genomic ...  47.0    0.005
+  SczhEnG_2085                                                        42.4    0.13 
+  scaffold_10                                                         41.2    0.29 
+  LJWW01000026.1 Exaiptasia pallida isolate CC7 scaffold26, whole...  40.8    0.35 
+
+
+
+Lambda      K        H
+   0.315    0.131    0.378 
+
+Gapped
+Lambda      K        H
+   0.267   0.0410    0.140 
+
+Effective search space used: 1472583030570
+
+
+Query= NP_002219.1 transcription factor AP-1 [Homo sapiens]
+
+Length=331
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  adi_Scaffold837                                                       122   5e-28
+  NW_018149014.1 Orbicella faveolata isolate FL unplaced genomic ...    122   7e-28
+  NW_018149967.1 Orbicella faveolata isolate FL unplaced genomic ...    120   3e-27
+  SczhEnG_4113                                                          120   3e-27
+  scaffold_41                                                           118   2e-26
+  LJWW01000537.1 Exaiptasia pallida isolate CC7 scaffold538, whol...    117   3e-26
+  scaffold_6                                                            114   2e-25
+  LJWW01000209.1 Exaiptasia pallida isolate CC7 scaffold210, whol...    113   5e-25
+  NW_004167187.1 Hydra vulgaris strain 105 unplaced genomic scaff...    112   1e-24
+  SczhEnG_532                                                           111   2e-24
+  SczhEnG_1043                                                          108   2e-23
+  NW_018149565.1 Orbicella faveolata isolate FL unplaced genomic ...    107   4e-23
+  adi_Scaffold1523                                                      107   5e-23
+  NW_004170736.1 Hydra vulgaris strain 105 unplaced genomic scaff...    103   1e-21
+  scaffold_228                                                        99.8    1e-20
+  scaffold_22                                                         99.8    1e-20
+  LJWW01000264.1 Exaiptasia pallida isolate CC7 scaffold265, whol...  99.0    2e-20
+  NW_018148829.1 Orbicella faveolata isolate FL unplaced genomic ...  74.3    2e-12
+  SczhEnG_2085                                                        69.3    8e-11
+  adi_Scaffold1099                                                    68.2    2e-10
+  LJWW01000321.1 Exaiptasia pallida isolate CC7 scaffold322, whol...  42.7    0.025
+  scaffold_51                                                         37.7    0.72 
+
+
+
+Lambda      K        H
+   0.315    0.131    0.378 
+
+Gapped
+Lambda      K        H
+   0.267   0.0410    0.140 
+
+Effective search space used: 1472583030570
+
+
+Query= NP_002220.1 transcription factor jun-B [Homo sapiens]
+
+Length=347
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  scaffold_6                                                            108   2e-23
+  NW_004167187.1 Hydra vulgaris strain 105 unplaced genomic scaff...    107   5e-23
+  LJWW01000209.1 Exaiptasia pallida isolate CC7 scaffold210, whol...    106   1e-22
+  NW_018149967.1 Orbicella faveolata isolate FL unplaced genomic ...    104   5e-22
+  scaffold_41                                                           104   6e-22
+  LJWW01000537.1 Exaiptasia pallida isolate CC7 scaffold538, whol...    102   2e-21
+  NW_018149014.1 Orbicella faveolata isolate FL unplaced genomic ...    102   2e-21
+  SczhEnG_4113                                                          102   3e-21
+  adi_Scaffold837                                                       102   3e-21
+  scaffold_228                                                        98.2    4e-20
+  scaffold_22                                                         98.2    4e-20
+  SczhEnG_532                                                         97.1    1e-19
+  NW_004170736.1 Hydra vulgaris strain 105 unplaced genomic scaff...  96.3    2e-19
+  NW_018149565.1 Orbicella faveolata isolate FL unplaced genomic ...  95.9    2e-19
+  SczhEnG_1043                                                        95.5    3e-19
+  LJWW01000264.1 Exaiptasia pallida isolate CC7 scaffold265, whol...  95.5    3e-19
+  adi_Scaffold1523                                                    93.2    2e-18
+  NW_018148829.1 Orbicella faveolata isolate FL unplaced genomic ...  69.7    7e-11
+  SczhEnG_2085                                                        67.8    3e-10
+  adi_Scaffold1099                                                    66.2    8e-10
+  LJWW01000321.1 Exaiptasia pallida isolate CC7 scaffold322, whol...  43.9    0.011
+  scaffold_303                                                        40.8    0.11 
+  adi_Scaffold173                                                     39.3    0.30 
+  SczhEnG_1897                                                        37.7    0.89 
+
+
+
+Lambda      K        H
+   0.315    0.131    0.378 
+
+Gapped
+Lambda      K        H
+   0.267   0.0410    0.140 
+
+Effective search space used: 1472583030570
+
+
+Query= NP_005243.1 proto-oncogene c-Fos [Homo sapiens]
+
+Length=380
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  adi_Scaffold1523                                                    42.0    0.056
+
+
+
+Lambda      K        H
+   0.315    0.131    0.378 
+
+Gapped
+Lambda      K        H
+   0.267   0.0410    0.140 
+
+Effective search space used: 1472583030570
+
+
+Query= NP_060506.5 autophagy-related protein 2 homolog B [Homo sapiens]
+
+Length=2078
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  NW_004171010.1 Hydra vulgaris strain 105 unplaced genomic scaff...    202   9e-50
+  LJWW01000049.1 Exaiptasia pallida isolate CC7 scaffold49, whole...    189   8e-46
+  SczhEnG_2310                                                          189   1e-45
+  NW_018148596.1 Orbicella faveolata isolate FL unplaced genomic ...    177   5e-42
+  scaffold_254                                                          112   2e-22
+  scaffold_18806                                                      94.4    3e-18
+  LJWW01000172.1 Exaiptasia pallida isolate CC7 scaffold173, whol...  47.8    3e-09
+  adi_Scaffold255                                                     65.9    2e-08
+  NW_004166901.1 Hydra vulgaris strain 105 unplaced genomic scaff...  62.0    4e-07
+  scaffold_39                                                         54.7    6e-05
+
+
+
+Lambda      K        H
+   0.315    0.131    0.378 
+
+Gapped
+Lambda      K        H
+   0.267   0.0410    0.140 
+
+Effective search space used: 1472583030570
+
+
+Query= NP_000648.2 apoptosis regulator Bcl-2 beta isoform [Homo sapiens]
+
+Length=205
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  NW_018148749.1 Orbicella faveolata isolate FL unplaced genomic ...  93.2    2e-19
+  SczhEnG_2978                                                        92.0    6e-19
+  LJWW01000063.1 Exaiptasia pallida isolate CC7 scaffold63, whole...  92.0    6e-19
+  adi_Scaffold9                                                       91.7    9e-19
+  LJWW01000101.1 Exaiptasia pallida isolate CC7 scaffold101, whol...  89.7    4e-18
+  scaffold_56                                                         88.2    1e-17
+  SczhEnG_1940                                                        85.9    6e-17
+  scaffold_255                                                        84.0    3e-16
+  adi_Scaffold836                                                     82.0    1e-15
+  NW_018150375.1 Orbicella faveolata isolate FL unplaced genomic ...  80.1    5e-15
+  SczhEnG_4195                                                        79.3    1e-14
+  adi_Scaffold195                                                     79.0    1e-14
+  LJWW01000035.1 Exaiptasia pallida isolate CC7 scaffold35, whole...  78.6    2e-14
+  NW_004167920.1 Hydra vulgaris strain 105 unplaced genomic scaff...  78.2    2e-14
+  NW_018150389.1 Orbicella faveolata isolate FL unplaced genomic ...  78.2    2e-14
+  SczhEnG_3955                                                        77.8    3e-14
+  adi_Scaffold23                                                      77.4    5e-14
+  NW_018150309.1 Orbicella faveolata isolate FL unplaced genomic ...  76.6    7e-14
+  adi_Scaffold493                                                     75.1    2e-13
+  scaffold_1                                                          74.3    4e-13
+  scaffold_140                                                        73.9    6e-13
+  scaffold_99                                                         73.2    1e-12
+  LJWW01000398.1 Exaiptasia pallida isolate CC7 scaffold399, whol...  70.9    6e-12
+  LJWW01000030.1 Exaiptasia pallida isolate CC7 scaffold30, whole...  70.9    6e-12
+  NW_018150231.1 Orbicella faveolata isolate FL unplaced genomic ...  70.5    7e-12
+  SczhEnG_3341                                                        70.5    7e-12
+  NW_004170168.1 Hydra vulgaris strain 105 unplaced genomic scaff...  69.3    1e-11
+  scaffold_472                                                        65.9    2e-10
+  NW_018150112.1 Orbicella faveolata isolate FL unplaced genomic ...  65.5    3e-10
+  NW_004171282.1 Hydra vulgaris strain 105 unplaced genomic scaff...  64.7    4e-10
+  scaffold_55                                                         63.5    9e-10
+  SczhEnG_141                                                         63.2    1e-09
+  LJWW01000400.1 Exaiptasia pallida isolate CC7 scaffold401, whol...  63.2    1e-09
+  SczhEnG_3001                                                        62.0    3e-09
+  NW_004166947.1 Hydra vulgaris strain 105 unplaced genomic scaff...  61.6    4e-09
+  adi_Scaffold74                                                      61.2    5e-09
+  adi_Scaffold971                                                     61.2    6e-09
+  NW_004171123.1 Hydra vulgaris strain 105 unplaced genomic scaff...  60.8    8e-09
+  NW_004167642.1 Hydra vulgaris strain 105 unplaced genomic scaff...  60.5    8e-09
+  NW_004167954.1 Hydra vulgaris strain 105 unplaced genomic scaff...  60.5    9e-09
+
+
+
+Lambda      K        H
+   0.315    0.131    0.378 
+
+Gapped
+Lambda      K        H
+   0.267   0.0410    0.140 
+
+Effective search space used: 1472583030570
+
+
+Query= AAD12248.1 caspase 9 short isoform [Homo sapiens]
+
+Length=266
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  SczhEnG_3375                                                        85.5    2e-16
+  LJWW01000313.1 Exaiptasia pallida isolate CC7 scaffold314, whol...  78.6    3e-14
+  scaffold_74                                                         74.7    6e-13
+  NW_018150269.1 Orbicella faveolata isolate FL unplaced genomic ...  74.3    7e-13
+  adi_Scaffold547                                                     73.9    1e-12
+  LJWW01000354.1 Exaiptasia pallida isolate CC7 scaffold355, whol...  73.2    2e-12
+  adi_Scaffold835                                                     70.1    2e-11
+  NW_018150037.1 Orbicella faveolata isolate FL unplaced genomic ...  69.7    2e-11
+  NW_004167941.1 Hydra vulgaris strain 105 unplaced genomic scaff...  68.6    5e-11
+  SczhEnG_4281                                                        68.2    7e-11
+  scaffold_360                                                        67.4    1e-10
+  scaffold_57                                                         67.4    1e-10
+  adi_Scaffold1623                                                    66.2    3e-10
+  scaffold_66                                                         65.1    6e-10
+  adi_Scaffold4179                                                    65.1    6e-10
+  NW_004169439.1 Hydra vulgaris strain 105 unplaced genomic scaff...  64.7    1e-09
+  LJWW01000103.1 Exaiptasia pallida isolate CC7 scaffold103, whol...  63.9    2e-09
+  NW_004168104.1 Hydra vulgaris strain 105 unplaced genomic scaff...  63.5    2e-09
+  NW_018149573.1 Orbicella faveolata isolate FL unplaced genomic ...  63.2    3e-09
+  adi_Scaffold829                                                     63.2    3e-09
+  SczhEnG_1812                                                        62.4    5e-09
+  adi_Scaffold211                                                     62.4    5e-09
+  NW_018149353.1 Orbicella faveolata isolate FL unplaced genomic ...  61.6    9e-09
+  NW_004167362.1 Hydra vulgaris strain 105 unplaced genomic scaff...  60.5    2e-08
+  NW_004174499.1 Hydra vulgaris strain 105 unplaced genomic scaff...  60.1    3e-08
+  LJWW01000163.1 Exaiptasia pallida isolate CC7 scaffold163, whol...  59.7    4e-08
+  adi_Scaffold4                                                       58.9    7e-08
+  LJWW01000144.1 Exaiptasia pallida isolate CC7 scaffold144, whol...  58.9    8e-08
+  scaffold_418                                                        56.6    4e-07
+  adi_Scaffold258                                                     56.6    4e-07
+  scaffold_384                                                        56.6    5e-07
+  NW_018150072.1 Orbicella faveolata isolate FL unplaced genomic ...  55.1    1e-06
+  NW_018149354.1 Orbicella faveolata isolate FL unplaced genomic ...  51.6    2e-05
+  SczhEnG_4356                                                        51.6    2e-05
+  SczhEnG_437                                                         51.2    3e-05
+  adi_Scaffold446                                                     50.4    4e-05
+  LJWW01000146.1 Exaiptasia pallida isolate CC7 scaffold146, whol...  50.1    7e-05
+  NW_018149716.1 Orbicella faveolata isolate FL unplaced genomic ...  49.7    8e-05
+  NW_004168351.1 Hydra vulgaris strain 105 unplaced genomic scaff...  48.9    2e-04
+  NW_004173172.1 Hydra vulgaris strain 105 unplaced genomic scaff...  47.8    3e-04
+
+
+
+Lambda      K        H
+   0.315    0.131    0.378 
+
+Gapped
+Lambda      K        H
+   0.267   0.0410    0.140 
+
+Effective search space used: 1472583030570
+
+
+Query= NP_001743.1 catalase [Homo sapiens]
+
+Length=527
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  NW_018148848.1 Orbicella faveolata isolate FL unplaced genomic ...    151   4e-36
+  adi_Scaffold428                                                       148   2e-35
+  SczhEnG_3206                                                          148   3e-35
+  NW_018149891.1 Orbicella faveolata isolate FL unplaced genomic ...    146   1e-34
+  LJWW01000160.1 Exaiptasia pallida isolate CC7 scaffold160, whol...    141   6e-33
+  LJWW01000117.1 Exaiptasia pallida isolate CC7 scaffold117, whol...    141   6e-33
+  NW_004171872.1 Hydra vulgaris strain 105 unplaced genomic scaff...    125   5e-28
+  scaffold_68                                                           108   1e-22
+  NW_004168213.1 Hydra vulgaris strain 105 unplaced genomic scaff...  84.0    9e-15
+  scaffold_18835                                                      39.3    0.37 
+
+
+
+Lambda      K        H
+   0.315    0.131    0.378 
+
+Gapped
+Lambda      K        H
+   0.267   0.0410    0.140 
+
+Effective search space used: 1472583030570
+
+
+Query= AAA19567.1 cytochrome P450 [Homo sapiens]
+
+Length=543
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  adi_Scaffold1194                                                      315   8e-91
+  SczhEnG_3492                                                          308   1e-88
+  NW_018149561.1 Orbicella faveolata isolate FL unplaced genomic ...    291   8e-83
+  SczhEnG_3644                                                          289   6e-82
+  NW_018149300.1 Orbicella faveolata isolate FL unplaced genomic ...    285   1e-80
+  adi_Scaffold18                                                        279   1e-78
+  SczhEnG_4179                                                          278   4e-78
+  NW_018148751.1 Orbicella faveolata isolate FL unplaced genomic ...    278   4e-78
+  SczhEnG_3669                                                          267   1e-74
+  SczhEnG_579                                                           263   3e-73
+  scaffold_186                                                          261   1e-72
+  adi_Scaffold754                                                       155   2e-72
+  adi_Scaffold37                                                        258   2e-71
+  NW_018148670.1 Orbicella faveolata isolate FL unplaced genomic ...    256   6e-71
+  SczhEnG_4055                                                          254   2e-70
+  LJWW01000011.1 Exaiptasia pallida isolate CC7 scaffold11, whole...    251   4e-69
+  NW_018150072.1 Orbicella faveolata isolate FL unplaced genomic ...    251   5e-69
+  NW_018149023.1 Orbicella faveolata isolate FL unplaced genomic ...    250   7e-69
+  scaffold_78                                                           248   6e-68
+  adi_Scaffold1213                                                      248   7e-68
+  NW_018150389.1 Orbicella faveolata isolate FL unplaced genomic ...    244   1e-66
+  scaffold_4                                                            242   4e-66
+  adi_Scaffold1381                                                      239   4e-65
+  scaffold_469                                                          238   1e-64
+  SczhEnG_3955                                                          235   8e-64
+  scaffold_74                                                           233   5e-63
+  scaffold_20                                                           233   7e-63
+  scaffold_2146                                                         231   1e-62
+  scaffold_6                                                            228   2e-61
+  NW_018150231.1 Orbicella faveolata isolate FL unplaced genomic ...    227   4e-61
+  LJWW01000072.1 Exaiptasia pallida isolate CC7 scaffold72, whole...    227   6e-61
+  adi_Scaffold51                                                        227   6e-61
+  LJWW01000082.1 Exaiptasia pallida isolate CC7 scaffold82, whole...    226   1e-60
+  scaffold_88                                                           223   9e-60
+  LJWW01000027.1 Exaiptasia pallida isolate CC7 scaffold27, whole...    222   2e-59
+  LJWW01000008.1 Exaiptasia pallida isolate CC7 scaffold8, whole ...    222   2e-59
+  scaffold_17                                                           221   6e-59
+  LJWW01004312.1 Exaiptasia pallida isolate CC7 scaffold172, whol...    220   1e-58
+  scaffold_21                                                           220   1e-58
+  scaffold_37                                                           219   3e-58
+
+
+
+Lambda      K        H
+   0.315    0.131    0.378 
+
+Gapped
+Lambda      K        H
+   0.267   0.0410    0.140 
+
+Effective search space used: 1472583030570
+
+
+Query= NP_001964.2 ETS domain-containing protein Elk-4 isoform a [Homo
+sapiens]
+
+Length=431
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  scaffold_92                                                           122   2e-27
+  NW_018149670.1 Orbicella faveolata isolate FL unplaced genomic ...    120   7e-27
+  SczhEnG_4231                                                          120   1e-26
+  NW_004167020.1 Hydra vulgaris strain 105 unplaced genomic scaff...    119   2e-26
+  adi_Scaffold47                                                        119   2e-26
+  NW_004173010.1 Hydra vulgaris strain 105 unplaced genomic scaff...    118   3e-26
+  SczhEnG_4084                                                          116   2e-25
+  adi_Scaffold21                                                        116   2e-25
+  NW_018148518.1 Orbicella faveolata isolate FL unplaced genomic ...    115   3e-25
+  LJWW01000201.1 Exaiptasia pallida isolate CC7 scaffold202, whol...    115   4e-25
+  scaffold_138                                                          114   8e-25
+  LJWW01000003.1 Exaiptasia pallida isolate CC7 scaffold3, whole ...    114   8e-25
+  SczhEnG_4082                                                          113   1e-24
+  NW_018149711.1 Orbicella faveolata isolate FL unplaced genomic ...    112   3e-24
+  SczhEnG_3155                                                          112   4e-24
+  scaffold_47                                                           110   1e-23
+  NW_018149908.1 Orbicella faveolata isolate FL unplaced genomic ...    109   2e-23
+  NW_004166871.1 Hydra vulgaris strain 105 unplaced genomic scaff...    107   1e-22
+  NW_004167118.1 Hydra vulgaris strain 105 unplaced genomic scaff...    105   3e-22
+  adi_Scaffold61                                                      94.7    2e-18
+  SczhEnG_3539                                                        94.4    2e-18
+  scaffold_30                                                         94.4    2e-18
+  NW_018150297.1 Orbicella faveolata isolate FL unplaced genomic ...  94.0    2e-18
+  scaffold_1643                                                       94.0    2e-18
+  scaffold_39                                                         94.0    2e-18
+  NW_018149275.1 Orbicella faveolata isolate FL unplaced genomic ...  93.6    3e-18
+  LJWW01000268.1 Exaiptasia pallida isolate CC7 scaffold269, whol...  92.8    6e-18
+  SczhEnG_376                                                         92.8    6e-18
+  SczhEnG_2313                                                        91.7    1e-17
+  NW_018149716.1 Orbicella faveolata isolate FL unplaced genomic ...  90.9    3e-17
+  scaffold_23                                                         89.7    7e-17
+  scaffold_4                                                          89.0    9e-17
+  LJWW01000348.1 Exaiptasia pallida isolate CC7 scaffold349, whol...  88.6    1e-16
+  LJWW01000024.1 Exaiptasia pallida isolate CC7 scaffold24, whole...  87.4    3e-16
+  NW_004167086.1 Hydra vulgaris strain 105 unplaced genomic scaff...  85.5    1e-15
+  NW_018150091.1 Orbicella faveolata isolate FL unplaced genomic ...  85.1    2e-15
+  adi_Scaffold138                                                     84.3    3e-15
+  NW_018150166.1 Orbicella faveolata isolate FL unplaced genomic ...  84.3    3e-15
+  LJWW01000122.1 Exaiptasia pallida isolate CC7 scaffold122, whol...  84.0    4e-15
+  SczhEnG_756                                                         83.2    7e-15
+
+
+
+Lambda      K        H
+   0.315    0.131    0.378 
+
+Gapped
+Lambda      K        H
+   0.267   0.0410    0.140 
+
+Effective search space used: 1472583030570
+
+
+Query= CAA41228.2 glutathione peroxidase [Homo sapiens]
+
+Length=226
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  NW_018149716.1 Orbicella faveolata isolate FL unplaced genomic ...    130   1e-31
+  NW_018149684.1 Orbicella faveolata isolate FL unplaced genomic ...    125   4e-30
+  SczhEnG_2313                                                          124   2e-29
+  adi_Scaffold74                                                        120   2e-28
+  scaffold_25                                                           120   4e-28
+  LJWW01000331.1 Exaiptasia pallida isolate CC7 scaffold332, whol...    117   4e-27
+  LJWW01000168.1 Exaiptasia pallida isolate CC7 scaffold168, whol...    116   7e-27
+  adi_Scaffold113                                                       111   4e-25
+  scaffold_4                                                            106   2e-23
+  SczhEnG_1237                                                          105   3e-23
+  scaffold_499                                                          105   4e-23
+  LJWW01000322.1 Exaiptasia pallida isolate CC7 scaffold323, whol...    103   1e-22
+  NW_018149333.1 Orbicella faveolata isolate FL unplaced genomic ...    103   2e-22
+  NW_018149303.1 Orbicella faveolata isolate FL unplaced genomic ...    103   2e-22
+  NW_004170065.1 Hydra vulgaris strain 105 unplaced genomic scaff...  99.0    4e-21
+  SczhEnG_65                                                          98.2    1e-20
+  scaffold_52                                                         97.8    1e-20
+  NW_004169002.1 Hydra vulgaris strain 105 unplaced genomic scaff...  85.1    2e-16
+  LJWW01000096.1 Exaiptasia pallida isolate CC7 scaffold96, whole...  82.0    2e-15
+  adi_Scaffold2261                                                    79.0    2e-14
+  scaffold_12193                                                      76.6    4e-14
+  LJWW01000329.1 Exaiptasia pallida isolate CC7 scaffold330, whol...  75.9    2e-13
+  scaffold_13569                                                      71.6    2e-12
+  NW_018148848.1 Orbicella faveolata isolate FL unplaced genomic ...  71.6    4e-12
+  scaffold_255                                                        71.2    5e-12
+  scaffold_32                                                         71.2    5e-12
+  LJWW01000088.1 Exaiptasia pallida isolate CC7 scaffold88, whole...  70.9    6e-12
+  adi_Scaffold1648                                                    70.1    1e-11
+  SczhEnG_4231                                                        68.9    2e-11
+  scaffold_127                                                        68.6    3e-11
+  NW_004169668.1 Hydra vulgaris strain 105 unplaced genomic scaff...  65.9    2e-10
+  NW_018149119.1 Orbicella faveolata isolate FL unplaced genomic ...  65.5    3e-10
+  SczhEnG_1747                                                        60.5    1e-08
+  scaffold_289                                                        55.8    4e-07
+  scaffold_9465                                                       53.1    3e-06
+  NW_004172770.1 Hydra vulgaris strain 105 unplaced genomic scaff...  52.4    6e-06
+  LJWW01000249.1 Exaiptasia pallida isolate CC7 scaffold250, whol...  52.4    6e-06
+  NW_004168836.1 Hydra vulgaris strain 105 unplaced genomic scaff...  52.4    7e-06
+  scaffold_2179                                                       52.0    7e-06
+  scaffold_9                                                          48.9    8e-05
+
+
+
+Lambda      K        H
+   0.315    0.131    0.378 
+
+Gapped
+Lambda      K        H
+   0.267   0.0410    0.140 
+
+Effective search space used: 1472583030570
+
+
+Query= AAH69244.1 Glutathione reductase [Homo sapiens]
+
+Length=522
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  adi_Scaffold2279                                                      137   5e-32
+  scaffold_47                                                         92.0    3e-17
+  LJWW01000201.1 Exaiptasia pallida isolate CC7 scaffold202, whol...  91.3    5e-17
+  NW_018149371.1 Orbicella faveolata isolate FL unplaced genomic ...  90.1    1e-16
+  SczhEnG_1016                                                        87.4    6e-16
+  scaffold_6028                                                       77.8    6e-13
+  scaffold_4231                                                       72.0    4e-11
+  SczhEnG_3967                                                        62.8    3e-08
+  NW_018148946.1 Orbicella faveolata isolate FL unplaced genomic ...  62.4    4e-08
+  LJWW01001202.1 Exaiptasia pallida isolate CC7 scaffold1205, who...  62.0    5e-08
+  LJWW01000001.1 Exaiptasia pallida isolate CC7 scaffold1, whole ...  62.0    5e-08
+  scaffold_124                                                        59.7    3e-07
+  NW_004167403.1 Hydra vulgaris strain 105 unplaced genomic scaff...  58.9    5e-07
+  NW_004167024.1 Hydra vulgaris strain 105 unplaced genomic scaff...  55.8    5e-06
+  adi_Scaffold1008                                                    52.8    3e-05
+  LJWW01004286.1 Exaiptasia pallida isolate CC7 scaffold5044, who...  50.1    1e-04
+  adi_Scaffold433                                                     49.3    4e-04
+  scaffold_20                                                         44.3    0.016
+  adi_Scaffold94                                                      44.3    0.018
+  scaffold_8722                                                       39.7    0.40 
+  NW_018149241.1 Orbicella faveolata isolate FL unplaced genomic ...  38.5    1.00 
+
+
+
+Lambda      K        H
+   0.315    0.131    0.378 
+
+Gapped
+Lambda      K        H
+   0.267   0.0410    0.140 
+
+Effective search space used: 1472583030570
+
+
+Query= sp|Q00613.1|HSF1_HUMAN RecName: Full=Heat shock factor protein 1;
+Short=HSF 1; AltName: Full=Heat shock transcription factor 1;
+Short=HSTF 1
+
+Length=529
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  LJWW01000062.1 Exaiptasia pallida isolate CC7 scaffold62, whole...  61.6    2e-14
+  scaffold_14                                                         59.7    1e-13
+  NW_004167402.1 Hydra vulgaris strain 105 unplaced genomic scaff...  60.5    2e-12
+  LJWW01000148.1 Exaiptasia pallida isolate CC7 scaffold148, whol...  72.0    5e-11
+  scaffold_286                                                        67.0    2e-09
+  NW_018149374.1 Orbicella faveolata isolate FL unplaced genomic ...  66.6    2e-09
+  adi_Scaffold44                                                      65.5    5e-09
+  SczhEnG_527                                                         63.2    2e-08
+  NW_004166939.1 Hydra vulgaris strain 105 unplaced genomic scaff...  61.6    8e-08
+  SczhEnG_1972                                                        61.2    9e-08
+  SczhEnG_388                                                         60.5    2e-07
+  NW_018148674.1 Orbicella faveolata isolate FL unplaced genomic ...  59.7    3e-07
+  NW_018149536.1 Orbicella faveolata isolate FL unplaced genomic ...  59.3    4e-07
+  scaffold_77                                                         58.5    6e-07
+  LJWW01000103.1 Exaiptasia pallida isolate CC7 scaffold103, whol...  57.4    1e-06
+  NW_004170266.1 Hydra vulgaris strain 105 unplaced genomic scaff...  55.1    8e-06
+  NW_004168703.1 Hydra vulgaris strain 105 unplaced genomic scaff...  51.6    1e-04
+  adi_Scaffold326                                                     37.7    8e-04
+  scaffold_19                                                         45.1    0.010
+
+
+
+Lambda      K        H
+   0.315    0.131    0.378 
+
+Gapped
+Lambda      K        H
+   0.267   0.0410    0.140 
+
+Effective search space used: 1472583030570
+
+
+Query= NP_001310251.1 mitogen-activated protein kinase 8 isoform beta2
+[Homo sapiens]
+
+Length=427
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  SczhEnG_3475                                                          221   3e-60
+  NW_018149354.1 Orbicella faveolata isolate FL unplaced genomic ...    218   5e-59
+  adi_Scaffold4                                                         215   3e-58
+  scaffold_83                                                           203   3e-54
+  LJWW01000007.1 Exaiptasia pallida isolate CC7 scaffold7, whole ...    202   1e-53
+  NW_004170103.1 Hydra vulgaris strain 105 unplaced genomic scaff...    153   3e-37
+  scaffold_27                                                           148   1e-35
+  NW_018150231.1 Orbicella faveolata isolate FL unplaced genomic ...    145   1e-34
+  SczhEnG_3341                                                          140   4e-33
+  NW_004169665.1 Hydra vulgaris strain 105 unplaced genomic scaff...    140   4e-33
+  adi_Scaffold493                                                       138   2e-32
+  NW_018150090.1 Orbicella faveolata isolate FL unplaced genomic ...    133   6e-31
+  NW_004169580.1 Hydra vulgaris strain 105 unplaced genomic scaff...    132   1e-30
+  SczhEnG_4282                                                          131   4e-30
+  LJWW01000413.1 Exaiptasia pallida isolate CC7 scaffold414, whol...    129   2e-29
+  NW_004170916.1 Hydra vulgaris strain 105 unplaced genomic scaff...    129   2e-29
+  adi_Scaffold94                                                        127   4e-29
+  SczhEnG_1662                                                          127   6e-29
+  NW_018149241.1 Orbicella faveolata isolate FL unplaced genomic ...    126   1e-28
+  LJWW01000344.1 Exaiptasia pallida isolate CC7 scaffold345, whol...    125   2e-28
+  NW_004168939.1 Hydra vulgaris strain 105 unplaced genomic scaff...    125   2e-28
+  adi_Scaffold775                                                       125   2e-28
+  scaffold_29                                                           123   1e-27
+  LJWW01000006.1 Exaiptasia pallida isolate CC7 scaffold6, whole ...    122   2e-27
+  scaffold_6670                                                         118   3e-26
+  scaffold_23                                                           118   5e-26
+  SczhEnG_229                                                           101   9e-21
+  LJWW01000448.1 Exaiptasia pallida isolate CC7 scaffold449, whol...    100   1e-20
+  NW_018150252.1 Orbicella faveolata isolate FL unplaced genomic ...  99.8    3e-20
+  scaffold_259                                                        97.4    1e-19
+  scaffold_213                                                        97.4    2e-19
+  scaffold_3                                                          95.9    5e-19
+  adi_Scaffold85                                                      95.1    9e-19
+  LJWW01000047.1 Exaiptasia pallida isolate CC7 scaffold47, whole...  94.7    1e-18
+  NW_004167221.1 Hydra vulgaris strain 105 unplaced genomic scaff...  94.0    2e-18
+  adi_Scaffold1987                                                    93.6    3e-18
+  LJWW01000240.1 Exaiptasia pallida isolate CC7 scaffold241, whol...  93.6    3e-18
+  SczhEnG_862                                                         93.6    3e-18
+  NW_018149453.1 Orbicella faveolata isolate FL unplaced genomic ...  93.2    5e-18
+  LJWW01000126.1 Exaiptasia pallida isolate CC7 scaffold126, whol...  92.4    8e-18
+
+
+
+Lambda      K        H
+   0.315    0.131    0.378 
+
+Gapped
+Lambda      K        H
+   0.267   0.0410    0.140 
+
+Effective search space used: 1472583030570
+
+
+Query= AAC27038.1 long form transcription factor C-MAF [Homo sapiens]
+
+Length=403
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  SczhEnG_2871                                                        94.4    1e-18
+  NW_018149300.1 Orbicella faveolata isolate FL unplaced genomic ...  92.4    5e-18
+  SczhEnG_3644                                                        89.4    5e-17
+  scaffold_157                                                        89.4    5e-17
+  adi_Scaffold756                                                     88.6    1e-16
+  adi_Scaffold177                                                     86.3    5e-16
+  scaffold_14                                                         86.3    6e-16
+  scaffold_54                                                         85.5    1e-15
+  LJWW01000346.1 Exaiptasia pallida isolate CC7 scaffold347, whol...  85.5    1e-15
+  NW_004170147.1 Hydra vulgaris strain 105 unplaced genomic scaff...  84.7    2e-15
+  NW_018148581.1 Orbicella faveolata isolate FL unplaced genomic ...  84.7    2e-15
+  LJWW01000323.1 Exaiptasia pallida isolate CC7 scaffold324, whol...  84.3    3e-15
+  NW_018149506.1 Orbicella faveolata isolate FL unplaced genomic ...  83.6    4e-15
+  LJWW01000021.1 Exaiptasia pallida isolate CC7 scaffold21, whole...  81.3    2e-14
+  SczhEnG_2297                                                        76.6    7e-13
+  adi_Scaffold411                                                     76.6    7e-13
+  NW_018149256.1 Orbicella faveolata isolate FL unplaced genomic ...  72.8    1e-11
+  NW_004169581.1 Hydra vulgaris strain 105 unplaced genomic scaff...  69.3    2e-10
+  scaffold_428                                                        68.9    2e-10
+  SczhEnG_1118                                                        61.2    6e-08
+  adi_Scaffold580                                                     60.8    7e-08
+
+
+
+Lambda      K        H
+   0.315    0.131    0.378 
+
+Gapped
+Lambda      K        H
+   0.267   0.0410    0.140 
+
+Effective search space used: 1472583030570
+
+
+Query= BAC16799.1 P53 [Homo sapiens]
+
+Length=393
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  NW_018148849.1 Orbicella faveolata isolate FL unplaced genomic ...  80.1    5e-14
+  adi_Scaffold60                                                      78.6    1e-13
+  LJWW01000225.1 Exaiptasia pallida isolate CC7 scaffold226, whol...  70.1    9e-11
+  SczhEnG_4209                                                        69.3    1e-10
+  scaffold_57                                                         67.4    6e-10
+  NW_018150154.1 Orbicella faveolata isolate FL unplaced genomic ...  54.3    7e-06
+  LJWW01000164.1 Exaiptasia pallida isolate CC7 scaffold164, whol...  53.5    1e-05
+  NW_004170194.1 Hydra vulgaris strain 105 unplaced genomic scaff...  53.1    2e-05
+  SczhEnG_4055                                                        47.8    9e-04
+  scaffold_71                                                         43.5    0.019
+  LJWW01000313.1 Exaiptasia pallida isolate CC7 scaffold314, whol...  42.4    0.040
+  scaffold_139                                                        39.7    0.27 
+  NW_018148949.1 Orbicella faveolata isolate FL unplaced genomic ...  38.5    0.60 
+
+
+
+Lambda      K        H
+   0.315    0.131    0.378 
+
+Gapped
+Lambda      K        H
+   0.267   0.0410    0.140 
+
+Effective search space used: 1472583030570
+
+
+Query= AAF87085.1 thioredoxin [Homo sapiens]
+
+Length=105
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  NW_004166894.1 Hydra vulgaris strain 105 unplaced genomic scaff...  96.7    1e-21
+  NW_004167110.1 Hydra vulgaris strain 105 unplaced genomic scaff...  59.3    6e-09
+  NW_004166881.1 Hydra vulgaris strain 105 unplaced genomic scaff...  53.9    3e-07
+  scaffold_2249                                                       52.0    1e-06
+  adi_Scaffold129                                                     51.2    3e-06
+  NW_018150297.1 Orbicella faveolata isolate FL unplaced genomic ...  48.9    1e-05
+  SczhEnG_3054                                                        48.5    2e-05
+  scaffold_14                                                         47.4    5e-05
+  NW_018149431.1 Orbicella faveolata isolate FL unplaced genomic ...  47.4    5e-05
+  scaffold_270                                                        47.4    5e-05
+  scaffold_66                                                         47.0    5e-05
+  scaffold_30                                                         47.0    5e-05
+  LJWW01000112.1 Exaiptasia pallida isolate CC7 scaffold112, whol...  47.0    6e-05
+  SczhEnG_3823                                                        46.2    1e-04
+  adi_Scaffold270                                                     45.8    1e-04
+  adi_Scaffold1537                                                    45.4    2e-04
+  NW_018150387.1 Orbicella faveolata isolate FL unplaced genomic ...  45.1    3e-04
+  scaffold_16812                                                      44.3    3e-04
+  LJWW01000062.1 Exaiptasia pallida isolate CC7 scaffold62, whole...  44.3    4e-04
+  SczhEnG_4076                                                        43.9    5e-04
+  adi_Scaffold326                                                     43.5    8e-04
+  LJWW01000191.1 Exaiptasia pallida isolate CC7 scaffold192, whol...  43.1    0.001
+  scaffold_1670                                                       41.6    0.003
+  adi_Scaffold38                                                      41.6    0.003
+  NW_018148674.1 Orbicella faveolata isolate FL unplaced genomic ...  41.2    0.004
+  LJWW01000061.1 Exaiptasia pallida isolate CC7 scaffold61, whole...  40.8    0.004
+  scaffold_293                                                        40.8    0.005
+  NW_018150064.1 Orbicella faveolata isolate FL unplaced genomic ...  40.8    0.005
+  scaffold_248                                                        40.8    0.005
+  NW_004166966.1 Hydra vulgaris strain 105 unplaced genomic scaff...  39.7    0.011
+  scaffold_44                                                         39.7    0.013
+  SczhEnG_388                                                         39.7    0.013
+  LJWW01000026.1 Exaiptasia pallida isolate CC7 scaffold26, whole...  39.3    0.017
+  NW_004166942.1 Hydra vulgaris strain 105 unplaced genomic scaff...  38.9    0.023
+  SczhEnG_2712                                                        38.5    0.024
+  scaffold_23                                                         38.1    0.032
+  scaffold_154                                                        38.1    0.038
+  scaffold_3690                                                       37.4    0.070
+  NW_004168925.1 Hydra vulgaris strain 105 unplaced genomic scaff...  37.0    0.074
+  NW_004167444.1 Hydra vulgaris strain 105 unplaced genomic scaff...  37.0    0.088
+
+
+
+Lambda      K        H
+   0.315    0.131    0.378 
+
+Gapped
+Lambda      K        H
+   0.267   0.0410    0.140 
+
+Effective search space used: 1472583030570
+
+
+Query= EAW94677.1 nerve growth factor receptor (TNFR superfamily, member
+16) [Homo sapiens]
+
+Length=427
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  adi_Scaffold1112                                                    58.2    6e-07
+  NW_018150220.1 Orbicella faveolata isolate FL unplaced genomic ...  55.5    4e-06
+  adi_Scaffold18                                                      55.1    5e-06
+  SczhEnG_2419                                                        51.2    7e-05
+  NW_018149896.1 Orbicella faveolata isolate FL unplaced genomic ...  50.8    1e-04
+  adi_Scaffold637                                                     49.3    3e-04
+  adi_Scaffold225                                                     48.9    5e-04
+  NW_018148843.1 Orbicella faveolata isolate FL unplaced genomic ...  47.8    0.001
+  scaffold_139                                                        47.8    0.001
+  LJWW01000212.1 Exaiptasia pallida isolate CC7 scaffold213, whol...  47.4    0.001
+  SczhEnG_2984                                                        46.6    0.002
+  NW_018149641.1 Orbicella faveolata isolate FL unplaced genomic ...  45.4    0.005
+  SczhEnG_2232                                                        45.4    0.005
+  scaffold_84                                                         45.4    0.005
+  adi_Scaffold552                                                     45.1    0.008
+  NW_004169308.1 Hydra vulgaris strain 105 unplaced genomic scaff...  45.1    0.008
+  scaffold_257                                                        44.3    0.011
+  SczhEnG_1467                                                        43.9    0.014
+  scaffold_298                                                        43.9    0.014
+  scaffold_1851                                                       43.1    0.025
+  LJWW01000172.1 Exaiptasia pallida isolate CC7 scaffold173, whol...  43.1    0.025
+  LJWW01000105.1 Exaiptasia pallida isolate CC7 scaffold105, whol...  43.1    0.026
+  SczhEnG_2561                                                        42.7    0.033
+  adi_Scaffold1445                                                    42.4    0.050
+  NW_018148767.1 Orbicella faveolata isolate FL unplaced genomic ...  42.0    0.058
+  NW_018150231.1 Orbicella faveolata isolate FL unplaced genomic ...  41.2    0.095
+  LJWW01000036.1 Exaiptasia pallida isolate CC7 scaffold36, whole...  41.2    0.10 
+  SczhEnG_745                                                         41.2    0.10 
+  scaffold_302                                                        41.2    0.10 
+  adi_Scaffold2768                                                    41.2    0.11 
+  SczhEnG_840                                                         41.2    0.12 
+  LJWW01000032.1 Exaiptasia pallida isolate CC7 scaffold32, whole...  41.2    0.12 
+  LJWW01000173.1 Exaiptasia pallida isolate CC7 scaffold174, whol...  40.4    0.16 
+  adi_Scaffold1396                                                    40.4    0.19 
+  NW_018149244.1 Orbicella faveolata isolate FL unplaced genomic ...  40.4    0.20 
+  NW_018149716.1 Orbicella faveolata isolate FL unplaced genomic ...  39.7    0.33 
+  SczhEnG_4375                                                        39.3    0.40 
+  SczhEnG_3257                                                        38.5    0.74 
+
+
+
+Lambda      K        H
+   0.315    0.131    0.378 
+
+Gapped
+Lambda      K        H
+   0.267   0.0410    0.140 
+
+Effective search space used: 1472583030570
+
+
+Query= EAW88802.1 lymphotoxin beta receptor (TNFR superfamily, member 3),
+isoform CRA_a [Homo sapiens]
+
+Length=435
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  NW_018149896.1 Orbicella faveolata isolate FL unplaced genomic ...  40.0    0.26 
+  adi_Scaffold18                                                      38.5    0.79 
+
+
+
+Lambda      K        H
+   0.315    0.131    0.378 
+
+Gapped
+Lambda      K        H
+   0.267   0.0410    0.140 
+
+Effective search space used: 1472583030570
+
+
+Query= AAA59929.1 tumor necrosis factor receptor [Homo sapiens]
+
+Length=461
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  adi_Scaffold1112                                                    52.0    6e-05
+  adi_Scaffold3634                                                    50.4    2e-04
+  adi_Scaffold511                                                     47.4    0.001
+  adi_Scaffold89                                                      46.2    0.004
+  NW_018149716.1 Orbicella faveolata isolate FL unplaced genomic ...  43.5    0.022
+  NW_018148557.1 Orbicella faveolata isolate FL unplaced genomic ...  42.4    0.055
+  adi_Scaffold18                                                      42.4    0.059
+  adi_Scaffold434                                                     41.2    0.13 
+  scaffold_84                                                         40.4    0.21 
+  LJWW01000172.1 Exaiptasia pallida isolate CC7 scaffold173, whol...  40.0    0.26 
+  NW_018149896.1 Orbicella faveolata isolate FL unplaced genomic ...  40.0    0.28 
+  NW_018149549.1 Orbicella faveolata isolate FL unplaced genomic ...  39.3    0.42 
+  SczhEnG_142                                                         39.3    0.53 
+  NW_018149155.1 Orbicella faveolata isolate FL unplaced genomic ...  38.9    0.61 
+  NW_018148767.1 Orbicella faveolata isolate FL unplaced genomic ...  38.9    0.61 
+  SczhEnG_3589                                                        38.5    0.89 
+
+
+
+Lambda      K        H
+   0.315    0.131    0.378 
+
+Gapped
+Lambda      K        H
+   0.267   0.0410    0.140 
+
+Effective search space used: 1472583030570
+
+
+Query= sp|P28908.1|TNR8_HUMAN RecName: Full=Tumor necrosis factor receptor
+superfamily member 8; AltName: Full=CD30L receptor; AltName:
+Full=Ki-1 antigen; AltName: Full=Lymphocyte activation antigen CD30;
+AltName: CD_antigen=CD30; Flags: Precursor
+
+Length=595
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.315    0.131    0.378 
+
+Gapped
+Lambda      K        H
+   0.267   0.0410    0.140 
+
+Effective search space used: 1472583030570
+
+
+Query= NP_066961.2 TNF receptor-associated factor 2 [Homo sapiens]
+
+Length=501
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  adi_Scaffold773                                                       279   4e-79
+  NW_018148688.1 Orbicella faveolata isolate FL unplaced genomic ...    275   9e-78
+  SczhEnG_789                                                           275   1e-77
+  SczhEnG_207                                                           271   2e-76
+  NW_018149352.1 Orbicella faveolata isolate FL unplaced genomic ...    270   4e-76
+  SczhEnG_890                                                           270   5e-76
+  NW_018150412.1 Orbicella faveolata isolate FL unplaced genomic ...    267   7e-75
+  SczhEnG_1422                                                          265   3e-74
+  adi_Scaffold1081                                                      260   1e-72
+  adi_Scaffold983                                                       258   6e-72
+  LJWW01000032.1 Exaiptasia pallida isolate CC7 scaffold32, whole...    248   1e-68
+  NW_018150124.1 Orbicella faveolata isolate FL unplaced genomic ...    247   3e-68
+  scaffold_111                                                          247   4e-68
+  LJWW01000004.1 Exaiptasia pallida isolate CC7 scaffold4, whole ...    243   8e-67
+  LJWW01000192.1 Exaiptasia pallida isolate CC7 scaffold193, whol...    243   9e-67
+  LJWW01000994.1 Exaiptasia pallida isolate CC7 scaffold995, whol...    241   4e-66
+  adi_Scaffold317                                                       240   1e-65
+  adi_Scaffold2297                                                      236   2e-64
+  SczhEnG_3403                                                          235   4e-64
+  LJWW01000603.1 Exaiptasia pallida isolate CC7 scaffold604, whol...    232   3e-63
+  adi_Scaffold69                                                        229   4e-62
+  adi_Scaffold560                                                       224   2e-60
+  scaffold_3                                                            223   5e-60
+  NW_018149336.1 Orbicella faveolata isolate FL unplaced genomic ...    216   1e-57
+  LJWW01000003.1 Exaiptasia pallida isolate CC7 scaffold3, whole ...    216   1e-57
+  adi_Scaffold18                                                        214   6e-57
+  scaffold_198                                                          211   4e-56
+  SczhEnG_4375                                                          206   2e-54
+  SczhEnG_2189                                                          204   7e-54
+  NW_018149006.1 Orbicella faveolata isolate FL unplaced genomic ...    204   8e-54
+  NW_018150275.1 Orbicella faveolata isolate FL unplaced genomic ...    197   2e-51
+  SczhEnG_2984                                                          193   5e-50
+  adi_Scaffold189                                                       185   2e-47
+  SczhEnG_3533                                                          181   7e-46
+  NW_004169596.1 Hydra vulgaris strain 105 unplaced genomic scaff...    177   7e-45
+  LJWW01000700.1 Exaiptasia pallida isolate CC7 scaffold701, whol...    173   2e-43
+  NW_004169995.1 Hydra vulgaris strain 105 unplaced genomic scaff...    172   3e-43
+  NW_004169894.1 Hydra vulgaris strain 105 unplaced genomic scaff...    171   8e-43
+  NW_004167260.1 Hydra vulgaris strain 105 unplaced genomic scaff...    171   8e-43
+  LJWW01000227.1 Exaiptasia pallida isolate CC7 scaffold228, whol...    140   7e-33
+
+
+
+Lambda      K        H
+   0.315    0.131    0.378 
+
+Gapped
+Lambda      K        H
+   0.267   0.0410    0.140 
+
+Effective search space used: 1472583030570
+
+
+Query= NP_001177874.1 TNF receptor-associated factor 1 isoform a [Homo
+sapiens]
+
+Length=416
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  NW_018149352.1 Orbicella faveolata isolate FL unplaced genomic ...    244   2e-68
+  NW_018150412.1 Orbicella faveolata isolate FL unplaced genomic ...    242   2e-67
+  adi_Scaffold983                                                       239   1e-66
+  SczhEnG_207                                                           239   1e-66
+  adi_Scaffold1081                                                      238   3e-66
+  NW_018150124.1 Orbicella faveolata isolate FL unplaced genomic ...    237   8e-66
+  SczhEnG_890                                                           237   1e-65
+  SczhEnG_1422                                                          234   1e-64
+  adi_Scaffold317                                                       229   3e-63
+  adi_Scaffold69                                                        226   5e-62
+  LJWW01000994.1 Exaiptasia pallida isolate CC7 scaffold995, whol...    223   6e-61
+  scaffold_111                                                          223   7e-61
+  SczhEnG_3403                                                          223   7e-61
+  SczhEnG_789                                                           221   3e-60
+  LJWW01000192.1 Exaiptasia pallida isolate CC7 scaffold193, whol...    219   1e-59
+  LJWW01000004.1 Exaiptasia pallida isolate CC7 scaffold4, whole ...    217   6e-59
+  adi_Scaffold2297                                                      215   2e-58
+  scaffold_3                                                            214   5e-58
+  NW_018148688.1 Orbicella faveolata isolate FL unplaced genomic ...    214   8e-58
+  adi_Scaffold560                                                       211   6e-57
+  LJWW01000603.1 Exaiptasia pallida isolate CC7 scaffold604, whol...    208   6e-56
+  LJWW01000032.1 Exaiptasia pallida isolate CC7 scaffold32, whole...    206   5e-55
+  LJWW01000003.1 Exaiptasia pallida isolate CC7 scaffold3, whole ...    204   1e-54
+  NW_018150275.1 Orbicella faveolata isolate FL unplaced genomic ...    202   5e-54
+  adi_Scaffold773                                                       202   6e-54
+  SczhEnG_4375                                                          202   1e-53
+  NW_018149336.1 Orbicella faveolata isolate FL unplaced genomic ...    199   7e-53
+  adi_Scaffold18                                                        198   1e-52
+  NW_018149006.1 Orbicella faveolata isolate FL unplaced genomic ...    191   4e-50
+  SczhEnG_2189                                                          187   9e-49
+  SczhEnG_3533                                                          174   3e-44
+  adi_Scaffold189                                                       169   7e-43
+  scaffold_198                                                          166   1e-41
+  SczhEnG_2984                                                          160   1e-39
+  LJWW01000700.1 Exaiptasia pallida isolate CC7 scaffold701, whol...    156   2e-38
+  NW_004167260.1 Hydra vulgaris strain 105 unplaced genomic scaff...    150   2e-36
+  NW_004169894.1 Hydra vulgaris strain 105 unplaced genomic scaff...    148   8e-36
+  NW_004169596.1 Hydra vulgaris strain 105 unplaced genomic scaff...    147   2e-35
+  NW_004169995.1 Hydra vulgaris strain 105 unplaced genomic scaff...    147   2e-35
+  LJWW01000227.1 Exaiptasia pallida isolate CC7 scaffold228, whol...    143   3e-34
+
+
+
+Lambda      K        H
+   0.315    0.131    0.378 
+
+Gapped
+Lambda      K        H
+   0.267   0.0410    0.140 
+
+Effective search space used: 1472583030570
+
+
+  Database: Cnidarians
+    Posted date:  Jun 5, 2017  9:00 PM
+  Number of letters in database: 2,604,118,875
+  Number of sequences in database:  47,123
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 13
+Window for multiple hits: 40
