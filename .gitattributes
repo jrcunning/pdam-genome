@@ -1,8 +1,7 @@
-pdam.maker.output/pdam.all.renamed.function.gff.tar.gz filter=lfs diff=lfs merge=lfs -text
 busco/* linguist-vendored
 gag-out/* linguist-vendored
 maker-ctl/* linguist-vendored
 pdam.maker.output/* linguist-vendored
 snap/* linguist-vendored
-interproscan/pdam_ips.gff3 filter=lfs diff=lfs merge=lfs -text
 gene_search/*_blastout filter=lfs diff=lfs merge=lfs -text
+annotation/pdam.all.renamed.function.domain.gff.tar.gz filter=lfs diff=lfs merge=lfs -text
