@@ -1,6 +1,11 @@
-data/*
-!data/Makefile
-!data/Shell/make_blastdb.sh
+data/weedy_coral_01Feb2017_zhEnG/*
+data/Shell/*
+data/filter/*
+data/ref/*
+!data/ref/bacteria
+!data/ref/viruses
+data/ref/bacteria/*
+data/ref/viruses/*
 !data/ref/bacteria/Makefile
 !data/ref/viruses/Makefile
 

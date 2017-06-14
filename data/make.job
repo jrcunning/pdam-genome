@@ -1,0 +1,14 @@
+#!/bin/bash
+#BSUB -J makedata
+#BSUB -o %J.out
+#BSUB -e %J.err
+#BSUB -q general
+#BSUB -n 15
+#BSUB -P crf
+#
+
+module load blast
+
+cd ~/projects/pdam-genome/data
+make
+
