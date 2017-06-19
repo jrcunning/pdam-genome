@@ -53,7 +53,7 @@ ref/bacteria/bac_blastdb.nal: ref/bacteria/all_complete_Gb_bac.fasta
 	makeblastdb -dbtype nucl -in $< -out ref/bacteria/bac_blastdb
 
 # Download complete bacterial genomes
-all_complete_Gb_bac.fasta: 
+ref/bacteria/all_complete_Gb_bac.fasta: 
 	cd ref/bacteria && make
 	cd ..
 
