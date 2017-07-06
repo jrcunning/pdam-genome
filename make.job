@@ -10,8 +10,10 @@
 
 module load openmpi-gcc
 module load blast
+module load java/1.8.0_60
 
 export LD_PRELOAD=/share/apps/openmpi/1.6.2/gcc/4.4.6/lib/libmpi.so
 export OMPI_MCA_mpi_warn_on_fork=0
+export _JAVA_OPTIONS=''
 
 cd /scratch/projects/crf/pdam-genome && make

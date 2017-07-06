@@ -1,6 +1,13 @@
-data/*
-!data/Makefile
-!data/Shell/make_blastdb.sh
+data/weedy_coral_01Feb2017_zhEnG/*
+data/Shell/*
+data/filter/*
+data/ref/*
+!data/ref/bacteria
+!data/ref/viruses
+data/ref/bacteria/*
+data/ref/viruses/*
+!data/ref/bacteria/Makefile
+!data/ref/viruses/Makefile
 
 busco/tmp*
 
@@ -8,8 +15,18 @@ snap/*
 !snap/pdam.hmm
 
 pdam.maker.output/*
-!pdam.maker.output/pdam.all.renamed.function.gff.tar.gz
 
 gag_out/*
 !gag_out/genome.stats
+
 .Rproj.user
+ip.job
+
+interproscan/*
+!interproscan/pdam_ips.tsv
+!interproscan/pdam_ips.renamed.tsv
+
+annotation/pdam.all.renamed.function.domain.gff
+
+gene_search/*
+

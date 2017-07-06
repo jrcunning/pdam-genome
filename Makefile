@@ -1,15 +1,19 @@
 all: gag_out/genome.stats
 
 # Generate annotation statistics using GAG
-gag_out/genome.stats: pdam.maker.output/pdam.all.renamed.function.gff
-	python ~/local/GAG/gag.py --fasta data/filter/pdam.fasta --gff pdam.maker.output/pdam.all.gff --fix_start_stop --out gag_out
+gag_out/genome.stats: annotation/pdam.all.renamed.function.domain.gff
+	python ~/local/GAG/gag.py --fasta data/filter/pdam.fasta --gff annotation/pdam.all.renamed.function.domain.gff --fix_start_stop --out gag_out
+
+# Add protein domain information to final annotation
+annotation/pdam.all.renamed.function.domain.gff: pdam.maker.output/pdam.all.renamed.function.gff
+	ipr_update_gff pdam.maker.output/pdam.all.renamed.function.gff interproscan/pdam_ips.renamed.tsv > annotation/pdam.all.renamed.function.domain.gff
+
 
 # Add putative gene function annotations
 pdam.maker.output/pdam.all.renamed.function.gff: pdam.maker.output/blastp.output.renamed
 	maker_functional_gff data/ref/uniprot_sprot.fasta pdam.maker.output/blastp.output.renamed pdam.maker.output/pdam.all.renamed.gff > pdam.maker.output/pdam.all.renamed.function.gff
 	maker_functional_fasta data/ref/uniprot_sprot.fasta pdam.maker.output/blastp.output.renamed pdam.maker.output/pdam.all.maker.proteins.renamed.fasta > pdam.maker.output/pdam.all.maker.proteins.renamed.function.fasta
 	maker_functional_fasta data/ref/uniprot_sprot.fasta pdam.maker.output/blastp.output.renamed pdam.maker.output/pdam.all.maker.transcripts.renamed.fasta > pdam.maker.output/pdam.all.maker.transcripts.renamed.function.fasta
-
 
 # Rename genes in output
 pdam.maker.output/blastp.output.renamed: pdam.maker.output/blastp.output
@@ -18,6 +22,8 @@ pdam.maker.output/blastp.output.renamed: pdam.maker.output/blastp.output
 	cp pdam.maker.output/pdam.all.maker.proteins.fasta pdam.maker.output/pdam.all.maker.proteins.renamed.fasta
 	cp pdam.maker.output/pdam.all.maker.transcripts.fasta pdam.maker.output/pdam.all.maker.transcripts.renamed.fasta
 	cp pdam.maker.output/blastp.output pdam.maker.output/blastp.output.renamed
+	cp interproscan/pdam_ips.tsv interproscan/pdam_ips.renamed.tsv
+	map_data_ids pdam.maker.output/pdam.all.id.map interproscan/pdam_ips.renamed.tsv
 	map_gff_ids pdam.maker.output/pdam.all.id.map pdam.maker.output/pdam.all.renamed.gff
 	map_fasta_ids pdam.maker.output/pdam.all.id.map pdam.maker.output/pdam.all.maker.proteins.renamed.fasta
 	map_fasta_ids pdam.maker.output/pdam.all.id.map pdam.maker.output/pdam.all.maker.transcripts.renamed.fasta
@@ -27,6 +33,10 @@ pdam.maker.output/blastp.output.renamed: pdam.maker.output/blastp.output
 pdam.maker.output/blastp.output: pdam.maker.output/pdam.all.gff
 	cd data/ref && makeblastdb -in uniprot_sprot.fasta -dbtype prot -out uniprot_sprot.db
 	blastp -db data/ref/uniprot_sprot.db -query pdam.maker.output/pdam.all.maker.proteins.fasta -outfmt 6 -num_threads 96 -out pdam.maker.output/blastp.output
+
+# Run InterProScan on MAKER proteins
+interproscan/pdam_ips.gff3: pdam.maker.output/pdam.all.maker.proteins.fasta
+        interproscan.sh -i pdam.maker.output/pdam.all.maker.proteins.fasta -b interproscan/pdam_ips --goterms
 
 # Re-run MAKER using SNAP HMM file, collect results
 pdam.maker.output/pdam.all.gff: snap/pdam.hmm
