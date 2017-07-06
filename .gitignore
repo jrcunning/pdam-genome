@@ -12,3 +12,4 @@ pdam.maker.output/*
 
 gag_out/*
 !gag_out/genome.stats
+.Rproj.user

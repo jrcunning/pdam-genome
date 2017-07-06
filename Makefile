@@ -49,7 +49,6 @@ pdam.maker.output/pdam0.all.gff: busco/run_pdam/short_summary_pdam.txt maker_ctl
 	cd pdam.maker.output && gff3_merge -d pdam_master_datastore_index.log && \
 	mv pdam.all.gff pdam0.all.gff
 
-
 # Run BUSCO on filtered pdam assembly and train Augustus
 busco/run_pdam/short_summary_pdam.txt: data/filter/pdam.fasta
 	cd /scratch/projects/crf/pdam-genome/busco && \
