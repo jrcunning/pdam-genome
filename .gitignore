@@ -2,6 +2,7 @@ data/weedy_coral_01Feb2017_zhEnG/*
 data/Shell/*
 data/filter/*
 data/ref/*
+!data/ref/*.pep
 !data/ref/bacteria
 !data/ref/viruses
 data/ref/bacteria/*
@@ -20,6 +21,8 @@ gag_out/*
 !gag_out/genome.stats
 
 .Rproj.user
+.Rhistory
+
 ip.job
 
 interproscan/*
