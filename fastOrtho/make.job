@@ -1,0 +1,12 @@
+#!/bin/bash
+#BSUB -J fastOrtho
+#BSUB -o %J.out
+#BSUB -e %J.err
+#BSUB -q general
+#BSUB -n 15
+#BSUB -P crf
+#
+
+module load blast
+
+cd /scratch/projects/crf/pdam-genome/fastOrtho && make
