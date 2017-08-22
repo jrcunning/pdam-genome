@@ -4,6 +4,7 @@
 FastOrtho \
 	$(printf "!!single_genome_fasta %s " ../data/ref/*.pep | tr "!" -) \
 	--working_directory . \
+	--blast_cpus 15 \	
 	--project_name version1
 
 ##Format output file	
