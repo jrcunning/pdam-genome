@@ -1,31 +1,4 @@
-all:
-
-fastOrtho/CoralDiversified/CoralDiversified_all.fasta: fastOrtho/CoralDiversified/CoralDiversified.txt
-	cd fastOrtho/CoralDiversified && rm -f *.fasta && \
-	tail -n +2 CoralDiversified.txt | awk '{f=$$1; $$1=$$2=$$3=""; sub("   ", ""); gsub("\\([^\\)]+\\)", ""); ; gsub(" ", "\n"); print > f}'
-	cd data/ref && cat AcroporaDigitifera.pep AiptasiaPallida.pep AmphimedonQueenslandica.pep AmplexidiscusFenestrafer.pep DiscosomaSp.pep HydraVulgaris.pep MnemiopsisLeidyi.pep NematostellaVectensis.pep OrbicellaFaveolata.pep PocilloporaDamicornis.pep > cnidarian_all_prot.pep
-	for ORTHO in fastOrtho/CoralDiversified/ORTHOMCL* ; \
-	do \
-	filter_fasta.py \
-	-f data/ref/cnidarian_all_prot.pep \
-	-o $$ORTHO.fasta \
-	-s $$ORTHO ; \
-	done
-
-fastOrtho/Pdam_specific/Pdam_specific_all.fasta: fastOrtho/Pdam_specific/Pdam_specific.txt
-	# Get 4th field of each line, write to file named by 1st field, convert each to one protein name per line
-	cd fastOrtho/Pdam_specific && rm -f *.fasta && \
-	tail -n +2 Pdam_specific.txt | awk '{f=$$1; $$1=$$2=$$3=""; sub("   ", ""); gsub(" ", "\n"); gsub(".PocilloporaDamicornis.", ""); print > f}'
-	# For each file (ortho group), extract protein sequences of all members and write to fasta
-	for ORTHO in fastOrtho/Pdam_specific/ORTHOMCL* ; \
-	do \
-	filter_fasta.py \
-	-f pdam.maker.output/pdam.all.maker.proteins.renamed.function.fasta \
-	-o $$ORTHO.fasta \
-	-s $$ORTHO ; \
-	done
-	# Concatenate all sequences for GO enrichment analysis
-	cat fastOrtho/Pdam_specific/*.fasta > fastOrtho/Pdam_specific/Pdam_specific_all.fasta
+all: genome.stats
 
 # Generate annotation statistics using GAG
 gag_out/genome.stats: annotation/pdam.all.renamed.function.domain.gff
@@ -34,7 +7,6 @@ gag_out/genome.stats: annotation/pdam.all.renamed.function.domain.gff
 # Add protein domain information to final annotation
 annotation/pdam.all.renamed.function.domain.gff: pdam.maker.output/pdam.all.renamed.function.gff
 	ipr_update_gff pdam.maker.output/pdam.all.renamed.function.gff interproscan/pdam_ips.renamed.tsv > annotation/pdam.all.renamed.function.domain.gff
-
 
 # Add putative gene function annotations
 pdam.maker.output/pdam.all.renamed.function.gff: pdam.maker.output/blastp.output.renamed
@@ -59,7 +31,7 @@ pdam.maker.output/blastp.output.renamed: pdam.maker.output/blastp.output
 # BLAST maker proteins against uniprot-sprot
 pdam.maker.output/blastp.output: pdam.maker.output/pdam.all.gff
 	cd data/ref && makeblastdb -in uniprot_sprot.fasta -dbtype prot -out uniprot_sprot.db
-	blastp -db data/ref/uniprot_sprot.db -query pdam.maker.output/pdam.all.maker.proteins.fasta -outfmt 6 -num_threads 96 -out pdam.maker.output/blastp.output
+	blastp -db data/ref/uniprot_sprot.db -query pdam.maker.output/pdam.all.maker.proteins.fasta -evalue 1e-5 -outfmt 6 -num_threads 96 -out pdam.maker.output/blastp.output
 
 # Run InterProScan on MAKER proteins
 interproscan/pdam_ips.gff3: pdam.maker.output/pdam.all.maker.proteins.fasta
