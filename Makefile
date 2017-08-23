@@ -32,7 +32,7 @@ pdam.maker.output/blastp.output.renamed: pdam.maker.output/blastp.output
 pdam.maker.output/blastp.output: pdam.maker.output/pdam.all.gff
 	cd data/ref && makeblastdb -in uniprot_sprot.fasta -dbtype prot -out uniprot_sprot.db
 	blastp -db data/ref/uniprot_sprot.db -query pdam.maker.output/pdam.all.maker.proteins.fasta \
-	-evalue 1e-5 -outfmt 6 -num_threads 96 -num_alignments 1 -max_hsps_per_subject 1 \
+	-evalue 1e-5 -outfmt 6 -num_threads 96 -num_alignments 1 \
 	-out pdam.maker.output/blastp.output
 
 # Run InterProScan on MAKER proteins
@@ -68,8 +68,8 @@ busco/run_pdam/short_summary_pdam.txt: data/filter/pdam.fasta
 # Generate contigs from scaffolds, and summarize fasta files
 data/filter/contigs.fasta.summary: data/filter/pdam.fasta
 	cat data/filter/pdam.fasta | seqkit fx2tab | cut -f 2 | sed -r 's/n+/\n/gi' | cat -n | seqkit tab2fx | seqkit replace -p "(.+)" -r "Contig{nr}" > data/filter/contigs.fasta
-	fasta_tool --nt_count --summary data/filter/pdam.fasta > pdam.fasta.summary
-	fasta_tool --nt_count --summary data/filter/contigs.fasta > contigs.fasta.summary
+	fasta_tool --nt_count --summary data/filter/pdam.fasta > data/filter/pdam.fasta.summary
+	fasta_tool --nt_count --summary data/filter/contigs.fasta > data/filter/contigs.fasta.summary
 
 
 # Remove bacteria, virus, and Symbiodinium scaffolds from full assembly to generate filtered pdam assembly
