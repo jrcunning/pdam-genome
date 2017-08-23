@@ -63,6 +63,13 @@ busco/run_pdam/short_summary_pdam.txt: data/filter/pdam.fasta
 	cd /scratch/projects/crf/pdam-genome/busco && \
 	python ~/local/busco/BUSCO.py -f -c 96 --long -i ../data/filter/pdam.fasta -o pdam -l ~/local/busco/metazoa_odb9 -m geno
 
+# Generate contigs from scaffolds, and summarize fasta files
+data/filter/contigs.fasta.summary: data/filter/pdam.fasta
+	cat data/filter/pdam.fasta | seqkit fx2tab | cut -f 2 | sed -r 's/n+/\n/gi' | cat -n | seqkit tab2fx | seqkit replace -p "(.+)" -r "Contig{nr}" > data/filter/contigs.fasta
+	fasta_tool --nt_count --summary data/filter/pdam.fasta > pdam.fasta.summary
+	fasta_tool --nt_count --summary data/filter/contigs.fasta > contigs.fasta.summary
+
+
 # Remove bacteria, virus, and Symbiodinium scaffolds from full assembly to generate filtered pdam assembly
 data/filter/pdam.fasta:
 	cd data && make
