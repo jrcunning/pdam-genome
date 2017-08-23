@@ -1,6 +1,8 @@
 data/weedy_coral_01Feb2017_zhEnG/*
 data/Shell/*
 data/filter/*
+!data/filter/pdam.fasta.summary
+!data/filter/contigs.fasta.summary
 data/ref/*
 !data/ref/*.pep
 !data/ref/bacteria
