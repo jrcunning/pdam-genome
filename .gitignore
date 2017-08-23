@@ -16,8 +16,6 @@ snap/*
 !snap/pdam.hmm
 
 pdam.maker.output/*.gff
-pdam.maker.output/blastp*
-
 
 gag_out/*
 !gag_out/genome.stats
