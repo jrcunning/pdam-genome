@@ -31,7 +31,9 @@ pdam.maker.output/blastp.output.renamed: pdam.maker.output/blastp.output
 # BLAST maker proteins against uniprot-sprot
 pdam.maker.output/blastp.output: pdam.maker.output/pdam.all.gff
 	cd data/ref && makeblastdb -in uniprot_sprot.fasta -dbtype prot -out uniprot_sprot.db
-	blastp -db data/ref/uniprot_sprot.db -query pdam.maker.output/pdam.all.maker.proteins.fasta -evalue 1e-5 -outfmt 6 -num_threads 96 -out pdam.maker.output/blastp.output
+	blastp -db data/ref/uniprot_sprot.db -query pdam.maker.output/pdam.all.maker.proteins.fasta \
+	-evalue 1e-5 -outfmt 6 -num_threads 96 -num_alignments 1 -max_hsps_per_subject 1 \
+	-out pdam.maker.output/blastp.output
 
 # Run InterProScan on MAKER proteins
 interproscan/pdam_ips.tsv: pdam.maker.output/pdam.all.maker.proteins.fasta
