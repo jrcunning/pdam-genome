@@ -1,4 +1,4 @@
-all: genome.stats
+all: gag_out/genome.stats
 
 # Generate annotation statistics using GAG
 gag_out/genome.stats: annotation/pdam.all.renamed.function.domain.gff
@@ -34,7 +34,7 @@ pdam.maker.output/blastp.output: pdam.maker.output/pdam.all.gff
 	blastp -db data/ref/uniprot_sprot.db -query pdam.maker.output/pdam.all.maker.proteins.fasta -evalue 1e-5 -outfmt 6 -num_threads 96 -out pdam.maker.output/blastp.output
 
 # Run InterProScan on MAKER proteins
-interproscan/pdam_ips.gff3: pdam.maker.output/pdam.all.maker.proteins.fasta
+interproscan/pdam_ips.tsv: pdam.maker.output/pdam.all.maker.proteins.fasta
 	interproscan.sh -i pdam.maker.output/pdam.all.maker.proteins.fasta -b interproscan/pdam_ips --goterms
 
 # Re-run MAKER using SNAP HMM file, collect results
