@@ -15,7 +15,9 @@ busco/tmp*
 snap/*
 !snap/pdam.hmm
 
-pdam.maker.output/*
+pdam.maker.output/*.gff
+pdam.maker.output/blastp*
+
 
 gag_out/*
 !gag_out/genome.stats
