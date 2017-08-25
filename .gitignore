@@ -4,6 +4,8 @@ data/filter/*
 !data/filter/pdam.fasta.summary
 !data/filter/contigs.fasta.summary
 data/ref/*
+!data/ref/ofav
+!data/ref/adig
 !data/ref/*.pep
 !data/ref/bacteria
 !data/ref/viruses
