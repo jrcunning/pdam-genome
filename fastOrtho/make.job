@@ -2,11 +2,12 @@
 #BSUB -J fastOrtho
 #BSUB -o %J.out
 #BSUB -e %J.err
-#BSUB -q general
-#BSUB -n 15
+#BSUB -q parallel
+#BSUB -n 16
 #BSUB -P crf
 #
 
 module load blast
+module load R/3.3.1
 
 cd /scratch/projects/crf/pdam-genome/fastOrtho && make

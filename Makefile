@@ -1,4 +1,8 @@
-all: gag_out/genome.stats
+all: gag_out/genome.stats fastOrtho/CoralDiversified/CoralDiversified_all.txt
+
+# Run fastOrtho analysis on proteins from 10 genomes
+fastOrtho/CoralDiversified/CoralDiversified_all.txt: pdam.maker.output/pdam.all.gff
+	cd fastOrtho && make
 
 # Generate annotation statistics using GAG
 gag_out/genome.stats: annotation/pdam.all.renamed.function.domain.gff

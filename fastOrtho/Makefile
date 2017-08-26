@@ -1,4 +1,4 @@
-all: ortho.table
+all: CoralDiversified/CoralDiversified_all.fasta Pdam_specific/Pdam_specific_all.fasta
 
 
 CoralDiversified/CoralDiversified_all.fasta: CoralDiversified/CoralDiversified.txt
@@ -13,7 +13,7 @@ CoralDiversified/CoralDiversified_all.fasta: CoralDiversified/CoralDiversified.t
 	-s $$ORTHO ; \
 	done
 	# Concatenate all sequences
-	cat CoralDiversified/*.fasta > CoralDiversified_all.fasta
+	cat CoralDiversified/*.fasta > CoralDiversified/CoralDiversified_all.fasta
 
 Pdam_specific/Pdam_specific_all.fasta: Pdam_specific/Pdam_specific.txt
 	# Get 4th field of each line, write to file named by 1st field, convert each to one protein name per line
@@ -30,11 +30,11 @@ Pdam_specific/Pdam_specific_all.fasta: Pdam_specific/Pdam_specific.txt
 	# Concatenate all sequences for GO enrichment analysis
 	cat Pdam_specific/*.fasta > Pdam_specific/Pdam_specific_all.fasta
 
-Pdam_specific/Pdam_specific.txt: ortho.table Diversification.R
-	R --vanilla < Diversification.R
+Pdam_specific/Pdam_specific.txt: ortho.table ../R/Diversification.R
+	R --vanilla < ../R/Diversification.R
 
-CoralDiversified/CoralDiversified.txt: ortho.table Diversification.R
-	R --vanilla < Diversification.R
+CoralDiversified/CoralDiversified.txt: ortho.table ../R/Diversification.R
+	R --vanilla < ../R/Diversification.R
 
 ortho.table: fastortho.sh
-	bash fastortho.sh
+	bash ../Shell/fastortho.sh
