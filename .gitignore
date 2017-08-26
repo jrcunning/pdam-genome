@@ -5,6 +5,7 @@ data/filter/*
 !data/filter/contigs.fasta.summary
 data/ref/*
 !data/ref/*.pep
+data/ref/all.pep
 !data/ref/bacteria
 !data/ref/viruses
 data/ref/bacteria/*
@@ -21,6 +22,8 @@ pdam.maker.output/*.gff
 
 gag_out/*
 !gag_out/genome.stats
+
+fastOrtho/version1*
 
 .Rproj.user
 .Rhistory
