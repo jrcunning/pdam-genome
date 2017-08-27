@@ -64,6 +64,11 @@ pdam.maker.output/pdam0.all.gff: busco/run_pdam/short_summary_pdam.txt maker_ctl
 	cd pdam.maker.output && gff3_merge -d pdam_master_datastore_index.log && \
 	mv pdam.all.gff pdam0.all.gff
 
+# Run RepeatModeler and RepeatMasker
+repeatmasker/pdam.fasta.out: data/filter/pdam.fasta
+	cd repeatmasker && make
+
+
 # Run BUSCO on filtered pdam assembly and train Augustus
 busco/run_pdam/short_summary_pdam.txt: data/filter/pdam.fasta
 	cd /scratch/projects/crf/pdam-genome/busco && \
@@ -74,7 +79,6 @@ data/filter/contigs.fasta.summary: data/filter/pdam.fasta
 	cat data/filter/pdam.fasta | seqkit fx2tab | cut -f 2 | sed -r 's/n+/\n/gi' | cat -n | seqkit tab2fx | seqkit replace -p "(.+)" -r "Contig{nr}" > data/filter/contigs.fasta
 	fasta_tool --nt_count --summary data/filter/pdam.fasta > data/filter/pdam.fasta.summary
 	fasta_tool --nt_count --summary data/filter/contigs.fasta > data/filter/contigs.fasta.summary
-
 
 # Remove bacteria, virus, and Symbiodinium scaffolds from full assembly to generate filtered pdam assembly
 data/filter/pdam.fasta:

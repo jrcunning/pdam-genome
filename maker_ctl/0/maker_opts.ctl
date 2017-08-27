@@ -24,7 +24,7 @@ protein_gff=  #aligned protein homology evidence from an external GFF3 file
 
 #-----Repeat Masking (leave values blank to skip repeat masking)
 model_org=all #select a model organism for RepBase masking in RepeatMasker
-rmlib= #provide an organism specific repeat library in fasta format for RepeatMasker
+rmlib=repeatmasker/consensi.fa.classified #provide an organism specific repeat library in fasta format for RepeatMasker
 repeat_protein=/nethome/rcunning/local/maker/data/te_proteins.fasta #provide a fasta file of transposable element proteins for RepeatRunner
 rm_gff= #pre-identified repeat elements from an external GFF3 file
 prok_rm=0 #forces MAKER to repeatmask prokaryotes (no reason to change this), 1 = yes, 0 = no
