@@ -38,3 +38,6 @@ interproscan/*
 
 annotation/pdam.all.renamed.function.domain.gff
 
+repeatmasker/*
+!repeatmasker/consensi.fa.classified
+!repeatmasker/Makefile
