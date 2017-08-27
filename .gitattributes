@@ -7,3 +7,5 @@ gene_search/*_blastout filter=lfs diff=lfs merge=lfs -text
 annotation/pdam.all.renamed.function.domain.gff.tar.gz filter=lfs diff=lfs merge=lfs -text
 data/ref/ofav/* filter=lfs diff=lfs merge=lfs -text
 data/ref/adig/* filter=lfs diff=lfs merge=lfs -text
+data/ref/ofav/ofav.all.gff.tar.gz filter=lfs diff=lfs merge=lfs -text
+data/ref/ofav/ofav_genome.fa.tar.gz filter=lfs diff=lfs merge=lfs -text
