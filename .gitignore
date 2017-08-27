@@ -41,3 +41,5 @@ annotation/pdam.all.renamed.function.domain.gff
 repeatmasker/*
 !repeatmasker/consensi.fa.classified
 !repeatmasker/Makefile
+!repeatmasker/pdam.fasta.out
+!repeatmasker/pdam.fasta.tbl
