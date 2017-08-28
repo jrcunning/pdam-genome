@@ -5,8 +5,10 @@ CoralDiversified/CoralDiversified_all.fasta: CoralDiversified/CoralDiversified.t
 	cd CoralDiversified && rm -f *.fasta && \
 	tail -n +2 CoralDiversified.txt | awk '{f=$$1; $$1=$$2=$$3=""; sub("   ", ""); gsub("\\([^\\)]+\\)", ""); ; gsub(" ", "\n"); print > f}'
 	cd ../data/ref && cat AcroporaDigitifera.pep AiptasiaPallida.pep AmphimedonQueenslandica.pep AmplexidiscusFenestrafer.pep DiscosomaSp.pep HydraVulgaris.pep MnemiopsisLeidyi.pep NematostellaVectensis.pep OrbicellaFaveolata.pep PocilloporaDamicornis.pep > all.pep
+	rm -f CoralDiversified/CoralDiversified_rep_set.txt
 	for ORTHO in CoralDiversified/ORTHOMCL* ; \
 	do \
+	head -1 $$ORTHO >> CoralDiversified/CoralDiversified_rep_set.txt ; \
 	filter_fasta.py \
 	-f ../data/ref/all.pep \
 	-o $$ORTHO.fasta \
@@ -14,6 +16,8 @@ CoralDiversified/CoralDiversified_all.fasta: CoralDiversified/CoralDiversified.t
 	done
 	# Concatenate all sequences
 	cat CoralDiversified/*.fasta > CoralDiversified/CoralDiversified_all.fasta
+	# Get representative set (1 per family)
+	filter_fasta.py -f ../data/ref/all.pep -o CoralDiversified/CoralDiversified_rep_set.fasta -s CoralDiversified/CoralDiversified_rep_set.txt
 
 Pdam_specific/Pdam_specific_all.fasta: Pdam_specific/Pdam_specific.txt
 	# Get 4th field of each line, write to file named by 1st field, convert each to one protein name per line
@@ -22,6 +26,7 @@ Pdam_specific/Pdam_specific_all.fasta: Pdam_specific/Pdam_specific.txt
 	# For each file (ortho group), extract protein sequences of all members and write to fasta
 	for ORTHO in Pdam_specific/ORTHOMCL* ; \
 	do \
+	head -1 $$ORTHO >> Pdam_specific/Pdam_specific_rep_set.txt ; \
 	filter_fasta.py \
 	-f ../pdam.maker.output/pdam.all.maker.proteins.renamed.function.fasta \
 	-o $$ORTHO.fasta \
@@ -29,6 +34,8 @@ Pdam_specific/Pdam_specific_all.fasta: Pdam_specific/Pdam_specific.txt
 	done
 	# Concatenate all sequences for GO enrichment analysis
 	cat Pdam_specific/*.fasta > Pdam_specific/Pdam_specific_all.fasta
+	# Get representative set (1 per family)
+	filter_fasta.py -f ../pdam.maker.output/pdam.all.maker.proteins.renamed.function.fasta -o Pdam_specific/Pdam_specific_rep_set.fasta -s Pdam_specific/Pdam_specific_rep_set.txt
 
 Pdam_specific/Pdam_specific.txt: ortho.table ../R/Diversification.R
 	R --vanilla < ../R/Diversification.R
@@ -36,5 +43,5 @@ Pdam_specific/Pdam_specific.txt: ortho.table ../R/Diversification.R
 CoralDiversified/CoralDiversified.txt: ortho.table ../R/Diversification.R
 	R --vanilla < ../R/Diversification.R
 
-ortho.table: fastortho.sh
+ortho.table:
 	bash ../Shell/fastortho.sh
