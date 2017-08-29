@@ -6,6 +6,7 @@ data/filter/*
 data/ref/*
 !data/ref/ofav
 !data/ref/adig
+#!data/ref/spis
 !data/ref/*.pep
 data/ref/all.pep
 !data/ref/bacteria
