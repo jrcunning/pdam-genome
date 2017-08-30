@@ -17,6 +17,10 @@ data/ref/viruses/*
 !data/ref/viruses/Makefile
 
 busco/tmp*
+busco/*
+!busco/full_table_pdam.tsv
+!busco/missing_busco_list_pdam.tsv
+!busco/short_summary_pdam.txt
 
 snap/*
 !snap/pdam.hmm
