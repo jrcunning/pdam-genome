@@ -1,5 +1,4 @@
-all: CoralDiversified/CoralDiversified_all.fasta Pdam_specific/Pdam_specific_all.fasta
-
+all: CoralDiversified/CoralDiversified_all.fasta Pdam_specific/pdam_goterms_counts.txt
 
 CoralDiversified/CoralDiversified_all.fasta: CoralDiversified/CoralDiversified.txt
 	cd CoralDiversified && rm -f *.fasta && \
@@ -18,6 +17,19 @@ CoralDiversified/CoralDiversified_all.fasta: CoralDiversified/CoralDiversified.t
 	cat CoralDiversified/*.fasta > CoralDiversified/CoralDiversified_all.fasta
 	# Get representative set (1 per family)
 	filter_fasta.py -f ../data/ref/all.pep -o CoralDiversified/CoralDiversified_rep_set.fasta -s CoralDiversified/CoralDiversified_rep_set.txt
+
+Pdam_specific/pdam_goterms_counts.txt: Pdam_specific/Pdam_specific_all.fasta
+	# get names of Pdam-specific genes from fasta file
+	grep -o "pdam_[0-9]*" Pdam_specific/Pdam_specific_all.fasta > Pdam_specific/pdam_gene_names.txt
+	# get 'gene' entries from gff3
+	awk '($3 == "gene") {print $0}' ../annotation/pdam.all.renamed.function.domain.gff > Pdam_specific/genes.gff
+	# filter gene gff by the names of Pdam-specific genes
+	grep -f Pdam_specific/pdam_gene_names.txt Pdam_specific/genes.gff > Pdam_specific/pdam_genes.gff
+	rm Pdam_specific/genes.gff
+	# get GO terms
+	grep -o "GO:......." Pdam_specific/pdam_genes.gff > Pdam_specific/pdam_goterms.txt
+	# Get counts of unique goterms
+	uniq -c Pdam_specific/pdam_goterms.txt | awk '{ print $2 " " $1}' > Pdam_specific/pdam_goterms_counts.txt
 
 Pdam_specific/Pdam_specific_all.fasta: Pdam_specific/Pdam_specific.txt
 	# Get 4th field of each line, write to file named by 1st field, convert each to one protein name per line
