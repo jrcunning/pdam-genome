@@ -18,6 +18,24 @@ CoralDiversified/CoralDiversified_all.fasta: CoralDiversified/CoralDiversified.t
 	# Get representative set (1 per family)
 	filter_fasta.py -f ../data/ref/all.pep -o CoralDiversified/CoralDiversified_rep_set.fasta -s CoralDiversified/CoralDiversified_rep_set.txt
 
+Coral_specific/Coral_specific_all.fasta: Coral_specific/Coral_specific.txt
+	cd Coral_specific && rm -f *.fasta && \
+	tail -n +2 Coral_specific.txt | awk '{f=$$1; $$1=$$2=$$3=""; sub("   ", ""); gsub("\\([^\\)]+\\)", ""); ; gsub(" ", "\n"); print > f}'
+	cd ../data/ref && cat AcroporaDigitifera.pep AiptasiaPallida.pep AmphimedonQueenslandica.pep AmplexidiscusFenestrafer.pep DiscosomaSp.pep HydraVulgaris.pep MnemiopsisLeidyi.pep NematostellaVectensis.pep OrbicellaFaveolata.pep PocilloporaDamicornis.pep > all.pep
+	rm -f Coral_specific/Coral_specific_rep_set.txt
+	for ORTHO in Coral_specific/ORTHOMCL* ; \
+	do \
+	head -1 $$ORTHO >> Coral_specific/Coral_specific_rep_set.txt ; \
+	filter_fasta.py \
+	-f ../data/ref/all.pep \
+	-o $$ORTHO.fasta \
+	-s $$ORTHO ; \
+	done
+	# Concatenate all sequences
+	cat Coral_specific/*.fasta > Coral_specific/Coral_specific_all.fasta
+	# Get representative set (1 per family)
+	filter_fasta.py -f ../data/ref/all.pep -o Coral_specific/Coral_specific_rep_set.fasta -s Coral_specific/Coral_specific_rep_set.txt
+
 Pdam_specific/pdam_goterms_counts.txt: Pdam_specific/Pdam_specific_all.fasta
 	# get names of Pdam-specific genes from fasta file
 	grep -o "pdam_[0-9]*" Pdam_specific/Pdam_specific_all.fasta > Pdam_specific/pdam_gene_names.txt
@@ -48,6 +66,9 @@ Pdam_specific/Pdam_specific_all.fasta: Pdam_specific/Pdam_specific.txt
 	cat Pdam_specific/*.fasta > Pdam_specific/Pdam_specific_all.fasta
 	# Get representative set (1 per family)
 	filter_fasta.py -f ../pdam.maker.output/pdam.all.maker.proteins.renamed.function.fasta -o Pdam_specific/Pdam_specific_rep_set.fasta -s Pdam_specific/Pdam_specific_rep_set.txt
+
+Coral_specific/Coral_specific.txt: ortho.table ../R/Diversification.R
+	R --vanilla < ../R/Diversification.R
 
 Pdam_specific/Pdam_specific.txt: ortho.table ../R/Diversification.R
 	R --vanilla < ../R/Diversification.R

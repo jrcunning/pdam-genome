@@ -63,8 +63,10 @@ nonpdam <- apply(counts[,-k],1,max)
 length(which(pdam>0 & nonpdam==0)) #560 in pdam only
 pdamOnly <- dat[which(pdam>0 & nonpdam==0),]
 write.table(pdamOnly,"Pdam_specific/Pdam_specific.txt",quote=F,row.names=F,col.names=T,sep="\t")
+coralOnly <- dat[which(coralMin>0 & noncorMax==0),]
+write.table(coralOnly, "Coral_specific/Coral_specific.txt",quote=F,row.names=F,col.names=T,sep="\t")
 
-###Diversification in pdam
+###Diversification in corals
 anth <- apply(counts[,c(coral,morph,anem)],1,min)
 pgens <- counts[which(anth>0),]
 divp <- c()
