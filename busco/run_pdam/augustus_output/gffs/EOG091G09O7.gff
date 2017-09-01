@@ -1,7 +1,0 @@
-SczhEnG_2522	AUGUSTUS	gene	174689	176746	0.01	+	.	g1
-SczhEnG_2522	AUGUSTUS	transcript	174689	176746	0.01	+	.	g1.t1
-SczhEnG_2522	AUGUSTUS	exon	174689	176746	.	+	.	transcript_id "g1.t1"; gene_id "g1";
-SczhEnG_2522	AUGUSTUS	start_codon	174866	174868	.	+	0	transcript_id "g1.t1"; gene_id "g1";
-SczhEnG_2522	AUGUSTUS	CDS	174866	176578	0.09	+	0	transcript_id "g1.t1"; gene_id "g1";
-SczhEnG_2522	AUGUSTUS	stop_codon	176576	176578	.	+	0	transcript_id "g1.t1"; gene_id "g1";
-SczhEnG_2522	AUGUSTUS	tts	176746	176746	.	+	.	transcript_id "g1.t1"; gene_id "g1";
