@@ -29,7 +29,7 @@ Pdam_specific/pdam_goterms_counts.txt: Pdam_specific/Pdam_specific_all.fasta
 	# get GO terms
 	grep -o "GO:......." Pdam_specific/pdam_genes.gff > Pdam_specific/pdam_goterms.txt
 	# Get counts of unique goterms
-	uniq -c Pdam_specific/pdam_goterms.txt | awk '{ print $2 " " $1}' > Pdam_specific/pdam_goterms_counts.txt
+	cat Pdam_specific/pdam_goterms.txt | sort | uniq -c | awk '{ print $2 " " $1}' > Pdam_specific/pdam_goterms_counts.txt
 
 Pdam_specific/Pdam_specific_all.fasta: Pdam_specific/Pdam_specific.txt
 	# Get 4th field of each line, write to file named by 1st field, convert each to one protein name per line
@@ -55,5 +55,5 @@ Pdam_specific/Pdam_specific.txt: ortho.table ../R/Diversification.R
 CoralDiversified/CoralDiversified.txt: ortho.table ../R/Diversification.R
 	R --vanilla < ../R/Diversification.R
 
-ortho.table:
+ortho.table: ../Shell/fastortho.sh
 	bash ../Shell/fastortho.sh
