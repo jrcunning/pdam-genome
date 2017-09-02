@@ -1,5 +1,10 @@
-all: pdam_specific_plot.png coral_specific_plot.png
+all: coral_diversified_plot.png pdam_specific_plot.png coral_specific_plot.png
 
+coral_diversified_plot.png: coral_diversified_revigo.csv
+	R --vanilla < ../R/revigo.R --args $< coral_diversified_revigo.png
+
+coral_diversified_revigo.csv:
+	python ../python/scrape_revigo.py ../fastOrtho/CoralDiversified/coral_diversified_goterms_counts.txt coral_diversified_revigo.csv
 
 pdam_specific_plot.png: pdam_specific_revigo.csv
 	R --vanilla < ../R/revigo.R --args $< pdam_specific_plot.png
