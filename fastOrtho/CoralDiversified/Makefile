@@ -1,4 +1,12 @@
-all: CoralDiversified_all.fasta
+all: coral_diversified_goterms_counts.txt
+
+coral_diversified_goterms_counts.txt: coral_diversified_ips.gff3
+        grep -o "GO:......." coral_diversified_ips.gff3 > coral_diversified_goterms.txt
+        cat coral_diversified_goterms.txt | sort | uniq -c | awk '{ print $$2 " " $$1}' > coral_diversified_goterms_counts.txt
+
+coral_diversified_ips.gff3: CoralDiversified_all.fasta
+        interproscan.sh -i $< -b coral_diversified_ips --goterms
+
 
 CoralDiversified_all.fasta: CoralDiversified.txt
 	rm -f *.fasta && rm -f ORTHOMCL*
