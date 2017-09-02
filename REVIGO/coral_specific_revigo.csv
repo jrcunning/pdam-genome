@@ -1,0 +1,55 @@
+term_ID,description,frequency,plot_X,plot_Y,plot_size,value,uniqueness,dispensability,representative,eliminated
+GO:0006468,"protein phosphorylation",4.137%, 6.626, 3.131,5.725,675.0000,0.790,0.000,6468,0
+GO:0000413,"protein peptidyl-prolyl isomerization",0.393%,null,null,4.703,6.0000,0.820,0.542,6468,1
+GO:0009116,"nucleoside metabolic process",2.917%,null,null,5.573,2.0000,0.734,0.557,6468,1
+GO:0006486,"protein glycosylation",0.317%,null,null,4.610,20.0000,0.718,0.529,6468,1
+GO:0006814,"sodium ion transport",0.305%,-5.159,-2.476,4.592,139.0000,0.803,0.000,6814,0
+GO:0006813,"potassium ion transport",0.476%,null,null,4.786,57.0000,0.797,0.722,6814,1
+GO:0006812,"cation transport",3.242%,null,null,5.619,1.0000,0.792,0.601,6814,1
+GO:0070588,"calcium ion transmembrane transport",0.157%,null,null,4.305,25.0000,0.811,0.656,6814,1
+GO:0071805,"potassium ion transmembrane transport",0.331%,null,null,4.628,20.0000,0.688,0.727,6814,1
+GO:0007156,"homophilic cell adhesion via plasma membrane adhesion molecules",0.095%,-4.308, 4.879,4.087,119.0000,0.906,0.000,7156,0
+GO:0007155,"cell adhesion",0.544%,null,null,4.844,29.0000,0.902,0.850,7156,1
+GO:0007160,"cell-matrix adhesion",0.051%,null,null,3.817,8.0000,0.907,0.714,7156,1
+GO:0008152,"metabolic process",75.387%,-5.895, 2.468,6.986,15.0000,0.991,0.000,8152,0
+GO:0007186,"G-protein coupled receptor signaling pathway",0.882%, 5.502,-3.636,5.054,473.0000,0.681,0.041,7186,0
+GO:0007264,"small GTPase mediated signal transduction",0.485%,null,null,4.794,1.0000,0.690,0.504,7186,1
+GO:0035556,"intracellular signal transduction",4.000%,null,null,5.710,6.0000,0.640,0.641,7186,1
+GO:0007166,"cell surface receptor signaling pathway",0.920%,null,null,5.072,14.0000,0.680,0.538,7186,1
+GO:0007165,"signal transduction",6.621%,null,null,5.929,105.0000,0.626,0.847,7186,1
+GO:0006457,"protein folding",0.903%,-4.752, 1.534,5.064,8.0000,0.925,0.041,6457,0
+GO:0007017,"microtubule-based process",0.658%,-0.433,-2.492,4.927,28.0000,0.832,0.084,7017,0
+GO:0006629,"lipid metabolic process",3.522%,-1.350, 5.702,5.655,10.0000,0.833,0.101,6629,0
+GO:0006030,"chitin metabolic process",0.077%, 1.832, 6.789,3.994,49.0000,0.877,0.109,6030,0
+GO:0070836,"caveola assembly",0.004%,-0.106,-7.180,2.741,6.0000,0.839,0.124,70836,0
+GO:0015074,"DNA integration",0.682%, 4.272, 5.369,4.942,6.0000,0.826,0.172,15074,0
+GO:0006310,"DNA recombination",1.641%,null,null,5.323,4.0000,0.815,0.598,15074,1
+GO:0006313,"transposition, DNA-mediated",0.413%,null,null,4.724,2.0000,0.760,0.519,15074,1
+GO:0016051,"carbohydrate biosynthetic process",1.079%,-0.017, 4.175,5.141,4.0000,0.830,0.199,16051,0
+GO:0006904,"vesicle docking involved in exocytosis",0.060%,-3.086,-3.543,3.890,2.0000,0.768,0.217,6904,0
+GO:0035278,"miRNA mediated inhibition of translation",0.006%, 5.048, 1.179,2.851,4.0000,0.716,0.257,35278,0
+GO:0042127,"regulation of cell proliferation",0.313%, 7.098,-2.299,4.603,1.0000,0.791,0.258,42127,0
+GO:0042981,"regulation of apoptotic process",0.313%, 3.370,-2.421,4.604,20.0000,0.741,0.258,42981,0
+GO:0043066,"negative regulation of apoptotic process",0.173%,null,null,4.347,1.0000,0.727,0.944,42981,1
+GO:0016192,"vesicle-mediated transport",1.085%,-4.540,-4.332,5.144,2.0000,0.846,0.277,16192,0
+GO:0031145,"anaphase-promoting complex-dependent catabolic process",0.021%, 7.242, 4.081,3.421,3.0000,0.861,0.286,31145,0
+GO:0001558,"regulation of cell growth",0.094%, 2.268,-4.380,4.080,5.0000,0.746,0.286,1558,0
+GO:0030071,"regulation of mitotic metaphase/anaphase transition",0.073%,null,null,3.974,3.0000,0.717,0.575,1558,1
+GO:0045132,"meiotic chromosome segregation",0.050%,null,null,3.806,1.0000,0.796,0.784,1558,1
+GO:0000077,"DNA damage checkpoint",0.074%,null,null,3.976,1.0000,0.683,0.718,1558,1
+GO:0055114,"oxidation-reduction process",15.060%,-1.282, 4.397,6.286,17.0000,0.834,0.300,55114,0
+GO:0051607,"defense response to virus",0.098%, 5.797,-6.245,4.098,8.0000,0.827,0.317,51607,0
+GO:0033554,"cellular response to stress",2.967%,null,null,5.581,1.0000,0.742,0.563,51607,1
+GO:0006886,"intracellular protein transport",1.199%,-4.934,-3.219,5.187,1.0000,0.844,0.320,6886,0
+GO:0046654,"tetrahydrofolate biosynthetic process",0.101%, 1.179, 2.689,4.113,1.0000,0.789,0.346,46654,0
+GO:0009607,"response to biotic stimulus",0.342%, 5.020,-6.665,4.643,3.0000,0.832,0.355,9607,0
+GO:0006355,"regulation of transcription, DNA-templated",9.917%, 4.756, 0.456,6.105,161.0000,0.653,0.385,6355,0
+GO:0006811,"ion transport",5.344%,-4.739,-3.703,5.836,100.0000,0.824,0.389,6811,0
+GO:0055085,"transmembrane transport",8.916%,null,null,6.058,38.0000,0.816,0.535,6811,1
+GO:0006810,"transport",17.616%,null,null,6.354,1.0000,0.807,0.684,6811,1
+GO:0007224,"smoothened signaling pathway",0.038%, 5.922,-4.189,3.683,1.0000,0.742,0.402,7224,0
+GO:0051260,"protein homooligomerization",0.106%, 0.064,-7.729,4.132,5.0000,0.882,0.426,51260,0
+GO:0006508,"proteolysis",5.223%, 6.304, 3.832,5.826,262.0000,0.850,0.448,6508,0
+GO:0046330,"positive regulation of JNK cascade",0.028%, 5.243,-0.968,3.549,3.0000,0.618,0.462,46330,0
+GO:0007250,"activation of NF-kappaB-inducing kinase activity",0.008%,null,null,2.985,3.0000,0.675,0.693,46330,1
+GO:0051092,"positive regulation of NF-kappaB transcription factor activity",0.025%, 5.854,-0.541,3.502,2.0000,0.755,0.482,51092,0
