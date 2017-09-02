@@ -2,7 +2,9 @@ library( ggplot2 )
 library(ggrepel)
 library( scales )
 
-revigo.data <- read.csv("REVIGO/pdam_specific_revigo.csv")
+args = commandArgs(trailingOnly=TRUE)
+
+revigo.data <- read.csv(args[1])
 revigo.data$plot_X <- as.numeric(as.character(revigo.data$plot_X))
 revigo.data$plot_Y <- as.numeric(as.character(revigo.data$plot_Y))
 revigo.data$log_value <- log2(revigo.data$value + 1)
@@ -28,5 +30,9 @@ one.x_range = max(revigo.data$plot_X) - min(revigo.data$plot_X);
 one.y_range = max(revigo.data$plot_Y) - min(revigo.data$plot_Y);
 p1 <- p1 + xlim(min(revigo.data$plot_X)-one.x_range/10,max(revigo.data$plot_X)+one.x_range/10);
 p1 <- p1 + ylim(min(revigo.data$plot_Y)-one.y_range/10,max(revigo.data$plot_Y)+one.y_range/10);
-p1
 
+figure <- p1
+
+ggsave(filename=args[2], plot = figure, device = "png",
+       scale = 1, width = 7, height = 5, units = "in",
+       dpi = 300)
