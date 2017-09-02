@@ -1,3 +1,4 @@
+all: coral_specific_goterms_counts.txt
 
 coral_specific_goterms_counts.txt: coral_specific_ips.gff3
 	grep -o "GO:......." coral_specific_ips.gff3 > coral_specific_goterms.txt
@@ -34,3 +35,6 @@ Coral_specific_all.fasta: Coral_specific.txt
 	
 	# Remove asterisks (A digitifera has asterisks in protein seqs for stop codons)
 	sed -i "" 's/\*//g' Coral_specific_all.fasta
+
+Coral_specific.txt: ../ortho.table ../../R/Diversification.R
+	R --vanilla < ../../R/Diversification.R --args Coral_specific.txt

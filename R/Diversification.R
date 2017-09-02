@@ -1,7 +1,9 @@
 library(stringr)
 library(tidyverse)
 
-dat <- read.delim("ortho.table",header=F,sep="\t")
+args = commandArgs(trailingOnly=TRUE)
+
+dat <- read.delim("../ortho.table",header=F,sep="\t")
 colnames(dat) <- c("Group", "Genes", "Taxa", "IDs")
 dat5 <- filter(dat, Taxa>=1)
 dim(dat5) #23380
@@ -62,9 +64,10 @@ pdam <- counts[,k]
 nonpdam <- apply(counts[,-k],1,max)
 length(which(pdam>0 & nonpdam==0)) #560 in pdam only
 pdamOnly <- dat[which(pdam>0 & nonpdam==0),]
-write.table(pdamOnly,"Pdam_specific/Pdam_specific.txt",quote=F,row.names=F,col.names=T,sep="\t")
+
+if (args[1]=="Pdam_specific.txt") write.table(pdamOnly,"Pdam_specific.txt",quote=F,row.names=F,col.names=T,sep="\t")
 coralOnly <- dat[which(coralMin>0 & noncorMax==0),]
-write.table(coralOnly, "Coral_specific/Coral_specific.txt",quote=F,row.names=F,col.names=T,sep="\t")
+if (args[1]=="Coral_specific.txt") write.table(coralOnly, "Coral_specific.txt",quote=F,row.names=F,col.names=T,sep="\t")
 
 ###Diversification in corals
 anth <- apply(counts[,c(coral,morph,anem)],1,min)
@@ -82,5 +85,5 @@ divadj <- p.adjust(divp,method="fdr")
 dir <- apply(pgens,1,function(x) mean(x[1:3])-mean(x[4:7]))
 divs <- pgens[divadj<0.01 & dir>0,]
 pdivGens <- dat[dat$Group%in%rownames(divs),]
-write.table(pdivGens,"CoralDiversified/CoralDiversified.txt",quote=F,row.names=F,col.names=T,sep="\t")
+if (args[1]=="CoralDiversified.txt") write.table(pdivGens,"CoralDiversified.txt",quote=F,row.names=F,col.names=T,sep="\t")
 
