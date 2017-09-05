@@ -53,3 +53,48 @@ GO:0006508,"proteolysis",5.223%,-6.183,-3.924,5.826,262.0000,0.850,0.448,6508,0
 GO:0046330,"positive regulation of JNK cascade",0.028%,-5.172, 0.976,3.549,3.0000,0.618,0.462,46330,0
 GO:0007250,"activation of NF-kappaB-inducing kinase activity",0.008%,null,null,2.985,3.0000,0.675,0.693,46330,1
 GO:0051092,"positive regulation of NF-kappaB transcription factor activity",0.025%,-5.707, 0.533,3.502,2.0000,0.755,0.482,51092,0
+term_ID,description,frequency,plot_X,plot_Y,plot_size,value,uniqueness,dispensability,representative,eliminated
+GO:0006814,"sodium ion transport",0.305%,-5.385, 1.747,4.592,81.0000,0.777,0.000,6814,0
+GO:0035434,"copper ion transmembrane transport",0.038%,null,null,3.683,12.0000,0.802,0.588,6814,1
+GO:0006812,"cation transport",3.242%,null,null,5.619,1.0000,0.767,0.601,6814,1
+GO:0070588,"calcium ion transmembrane transport",0.157%,null,null,4.305,25.0000,0.786,0.656,6814,1
+GO:0071805,"potassium ion transmembrane transport",0.331%,null,null,4.628,2.0000,0.680,0.699,6814,1
+GO:0007156,"homophilic cell adhesion via plasma membrane adhesion molecules",0.095%,-4.738,-4.626,4.087,119.0000,0.884,0.000,7156,0
+GO:0007155,"cell adhesion",0.544%,null,null,4.844,28.0000,0.880,0.850,7156,1
+GO:0007160,"cell-matrix adhesion",0.051%,null,null,3.817,8.0000,0.886,0.714,7156,1
+GO:0007186,"G-protein coupled receptor signaling pathway",0.882%, 5.087, 3.481,5.054,350.0000,0.698,0.000,7186,0
+GO:0007264,"small GTPase mediated signal transduction",0.485%,null,null,4.794,1.0000,0.704,0.504,7186,1
+GO:0007166,"cell surface receptor signaling pathway",0.920%,null,null,5.072,11.0000,0.697,0.538,7186,1
+GO:0008152,"metabolic process",75.387%,-6.051,-2.324,6.986,7.0000,0.989,0.000,8152,0
+GO:0006468,"protein phosphorylation",4.137%, 3.554,-4.229,5.725,168.0000,0.739,0.041,6468,0
+GO:0006470,"protein dephosphorylation",0.585%,null,null,4.875,11.0000,0.771,0.568,6468,1
+GO:0009116,"nucleoside metabolic process",2.917%,null,null,5.573,2.0000,0.733,0.557,6468,1
+GO:0006486,"protein glycosylation",0.317%,null,null,4.610,18.0000,0.708,0.529,6468,1
+GO:0070836,"caveola assembly",0.004%,-2.168, 6.620,2.741,6.0000,0.862,0.055,70836,0
+GO:0005975,"carbohydrate metabolic process",5.260%,-2.597,-6.557,5.829,9.0000,0.907,0.094,5975,0
+GO:0006030,"chitin metabolic process",0.077%,-1.550,-2.465,3.994,4.0000,0.853,0.109,6030,0
+GO:0055114,"oxidation-reduction process",15.060%, 0.269, 7.611,6.286,27.0000,0.855,0.123,55114,0
+GO:0015074,"DNA integration",0.682%, 6.754,-4.718,4.942,7.0000,0.815,0.172,15074,0
+GO:0006310,"DNA recombination",1.641%,null,null,5.323,3.0000,0.805,0.598,15074,1
+GO:0006904,"vesicle docking involved in exocytosis",0.060%,-3.369, 2.979,3.890,2.0000,0.766,0.217,6904,0
+GO:0042981,"regulation of apoptotic process",0.313%, 6.672, 2.021,4.604,40.0000,0.783,0.258,42981,0
+GO:0016192,"vesicle-mediated transport",1.085%,-5.100, 3.095,5.144,2.0000,0.827,0.277,16192,0
+GO:0051607,"defense response to virus",0.098%, 4.397, 5.478,4.098,8.0000,0.814,0.317,51607,0
+GO:0033554,"cellular response to stress",2.967%,null,null,5.581,1.0000,0.734,0.563,51607,1
+GO:0007165,"signal transduction",6.621%,null,null,5.929,59.0000,0.649,0.681,51607,1
+GO:0009607,"response to biotic stimulus",0.342%, 3.507, 5.396,4.643,3.0000,0.824,0.355,9607,0
+GO:0007250,"activation of NF-kappaB-inducing kinase activity",0.008%, 4.015, 0.045,2.985,4.0000,0.650,0.373,7250,0
+GO:0046330,"positive regulation of JNK cascade",0.028%,null,null,3.549,4.0000,0.594,0.693,7250,1
+GO:0051092,"positive regulation of NF-kappaB transcription factor activity",0.025%,null,null,3.502,2.0000,0.753,0.526,7250,1
+GO:0006637,"acyl-CoA metabolic process",0.254%, 1.270,-6.125,4.512,7.0000,0.827,0.378,6637,0
+GO:0046654,"tetrahydrofolate biosynthetic process",0.101%,null,null,4.113,1.0000,0.772,0.522,6637,1
+GO:0006355,"regulation of transcription, DNA-templated",9.917%, 5.863,-0.625,6.105,153.0000,0.665,0.385,6355,0
+GO:0055085,"transmembrane transport",8.916%,-4.931, 2.464,6.058,22.0000,0.797,0.412,55085,0
+GO:0006810,"transport",17.616%,null,null,6.354,1.0000,0.788,0.684,55085,1
+GO:0006811,"ion transport",5.344%,null,null,5.836,6.0000,0.805,0.535,55085,1
+GO:0000077,"DNA damage checkpoint",0.074%, 4.256, 3.194,3.976,7.0000,0.708,0.416,77,0
+GO:0045132,"meiotic chromosome segregation",0.050%,null,null,3.806,2.0000,0.830,0.526,77,1
+GO:0006508,"proteolysis",5.223%, 5.317,-3.261,5.826,285.0000,0.827,0.448,6508,0
+GO:0035278,"miRNA mediated inhibition of translation",0.006%, 4.399,-0.353,2.851,6.0000,0.701,0.462,35278,0
+GO:0000183,"chromatin silencing at rDNA",0.016%,null,null,3.299,3.0000,0.717,0.714,35278,1
+GO:0016311,"dephosphorylation",1.250%, 1.951,-6.068,5.205,2.0000,0.837,0.467,16311,0

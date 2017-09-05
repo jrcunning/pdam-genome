@@ -39,3 +39,71 @@ GO:0006139,"nucleobase-containing compound metabolic process",26.547%,-5.314, 3.
 GO:0051382,"kinetochore assembly",0.018%, 6.445, 2.456,3.354,1.0000,0.875,0.475,51382,0
 GO:0033151,"V(D)J recombination",0.004%,-4.653, 5.100,2.736,4.0000,0.750,0.493,33151,0
 GO:0051607,"defense response to virus",0.098%,null,null,4.098,1.0000,0.785,0.598,33151,1
+term_ID,description,frequency,plot_X,plot_Y,plot_size,value,uniqueness,dispensability,representative,eliminated
+GO:0008152,"metabolic process",75.387%, 5.285, 3.133,6.986,3.0000,0.985,0.000,8152,0
+GO:0015074,"DNA integration",0.682%,-4.835,-4.871,4.942,86.0000,0.627,0.000,15074,0
+GO:0006310,"DNA recombination",1.641%,null,null,5.323,1.0000,0.601,0.688,15074,1
+GO:0006260,"DNA replication",1.577%,null,null,5.306,2.0000,0.591,0.595,15074,1
+GO:0006281,"DNA repair",2.234%,null,null,5.457,1.0000,0.464,0.684,15074,1
+GO:0070588,"calcium ion transmembrane transport",0.157%,-1.438, 5.410,4.305,4.0000,0.829,0.000,70588,0
+GO:0006816,"calcium ion transport",0.197%,null,null,4.404,3.0000,0.828,0.885,70588,1
+GO:0007264,"small GTPase mediated signal transduction",0.485%, 5.236,-3.683,4.794,82.0000,0.656,0.032,7264,0
+GO:0007165,"signal transduction",6.621%,null,null,5.929,229.0000,0.603,0.675,7264,1
+GO:0007186,"G-protein coupled receptor signaling pathway",0.882%,null,null,5.054,23.0000,0.655,0.504,7264,1
+GO:0006629,"lipid metabolic process",3.522%, 2.315, 2.586,5.655,4.0000,0.795,0.094,6629,0
+GO:0006468,"protein phosphorylation",4.137%,-5.947, 0.614,5.725,39.0000,0.663,0.172,6468,0
+GO:0006412,"translation",5.686%,null,null,5.863,11.0000,0.608,0.551,6468,1
+GO:0006464,"cellular protein modification process",7.726%,null,null,5.996,3.0000,0.645,0.822,6468,1
+GO:0006353,"DNA-templated transcription, termination",0.185%,-4.972,-2.427,4.375,3.0000,0.719,0.214,6353,0
+GO:0009116,"nucleoside metabolic process",2.917%,-0.813,-5.058,5.573,4.0000,0.665,0.229,9116,0
+GO:0007346,"regulation of mitotic cell cycle",0.269%, 3.786,-6.486,4.537,21.0000,0.752,0.241,7346,0
+GO:0042981,"regulation of apoptotic process",0.313%, 4.017,-4.557,4.604,7.0000,0.750,0.244,42981,0
+GO:0045454,"cell redox homeostasis",0.861%, 3.539,-5.513,5.043,2.0000,0.733,0.269,45454,0
+GO:0008033,"tRNA processing",1.345%,-5.180,-3.161,5.237,1.0000,0.684,0.291,8033,0
+GO:0006811,"ion transport",5.344%,-0.355, 5.413,5.836,48.0000,0.838,0.305,6811,0
+GO:0055085,"transmembrane transport",8.916%,null,null,6.058,30.0000,0.834,0.535,6811,1
+GO:0006810,"transport",17.616%,null,null,6.354,5.0000,0.831,0.684,6811,1
+GO:0033151,"V(D)J recombination",0.004%,-4.280,-7.442,2.736,4.0000,0.701,0.361,33151,0
+GO:0006313,"transposition, DNA-mediated",0.413%,null,null,4.724,1.0000,0.593,0.520,33151,1
+GO:0006508,"proteolysis",5.223%,-5.621, 1.685,5.826,23.0000,0.733,0.448,6508,0
+GO:0006355,"regulation of transcription, DNA-templated",9.917%,-0.900,-3.823,6.105,6.0000,0.479,0.466,6355,0
+GO:0043123,"positive regulation of I-kappaB kinase/NF-kappaB signaling",0.037%, 5.439,-2.777,3.676,1.0000,0.652,0.467,43123,0
+GO:0046330,"positive regulation of JNK cascade",0.028%,null,null,3.549,1.0000,0.540,0.762,43123,1
+GO:0007250,"activation of NF-kappaB-inducing kinase activity",0.008%,null,null,2.985,1.0000,0.587,0.705,43123,1
+GO:0008277,"regulation of G-protein coupled receptor protein signaling pathway",0.024%,null,null,3.494,1.0000,0.680,0.582,43123,1
+GO:0006139,"nucleobase-containing compound metabolic process",26.547%,-3.394,-3.299,6.532,5.0000,0.695,0.471,6139,0
+GO:0006270,"DNA replication initiation",0.141%,-4.765,-5.700,4.259,2.0000,0.656,0.471,6270,0
+term_ID,description,frequency,plot_X,plot_Y,plot_size,value,uniqueness,dispensability,representative,eliminated
+GO:0008152,"metabolic process",75.387%, 5.250,-3.154,6.986,3.0000,0.985,0.000,8152,0
+GO:0015074,"DNA integration",0.682%,-4.836, 4.903,4.942,86.0000,0.627,0.000,15074,0
+GO:0006310,"DNA recombination",1.641%,null,null,5.323,1.0000,0.601,0.688,15074,1
+GO:0006260,"DNA replication",1.577%,null,null,5.306,2.0000,0.591,0.595,15074,1
+GO:0006281,"DNA repair",2.234%,null,null,5.457,1.0000,0.464,0.684,15074,1
+GO:0070588,"calcium ion transmembrane transport",0.157%,-1.485,-5.392,4.305,4.0000,0.829,0.000,70588,0
+GO:0006816,"calcium ion transport",0.197%,null,null,4.404,3.0000,0.828,0.885,70588,1
+GO:0007264,"small GTPase mediated signal transduction",0.485%, 5.227, 3.655,4.794,82.0000,0.656,0.032,7264,0
+GO:0007165,"signal transduction",6.621%,null,null,5.929,229.0000,0.603,0.675,7264,1
+GO:0007186,"G-protein coupled receptor signaling pathway",0.882%,null,null,5.054,23.0000,0.655,0.504,7264,1
+GO:0006629,"lipid metabolic process",3.522%, 2.287,-2.589,5.655,4.0000,0.795,0.094,6629,0
+GO:0006468,"protein phosphorylation",4.137%,-5.973,-0.569,5.725,39.0000,0.663,0.172,6468,0
+GO:0006412,"translation",5.686%,null,null,5.863,11.0000,0.608,0.551,6468,1
+GO:0006464,"cellular protein modification process",7.726%,null,null,5.996,3.0000,0.645,0.822,6468,1
+GO:0006353,"DNA-templated transcription, termination",0.185%,-4.908, 2.458,4.375,3.0000,0.719,0.214,6353,0
+GO:0009116,"nucleoside metabolic process",2.917%,-0.804, 5.084,5.573,4.0000,0.665,0.229,9116,0
+GO:0007346,"regulation of mitotic cell cycle",0.269%, 4.069, 6.256,4.537,21.0000,0.752,0.241,7346,0
+GO:0042981,"regulation of apoptotic process",0.313%, 3.967, 4.539,4.604,7.0000,0.750,0.244,42981,0
+GO:0045454,"cell redox homeostasis",0.861%, 3.374, 5.726,5.043,2.0000,0.733,0.269,45454,0
+GO:0008033,"tRNA processing",1.345%,-5.213, 3.182,5.237,1.0000,0.684,0.291,8033,0
+GO:0006811,"ion transport",5.344%,-0.402,-5.401,5.836,48.0000,0.838,0.305,6811,0
+GO:0055085,"transmembrane transport",8.916%,null,null,6.058,30.0000,0.834,0.535,6811,1
+GO:0006810,"transport",17.616%,null,null,6.354,5.0000,0.831,0.684,6811,1
+GO:0033151,"V(D)J recombination",0.004%,-4.261, 7.476,2.736,4.0000,0.701,0.361,33151,0
+GO:0006313,"transposition, DNA-mediated",0.413%,null,null,4.724,1.0000,0.593,0.520,33151,1
+GO:0006508,"proteolysis",5.223%,-5.654,-1.643,5.826,23.0000,0.733,0.448,6508,0
+GO:0006355,"regulation of transcription, DNA-templated",9.917%,-0.895, 3.839,6.105,6.0000,0.479,0.466,6355,0
+GO:0043123,"positive regulation of I-kappaB kinase/NF-kappaB signaling",0.037%, 5.431, 2.754,3.676,1.0000,0.652,0.467,43123,0
+GO:0046330,"positive regulation of JNK cascade",0.028%,null,null,3.549,1.0000,0.540,0.762,43123,1
+GO:0007250,"activation of NF-kappaB-inducing kinase activity",0.008%,null,null,2.985,1.0000,0.587,0.705,43123,1
+GO:0008277,"regulation of G-protein coupled receptor protein signaling pathway",0.024%,null,null,3.494,1.0000,0.680,0.582,43123,1
+GO:0006139,"nucleobase-containing compound metabolic process",26.547%,-3.395, 3.347,6.532,5.0000,0.695,0.471,6139,0
+GO:0006270,"DNA replication initiation",0.141%,-4.754, 5.734,4.259,2.0000,0.656,0.471,6270,0

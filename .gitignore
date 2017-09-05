@@ -31,6 +31,10 @@ gag_out/*
 !gag_out/genome.stats
 
 fastOrtho/version1*
+fastOrtho/Coral_specific/ORTHO*
+fastOrtho/CoralDiversified/ORTHO*
+fastOrtho/Pdam_specific/ORTHO*
+
 
 .Rproj.user
 .Rhistory

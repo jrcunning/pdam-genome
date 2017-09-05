@@ -8,11 +8,12 @@ colnames(dat) <- c("Group", "Genes", "Taxa", "IDs")
 dat5 <- filter(dat, Taxa>=1)
 dim(dat5) #23380
 
-counts <- data.frame(matrix(nrow=nrow(dat5),ncol=10))
+counts <- data.frame(matrix(nrow=nrow(dat5),ncol=11))
 rownames(counts) <- dat5$Group
-colnames(counts) <- c("Pdam","Adig","Ofav","Ampl","Disc","Aipt","Nema","Hydr","Mnem","Amph")
+colnames(counts) <- c("Pdam","Spis","Adig","Ofav","Ampl","Disc","Aipt","Nema","Hydr","Mnem","Amph")
 
 counts$Pdam <- apply(dat5,1,function(x) str_count(x[4],"Pocillopora"))
+counts$Spis <- apply(dat5,1,function(x) str_count(x[4],"Stylophora"))
 counts$Adig <- apply(dat5,1,function(x) str_count(x[4],"Acropora"))
 counts$Ofav <- apply(dat5,1,function(x) str_count(x[4],"Orbicella"))
 counts$Ampl <- apply(dat5,1,function(x) str_count(x[4],"Amplexidiscus"))
@@ -24,11 +25,11 @@ counts$Mnem <- apply(dat5,1,function(x) str_count(x[4],"Mnemiopsis"))
 counts$Amph <- apply(dat5,1,function(x) str_count(x[4],"Amphimedon"))
 
 ###Groupings
-coral <- 1:3
-morph <- 4:5
-anem <- 6:7
-hyd <- 8
-out <- 9:10
+coral <- 1:4
+morph <- 5:6
+anem <- 7:8
+hyd <- 9
+out <- 10:11
 cnid <- c(coral,morph,anem,hyd)
 
 
