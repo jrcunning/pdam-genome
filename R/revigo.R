@@ -7,6 +7,7 @@ args = commandArgs(trailingOnly=TRUE)
 revigo.data <- read.csv(args[1])
 revigo.data$plot_X <- as.numeric(as.character(revigo.data$plot_X))
 revigo.data$plot_Y <- as.numeric(as.character(revigo.data$plot_Y))
+revigo.data$value <- as.numeric(as.character(revigo.data$value))
 revigo.data$log_value <- log2(revigo.data$value + 1)
 
 wrap <- function(x, len) sapply(x, function(y) paste(strwrap(y, len), collapse = "\n"), USE.NAMES = FALSE)
