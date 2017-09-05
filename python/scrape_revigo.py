@@ -11,7 +11,7 @@ br.open("http://revigo.irb.hr/")
 
 form = br.get_form()
 form["goList"].value = goterms2
-form["cutoff"].value = '0.50'
+form["cutoff"].value = '0.70'
 form["isPValue"].value = 'no'
 form["whatIsBetter"].value = 'higher'
 form["goSizes"].value = '0'
