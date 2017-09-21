@@ -6,7 +6,13 @@ data/filter/*
 data/ref/*
 !data/ref/ofav
 !data/ref/adig
-#!data/ref/spis
+data/ref/adig/run_adig/*
+!data/ref/adig/run_adig/short_summary_adig.txt
+!data/ref/spis
+data/ref/spis/*
+!data/ref/spis/run_spis
+data/ref/spis/run_spis/*
+!data/ref/spis/run_spis/short_summary_spis.txt
 !data/ref/*.pep
 data/ref/all.pep
 !data/ref/bacteria

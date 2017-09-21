@@ -1,0 +1,15 @@
+# BUSCO version is: 2.0.1 
+# The lineage dataset is: metazoa_odb9 (Creation date: 2016-02-13, number of species: 65, number of BUSCOs: 978)
+# To reproduce this run: python /nethome/rcunning/local/busco/BUSCO.py -i adi_v0.9.scaffold.fa -o adig -l /nethome/rcunning/local/busco/metazoa_odb9/ -m genome -c 15 --long -sp fly
+#
+# Summarized benchmarking in BUSCO notation for file adi_v0.9.scaffold.fa
+# BUSCO was run in mode: genome
+
+	C:34.3%[S:31.7%,D:2.6%],F:8.1%,M:57.6%,n:978
+
+	335	Complete BUSCOs (C)
+	310	Complete and single-copy BUSCOs (S)
+	25	Complete and duplicated BUSCOs (D)
+	79	Fragmented BUSCOs (F)
+	564	Missing BUSCOs (M)
+	978	Total BUSCO groups searched
