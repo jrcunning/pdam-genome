@@ -1,0 +1,48 @@
+Sender: LSF System <lsfadmin@n257>
+Subject: Job 13037013: <ofav_ips> in cluster <mk2> Exited
+
+Job <ofav_ips> was submitted from host <login4> by user <rcunning> in cluster <mk2>.
+Job was executed on host(s) <n257>, in queue <general>, as user <rcunning> in cluster <mk2>.
+</nethome/rcunning> was used as the home directory.
+</scratch/projects/crf/pdam-genome/fastOrtho/Ofav_specific> was used as the working directory.
+Started at Tue Oct  3 10:19:29 2017
+Results reported on Tue Oct  3 10:19:30 2017
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+#!/bin/bash
+#BSUB -J ofav_ips
+#BSUB -o %J.out
+#BSUB -e %J.err
+#BSUB -q general
+#BSUB -P crf
+#
+
+module load blast
+module load java/1.8.0_60
+module load R/3.3.1
+
+export _JAVA_OPTIONS=''
+
+cd /scratch/projects/crf/pdam-genome/fastOrtho/Ofav_specific && make
+
+------------------------------------------------------------
+
+Exited with exit code 2.
+
+Resource usage summary:
+
+    CPU time :                                   0.06 sec.
+    Total Requested Memory :                     1500.00 MB
+    Delta Memory :                               -
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <13037013.err> for stderr output of this job.
+
