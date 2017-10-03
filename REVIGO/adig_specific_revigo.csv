@@ -1,0 +1,88 @@
+term_ID,description,frequency,plot_X,plot_Y,plot_size,value,uniqueness,dispensability,representative,eliminated
+GO:0006468,"protein phosphorylation",4.137%,-4.780,-4.726,5.725,78.0000,0.755,0.000,6468,0
+GO:0007155,"cell adhesion",0.544%, 3.869,-4.080,4.844,14.0000,0.977,0.000,7155,0
+GO:0008152,"metabolic process",75.387%, 3.201,-2.910,6.986,8.0000,0.994,0.000,8152,0
+GO:0042981,"regulation of apoptotic process",0.313%,-5.919, 2.643,4.604,73.0000,0.770,0.036,42981,0
+GO:0006915,"apoptotic process",0.406%,null,null,4.717,5.0000,0.835,0.963,42981,1
+GO:0006457,"protein folding",0.903%, 2.874, 0.243,5.064,12.0000,0.939,0.041,6457,0
+GO:0008218,"bioluminescence",0.010%, 1.530,-0.000,3.112,7.0000,0.937,0.048,8218,0
+GO:0006836,"neurotransmitter transport",0.113%, 6.105, 0.022,4.163,22.0000,0.840,0.065,6836,0
+GO:0006629,"lipid metabolic process",3.522%, 1.287,-5.308,5.655,3.0000,0.840,0.090,6629,0
+GO:0005975,"carbohydrate metabolic process",5.260%, 2.054, 1.004,5.829,2.0000,0.926,0.094,5975,0
+GO:0034454,"microtubule anchoring at centrosome",0.003%, 2.061, 4.373,2.624,2.0000,0.817,0.116,34454,0
+GO:0052331,"hemolysis in other organism involved in symbiotic interaction",0.002%,-2.552, 5.735,2.498,2.0000,0.885,0.154,52331,0
+GO:0015074,"DNA integration",0.682%,-2.892,-6.411,4.942,41.0000,0.826,0.172,15074,0
+GO:0006207,"'de novo' pyrimidine nucleobase biosynthetic process",0.192%,-4.235,-2.169,4.392,9.0000,0.770,0.173,6207,0
+GO:0008285,"negative regulation of cell proliferation",0.128%,-4.650, 4.497,4.214,5.0000,0.801,0.218,8285,0
+GO:0007186,"G-protein coupled receptor signaling pathway",0.882%,-5.037, 4.626,5.054,59.0000,0.703,0.258,7186,0
+GO:0006956,"complement activation",0.015%,-6.220, 3.233,3.273,8.0000,0.745,0.272,6956,0
+GO:0006955,"immune response",0.337%,null,null,4.635,4.0000,0.835,0.700,6956,1
+GO:0006541,"glutamine metabolic process",0.472%,-1.747,-2.385,4.782,2.0000,0.795,0.276,6541,0
+GO:0006357,"regulation of transcription from RNA polymerase II promoter",1.273%,-6.321,-0.367,5.213,2.0000,0.711,0.298,6357,0
+GO:0055114,"oxidation-reduction process",15.060%, 0.259,-3.819,6.286,78.0000,0.842,0.300,55114,0
+GO:0007411,"axon guidance",0.066%,-1.122, 4.859,3.930,11.0000,0.653,0.306,7411,0
+GO:0060271,"cilium assembly",0.104%,null,null,4.124,2.0000,0.786,0.715,7411,1
+GO:0055085,"transmembrane transport",8.916%, 6.313, 0.319,6.058,48.0000,0.868,0.311,55085,0
+GO:0051260,"protein homooligomerization",0.106%, 3.404, 5.498,4.132,4.0000,0.872,0.344,51260,0
+GO:0035385,"Roundabout signaling pathway",0.006%,-4.993, 5.312,2.920,11.0000,0.768,0.353,35385,0
+GO:0050482,"arachidonic acid secretion",0.026%, 5.706,-0.620,3.528,10.0000,0.816,0.359,50482,0
+GO:0006979,"response to oxidative stress",0.575%,-4.008, 6.468,4.868,3.0000,0.822,0.373,6979,0
+GO:1901642,"nucleoside transmembrane transport",0.047%, 5.948, 0.538,3.781,2.0000,0.827,0.374,1901642,0
+GO:0033198,"response to ATP",0.009%,-3.012, 6.916,3.067,4.0000,0.862,0.406,33198,0
+GO:0006813,"potassium ion transport",0.476%, 6.058,-1.528,4.786,8.0000,0.860,0.408,6813,0
+GO:0006812,"cation transport",3.242%,null,null,5.619,2.0000,0.848,0.770,6813,1
+GO:0098655,"cation transmembrane transport",2.290%,null,null,5.468,4.0000,0.842,0.727,6813,1
+GO:0006099,"tricarboxylic acid cycle",0.469%,-0.857,-2.263,4.780,2.0000,0.808,0.413,6099,0
+GO:0032793,"positive regulation of CREB transcription factor activity",0.004%,-7.354, 0.623,2.681,2.0000,0.792,0.418,32793,0
+GO:0030488,"tRNA methylation",0.200%,-5.856,-4.734,4.408,6.0000,0.798,0.446,30488,0
+GO:0006400,"tRNA modification",0.914%,null,null,5.069,3.0000,0.775,0.779,30488,1
+GO:0006508,"proteolysis",5.223%,-4.641,-5.004,5.826,117.0000,0.870,0.448,6508,0
+GO:0006644,"phospholipid metabolic process",1.209%,-1.131,-3.620,5.191,10.0000,0.746,0.465,6644,0
+GO:0008610,"lipid biosynthetic process",2.123%,null,null,5.435,2.0000,0.795,0.781,6644,1
+GO:0016311,"dephosphorylation",1.250%,-0.005,-6.500,5.205,8.0000,0.867,0.467,16311,0
+GO:0006269,"DNA replication, synthesis of RNA primer",0.152%,-3.658,-6.332,4.291,4.0000,0.819,0.474,6269,0
+GO:0009166,"nucleotide catabolic process",0.139%,-2.761,-3.344,4.251,3.0000,0.748,0.476,9166,0
+GO:0009190,"cyclic nucleotide biosynthetic process",0.182%,-4.415,-2.547,4.369,4.0000,0.735,0.488,9190,0
+GO:0007264,"small GTPase mediated signal transduction",0.485%,-5.164, 4.887,4.794,2.0000,0.711,0.504,7264,0
+GO:0001736,"establishment of planar polarity",0.019%, 1.285, 6.156,3.379,2.0000,0.868,0.517,1736,0
+GO:0060026,"convergent extension",0.011%,null,null,3.167,2.0000,0.871,0.733,1736,1
+GO:0006336,"DNA replication-independent nucleosome assembly",0.012%, 3.296, 5.350,3.184,1.0000,0.878,0.521,6336,0
+GO:0006811,"ion transport",5.344%, 6.373,-0.148,5.836,48.0000,0.874,0.535,6811,0
+GO:0006886,"intracellular protein transport",1.199%, 5.689,-0.017,5.187,6.0000,0.859,0.535,6886,0
+GO:0006520,"cellular amino acid metabolic process",5.591%,-3.573,-1.639,5.856,22.0000,0.748,0.537,6520,0
+GO:0042254,"ribosome biogenesis",1.422%, 3.353, 5.609,5.261,2.0000,0.901,0.540,42254,0
+GO:0007094,"mitotic spindle assembly checkpoint",0.038%,-1.450, 3.984,3.688,4.0000,0.710,0.540,7094,0
+GO:0000077,"DNA damage checkpoint",0.074%,null,null,3.976,2.0000,0.697,0.867,7094,1
+GO:0007346,"regulation of mitotic cell cycle",0.269%,null,null,4.537,2.0000,0.756,0.751,7094,1
+GO:0000413,"protein peptidyl-prolyl isomerization",0.393%,-4.917,-5.943,4.703,10.0000,0.827,0.542,413,0
+GO:0046931,"pore complex assembly",0.006%, 3.386, 5.898,2.919,2.0000,0.888,0.558,46931,0
+GO:0015696,"ammonium transport",0.148%, 6.072,-1.215,4.279,4.0000,0.865,0.559,15696,0
+GO:0016567,"protein ubiquitination",0.523%,-4.599,-5.831,4.827,17.0000,0.823,0.560,16567,0
+GO:0006470,"protein dephosphorylation",0.585%,-4.101,-5.049,4.875,11.0000,0.792,0.568,6470,0
+GO:0006952,"defense response",0.568%,-3.897, 6.437,4.863,1.0000,0.822,0.570,6952,0
+GO:0016055,"Wnt signaling pathway",0.140%,-5.130, 3.538,4.253,2.0000,0.696,0.573,16055,0
+GO:0060828,"regulation of canonical Wnt signaling pathway",0.047%,null,null,3.780,1.0000,0.693,0.922,16055,1
+GO:0009451,"RNA modification",1.778%,-5.668,-4.206,5.358,3.0000,0.778,0.581,9451,0
+GO:0071539,"protein localization to centrosome",0.006%, 5.179,-0.198,2.914,2.0000,0.898,0.583,71539,0
+GO:0051726,"regulation of cell cycle",0.547%,-4.960, 2.549,4.846,2.0000,0.752,0.596,51726,0
+GO:0006310,"DNA recombination",1.641%,-3.440,-6.124,5.323,3.0000,0.813,0.598,6310,0
+GO:0007507,"heart development",0.127%, 1.284, 6.724,4.211,7.0000,0.853,0.617,7507,0
+GO:0016525,"negative regulation of angiogenesis",0.020%,null,null,3.408,1.0000,0.777,0.795,7507,1
+GO:0048513,"animal organ development",0.779%,null,null,5.000,1.0000,0.842,0.749,7507,1
+GO:0006355,"regulation of transcription, DNA-templated",9.917%,-5.826,-0.562,6.105,28.0000,0.661,0.622,6355,0
+GO:0046330,"positive regulation of JNK cascade",0.028%,-5.221, 0.563,3.549,5.0000,0.615,0.629,46330,0
+GO:0051056,"regulation of small GTPase mediated signal transduction",0.218%,null,null,4.447,2.0000,0.703,0.723,46330,1
+GO:0035556,"intracellular signal transduction",4.000%,-5.173, 4.186,5.710,4.0000,0.663,0.638,35556,0
+GO:0007165,"signal transduction",6.621%,null,null,5.929,102.0000,0.649,0.847,35556,1
+GO:0007166,"cell surface receptor signaling pathway",0.920%,-5.261, 4.576,5.072,2.0000,0.702,0.641,7166,0
+GO:0016042,"lipid catabolic process",0.401%, 1.821,-6.183,4.712,7.0000,0.834,0.650,16042,0
+GO:0009168,"purine ribonucleoside monophosphate biosynthetic process",1.043%,-4.382,-2.375,5.127,2.0000,0.697,0.654,9168,0
+GO:0001522,"pseudouridine synthesis",0.350%,-5.767,-4.669,4.652,5.0000,0.791,0.667,1522,0
+GO:0006625,"protein targeting to peroxisome",0.043%, 4.777, 2.707,3.744,1.0000,0.796,0.675,6625,0
+GO:0070588,"calcium ion transmembrane transport",0.157%, 6.212,-1.277,4.305,4.0000,0.867,0.681,70588,0
+GO:0006810,"transport",17.616%, 6.240,-0.442,6.354,19.0000,0.861,0.684,6810,0
+GO:0006281,"DNA repair",2.234%,-5.922, 0.233,5.457,2.0000,0.652,0.688,6281,0
+GO:0030509,"BMP signaling pathway",0.042%,-5.882, 1.986,3.731,1.0000,0.665,0.690,30509,0
+GO:0007250,"activation of NF-kappaB-inducing kinase activity",0.008%,-5.908, 0.949,2.985,5.0000,0.669,0.693,7250,0
+GO:0007018,"microtubule-based movement",0.287%,-1.211, 0.983,4.567,6.0000,0.821,0.697,7018,0
+GO:0003341,"cilium movement",0.023%,null,null,3.467,2.0000,0.844,0.701,7018,1
