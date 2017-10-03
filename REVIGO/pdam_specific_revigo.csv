@@ -1,30 +1,30 @@
 term_ID,description,frequency,plot_X,plot_Y,plot_size,value,uniqueness,dispensability,representative,eliminated
-GO:0007186,"G-protein coupled receptor signaling pathway",0.882%, 5.677,-0.177,5.054,134.0000,0.600,0.000,7186,0
-GO:0070588,"calcium ion transmembrane transport",0.157%,-3.660,-3.957,4.305,2.0000,0.827,0.000,70588,0
-GO:0008218,"bioluminescence",0.010%,-6.344, 1.260,3.112,6.0000,0.894,0.023,8218,0
-GO:0015074,"DNA integration",0.682%,-3.280, 5.352,4.942,4.0000,0.802,0.042,15074,0
-GO:0007507,"heart development",0.127%, 2.989,-6.908,4.211,1.0000,0.804,0.072,7507,0
-GO:0016051,"carbohydrate biosynthetic process",1.079%,-4.251, 1.237,5.141,3.0000,0.813,0.088,16051,0
-GO:0006468,"protein phosphorylation",4.137%, 1.058, 6.155,5.725,4.0000,0.728,0.172,6468,0
-GO:0019538,"protein metabolic process",18.489%,-1.460, 6.701,6.375,2.0000,0.845,0.231,19538,0
-GO:0055114,"oxidation-reduction process",15.060%,-2.311, 0.665,6.286,2.0000,0.821,0.245,55114,0
-GO:0042981,"regulation of apoptotic process",0.313%, 6.422, 2.853,4.604,3.0000,0.757,0.258,42981,0
-GO:0055085,"transmembrane transport",8.916%,-2.638,-5.041,6.058,14.0000,0.814,0.322,55085,0
-GO:0035385,"Roundabout signaling pathway",0.006%, 5.787,-1.202,2.920,1.0000,0.693,0.353,35385,0
-GO:0000077,"DNA damage checkpoint",0.074%, 6.755, 0.812,3.976,3.0000,0.677,0.356,77,0
-GO:0007250,"activation of NF-kappaB-inducing kinase activity",0.008%, 4.653, 2.453,2.985,4.0000,0.582,0.373,7250,0
-GO:0006508,"proteolysis",5.223%, 0.723, 6.535,5.826,2.0000,0.792,0.448,6508,0
-GO:0035278,"miRNA mediated inhibition of translation",0.006%, 4.353, 4.481,2.851,2.0000,0.683,0.462,35278,0
-GO:0018996,"molting cycle, collagen and cuticulin-based cuticle",0.008%, 2.539,-6.944,2.990,1.0000,0.823,0.486,18996,0
-GO:0007264,"small GTPase mediated signal transduction",0.485%, 6.295, 0.230,4.794,2.0000,0.606,0.504,7264,0
-GO:0006811,"ion transport",5.344%,-3.061,-4.781,5.836,2.0000,0.819,0.535,6811,0
-GO:0007166,"cell surface receptor signaling pathway",0.920%, 6.042,-0.074,5.072,2.0000,0.599,0.538,7166,0
-GO:0033554,"cellular response to stress",2.967%, 6.644,-1.188,5.581,2.0000,0.610,0.549,33554,0
-GO:0016567,"protein ubiquitination",0.523%, 1.802, 6.595,4.827,2.0000,0.758,0.560,16567,0
-GO:0035434,"copper ion transmembrane transport",0.038%,-4.004,-3.647,3.683,2.0000,0.836,0.561,35434,0
-GO:0006310,"DNA recombination",1.641%,-2.746, 5.613,5.323,3.0000,0.794,0.598,6310,0
-GO:0007411,"axon guidance",0.066%, 4.919,-3.192,3.930,1.0000,0.648,0.617,7411,0
-GO:0006979,"response to oxidative stress",0.575%, 6.616,-1.752,4.868,2.0000,0.677,0.679,6979,0
-GO:0007165,"signal transduction",6.621%, 5.302, 0.000,5.929,6.0000,0.545,0.681,7165,0
-GO:0006810,"transport",17.616%,-2.789,-4.698,6.354,8.0000,0.813,0.684,6810,0
-GO:0046330,"positive regulation of JNK cascade",0.028%, 4.156, 2.011,3.549,4.0000,0.524,0.693,46330,0
+GO:0007186,"G-protein coupled receptor signaling pathway",0.882%,-6.039, 1.108,5.054,134.0000,0.600,0.000,7186,0
+GO:0007264,"small GTPase mediated signal transduction",0.485%,null,null,4.794,2.0000,0.606,0.504,7186,1
+GO:0007166,"cell surface receptor signaling pathway",0.920%,null,null,5.072,2.0000,0.599,0.538,7186,1
+GO:0070588,"calcium ion transmembrane transport",0.157%, 5.306, 0.918,4.305,2.0000,0.827,0.000,70588,0
+GO:0035434,"copper ion transmembrane transport",0.038%,null,null,3.683,2.0000,0.836,0.561,70588,1
+GO:0008218,"bioluminescence",0.010%, 4.860,-2.656,3.112,6.0000,0.894,0.023,8218,0
+GO:0015074,"DNA integration",0.682%, 3.325, 5.806,4.942,4.0000,0.802,0.042,15074,0
+GO:0006310,"DNA recombination",1.641%,null,null,5.323,3.0000,0.794,0.598,15074,1
+GO:0007507,"heart development",0.127%, 1.425,-5.030,4.211,1.0000,0.804,0.072,7507,0
+GO:0007411,"axon guidance",0.066%,null,null,3.930,1.0000,0.648,0.617,7507,1
+GO:0016051,"carbohydrate biosynthetic process",1.079%,-3.043,-5.459,5.141,3.0000,0.813,0.088,16051,0
+GO:0006468,"protein phosphorylation",4.137%,-0.792, 6.034,5.725,4.0000,0.728,0.172,6468,0
+GO:0016567,"protein ubiquitination",0.523%,null,null,4.827,2.0000,0.758,0.560,6468,1
+GO:0019538,"protein metabolic process",18.489%, 1.557, 7.200,6.375,2.0000,0.845,0.231,19538,0
+GO:0055114,"oxidation-reduction process",15.060%,-4.349,-5.084,6.286,2.0000,0.821,0.245,55114,0
+GO:0042981,"regulation of apoptotic process",0.313%,-6.096,-0.464,4.604,3.0000,0.757,0.258,42981,0
+GO:0055085,"transmembrane transport",8.916%, 5.695, 1.688,6.058,14.0000,0.814,0.322,55085,0
+GO:0006810,"transport",17.616%,null,null,6.354,8.0000,0.813,0.684,55085,1
+GO:0006811,"ion transport",5.344%,null,null,5.836,2.0000,0.819,0.535,55085,1
+GO:0035385,"Roundabout signaling pathway",0.006%,-7.371, 1.492,2.920,1.0000,0.693,0.353,35385,0
+GO:0000077,"DNA damage checkpoint",0.074%,-6.326, 2.746,3.976,3.0000,0.677,0.356,77,0
+GO:0033554,"cellular response to stress",2.967%,null,null,5.581,2.0000,0.610,0.549,77,1
+GO:0007165,"signal transduction",6.621%,null,null,5.929,6.0000,0.545,0.681,77,1
+GO:0006979,"response to oxidative stress",0.575%,null,null,4.868,2.0000,0.677,0.679,77,1
+GO:0007250,"activation of NF-kappaB-inducing kinase activity",0.008%,-4.294, 3.588,2.985,4.0000,0.582,0.373,7250,0
+GO:0046330,"positive regulation of JNK cascade",0.028%,null,null,3.549,4.0000,0.524,0.693,7250,1
+GO:0006508,"proteolysis",5.223%,-0.974, 6.853,5.826,2.0000,0.792,0.448,6508,0
+GO:0035278,"miRNA mediated inhibition of translation",0.006%,-4.297, 4.337,2.851,2.0000,0.683,0.462,35278,0
+GO:0018996,"molting cycle, collagen and cuticulin-based cuticle",0.008%, 1.731,-4.571,2.990,1.0000,0.823,0.486,18996,0

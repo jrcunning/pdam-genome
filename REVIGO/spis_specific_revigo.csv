@@ -1,57 +1,57 @@
 term_ID,description,frequency,plot_X,plot_Y,plot_size,value,uniqueness,dispensability,representative,eliminated
-GO:0006468,"protein phosphorylation",4.137%,-0.147,-7.661,5.725,76.0000,0.755,0.000,6468,0
-GO:0007155,"cell adhesion",0.544%, 5.459, 4.538,4.844,1.0000,0.964,0.000,7155,0
-GO:0008152,"metabolic process",75.387%, 4.661, 3.799,6.986,16.0000,0.991,0.000,8152,0
-GO:0009405,"pathogenesis",0.095%, 4.394, 2.620,4.085,3.0000,0.964,0.000,9405,0
-GO:0032259,"methylation",3.103%, 6.575, 3.426,5.600,1.0000,0.949,0.021,32259,0
-GO:0061077,"chaperone-mediated protein folding",0.043%, 3.549, 5.246,3.743,1.0000,0.935,0.030,61077,0
-GO:0042981,"regulation of apoptotic process",0.313%, 3.172,-2.584,4.604,44.0000,0.789,0.036,42981,0
-GO:0048598,"embryonic morphogenesis",0.171%, 1.817, 2.409,4.341,1.0000,0.830,0.067,48598,0
-GO:0006869,"lipid transport",0.270%,-1.456, 5.558,4.539,12.0000,0.827,0.070,6869,0
-GO:0006629,"lipid metabolic process",3.522%,-3.723,-0.817,5.655,1.0000,0.815,0.090,6629,0
-GO:0005975,"carbohydrate metabolic process",5.260%,-0.499, 2.631,5.829,22.0000,0.900,0.094,5975,0
-GO:0042157,"lipoprotein metabolic process",0.210%,-2.493, 1.838,4.431,12.0000,0.897,0.120,42157,0
-GO:0045104,"intermediate filament cytoskeleton organization",0.009%,-6.222, 1.581,3.083,1.0000,0.830,0.124,45104,0
-GO:0015074,"DNA integration",0.682%,-3.328,-6.811,4.942,76.0000,0.772,0.172,15074,0
-GO:0009116,"nucleoside metabolic process",2.917%,-3.467,-3.575,5.573,17.0000,0.663,0.229,9116,0
+GO:0006468,"protein phosphorylation",4.137%,-7.244,-3.091,5.725,76.0000,0.755,0.000,6468,0
+GO:0016567,"protein ubiquitination",0.523%,null,null,4.827,1.0000,0.820,0.560,6468,1
+GO:0007155,"cell adhesion",0.544%, 6.152,-2.534,4.844,1.0000,0.964,0.000,7155,0
+GO:0008152,"metabolic process",75.387%, 4.793,-3.614,6.986,16.0000,0.991,0.000,8152,0
+GO:0009405,"pathogenesis",0.095%, 3.712,-1.827,4.085,3.0000,0.964,0.000,9405,0
+GO:0032259,"methylation",3.103%, 4.576,-5.659,5.600,1.0000,0.949,0.021,32259,0
+GO:0061077,"chaperone-mediated protein folding",0.043%, 5.950,-0.039,3.743,1.0000,0.935,0.030,61077,0
+GO:0042981,"regulation of apoptotic process",0.313%,-1.466,-3.567,4.604,44.0000,0.789,0.036,42981,0
+GO:0048598,"embryonic morphogenesis",0.171%, 2.560,-6.623,4.341,1.0000,0.830,0.067,48598,0
+GO:0031175,"neuron projection development",0.220%,null,null,4.451,1.0000,0.731,0.656,48598,1
+GO:0007411,"axon guidance",0.066%,null,null,3.930,1.0000,0.649,0.878,48598,1
+GO:0045664,"regulation of neuron differentiation",0.117%,null,null,4.177,1.0000,0.723,0.883,48598,1
+GO:0006869,"lipid transport",0.270%, 3.935, 3.769,4.539,12.0000,0.827,0.070,6869,0
+GO:0006629,"lipid metabolic process",3.522%,-3.972, 5.673,5.655,1.0000,0.815,0.090,6629,0
+GO:0005975,"carbohydrate metabolic process",5.260%, 1.994, 1.022,5.829,22.0000,0.900,0.094,5975,0
+GO:0042157,"lipoprotein metabolic process",0.210%,-0.396, 0.333,4.431,12.0000,0.897,0.120,42157,0
+GO:0045104,"intermediate filament cytoskeleton organization",0.009%,-0.184, 5.938,3.083,1.0000,0.830,0.124,45104,0
+GO:0015074,"DNA integration",0.682%,-7.513,-0.100,4.942,76.0000,0.772,0.172,15074,0
+GO:0006310,"DNA recombination",1.641%,null,null,5.323,31.0000,0.756,0.598,15074,1
+GO:0006260,"DNA replication",1.577%,null,null,5.306,1.0000,0.752,0.659,15074,1
+GO:0009116,"nucleoside metabolic process",2.917%,-4.774, 2.252,5.573,17.0000,0.663,0.229,9116,0
+GO:0009113,"purine nucleobase biosynthetic process",0.124%,null,null,4.202,1.0000,0.724,0.560,9116,1
 GO:0006096,"glycolytic process",0.545%,null,null,4.844,5.0000,0.635,0.781,9116,1
+GO:0015969,"guanosine tetraphosphate metabolic process",0.065%,null,null,3.920,7.0000,0.719,0.628,9116,1
 GO:0015986,"ATP synthesis coupled proton transport",0.411%,null,null,4.722,1.0000,0.598,0.806,9116,1
-GO:0007186,"G-protein coupled receptor signaling pathway",0.882%, 5.507,-3.363,5.054,16.0000,0.707,0.258,7186,0
-GO:0008033,"tRNA processing",1.345%,-3.978,-6.140,5.237,4.0000,0.776,0.260,8033,0
-GO:0033198,"response to ATP",0.009%, 6.995,-1.576,3.067,1.0000,0.854,0.263,33198,0
-GO:0098655,"cation transmembrane transport",2.290%, 0.095, 5.741,5.468,1.0000,0.880,0.295,98655,0
-GO:0055114,"oxidation-reduction process",15.060%,-1.975,-1.115,6.286,43.0000,0.827,0.300,55114,0
-GO:0006259,"DNA metabolic process",5.607%,-2.454,-6.378,5.857,4.0000,0.762,0.336,6259,0
-GO:0006094,"gluconeogenesis",0.262%,-5.575,-2.412,4.527,5.0000,0.795,0.338,6094,0
-GO:0030163,"protein catabolic process",0.997%, 1.347,-8.652,5.107,1.0000,0.835,0.353,30163,0
-GO:0006955,"immune response",0.337%, 6.913,-2.621,4.635,1.0000,0.815,0.354,6955,0
+GO:0007186,"G-protein coupled receptor signaling pathway",0.882%,-2.273,-6.128,5.054,16.0000,0.707,0.258,7186,0
+GO:0007264,"small GTPase mediated signal transduction",0.485%,null,null,4.794,8.0000,0.714,0.504,7186,1
+GO:0007165,"signal transduction",6.621%,null,null,5.929,76.0000,0.661,0.675,7186,1
+GO:0008033,"tRNA processing",1.345%,-7.121, 0.371,5.237,4.0000,0.776,0.260,8033,0
+GO:0000245,"spliceosomal complex assembly",0.043%,null,null,3.744,2.0000,0.767,0.552,8033,1
+GO:0051260,"protein homooligomerization",0.106%,null,null,4.132,2.0000,0.871,0.567,8033,1
+GO:0033198,"response to ATP",0.009%,-1.034,-7.829,3.067,1.0000,0.854,0.263,33198,0
+GO:0098655,"cation transmembrane transport",2.290%, 4.537, 2.967,5.468,1.0000,0.880,0.295,98655,0
+GO:0055085,"transmembrane transport",8.916%,null,null,6.058,2.0000,0.885,0.684,98655,1
+GO:0006810,"transport",17.616%,null,null,6.354,14.0000,0.883,0.516,98655,1
+GO:0055114,"oxidation-reduction process",15.060%,-3.568, 4.915,6.286,43.0000,0.827,0.300,55114,0
+GO:0006259,"DNA metabolic process",5.607%,-6.571,-0.349,5.857,4.0000,0.762,0.336,6259,0
+GO:0006094,"gluconeogenesis",0.262%,-5.146, 4.947,4.527,5.0000,0.795,0.338,6094,0
+GO:0030163,"protein catabolic process",0.997%,-7.674,-4.524,5.107,1.0000,0.835,0.353,30163,0
+GO:0006955,"immune response",0.337%,-2.233,-7.753,4.635,1.0000,0.815,0.354,6955,0
 GO:0051607,"defense response to virus",0.098%,null,null,4.098,1.0000,0.800,0.806,6955,1
-GO:0006998,"nuclear envelope organization",0.016%,-6.346, 1.200,3.305,1.0000,0.826,0.356,6998,0
-GO:0009072,"aromatic amino acid family metabolic process",0.719%,-3.999,-3.212,4.965,3.0000,0.740,0.378,9072,0
-GO:0048489,"synaptic vesicle transport",0.035%,-1.138, 5.376,3.658,1.0000,0.848,0.390,48489,0
-GO:0007224,"smoothened signaling pathway",0.038%, 6.140,-3.415,3.683,1.0000,0.752,0.402,7224,0
-GO:0072321,"chaperone-mediated protein transport",0.002%,-2.165, 5.424,2.449,1.0000,0.864,0.407,72321,0
-GO:0046330,"positive regulation of JNK cascade",0.028%, 3.280,-4.742,3.549,3.0000,0.619,0.415,46330,0
-GO:0006508,"proteolysis",5.223%, 0.259,-8.266,5.826,16.0000,0.834,0.448,6508,0
-GO:0045663,"positive regulation of myoblast differentiation",0.006%, 3.571,-0.906,2.879,1.0000,0.755,0.455,45663,0
-GO:0006355,"regulation of transcription, DNA-templated",9.917%, 0.390,-4.997,6.105,11.0000,0.633,0.466,6355,0
-GO:0006139,"nucleobase-containing compound metabolic process",26.547%,-4.488,-5.464,6.532,2.0000,0.779,0.471,6139,0
-GO:0006298,"mismatch repair",0.165%, 2.187,-5.118,4.326,12.0000,0.664,0.477,6298,0
-GO:0007264,"small GTPase mediated signal transduction",0.485%, 5.647,-3.775,4.794,8.0000,0.714,0.504,7264,0
-GO:0006810,"transport",17.616%,-0.596, 5.781,6.354,14.0000,0.883,0.516,6810,0
-GO:0035385,"Roundabout signaling pathway",0.006%, 6.184,-3.042,2.920,1.0000,0.773,0.530,35385,0
-GO:0000077,"DNA damage checkpoint",0.074%, 4.495,-3.871,3.976,2.0000,0.751,0.537,77,0
-GO:0000245,"spliceosomal complex assembly",0.043%,-6.211,-1.728,3.744,2.0000,0.767,0.552,245,0
-GO:0016567,"protein ubiquitination",0.523%, 0.891,-8.409,4.827,1.0000,0.820,0.560,16567,0
-GO:0009113,"purine nucleobase biosynthetic process",0.124%,-4.586,-3.659,4.202,1.0000,0.724,0.560,9113,0
-GO:0051260,"protein homooligomerization",0.106%,-6.175, 2.378,4.132,2.0000,0.871,0.567,51260,0
-GO:0008277,"regulation of G-protein coupled receptor protein signaling pathway",0.024%, 5.882,-4.321,3.494,1.0000,0.749,0.571,8277,0
-GO:0006310,"DNA recombination",1.641%,-2.940,-6.657,5.323,31.0000,0.756,0.598,6310,0
-GO:0015969,"guanosine tetraphosphate metabolic process",0.065%,-2.913,-3.999,3.920,7.0000,0.719,0.628,15969,0
-GO:0031175,"neuron projection development",0.220%,-4.784, 1.332,4.451,1.0000,0.731,0.656,31175,0
-GO:0007411,"axon guidance",0.066%,null,null,3.930,1.0000,0.649,0.878,31175,1
-GO:0045664,"regulation of neuron differentiation",0.117%,null,null,4.177,1.0000,0.723,0.883,31175,1
-GO:0006260,"DNA replication",1.577%,-3.191,-6.298,5.306,1.0000,0.752,0.659,6260,0
-GO:0007165,"signal transduction",6.621%, 5.059,-3.380,5.929,76.0000,0.661,0.675,7165,0
-GO:0055085,"transmembrane transport",8.916%,-0.342, 5.769,6.058,2.0000,0.885,0.684,55085,0
-GO:0007250,"activation of NF-kappaB-inducing kinase activity",0.008%, 4.250,-5.209,2.985,3.0000,0.674,0.693,7250,0
+GO:0006998,"nuclear envelope organization",0.016%,-0.607, 6.082,3.305,1.0000,0.826,0.356,6998,0
+GO:0009072,"aromatic amino acid family metabolic process",0.719%,-4.845, 2.856,4.965,3.0000,0.740,0.378,9072,0
+GO:0048489,"synaptic vesicle transport",0.035%, 3.452, 3.961,3.658,1.0000,0.848,0.390,48489,0
+GO:0007224,"smoothened signaling pathway",0.038%,-2.684,-6.678,3.683,1.0000,0.752,0.402,7224,0
+GO:0035385,"Roundabout signaling pathway",0.006%,null,null,2.920,1.0000,0.773,0.530,7224,1
+GO:0072321,"chaperone-mediated protein transport",0.002%, 3.541, 4.502,2.449,1.0000,0.864,0.407,72321,0
+GO:0046330,"positive regulation of JNK cascade",0.028%,-3.891,-4.543,3.549,3.0000,0.619,0.415,46330,0
+GO:0007250,"activation of NF-kappaB-inducing kinase activity",0.008%,null,null,2.985,3.0000,0.674,0.693,46330,1
+GO:0008277,"regulation of G-protein coupled receptor protein signaling pathway",0.024%,null,null,3.494,1.0000,0.749,0.571,46330,1
+GO:0006508,"proteolysis",5.223%,-7.748,-3.230,5.826,16.0000,0.834,0.448,6508,0
+GO:0045663,"positive regulation of myoblast differentiation",0.006%, 0.347,-5.113,2.879,1.0000,0.755,0.455,45663,0
+GO:0006355,"regulation of transcription, DNA-templated",9.917%,-4.988,-1.621,6.105,11.0000,0.633,0.466,6355,0
+GO:0006139,"nucleobase-containing compound metabolic process",26.547%,-6.495, 1.258,6.532,2.0000,0.779,0.471,6139,0
+GO:0006298,"mismatch repair",0.165%,-4.592,-3.668,4.326,12.0000,0.664,0.477,6298,0
+GO:0000077,"DNA damage checkpoint",0.074%,null,null,3.976,2.0000,0.751,0.537,6298,1
