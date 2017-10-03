@@ -70,6 +70,27 @@ if (args[1]=="Pdam_specific.txt") write.table(pdamOnly,"Pdam_specific.txt",quote
 coralOnly <- dat[which(coralMin>0 & noncorMax==0),]
 if (args[1]=="Coral_specific.txt") write.table(coralOnly, "Coral_specific.txt",quote=F,row.names=F,col.names=T,sep="\t")
 
+# Spis-specific
+spis <- counts[,2]
+nonspis <- apply(counts[,-2],1,max)
+length(which(spis>0 & nonspis==0))
+spisOnly <- dat[which(spis>0 & nonspis==0),]
+if (args[1]=="Spis_specific.txt") write.table(spisOnly, "Spis_specific.txt",quote=F,row.names=F,col.names=T,sep="\t")
+
+# Ofav-specific
+ofav <- counts[,4]
+nonofav <- apply(counts[,-4],1,max)
+length(which(ofav>0 & nonofav==0))
+ofavOnly <- dat[which(ofav>0 & nonofav==0),]
+if (args[1]=="Ofav_specific.txt") write.table(ofavOnly, "Ofav_specific.txt",quote=F,row.names=F,col.names=T,sep="\t")
+
+# Adig-specific
+adig <- counts[,3]
+nonadig <- apply(counts[,-3],1,max)
+length(which(adig>0 & nonadig==0))
+adigOnly <- dat[which(adig>0 & nonadig==0),]
+if (args[1]=="Adig_specific.txt") write.table(adigOnly, "Adig_specific.txt",quote=F,row.names=F,col.names=T,sep="\t")
+
 ###Diversification in corals
 anth <- apply(counts[,c(coral,morph,anem)],1,min)
 pgens <- counts[which(anth>0),]
