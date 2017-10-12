@@ -1,0 +1,44 @@
+
+------------------------- topGOdata object -------------------------
+
+ Description:
+   -  My project 
+
+ Ontology:
+   -  BP 
+
+ 12702 available genes (all genes from the array):
+   - symbol:  pdam_00021770 pdam_00021774 pdam_00021772 pdam_00022010 pdam_00022012  ...
+   - 256  significant genes. 
+
+ 7548 feasible genes (genes that can be used in the analysis):
+   - symbol:  pdam_00021774 pdam_00022012 pdam_00012251 pdam_00012254 pdam_00012274  ...
+   - 191  significant genes. 
+
+ GO graph (nodes with at least  1  genes):
+   - a graph with directed edges
+   - number of nodes = 2614 
+   - number of edges = 5770 
+
+------------------------- topGOdata object -------------------------
+
+       GO.ID                                        Term Annotated Significant
+1 GO:0007186 G-protein coupled receptor signaling pat...      1243         134
+2 GO:0008218                             bioluminescence        27           6
+3 GO:0007250 activation of NF-kappaB-inducing kinase ...        29           4
+4 GO:0046330          positive regulation of JNK cascade        29           4
+  Expected Rank in classicFisher classicFisher elimFisher topgoFisher
+1    31.45                     1       < 1e-30    < 1e-30     < 1e-30
+2     0.68                    14       4.6e-05    4.6e-05     4.6e-05
+3     0.73                    15        0.0057     0.0057      0.0057
+4     0.73                    16        0.0057     0.0057      0.0057
+  parentchildFisher
+1           1.7e-17
+2           4.1e-08
+3              0.45
+4              0.87
+pdam_specific_enrichment_Topgo_weight01_4_all  --- no of nodes:  99 
+[1] "Term GO:0007186 genes: pdam_00000035,pdam_00000040,pdam_00000075,pdam_00001583,pdam_00001584,pdam_00001818,pdam_00001968,pdam_00002661,pdam_00002662,pdam_00002992,pdam_00003165,pdam_00003853,pdam_00003981,pdam_00004095,pdam_00004570,pdam_00004732,pdam_00005077,pdam_00005083,pdam_00005084,pdam_00006219,pdam_00006754,pdam_00006756,pdam_00006757,pdam_00006758,pdam_00006759,pdam_00006760,pdam_00006761,pdam_00006764,pdam_00006765,pdam_00006766,pdam_00006995,pdam_00006996,pdam_00007020,pdam_00007233,pdam_00007235,pdam_00007884,pdam_00008469,pdam_00008475,pdam_00008477,pdam_00008478,pdam_00008481,pdam_00009264,pdam_00009497,pdam_00009498,pdam_00009641,pdam_00009747,pdam_00010151,pdam_00010153,pdam_00010465,pdam_00010466,pdam_00010467,pdam_00010469,pdam_00010601,pdam_00012137,pdam_00012138,pdam_00013017,pdam_00013977,pdam_00014096,pdam_00014376,pdam_00014380,pdam_00014577,pdam_00016109,pdam_00016116,pdam_00016460,pdam_00016463,pdam_00016464,pdam_00016466,pdam_00016467,pdam_00016468,pdam_00017045,pdam_00017155,pdam_00017162,pdam_00017415,pdam_00017418,pdam_00017421,pdam_00018548,pdam_00018549,pdam_00018675,pdam_00018676,pdam_00018784,pdam_00018787,pdam_00018825,pdam_00018826,pdam_00019202,pdam_00019208,pdam_00019528,pdam_00019531,pdam_00019551,pdam_00019553,pdam_00019558,pdam_00019809,pdam_00020107,pdam_00020156,pdam_00020162,pdam_00020163,pdam_00020513,pdam_00021184,pdam_00021186,pdam_00021188,pdam_00021189,pdam_00021190,pdam_00021273,pdam_00021686,pdam_00022314,pdam_00022316,pdam_00022317,pdam_00022318,pdam_00022319,pdam_00022320,pdam_00022321,pdam_00022569,pdam_00022611,pdam_00022612,pdam_00022658,pdam_00022659,pdam_00023053,pdam_00023055,pdam_00023711,pdam_00023712,pdam_00023713,pdam_00023714,pdam_00023856,pdam_00024660,pdam_00024661,pdam_00024662,pdam_00024914,pdam_00024971,pdam_00024972,pdam_00024978,pdam_00024979,pdam_00025023,pdam_00025073,pdam_00025164,pdam_00025956"
+[1] "Term GO:0008218 genes: pdam_00015343,pdam_00015344,pdam_00015348,pdam_00015358,pdam_00016646,pdam_00016651"
+[1] "Term GO:0007250 genes: pdam_00004420,pdam_00004421,pdam_00025130,pdam_00025390"
+[1] "Term GO:0046330 genes: pdam_00004420,pdam_00004421,pdam_00025130,pdam_00025390"
