@@ -1,0 +1,7 @@
+term_ID,description,frequency,plot_X,plot_Y,plot_size,log10 p-value,uniqueness,dispensability,representative,eliminated
+GO:0006811,"ion transport",5.344%,-5.471, 2.655,5.836,-5.3188,0.495,0.000,6811,0
+GO:0007264,"small GTPase mediated signal transduction",0.485%, 3.326, 5.677,4.794,-5.1675,0.540,0.000,7264,0
+GO:0033151,"V(D)J recombination",0.004%,-2.679,-5.016,2.736,-2.6778,0.574,0.053,33151,0
+GO:0006468,"protein phosphorylation",4.137%, 3.771,-4.107,5.725,-0.5459,0.596,0.106,6468,0
+GO:0007346,"regulation of mitotic cell cycle",0.269%, 4.833, 3.507,4.537,-1.1952,0.540,0.241,7346,0
+GO:0055085,"transmembrane transport",8.916%,-5.107, 3.760,6.058,-0.9255,0.505,0.535,55085,0
