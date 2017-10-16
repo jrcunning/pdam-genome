@@ -1,0 +1,400 @@
+
+------------------------- topGOdata object -------------------------
+
+ Description:
+   -  My project 
+
+ Ontology:
+   -  BP 
+
+ 12702 available genes (all genes from the array):
+   - symbol:  pdam_00021770 pdam_00021774 pdam_00021772 pdam_00022010 pdam_00022012  ...
+   - 184  significant genes. 
+
+ 7548 feasible genes (genes that can be used in the analysis):
+   - symbol:  pdam_00021774 pdam_00022012 pdam_00012251 pdam_00012254 pdam_00012274  ...
+   - 93  significant genes. 
+
+ GO graph (nodes with at least  1  genes):
+   - a graph with directed edges
+   - number of nodes = 2614 
+   - number of edges = 5770 
+
+------------------------- topGOdata object -------------------------
+
+        GO.ID                                        Term Annotated Significant
+1  GO:0035434          copper ion transmembrane transport         8           2
+2  GO:0007165                         signal transduction      1930          32
+3  GO:0046654       tetrahydrofolate biosynthetic process         1           1
+4  GO:0051092 positive regulation of NF-kappaB transcr...         2           1
+5  GO:0070836                            caveola assembly         3           1
+6  GO:0051607                   defense response to virus        26           2
+7  GO:0006355 regulation of transcription, DNA-templat...       492          12
+8  GO:0000183                 chromatin silencing at rDNA         4           1
+9  GO:0045132              meiotic chromosome segregation         4           1
+10 GO:0007156 homophilic cell adhesion via plasma memb...        31           2
+11 GO:0006508                                 proteolysis       480          10
+12 GO:0009607                 response to biotic stimulus        37           3
+13 GO:0007186 G-protein coupled receptor signaling pat...      1243          21
+14 GO:0006637                  acyl-CoA metabolic process        10           1
+15 GO:0006814                        sodium ion transport        52           2
+16 GO:0015074                             DNA integration        53           2
+17 GO:0035278    miRNA mediated inhibition of translation        14           1
+18 GO:0006310                           DNA recombination        62           2
+19 GO:0007160                        cell-matrix adhesion        16           1
+20 GO:0006468                     protein phosphorylation       497           9
+21 GO:0007166     cell surface receptor signaling pathway       187           4
+22 GO:0006486                       protein glycosylation        70           2
+23 GO:0006812                            cation transport       305           6
+24 GO:0000077                       DNA damage checkpoint        24           1
+25 GO:0007250 activation of NF-kappaB-inducing kinase ...        29           1
+26 GO:0046330          positive regulation of JNK cascade        29           1
+27 GO:0042981             regulation of apoptotic process        98           2
+28 GO:0070588         calcium ion transmembrane transport        37           1
+29 GO:0055085                     transmembrane transport       578           9
+30 GO:0006470                   protein dephosphorylation        65           1
+31 GO:0005975              carbohydrate metabolic process       260           3
+32 GO:0007264 small GTPase mediated signal transductio...       137           1
+33 GO:0006811                               ion transport       537           7
+34 GO:0008152                           metabolic process      4017          43
+35 GO:0055114                 oxidation-reduction process       562           2
+36 GO:0000003                                reproduction        10           1
+37 GO:0000041              transition metal ion transport        14           2
+38 GO:0000075                       cell cycle checkpoint        33           1
+39 GO:0000165                                MAPK cascade        33           1
+40 GO:0000280                            nuclear division        32           1
+41 GO:0001765                      membrane raft assembly         3           1
+42 GO:0001932       regulation of protein phosphorylation        43           1
+43 GO:0001934 positive regulation of protein phosphory...        34           1
+44 GO:0002252                     immune effector process        27           2
+45 GO:0002376                       immune system process        70           2
+46 GO:0006082              organic acid metabolic process       189           1
+47 GO:0006139 nucleobase-containing compound metabolic...      1208          14
+48 GO:0006259                       DNA metabolic process       250           2
+49 GO:0006325                      chromatin organization        75           1
+50 GO:0006342                         chromatin silencing         5           1
+51 GO:0006351                transcription, DNA-templated       562          12
+52 GO:0006412                                 translation       191           1
+53 GO:0006417                   regulation of translation        23           1
+54 GO:0006464       cellular protein modification process       868          12
+55 GO:0006518                   peptide metabolic process       226           1
+56 GO:0006520       cellular amino acid metabolic process       130           1
+57 GO:0006575 cellular modified amino acid metabolic p...        40           1
+58 GO:0006725 cellular aromatic compound metabolic pro...      1258          15
+59 GO:0006732                  coenzyme metabolic process        64           2
+60 GO:0006760 folic acid-containing compound metabolic...         7           1
+61 GO:0006790           sulfur compound metabolic process        68           1
+62 GO:0006793                phosphorus metabolic process       779          11
+63 GO:0006796 phosphate-containing compound metabolic ...       767          10
+64 GO:0006807         nitrogen compound metabolic process      1591          16
+65 GO:0006810                                   transport      1202          11
+66 GO:0006816                       calcium ion transport        43           1
+67 GO:0006825                        copper ion transport         9           2
+68 GO:0006915                           apoptotic process       119           2
+69 GO:0006950                          response to stress       280           4
+70 GO:0006952                            defense response        37           2
+71 GO:0006974    cellular response to DNA damage stimulus       152           1
+72 GO:0006996                      organelle organization       299           2
+73 GO:0007009                plasma membrane organization         5           1
+74 GO:0007049                                  cell cycle       157           2
+75 GO:0007059                      chromosome segregation        30           1
+76 GO:0007126                    meiotic nuclear division         7           1
+77 GO:0007154                          cell communication      1959          32
+78 GO:0007155                               cell adhesion        84           3
+79 GO:0007254                                 JNK cascade        30           1
+80 GO:0008150                          biological_process      7548          93
+81 GO:0008219                                  cell death       120           2
+82 GO:0008652    cellular amino acid biosynthetic process        41           1
+83 GO:0009058                        biosynthetic process      1226          16
+84 GO:0009059          macromolecule biosynthetic process       908          15
+85 GO:0009100              glycoprotein metabolic process        72           2
+86 GO:0009101           glycoprotein biosynthetic process        70           2
+87 GO:0009108               coenzyme biosynthetic process        38           1
+88 GO:0009396 folic acid-containing compound biosynthe...         3           1
+89 GO:0009605               response to external stimulus        37           2
+90 GO:0009615                           response to virus        28           2
+91 GO:0009889          regulation of biosynthetic process       523          13
+92 GO:0009890 negative regulation of biosynthetic proc...        45           2
+93 GO:0009891 positive regulation of biosynthetic proc...        17           1
+   Expected Rank in classicFisher classicFisher elimFisher topgoFisher
+1      0.10                     4        0.0040      0.004      0.0040
+2     23.78                    28        0.0353      0.035      0.0042
+3      0.01                    13        0.0123      0.012      0.0123
+4      0.02                    24        0.0245      0.024      0.0245
+5      0.04                    29        0.0365      0.037      0.0365
+6      0.32                    39        0.0403      0.040      0.0403
+7      6.06                    18        0.0171      0.017      0.0456
+8      0.05                    47        0.0484      0.048      0.0484
+9      0.05                    48        0.0484      0.048      0.0484
+10     0.38                    50        0.0554      0.055      0.0554
+11     5.91                    62        0.0702      0.070      0.0702
+12     0.46                     6        0.0104      0.010      0.0705
+13    15.32                    65        0.0763      0.076      0.0763
+14     0.12                    83        0.1167      0.117      0.1167
+15     0.64                    91        0.1343      0.134      0.1343
+16     0.65                    94        0.1385      0.138      0.1385
+17     0.17                   104        0.1595      0.159      0.1595
+18     0.76                   117        0.1774      0.177      0.1774
+19     0.20                   118        0.1801      0.180      0.1801
+20     6.12                   102        0.1575      0.158      0.1917
+21     2.30                   131        0.1988      0.199      0.1988
+22     0.86                   137        0.2132      0.213      0.2132
+23     3.76                   116        0.1733      0.485      0.2355
+24     0.30                   148        0.2577      0.258      0.2577
+25     0.36                   164        0.3025      0.302      0.3025
+26     0.36                   165        0.3025      0.302      0.3025
+27     1.21                   189        0.3410      0.341      0.3410
+28     0.46                   203        0.3686      0.369      0.3686
+29     7.12                   159        0.2813      0.538      0.4668
+30     0.80                   255        0.5548      0.555      0.5548
+31     3.20                   265        0.6268      0.627      0.7645
+32     1.69                   287        0.8199      0.820      0.8199
+33     6.62                   251        0.4958      0.775      0.9280
+34    49.49                   302        0.9281      0.928      0.9592
+35     6.92                   313        0.9939      0.994      0.9939
+36     0.12                    84        0.1167      0.117      1.0000
+37     0.17                    16        0.0124      1.000      1.0000
+38     0.41                   184        0.3363      0.336      1.0000
+39     0.41                   185        0.3363      0.336      1.0000
+40     0.39                   179        0.3280      0.328      1.0000
+41     0.04                    30        0.0365      0.037      1.0000
+42     0.53                   224        0.4141      0.414      1.0000
+43     0.42                   192        0.3446      0.345      1.0000
+44     0.33                    44        0.0432      0.043      1.0000
+45     0.86                   138        0.2132      0.213      1.0000
+46     2.33                   296        0.9068      0.907      1.0000
+47    14.88                   269        0.6430      0.643      1.0000
+48     3.08                   286        0.8193      0.819      1.0000
+49     0.92                   260        0.6072      0.607      1.0000
+50     0.06                    55        0.0601      0.060      1.0000
+51     6.92                    41        0.0423      0.042      1.0000
+52     2.35                   299        0.9091      0.909      1.0000
+53     0.28                   146        0.2484      0.248      1.0000
+54    10.69                   210        0.3816      0.382      1.0000
+55     2.78                   306        0.9419      0.942      1.0000
+56     1.60                   279        0.8032      0.803      1.0000
+57     0.49                   217        0.3918      0.392      1.0000
+58    15.50                   259        0.5992      0.599      1.0000
+59     0.79                   122        0.1863      0.186      1.0000
+60     0.09                    67        0.0832      0.083      1.0000
+61     0.84                   257        0.5712      0.571      1.0000
+62     9.60                   202        0.3635      0.363      1.0000
+63     9.45                   249        0.4751      0.475      1.0000
+64    19.60                   290        0.8539      0.854      1.0000
+65    14.81                   292        0.8943      0.963      1.0000
+66     0.53                   225        0.4141      0.414      1.0000
+67     0.11                     5        0.0051      1.000      1.0000
+68     1.47                   233        0.4330      0.433      1.0000
+69     3.45                   242        0.4549      0.455      1.0000
+70     0.46                    63        0.0758      0.076      1.0000
+71     1.87                   289        0.8510      0.851      1.0000
+72     3.68                   291        0.8888      0.889      1.0000
+73     0.06                    56        0.0601      0.060      1.0000
+74     1.93                   258        0.5803      0.580      1.0000
+75     0.37                   169        0.3111      0.311      1.0000
+76     0.09                    68        0.0832      0.083      1.0000
+77    24.14                    43        0.0427      0.043      1.0000
+78     1.03                    70        0.0847      0.085      1.0000
+79     0.37                   170        0.3111      0.311      1.0000
+80    93.00                   315        1.0000      1.000      1.0000
+81     1.48                   236        0.4372      0.437      1.0000
+82     0.51                   218        0.3993      0.399      1.0000
+83    15.11                   239        0.4434      0.443      1.0000
+84    11.19                    97        0.1445      0.145      1.0000
+85     0.89                   142        0.2223      0.222      1.0000
+86     0.86                   139        0.2132      0.213      1.0000
+87     0.47                   208        0.3764      0.376      1.0000
+88     0.04                    31        0.0365      0.037      1.0000
+89     0.46                    64        0.0758      0.076      1.0000
+90     0.34                    46        0.0461      0.046      1.0000
+91     6.44                    10        0.0114      0.011      1.0000
+92     0.55                    82        0.1058      0.106      1.0000
+93     0.21                   123        0.1902      0.190      1.0000
+   parentchildFisher
+1              0.014
+2              0.639
+3              0.143
+4              0.667
+5              1.000
+6              0.655
+7              0.298
+8              0.800
+9              0.143
+10             1.000
+11             0.159
+12             0.021
+13             0.523
+14             0.141
+15             0.233
+16             0.044
+17             0.933
+18             0.061
+19             0.941
+20             0.131
+21             0.376
+22             0.246
+23             0.119
+24             0.157
+25             0.829
+26             0.967
+27             0.677
+28             0.700
+29             0.309
+30             0.602
+31             0.634
+32             0.688
+33             0.334
+34             0.928
+35             0.798
+36             0.117
+37             0.030
+38             0.520
+39             0.201
+40             0.889
+41             1.000
+42             0.548
+43             0.470
+44             0.145
+45             0.213
+46             0.931
+47             0.671
+48             0.848
+49             0.258
+50             0.101
+51             0.018
+52             0.928
+53             0.357
+54             0.181
+55             0.675
+56             0.803
+57             0.354
+58             0.384
+59             0.746
+60             0.056
+61             0.530
+62             0.203
+63             0.989
+64             0.681
+65             0.946
+66             0.956
+67             0.396
+68             0.983
+69             0.687
+70             0.086
+71             0.954
+72             0.709
+73             0.135
+74             0.628
+75             0.333
+76             0.036
+77             0.065
+78             1.000
+79             1.000
+80             1.000
+81             0.481
+82             0.189
+83             0.212
+84             0.231
+85             0.266
+86             0.288
+87             0.788
+88             0.021
+89             0.120
+90             0.813
+91             0.002
+92             0.112
+93             0.204
+coral_specific_enrichment_Topgo_weight01_29_all  --- no of nodes:  311 
+[1] "Term GO:0035434 genes: pdam_00007015,pdam_00019463"
+[1] "Term GO:0007165 genes: pdam_00001905,pdam_00003150,pdam_00005661,pdam_00006281,pdam_00007753,pdam_00007837,pdam_00009194,pdam_00010427,pdam_00011670,pdam_00013529,pdam_00013766,pdam_00013768,pdam_00014026,pdam_00014397,pdam_00015331,pdam_00015332,pdam_00015336,pdam_00015337,pdam_00019552,pdam_00020431,pdam_00020432,pdam_00020794,pdam_00022225,pdam_00022374,pdam_00023006,pdam_00023007,pdam_00023010,pdam_00023069,pdam_00023362,pdam_00023363,pdam_00023989,pdam_00026002"
+[1] "Term GO:0046654 genes: pdam_00012021"
+[1] "Term GO:0051092 genes: pdam_00001754"
+[1] "Term GO:0070836 genes: pdam_00020799"
+[1] "Term GO:0051607 genes: pdam_00000549,pdam_00002131"
+[1] "Term GO:0006355 genes: pdam_00000650,pdam_00001754,pdam_00002777,pdam_00003254,pdam_00008346,pdam_00010679,pdam_00014012,pdam_00018945,pdam_00020193,pdam_00022518,pdam_00022988,pdam_00023727"
+[1] "Term GO:0000183 genes: pdam_00023727"
+[1] "Term GO:0045132 genes: pdam_00022127"
+[1] "Term GO:0007156 genes: pdam_00013008,pdam_00015549"
+[1] "Term GO:0006508 genes: pdam_00002357,pdam_00002359,pdam_00002360,pdam_00010846,pdam_00011907,pdam_00014602,pdam_00014603,pdam_00015565,pdam_00018045,pdam_00022113"
+[1] "Term GO:0009607 genes: pdam_00000549,pdam_00001100,pdam_00002131"
+[1] "Term GO:0007186 genes: pdam_00001905,pdam_00003150,pdam_00005661,pdam_00006281,pdam_00007753,pdam_00009194,pdam_00010427,pdam_00014397,pdam_00015331,pdam_00015332,pdam_00015336,pdam_00015337,pdam_00019552,pdam_00020431,pdam_00020432,pdam_00020794,pdam_00022225,pdam_00022374,pdam_00023006,pdam_00023007,pdam_00023010"
+[1] "Term GO:0006637 genes: pdam_00003141"
+[1] "Term GO:0006814 genes: pdam_00000879,pdam_00000908"
+[1] "Term GO:0015074 genes: pdam_00000549,pdam_00002131"
+[1] "Term GO:0035278 genes: pdam_00022557"
+[1] "Term GO:0006310 genes: pdam_00000549,pdam_00002131"
+[1] "Term GO:0007160 genes: pdam_00001154"
+[1] "Term GO:0006468 genes: pdam_00005023,pdam_00014026,pdam_00014276,pdam_00014277,pdam_00017954,pdam_00020786,pdam_00022636,pdam_00023225,pdam_00024929"
+[1] "Term GO:0007166 genes: pdam_00009194,pdam_00014397,pdam_00020431,pdam_00020432"
+[1] "Term GO:0006486 genes: pdam_00015116,pdam_00015550"
+[1] "Term GO:0006812 genes: pdam_00000879,pdam_00000908,pdam_00005868,pdam_00007015,pdam_00015000,pdam_00019463"
+[1] "Term GO:0000077 genes: pdam_00010298"
+[1] "Term GO:0007250 genes: pdam_00014026"
+[1] "Term GO:0046330 genes: pdam_00014026"
+[1] "Term GO:0042981 genes: pdam_00010298,pdam_00021936"
+[1] "Term GO:0070588 genes: pdam_00005868"
+[1] "Term GO:0055085 genes: pdam_00002095,pdam_00005868,pdam_00006271,pdam_00007015,pdam_00007246,pdam_00007420,pdam_00015000,pdam_00019463,pdam_00021637"
+[1] "Term GO:0006470 genes: pdam_00021644"
+[1] "Term GO:0005975 genes: pdam_00013807,pdam_00015116,pdam_00015550"
+[1] "Term GO:0007264 genes: pdam_00023069"
+[1] "Term GO:0006811 genes: pdam_00000879,pdam_00000908,pdam_00005868,pdam_00007015,pdam_00007420,pdam_00015000,pdam_00019463"
+[1] "Term GO:0008152 genes: pdam_00000549,pdam_00000650,pdam_00001754,pdam_00002131,pdam_00002357,pdam_00002359,pdam_00002360,pdam_00002777,pdam_00003141,pdam_00003254,pdam_00005023,pdam_00008346,pdam_00010679,pdam_00010846,pdam_00011907,pdam_00012021,pdam_00013807,pdam_00014012,pdam_00014026,pdam_00014276,pdam_00014277,pdam_00014602,pdam_00014603,pdam_00015116,pdam_00015459,pdam_00015550,pdam_00015565,pdam_00017954,pdam_00018045,pdam_00018945,pdam_00019695,pdam_00020193,pdam_00020786,pdam_00021644,pdam_00022113,pdam_00022518,pdam_00022557,pdam_00022565,pdam_00022636,pdam_00022988,pdam_00023225,pdam_00023727,pdam_00024929"
+[1] "Term GO:0055114 genes: pdam_00015459,pdam_00022565"
+[1] "Term GO:0000003 genes: pdam_00022127"
+[1] "Term GO:0000041 genes: pdam_00007015,pdam_00019463"
+[1] "Term GO:0000075 genes: pdam_00010298"
+[1] "Term GO:0000165 genes: pdam_00014026"
+[1] "Term GO:0000280 genes: pdam_00022127"
+[1] "Term GO:0001765 genes: pdam_00020799"
+[1] "Term GO:0001932 genes: pdam_00014026"
+[1] "Term GO:0001934 genes: pdam_00014026"
+[1] "Term GO:0002252 genes: pdam_00000549,pdam_00002131"
+[1] "Term GO:0002376 genes: pdam_00000549,pdam_00002131"
+[1] "Term GO:0006082 genes: pdam_00012021"
+[1] "Term GO:0006139 genes: pdam_00000549,pdam_00000650,pdam_00001754,pdam_00002131,pdam_00002777,pdam_00003254,pdam_00008346,pdam_00010679,pdam_00014012,pdam_00018945,pdam_00020193,pdam_00022518,pdam_00022988,pdam_00023727"
+[1] "Term GO:0006259 genes: pdam_00000549,pdam_00002131"
+[1] "Term GO:0006325 genes: pdam_00023727"
+[1] "Term GO:0006342 genes: pdam_00023727"
+[1] "Term GO:0006351 genes: pdam_00000650,pdam_00001754,pdam_00002777,pdam_00003254,pdam_00008346,pdam_00010679,pdam_00014012,pdam_00018945,pdam_00020193,pdam_00022518,pdam_00022988,pdam_00023727"
+[1] "Term GO:0006412 genes: pdam_00022557"
+[1] "Term GO:0006417 genes: pdam_00022557"
+[1] "Term GO:0006464 genes: pdam_00005023,pdam_00014026,pdam_00014276,pdam_00014277,pdam_00015116,pdam_00015550,pdam_00017954,pdam_00020786,pdam_00021644,pdam_00022636,pdam_00023225,pdam_00024929"
+[1] "Term GO:0006518 genes: pdam_00022557"
+[1] "Term GO:0006520 genes: pdam_00012021"
+[1] "Term GO:0006575 genes: pdam_00012021"
+[1] "Term GO:0006725 genes: pdam_00000549,pdam_00000650,pdam_00001754,pdam_00002131,pdam_00002777,pdam_00003254,pdam_00008346,pdam_00010679,pdam_00012021,pdam_00014012,pdam_00018945,pdam_00020193,pdam_00022518,pdam_00022988,pdam_00023727"
+[1] "Term GO:0006732 genes: pdam_00003141,pdam_00012021"
+[1] "Term GO:0006760 genes: pdam_00012021"
+[1] "Term GO:0006790 genes: pdam_00003141"
+[1] "Term GO:0006793 genes: pdam_00003141,pdam_00005023,pdam_00014026,pdam_00014276,pdam_00014277,pdam_00017954,pdam_00020786,pdam_00021644,pdam_00022636,pdam_00023225,pdam_00024929"
+[1] "Term GO:0006796 genes: pdam_00005023,pdam_00014026,pdam_00014276,pdam_00014277,pdam_00017954,pdam_00020786,pdam_00021644,pdam_00022636,pdam_00023225,pdam_00024929"
+[1] "Term GO:0006807 genes: pdam_00000549,pdam_00000650,pdam_00001754,pdam_00002131,pdam_00002777,pdam_00003254,pdam_00008346,pdam_00010679,pdam_00012021,pdam_00014012,pdam_00018945,pdam_00020193,pdam_00022518,pdam_00022557,pdam_00022988,pdam_00023727"
+[1] "Term GO:0006810 genes: pdam_00000879,pdam_00000908,pdam_00002095,pdam_00005868,pdam_00006271,pdam_00007015,pdam_00007246,pdam_00007420,pdam_00015000,pdam_00019463,pdam_00021637"
+[1] "Term GO:0006816 genes: pdam_00005868"
+[1] "Term GO:0006825 genes: pdam_00007015,pdam_00019463"
+[1] "Term GO:0006915 genes: pdam_00010298,pdam_00021936"
+[1] "Term GO:0006950 genes: pdam_00000549,pdam_00002131,pdam_00010298,pdam_00014026"
+[1] "Term GO:0006952 genes: pdam_00000549,pdam_00002131"
+[1] "Term GO:0006974 genes: pdam_00010298"
+[1] "Term GO:0006996 genes: pdam_00022127,pdam_00023727"
+[1] "Term GO:0007009 genes: pdam_00020799"
+[1] "Term GO:0007049 genes: pdam_00010298,pdam_00022127"
+[1] "Term GO:0007059 genes: pdam_00022127"
+[1] "Term GO:0007126 genes: pdam_00022127"
+[1] "Term GO:0007154 genes: pdam_00001905,pdam_00003150,pdam_00005661,pdam_00006281,pdam_00007753,pdam_00007837,pdam_00009194,pdam_00010427,pdam_00011670,pdam_00013529,pdam_00013766,pdam_00013768,pdam_00014026,pdam_00014397,pdam_00015331,pdam_00015332,pdam_00015336,pdam_00015337,pdam_00019552,pdam_00020431,pdam_00020432,pdam_00020794,pdam_00022225,pdam_00022374,pdam_00023006,pdam_00023007,pdam_00023010,pdam_00023069,pdam_00023362,pdam_00023363,pdam_00023989,pdam_00026002"
+[1] "Term GO:0007155 genes: pdam_00001154,pdam_00013008,pdam_00015549"
+[1] "Term GO:0007254 genes: pdam_00014026"
+[1] "Term GO:0008150 genes: pdam_00000549,pdam_00000650,pdam_00000879,pdam_00000908,pdam_00001100,pdam_00001154,pdam_00001754,pdam_00001905,pdam_00002095,pdam_00002131,pdam_00002357,pdam_00002359,pdam_00002360,pdam_00002777,pdam_00003141,pdam_00003150,pdam_00003254,pdam_00005023,pdam_00005661,pdam_00005868,pdam_00006271,pdam_00006281,pdam_00007015,pdam_00007246,pdam_00007420,pdam_00007753,pdam_00007837,pdam_00008346,pdam_00009194,pdam_00010298,pdam_00010427,pdam_00010679,pdam_00010846,pdam_00011670,pdam_00011907,pdam_00012021,pdam_00013008,pdam_00013529,pdam_00013766,pdam_00013768,pdam_00013807,pdam_00014012,pdam_00014026,pdam_00014276,pdam_00014277,pdam_00014397,pdam_00014602,pdam_00014603,pdam_00015000,pdam_00015116,pdam_00015331,pdam_00015332,pdam_00015336,pdam_00015337,pdam_00015459,pdam_00015549,pdam_00015550,pdam_00015565,pdam_00017954,pdam_00018045,pdam_00018945,pdam_00019463,pdam_00019552,pdam_00019695,pdam_00020193,pdam_00020431,pdam_00020432,pdam_00020786,pdam_00020794,pdam_00020799,pdam_00021637,pdam_00021644,pdam_00021936,pdam_00022113,pdam_00022127,pdam_00022225,pdam_00022374,pdam_00022518,pdam_00022557,pdam_00022565,pdam_00022636,pdam_00022988,pdam_00023006,pdam_00023007,pdam_00023010,pdam_00023069,pdam_00023225,pdam_00023362,pdam_00023363,pdam_00023727,pdam_00023989,pdam_00024929,pdam_00026002"
+[1] "Term GO:0008219 genes: pdam_00010298,pdam_00021936"
+[1] "Term GO:0008652 genes: pdam_00012021"
+[1] "Term GO:0009058 genes: pdam_00000650,pdam_00001754,pdam_00002777,pdam_00003254,pdam_00008346,pdam_00010679,pdam_00012021,pdam_00014012,pdam_00015116,pdam_00015550,pdam_00018945,pdam_00020193,pdam_00022518,pdam_00022557,pdam_00022988,pdam_00023727"
+[1] "Term GO:0009059 genes: pdam_00000650,pdam_00001754,pdam_00002777,pdam_00003254,pdam_00008346,pdam_00010679,pdam_00014012,pdam_00015116,pdam_00015550,pdam_00018945,pdam_00020193,pdam_00022518,pdam_00022557,pdam_00022988,pdam_00023727"
+[1] "Term GO:0009100 genes: pdam_00015116,pdam_00015550"
+[1] "Term GO:0009101 genes: pdam_00015116,pdam_00015550"
+[1] "Term GO:0009108 genes: pdam_00012021"
+[1] "Term GO:0009396 genes: pdam_00012021"
+[1] "Term GO:0009605 genes: pdam_00000549,pdam_00002131"
+[1] "Term GO:0009615 genes: pdam_00000549,pdam_00002131"
+[1] "Term GO:0009889 genes: pdam_00000650,pdam_00001754,pdam_00002777,pdam_00003254,pdam_00008346,pdam_00010679,pdam_00014012,pdam_00018945,pdam_00020193,pdam_00022518,pdam_00022557,pdam_00022988,pdam_00023727"
+[1] "Term GO:0009890 genes: pdam_00022557,pdam_00023727"
+[1] "Term GO:0009891 genes: pdam_00001754"

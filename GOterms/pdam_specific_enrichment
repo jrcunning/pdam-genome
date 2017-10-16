@@ -22,23 +22,69 @@
 
 ------------------------- topGOdata object -------------------------
 
-       GO.ID                                        Term Annotated Significant
-1 GO:0007186 G-protein coupled receptor signaling pat...      1243         134
-2 GO:0008218                             bioluminescence        27           6
-3 GO:0007250 activation of NF-kappaB-inducing kinase ...        29           4
-4 GO:0046330          positive regulation of JNK cascade        29           4
-  Expected Rank in classicFisher classicFisher elimFisher topgoFisher
-1    31.45                     1       < 1e-30    < 1e-30     < 1e-30
-2     0.68                    14       4.6e-05    4.6e-05     4.6e-05
-3     0.73                    15        0.0057     0.0057      0.0057
-4     0.73                    16        0.0057     0.0057      0.0057
-  parentchildFisher
-1           1.7e-17
-2           4.1e-08
-3              0.45
-4              0.87
-pdam_specific_enrichment_Topgo_weight01_4_all  --- no of nodes:  99 
-[1] "Term GO:0007186 genes: pdam_00000035,pdam_00000040,pdam_00000075,pdam_00001583,pdam_00001584,pdam_00001818,pdam_00001968,pdam_00002661,pdam_00002662,pdam_00002992,pdam_00003165,pdam_00003853,pdam_00003981,pdam_00004095,pdam_00004570,pdam_00004732,pdam_00005077,pdam_00005083,pdam_00005084,pdam_00006219,pdam_00006754,pdam_00006756,pdam_00006757,pdam_00006758,pdam_00006759,pdam_00006760,pdam_00006761,pdam_00006764,pdam_00006765,pdam_00006766,pdam_00006995,pdam_00006996,pdam_00007020,pdam_00007233,pdam_00007235,pdam_00007884,pdam_00008469,pdam_00008475,pdam_00008477,pdam_00008478,pdam_00008481,pdam_00009264,pdam_00009497,pdam_00009498,pdam_00009641,pdam_00009747,pdam_00010151,pdam_00010153,pdam_00010465,pdam_00010466,pdam_00010467,pdam_00010469,pdam_00010601,pdam_00012137,pdam_00012138,pdam_00013017,pdam_00013977,pdam_00014096,pdam_00014376,pdam_00014380,pdam_00014577,pdam_00016109,pdam_00016116,pdam_00016460,pdam_00016463,pdam_00016464,pdam_00016466,pdam_00016467,pdam_00016468,pdam_00017045,pdam_00017155,pdam_00017162,pdam_00017415,pdam_00017418,pdam_00017421,pdam_00018548,pdam_00018549,pdam_00018675,pdam_00018676,pdam_00018784,pdam_00018787,pdam_00018825,pdam_00018826,pdam_00019202,pdam_00019208,pdam_00019528,pdam_00019531,pdam_00019551,pdam_00019553,pdam_00019558,pdam_00019809,pdam_00020107,pdam_00020156,pdam_00020162,pdam_00020163,pdam_00020513,pdam_00021184,pdam_00021186,pdam_00021188,pdam_00021189,pdam_00021190,pdam_00021273,pdam_00021686,pdam_00022314,pdam_00022316,pdam_00022317,pdam_00022318,pdam_00022319,pdam_00022320,pdam_00022321,pdam_00022569,pdam_00022611,pdam_00022612,pdam_00022658,pdam_00022659,pdam_00023053,pdam_00023055,pdam_00023711,pdam_00023712,pdam_00023713,pdam_00023714,pdam_00023856,pdam_00024660,pdam_00024661,pdam_00024662,pdam_00024914,pdam_00024971,pdam_00024972,pdam_00024978,pdam_00024979,pdam_00025023,pdam_00025073,pdam_00025164,pdam_00025956"
-[1] "Term GO:0008218 genes: pdam_00015343,pdam_00015344,pdam_00015348,pdam_00015358,pdam_00016646,pdam_00016651"
-[1] "Term GO:0007250 genes: pdam_00004420,pdam_00004421,pdam_00025130,pdam_00025390"
-[1] "Term GO:0046330 genes: pdam_00004420,pdam_00004421,pdam_00025130,pdam_00025390"
+        GO.ID                                        Term Annotated Significant
+1  GO:0007186 G-protein coupled receptor signaling pat...      1243         134
+2  GO:0008218                             bioluminescence        27           6
+3  GO:0007250 activation of NF-kappaB-inducing kinase ...        29           4
+4  GO:0046330          positive regulation of JNK cascade        29           4
+5  GO:0035434          copper ion transmembrane transport         8           2
+6  GO:0000077                       DNA damage checkpoint        24           3
+7  GO:0016051           carbohydrate biosynthetic process        24           3
+8  GO:0033554                 cellular response to stress       194           9
+9  GO:0015074                             DNA integration        53           4
+10 GO:0035278    miRNA mediated inhibition of translation        14           2
+11 GO:0018996 molting cycle, collagen and cuticulin-ba...         2           1
+12 GO:0007507                           heart development         4           1
+13 GO:0007411                               axon guidance         6           1
+14 GO:0035385                Roundabout signaling pathway         6           1
+15 GO:0019538                   protein metabolic process      1514          16
+16 GO:0006979                response to oxidative stress        28           2
+17 GO:0006310                           DNA recombination        62           3
+18 GO:0070588         calcium ion transmembrane transport        37           2
+19 GO:0016567                      protein ubiquitination        59           2
+20 GO:0042981             regulation of apoptotic process        98           3
+21 GO:0055085                     transmembrane transport       578          16
+   Expected Rank in classicFisher classicFisher elimFisher topgoFisher
+1     31.45                     1       < 1e-30    < 1e-30     < 1e-30
+2      0.68                    14       4.6e-05    4.6e-05     4.6e-05
+3      0.73                    15        0.0057     0.0057      0.0057
+4      0.73                    16        0.0057     0.0057      0.0057
+5      0.20                    44        0.0161     0.0161      0.0161
+6      0.61                    54        0.0218     0.0218      0.0218
+7      0.61                    55        0.0218     0.0218      0.0218
+8      4.91                    77        0.0574     0.3918      0.0347
+9      1.34                    68        0.0445     0.0445      0.0445
+10     0.35                    69        0.0475     0.0475      0.0475
+11     0.05                    74        0.0500     0.0500      0.0500
+12     0.10                    86        0.0975     0.0975      0.0975
+13     0.15                    97        0.1426     0.1426      0.1426
+14     0.15                    98        0.1426     0.1426      0.1426
+15    38.31                   222        1.0000     1.0000      0.1442
+16     0.71                   102        0.1572     0.1572      0.1572
+17     1.57                   109        0.2067     0.2067      0.2067
+18     0.94                   113        0.2404     0.2404      0.2404
+19     1.49                   144        0.4426     0.4426      0.4426
+20     2.48                   147        0.4534     0.4534      0.4534
+21    14.63                   137        0.3914     0.3914      0.4631
+   parentchildFisher
+1            1.7e-17
+2            4.1e-08
+3             0.4536
+4             0.8667
+5             0.0269
+6             0.0035
+7            6.4e-05
+8             0.9336
+9             0.0018
+10            0.8667
+11            1.0000
+12            0.0328
+13            0.8571
+14            0.0937
+15            0.0324
+16            0.3026
+17            0.0483
+18            0.3968
+19            0.9048
+20            0.5555
+21            0.9655

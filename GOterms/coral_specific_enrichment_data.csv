@@ -1,0 +1,30 @@
+GO.ID,Term,Annotated,Significant,Expected,Rank in classicFisher,classicFisher,elimFisher,topgoFisher,parentchildFisher
+GO:0035434,copper ion transmembrane transport,8,2,0.1,4,0.004,0.004,0.0040,0.014
+GO:0007165,signal transduction,1930,32,23.78,28,0.035,0.035,0.0042,0.639
+GO:0046654,tetrahydrofolate biosynthetic process,1,1,0.01,13,0.012,0.012,0.0123,0.143
+GO:0051092,positive regulation of NF-kappaB transcr...,2,1,0.02,24,0.024,0.024,0.0245,0.667
+GO:0070836,caveola assembly,3,1,0.04,29,0.037,0.037,0.0365,1.000
+GO:0051607,defense response to virus,26,2,0.32,39,0.040,0.040,0.0403,0.655
+GO:0006355,regulation of transcription, DNA-templat...,492,12,6.06,18,0.017,0.017,0.0456,0.298
+GO:0000183,chromatin silencing at rDNA,4,1,0.05,47,0.048,0.048,0.0484,0.800
+GO:0045132,meiotic chromosome segregation,4,1,0.05,48,0.048,0.048,0.0484,0.143
+GO:0007156,homophilic cell adhesion via plasma memb...,31,2,0.38,50,0.055,0.055,0.0554,1.000
+GO:0006508,proteolysis,480,10,5.91,62,0.070,0.070,0.0702,0.159
+GO:0009607,response to biotic stimulus,37,3,0.46,6,0.010,0.010,0.0705,0.021
+GO:0007186,G-protein coupled receptor signaling pat...,1243,21,15.32,65,0.076,0.076,0.0763,0.523
+GO:0006637,acyl-CoA metabolic process,10,1,0.12,83,0.117,0.117,0.1167,0.141
+GO:0006814,sodium ion transport,52,2,0.64,91,0.134,0.134,0.1343,0.233
+GO:0015074,DNA integration,53,2,0.65,94,0.138,0.138,0.1385,0.044
+GO:0035278,miRNA mediated inhibition of translation,14,1,0.17,104,0.159,0.159,0.1595,0.933
+GO:0006310,DNA recombination,62,2,0.76,117,0.177,0.177,0.1774,0.061
+GO:0007160,cell-matrix adhesion,16,1,0.2,118,0.180,0.180,0.1801,0.941
+GO:0006468,protein phosphorylation,497,9,6.12,102,0.158,0.158,0.1917,0.131
+GO:0007166,cell surface receptor signaling pathway,187,4,2.3,131,0.199,0.199,0.1988,0.376
+GO:0006486,protein glycosylation,70,2,0.86,137,0.213,0.213,0.2132,0.246
+GO:0006812,cation transport,305,6,3.76,116,0.173,0.485,0.2355,0.119
+GO:0000077,DNA damage checkpoint,24,1,0.3,148,0.258,0.258,0.2577,0.157
+GO:0007250,activation of NF-kappaB-inducing kinase ...,29,1,0.36,164,0.302,0.302,0.3025,0.829
+GO:0046330,positive regulation of JNK cascade,29,1,0.36,165,0.302,0.302,0.3025,0.967
+GO:0042981,regulation of apoptotic process,98,2,1.21,189,0.341,0.341,0.3410,0.677
+GO:0070588,calcium ion transmembrane transport,37,1,0.46,203,0.369,0.369,0.3686,0.700
+GO:0055085,transmembrane transport,578,9,7.12,159,0.281,0.538,0.4668,0.309

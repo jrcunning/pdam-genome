@@ -31,12 +31,20 @@ resultTopgo <- runTest(myGOdata, algorithm="weight01", statistic="fisher")
 resultParentchild <- runTest(myGOdata, algorithm="parentchild", statistic="fisher")
 
 # see how many results we get where weight01 gives a P-value <= 0.01:
-mysummary <- summary(attributes(resultTopgo)$score <= 0.01)
+mysummary <- summary(attributes(resultTopgo)$score <= 0.5)
 numsignif <- as.integer(mysummary[[3]]) # how many terms is it true that P <= 0.01
 
 # print out the top 'numsignif' results:
-allRes <- GenTable(myGOdata, classicFisher = resultClassic, elimFisher = resultElim, topgoFisher = resultTopgo, parentchildFisher = resultParentchild, orderBy = "topgoFisher", ranksOf = "classicFisher", topNodes = numsignif)
+allRes <- GenTable(myGOdata, classicFisher = resultClassic, elimFisher = resultElim, 
+                   topgoFisher = resultTopgo, parentchildFisher = resultParentchild, 
+                   orderBy = "topgoFisher", ranksOf = "classicFisher", 
+                   topNodes = attributes(resultTopgo)$geneData[[2]])
 allRes
+write.table(allRes, file=paste0(output_file, "_data.csv", row.names=F, quote=F))
+toRevigo <- allRes[, c(1, 9)]
+toRevigo$topgoFisher <- as.numeric(gsub("< ", "", toRevigo$topgoFisher))
+write.table(toRevigo, file = paste0(output_file, "_GO_pvals.txt"), row.names=F, col.names=F, quote=F)
+
 
 # print a graph (to a pdf file) with the top 'numsignif' results:
 output_file2 = paste(output_file,"Topgo", sep="_")

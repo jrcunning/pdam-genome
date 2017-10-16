@@ -2,7 +2,7 @@ from robobrowser import RoboBrowser
 import re
 import sys
 
-f=open(sys.argv[2])
+f=open(sys.argv[3])
 goterms=f.read()
 goterms2 = '\n'+goterms
 
@@ -12,7 +12,7 @@ br.open("http://revigo.irb.hr/")
 form = br.get_form()
 form["goList"].value = goterms2
 form["cutoff"].value = sys.argv[1]
-form["isPValue"].value = 'no'
+form["isPValue"].value = sys.argv[2]
 form["whatIsBetter"].value = 'higher'
 form["goSizes"].value = '0'
 form["measure"].value = 'SIMREL'
@@ -31,6 +31,6 @@ br.submit_form(form)
 download_csv_link = br.find("a", href=re.compile("export.jsp"))
 br.follow_link(download_csv_link)
 csv_content = br.response.content.decode("utf-8")
-data = open(sys.argv[3], "w")
+data = open(sys.argv[4], "w")
 data.write(csv_content)
 data.close()

@@ -1,0 +1,92 @@
+
+------------------------- topGOdata object -------------------------
+
+ Description:
+   -  My project 
+
+ Ontology:
+   -  BP 
+
+ 12702 available genes (all genes from the array):
+   - symbol:  pdam_00021770 pdam_00021774 pdam_00021772 pdam_00022010 pdam_00022012  ...
+   - 86  significant genes. 
+
+ 7548 feasible genes (genes that can be used in the analysis):
+   - symbol:  pdam_00021774 pdam_00022012 pdam_00012251 pdam_00012254 pdam_00012274  ...
+   - 16  significant genes. 
+
+ GO graph (nodes with at least  1  genes):
+   - a graph with directed edges
+   - number of nodes = 2614 
+   - number of edges = 5770 
+
+------------------------- topGOdata object -------------------------
+
+        GO.ID                                        Term Annotated Significant
+1  GO:0006811                               ion transport       537           8
+2  GO:0007264 small GTPase mediated signal transductio...       137           5
+3  GO:0033151                         V(D)J recombination         1           1
+4  GO:0007346            regulation of mitotic cell cycle        31           1
+5  GO:0055085                     transmembrane transport       578           3
+6  GO:0006468                     protein phosphorylation       497           2
+7  GO:0007165                         signal transduction      1930           6
+8  GO:0000278                          mitotic cell cycle        59           1
+9  GO:0002200 somatic diversification of immune recept...         1           1
+10 GO:0002376                       immune system process        70           1
+11 GO:0002520                   immune system development         2           1
+12 GO:0002562 somatic diversification of immune recept...         1           1
+13 GO:0006139 nucleobase-containing compound metabolic...      1208           1
+14 GO:0006259                       DNA metabolic process       250           1
+15 GO:0006310                           DNA recombination        62           1
+16 GO:0006464       cellular protein modification process       868           2
+   Expected Rank in classicFisher classicFisher elimFisher topgoFisher
+1      1.14                     1       4.8e-06    4.8e-06     4.8e-06
+2      0.29                     2       6.8e-06    6.8e-06     6.8e-06
+3      0.00                    10        0.0021     0.0021      0.0021
+4      0.07                    15        0.0638     0.0638      0.0638
+5      1.23                    19        0.1187     0.1187      0.1187
+6      1.05                    34        0.2845     0.2845      0.2845
+7      4.09                    25        0.2048     0.9526      0.9384
+8      0.13                    18        0.1181     0.1181      1.0000
+9      0.00                    11        0.0021     1.0000      1.0000
+10     0.15                    21        0.1386     1.0000      1.0000
+11     0.00                    14        0.0042     1.0000      1.0000
+12     0.00                    12        0.0021     1.0000      1.0000
+13     2.56                    52        0.9388     1.0000      1.0000
+14     0.53                    41        0.4169     1.0000      1.0000
+15     0.13                    20        0.1237     1.0000      1.0000
+16     1.84                    44        0.5642     0.5642      1.0000
+   parentchildFisher
+1             0.0057
+2             0.0159
+3             1.0000
+4             0.3780
+5             0.3575
+6             0.3007
+7             0.3140
+8             0.3758
+9             0.0143
+10            0.1386
+11            0.0177
+12            1.0000
+13            0.7633
+14            0.3154
+15            0.2480
+16            0.6070
+coral_diversified_enrichment_Topgo_weight01_6_all  --- no of nodes:  63 
+[1] "Term GO:0006811 genes: pdam_00002337,pdam_00021262,pdam_00021264,pdam_00021892,pdam_00022809,pdam_00023481,pdam_00023482,pdam_00024652"
+[1] "Term GO:0007264 genes: pdam_00008237,pdam_00012849,pdam_00015681,pdam_00015683,pdam_00018683"
+[1] "Term GO:0033151 genes: pdam_00025864"
+[1] "Term GO:0007346 genes: pdam_00018615"
+[1] "Term GO:0055085 genes: pdam_00021262,pdam_00021264,pdam_00022809"
+[1] "Term GO:0006468 genes: pdam_00008237,pdam_00012849"
+[1] "Term GO:0007165 genes: pdam_00003037,pdam_00008237,pdam_00012849,pdam_00015681,pdam_00015683,pdam_00018683"
+[1] "Term GO:0000278 genes: pdam_00018615"
+[1] "Term GO:0002200 genes: pdam_00025864"
+[1] "Term GO:0002376 genes: pdam_00025864"
+[1] "Term GO:0002520 genes: pdam_00025864"
+[1] "Term GO:0002562 genes: pdam_00025864"
+[1] "Term GO:0006139 genes: pdam_00025864"
+[1] "Term GO:0006259 genes: pdam_00025864"
+[1] "Term GO:0006310 genes: pdam_00025864"
+[1] "Term GO:0006464 genes: pdam_00008237,pdam_00012849"
