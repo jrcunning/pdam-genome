@@ -1,0 +1,14 @@
+AcroporaDigitifera_clean.pep
+AcroporaDigitifera.pep
+AiptasiaPallida.pep
+AmphimedonQueenslandica.pep
+AmplexidiscusFenestrafer.pep
+DiscosomaSp.pep
+HydraVulgaris.pep
+MnemiopsisLeidyi.pep
+NematostellaVectensis.pep
+OrbicellaFaveolata_clean.pep
+OrbicellaFaveolata.pep
+PocilloporaDamicornis.pep
+StylophoraPistillata_clean.pep
+StylophoraPistillata.pep

@@ -1,0 +1,11 @@
+#!/bin/bash
+#BSUB -J ffp
+#BSUB -o %J.out
+#BSUB -e %J.err
+#BSUB -q general
+#BSUB -P crf
+#
+
+cd /scratch/projects/crf/pdam-genome/data/ref/ffp-test
+ffpaa -l 8 *.pep | ffpcol -a | ffprwn | ffpjsd -p species.txt | ffptree > tree
+nw_reroot tree Mnemiopsis
