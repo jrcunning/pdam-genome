@@ -116,7 +116,7 @@ nonpdam <- apply(counts[,-k],1,max)
 length(which(pdam>0 & nonpdam==0)) #560 in pdam only
 pdamOnly <- na.omit(dat[which(pdam>0 & nonpdam==0),])
 
-if (args[1]=="Pdam_specific.txt") write.table(pdamOnly,"Pdam_specific.txt",quote=F,row.names=F,col.names=T,sep="\t")
+if (args[1]=="Pdam_specific_groups.txt") write.table(pdamOnly,"Pdam_specific_groups.txt",quote=F,row.names=F,col.names=T,sep="\t")
 coralOnly <- dat[which(coralMin>0 & noncorMax==0),]
 if (args[1]=="Coral_specific.txt") write.table(coralOnly, "Coral_specific.txt",quote=F,row.names=F,col.names=T,sep="\t")
 
