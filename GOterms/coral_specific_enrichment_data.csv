@@ -1,30 +1,94 @@
 GO.ID,Term,Annotated,Significant,Expected,Rank in classicFisher,classicFisher,elimFisher,topgoFisher,parentchildFisher
-GO:0035434,copper ion transmembrane transport,8,2,0.1,4,0.004,0.004,0.0040,0.014
-GO:0007165,signal transduction,1930,32,23.78,28,0.035,0.035,0.0042,0.639
-GO:0046654,tetrahydrofolate biosynthetic process,1,1,0.01,13,0.012,0.012,0.0123,0.143
-GO:0051092,positive regulation of NF-kappaB transcr...,2,1,0.02,24,0.024,0.024,0.0245,0.667
-GO:0070836,caveola assembly,3,1,0.04,29,0.037,0.037,0.0365,1.000
-GO:0051607,defense response to virus,26,2,0.32,39,0.040,0.040,0.0403,0.655
-GO:0006355,regulation of transcription, DNA-templat...,492,12,6.06,18,0.017,0.017,0.0456,0.298
-GO:0000183,chromatin silencing at rDNA,4,1,0.05,47,0.048,0.048,0.0484,0.800
-GO:0045132,meiotic chromosome segregation,4,1,0.05,48,0.048,0.048,0.0484,0.143
-GO:0007156,homophilic cell adhesion via plasma memb...,31,2,0.38,50,0.055,0.055,0.0554,1.000
-GO:0006508,proteolysis,480,10,5.91,62,0.070,0.070,0.0702,0.159
-GO:0009607,response to biotic stimulus,37,3,0.46,6,0.010,0.010,0.0705,0.021
-GO:0007186,G-protein coupled receptor signaling pat...,1243,21,15.32,65,0.076,0.076,0.0763,0.523
-GO:0006637,acyl-CoA metabolic process,10,1,0.12,83,0.117,0.117,0.1167,0.141
-GO:0006814,sodium ion transport,52,2,0.64,91,0.134,0.134,0.1343,0.233
-GO:0015074,DNA integration,53,2,0.65,94,0.138,0.138,0.1385,0.044
-GO:0035278,miRNA mediated inhibition of translation,14,1,0.17,104,0.159,0.159,0.1595,0.933
-GO:0006310,DNA recombination,62,2,0.76,117,0.177,0.177,0.1774,0.061
-GO:0007160,cell-matrix adhesion,16,1,0.2,118,0.180,0.180,0.1801,0.941
-GO:0006468,protein phosphorylation,497,9,6.12,102,0.158,0.158,0.1917,0.131
-GO:0007166,cell surface receptor signaling pathway,187,4,2.3,131,0.199,0.199,0.1988,0.376
-GO:0006486,protein glycosylation,70,2,0.86,137,0.213,0.213,0.2132,0.246
-GO:0006812,cation transport,305,6,3.76,116,0.173,0.485,0.2355,0.119
-GO:0000077,DNA damage checkpoint,24,1,0.3,148,0.258,0.258,0.2577,0.157
-GO:0007250,activation of NF-kappaB-inducing kinase ...,29,1,0.36,164,0.302,0.302,0.3025,0.829
-GO:0046330,positive regulation of JNK cascade,29,1,0.36,165,0.302,0.302,0.3025,0.967
-GO:0042981,regulation of apoptotic process,98,2,1.21,189,0.341,0.341,0.3410,0.677
-GO:0070588,calcium ion transmembrane transport,37,1,0.46,203,0.369,0.369,0.3686,0.700
-GO:0055085,transmembrane transport,578,9,7.12,159,0.281,0.538,0.4668,0.309
+GO:0035434,copper ion transmembrane transport,8,2,0.1,4,0.0040,0.004,0.0040,0.014
+GO:0007165,signal transduction,1930,32,23.78,28,0.0353,0.035,0.0042,0.639
+GO:0046654,tetrahydrofolate biosynthetic process,1,1,0.01,13,0.0123,0.012,0.0123,0.143
+GO:0051092,positive regulation of NF-kappaB transcr...,2,1,0.02,24,0.0245,0.024,0.0245,0.667
+GO:0070836,caveola assembly,3,1,0.04,29,0.0365,0.037,0.0365,1.000
+GO:0051607,defense response to virus,26,2,0.32,39,0.0403,0.040,0.0403,0.655
+GO:0006355,regulation of transcription, DNA-templat...,492,12,6.06,18,0.0171,0.017,0.0456,0.298
+GO:0000183,chromatin silencing at rDNA,4,1,0.05,47,0.0484,0.048,0.0484,0.800
+GO:0045132,meiotic chromosome segregation,4,1,0.05,48,0.0484,0.048,0.0484,0.143
+GO:0007156,homophilic cell adhesion via plasma memb...,31,2,0.38,50,0.0554,0.055,0.0554,1.000
+GO:0006508,proteolysis,480,10,5.91,62,0.0702,0.070,0.0702,0.159
+GO:0009607,response to biotic stimulus,37,3,0.46,6,0.0104,0.010,0.0705,0.021
+GO:0007186,G-protein coupled receptor signaling pat...,1243,21,15.32,65,0.0763,0.076,0.0763,0.523
+GO:0006637,acyl-CoA metabolic process,10,1,0.12,83,0.1167,0.117,0.1167,0.141
+GO:0006814,sodium ion transport,52,2,0.64,91,0.1343,0.134,0.1343,0.233
+GO:0015074,DNA integration,53,2,0.65,94,0.1385,0.138,0.1385,0.044
+GO:0035278,miRNA mediated inhibition of translation,14,1,0.17,104,0.1595,0.159,0.1595,0.933
+GO:0006310,DNA recombination,62,2,0.76,117,0.1774,0.177,0.1774,0.061
+GO:0007160,cell-matrix adhesion,16,1,0.2,118,0.1801,0.180,0.1801,0.941
+GO:0006468,protein phosphorylation,497,9,6.12,102,0.1575,0.158,0.1917,0.131
+GO:0007166,cell surface receptor signaling pathway,187,4,2.3,131,0.1988,0.199,0.1988,0.376
+GO:0006486,protein glycosylation,70,2,0.86,137,0.2132,0.213,0.2132,0.246
+GO:0006812,cation transport,305,6,3.76,116,0.1733,0.485,0.2355,0.119
+GO:0000077,DNA damage checkpoint,24,1,0.3,148,0.2577,0.258,0.2577,0.157
+GO:0007250,activation of NF-kappaB-inducing kinase ...,29,1,0.36,164,0.3025,0.302,0.3025,0.829
+GO:0046330,positive regulation of JNK cascade,29,1,0.36,165,0.3025,0.302,0.3025,0.967
+GO:0042981,regulation of apoptotic process,98,2,1.21,189,0.3410,0.341,0.3410,0.677
+GO:0070588,calcium ion transmembrane transport,37,1,0.46,203,0.3686,0.369,0.3686,0.700
+GO:0055085,transmembrane transport,578,9,7.12,159,0.2813,0.538,0.4668,0.309
+GO:0006470,protein dephosphorylation,65,1,0.8,255,0.5548,0.555,0.5548,0.602
+GO:0005975,carbohydrate metabolic process,260,3,3.2,265,0.6268,0.627,0.7645,0.634
+GO:0007264,small GTPase mediated signal transductio...,137,1,1.69,287,0.8199,0.820,0.8199,0.688
+GO:0006811,ion transport,537,7,6.62,251,0.4958,0.775,0.9280,0.334
+GO:0008152,metabolic process,4017,43,49.49,302,0.9281,0.928,0.9592,0.928
+GO:0055114,oxidation-reduction process,562,2,6.92,313,0.9939,0.994,0.9939,0.798
+GO:0000003,reproduction,10,1,0.12,84,0.1167,0.117,1.0000,0.117
+GO:0000041,transition metal ion transport,14,2,0.17,16,0.0124,1.000,1.0000,0.030
+GO:0000075,cell cycle checkpoint,33,1,0.41,184,0.3363,0.336,1.0000,0.520
+GO:0000165,MAPK cascade,33,1,0.41,185,0.3363,0.336,1.0000,0.201
+GO:0000280,nuclear division,32,1,0.39,179,0.3280,0.328,1.0000,0.889
+GO:0001765,membrane raft assembly,3,1,0.04,30,0.0365,0.037,1.0000,1.000
+GO:0001932,regulation of protein phosphorylation,43,1,0.53,224,0.4141,0.414,1.0000,0.548
+GO:0001934,positive regulation of protein phosphory...,34,1,0.42,192,0.3446,0.345,1.0000,0.470
+GO:0002252,immune effector process,27,2,0.33,44,0.0432,0.043,1.0000,0.145
+GO:0002376,immune system process,70,2,0.86,138,0.2132,0.213,1.0000,0.213
+GO:0006082,organic acid metabolic process,189,1,2.33,296,0.9068,0.907,1.0000,0.931
+GO:0006139,nucleobase-containing compound metabolic...,1208,14,14.88,269,0.6430,0.643,1.0000,0.671
+GO:0006259,DNA metabolic process,250,2,3.08,286,0.8193,0.819,1.0000,0.848
+GO:0006325,chromatin organization,75,1,0.92,260,0.6072,0.607,1.0000,0.258
+GO:0006342,chromatin silencing,5,1,0.06,55,0.0601,0.060,1.0000,0.101
+GO:0006351,transcription, DNA-templated,562,12,6.92,41,0.0423,0.042,1.0000,0.018
+GO:0006412,translation,191,1,2.35,299,0.9091,0.909,1.0000,0.928
+GO:0006417,regulation of translation,23,1,0.28,146,0.2484,0.248,1.0000,0.357
+GO:0006464,cellular protein modification process,868,12,10.69,210,0.3816,0.382,1.0000,0.181
+GO:0006518,peptide metabolic process,226,1,2.78,306,0.9419,0.942,1.0000,0.675
+GO:0006520,cellular amino acid metabolic process,130,1,1.6,279,0.8032,0.803,1.0000,0.803
+GO:0006575,cellular modified amino acid metabolic p...,40,1,0.49,217,0.3918,0.392,1.0000,0.354
+GO:0006725,cellular aromatic compound metabolic pro...,1258,15,15.5,259,0.5992,0.599,1.0000,0.384
+GO:0006732,coenzyme metabolic process,64,2,0.79,122,0.1863,0.186,1.0000,0.746
+GO:0006760,folic acid-containing compound metabolic...,7,1,0.09,67,0.0832,0.083,1.0000,0.056
+GO:0006790,sulfur compound metabolic process,68,1,0.84,257,0.5712,0.571,1.0000,0.530
+GO:0006793,phosphorus metabolic process,779,11,9.6,202,0.3635,0.363,1.0000,0.203
+GO:0006796,phosphate-containing compound metabolic ...,767,10,9.45,249,0.4751,0.475,1.0000,0.989
+GO:0006807,nitrogen compound metabolic process,1591,16,19.6,290,0.8539,0.854,1.0000,0.681
+GO:0006810,transport,1202,11,14.81,292,0.8943,0.963,1.0000,0.946
+GO:0006816,calcium ion transport,43,1,0.53,225,0.4141,0.414,1.0000,0.956
+GO:0006825,copper ion transport,9,2,0.11,5,0.0051,1.000,1.0000,0.396
+GO:0006915,apoptotic process,119,2,1.47,233,0.4330,0.433,1.0000,0.983
+GO:0006950,response to stress,280,4,3.45,242,0.4549,0.455,1.0000,0.687
+GO:0006952,defense response,37,2,0.46,63,0.0758,0.076,1.0000,0.086
+GO:0006974,cellular response to DNA damage stimulus,152,1,1.87,289,0.8510,0.851,1.0000,0.954
+GO:0006996,organelle organization,299,2,3.68,291,0.8888,0.889,1.0000,0.709
+GO:0007009,plasma membrane organization,5,1,0.06,56,0.0601,0.060,1.0000,0.135
+GO:0007049,cell cycle,157,2,1.93,258,0.5803,0.580,1.0000,0.628
+GO:0007059,chromosome segregation,30,1,0.37,169,0.3111,0.311,1.0000,0.333
+GO:0007126,meiotic nuclear division,7,1,0.09,68,0.0832,0.083,1.0000,0.036
+GO:0007154,cell communication,1959,32,24.14,43,0.0427,0.043,1.0000,0.065
+GO:0007155,cell adhesion,84,3,1.03,70,0.0847,0.085,1.0000,1.000
+GO:0007254,JNK cascade,30,1,0.37,170,0.3111,0.311,1.0000,1.000
+GO:0008150,biological_process,7548,93,93,315,1.0000,1.000,1.0000,1.000
+GO:0008219,cell death,120,2,1.48,236,0.4372,0.437,1.0000,0.481
+GO:0008652,cellular amino acid biosynthetic process,41,1,0.51,218,0.3993,0.399,1.0000,0.189
+GO:0009058,biosynthetic process,1226,16,15.11,239,0.4434,0.443,1.0000,0.212
+GO:0009059,macromolecule biosynthetic process,908,15,11.19,97,0.1445,0.145,1.0000,0.231
+GO:0009100,glycoprotein metabolic process,72,2,0.89,142,0.2223,0.222,1.0000,0.266
+GO:0009101,glycoprotein biosynthetic process,70,2,0.86,139,0.2132,0.213,1.0000,0.288
+GO:0009108,coenzyme biosynthetic process,38,1,0.47,208,0.3764,0.376,1.0000,0.788
+GO:0009396,folic acid-containing compound biosynthe...,3,1,0.04,31,0.0365,0.037,1.0000,0.021
+GO:0009605,response to external stimulus,37,2,0.46,64,0.0758,0.076,1.0000,0.120
+GO:0009615,response to virus,28,2,0.34,46,0.0461,0.046,1.0000,0.813
+GO:0009889,regulation of biosynthetic process,523,13,6.44,10,0.0114,0.011,1.0000,0.002
+GO:0009890,negative regulation of biosynthetic proc...,45,2,0.55,82,0.1058,0.106,1.0000,0.112
+GO:0009891,positive regulation of biosynthetic proc...,17,1,0.21,123,0.1902,0.190,1.0000,0.204

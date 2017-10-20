@@ -1,28 +1,59 @@
 GO.ID,Term,Annotated,Significant,Expected,Rank in classicFisher,classicFisher,elimFisher,topgoFisher,parentchildFisher
-GO:0006468,protein phosphorylation,497,9,1.78,5,3.5e-05,3.5e-05,3.5e-05,0.022
-GO:0007264,small GTPase mediated signal transductio...,137,5,0.49,7,0.00011,0.00011,0.00011,0.016
-GO:0001822,kidney development,6,2,0.02,8,0.00018,0.00018,0.00018,0.006
-GO:0006355,regulation of transcription, DNA-templat...,492,7,1.76,19,0.00135,0.00135,0.00135,0.253
-GO:0033151,V(D)J recombination,1,1,0,40,0.00358,0.00358,0.00358,1.000
-GO:0016255,attachment of GPI anchor to protein,5,1,0.02,66,0.01776,0.01776,0.01776,0.056
-GO:0007186,G-protein coupled receptor signaling pat...,1243,8,4.45,82,0.06352,0.06352,0.06352,0.804
-GO:0007346,regulation of mitotic cell cycle,31,1,0.11,94,0.10534,0.10534,0.10534,0.378
-GO:0006520,cellular amino acid metabolic process,130,1,0.47,111,0.37493,0.37493,0.37493,0.546
-GO:0007165,signal transduction,1930,14,6.9,36,0.00302,0.06199,0.60228,0.793
-GO:0006508,proteolysis,480,1,1.72,123,0.83089,0.83089,0.83089,0.978
-GO:0000278,mitotic cell cycle,59,1,0.21,104,0.19123,0.19123,1.00000,0.376
-GO:0001655,urogenital system development,6,2,0.02,9,0.00018,1.00000,1.00000,0.043
-GO:0002200,somatic diversification of immune recept...,1,1,0,41,0.00358,1.00000,1.00000,0.014
-GO:0002376,immune system process,70,1,0.25,106,0.22276,1.00000,1.00000,0.223
-GO:0002520,immune system development,2,1,0.01,55,0.00714,1.00000,1.00000,0.053
-GO:0002562,somatic diversification of immune recept...,1,1,0,42,0.00358,1.00000,1.00000,1.000
-GO:0006082,organic acid metabolic process,189,1,0.68,115,0.49635,0.49635,1.00000,0.547
-GO:0006139,nucleobase-containing compound metabolic...,1208,8,4.32,78,0.05509,1.00000,1.00000,0.445
-GO:0006259,DNA metabolic process,250,1,0.89,120,0.59789,1.00000,1.00000,0.898
-GO:0006310,DNA recombination,62,1,0.22,105,0.19995,1.00000,1.00000,0.248
-GO:0006351,transcription, DNA-templated,562,7,2.01,33,0.00291,1.00000,1.00000,0.035
-GO:0006464,cellular protein modification process,868,10,3.1,15,0.00052,0.62248,1.00000,0.082
-GO:0006497,protein lipidation,16,1,0.06,79,0.05578,0.05578,1.00000,0.171
-GO:0006505,GPI anchor metabolic process,15,1,0.05,74,0.05238,0.05238,1.00000,0.312
-GO:0006506,GPI anchor biosynthetic process,15,1,0.05,75,0.05238,0.05238,1.00000,0.500
-GO:0006629,lipid metabolic process,201,1,0.72,117,0.51810,0.51810,1.00000,0.657
+GO:0006857,oligopeptide transport,7,3,0.05,1,1.5e-05,1.5e-05,1.5e-05,0.4167
+GO:0007264,small GTPase mediated signal transductio...,137,6,1.05,4,0.00060,0.00060,0.00060,0.0069
+GO:0001822,kidney development,6,2,0.05,5,0.00085,0.00085,0.00085,0.0117
+GO:0006468,protein phosphorylation,497,11,3.82,8,0.00121,0.00360,0.00196,0.0078
+GO:0007219,Notch signaling pathway,14,2,0.11,11,0.00498,0.00498,0.00498,0.0052
+GO:0033151,V(D)J recombination,1,1,0.01,12,0.00768,0.00768,0.00768,1.0000
+GO:0045737,positive regulation of cyclin-dependent ...,1,1,0.01,13,0.00768,0.00768,0.00768,0.0250
+GO:0008152,metabolic process,4017,31,30.87,153,0.53969,0.90684,0.01271,0.5397
+GO:0016255,attachment of GPI anchor to protein,5,1,0.04,34,0.03784,0.03784,0.03784,0.0674
+GO:0006811,ion transport,537,8,4.13,39,0.05147,0.05147,0.05147,0.1481
+GO:0006355,regulation of transcription, DNA-templat...,492,7,3.78,44,0.08134,0.08134,0.08134,0.2532
+GO:0006629,lipid metabolic process,201,3,1.54,88,0.20033,0.20033,0.08204,0.1536
+GO:0006289,nucleotide-excision repair,13,1,0.1,51,0.09549,0.09549,0.09549,0.1048
+GO:0050793,regulation of developmental process,17,1,0.13,65,0.12302,0.12302,0.12302,0.1774
+GO:0006030,chitin metabolic process,18,1,0.14,67,0.12978,0.12978,0.12978,0.8182
+GO:0006810,transport,1202,13,9.24,64,0.12201,0.37126,0.18023,0.9370
+GO:0030154,cell differentiation,26,1,0.2,86,0.18200,0.18200,0.18200,0.6190
+GO:0007154,cell communication,1959,20,15.05,50,0.09309,0.58357,0.18333,0.0178
+GO:0007346,regulation of mitotic cell cycle,31,1,0.24,93,0.21306,0.21306,0.21306,0.6161
+GO:0007186,G-protein coupled receptor signaling pat...,1243,10,9.55,147,0.49144,0.49144,0.49144,0.9043
+GO:0007165,signal transduction,1930,19,14.83,68,0.13462,0.68584,0.58089,0.7445
+GO:0006520,cellular amino acid metabolic process,130,1,1,163,0.63633,0.63633,0.63633,0.6464
+GO:0055085,transmembrane transport,578,3,4.44,180,0.83194,0.83194,0.83194,0.8903
+GO:0005975,carbohydrate metabolic process,260,1,2,181,0.87010,0.87010,0.87010,0.8775
+GO:0006508,proteolysis,480,1,3.69,186,0.97820,0.97820,0.97820,0.9899
+GO:0000079,regulation of cyclin-dependent protein s...,4,1,0.03,30,0.03039,1.00000,1.00000,0.1111
+GO:0000278,mitotic cell cycle,59,1,0.45,130,0.36674,0.36674,1.00000,0.6119
+GO:0001655,urogenital system development,6,2,0.05,6,0.00085,1.00000,1.00000,0.0426
+GO:0001932,regulation of protein phosphorylation,43,1,0.33,118,0.28296,1.00000,1.00000,0.6220
+GO:0001934,positive regulation of protein phosphory...,34,1,0.26,97,0.23114,1.00000,1.00000,0.5406
+GO:0002200,somatic diversification of immune recept...,1,1,0.01,14,0.00768,1.00000,1.00000,0.0143
+GO:0002376,immune system process,70,1,0.54,137,0.41868,1.00000,1.00000,0.4187
+GO:0002520,immune system development,2,1,0.02,24,0.01531,1.00000,1.00000,0.0526
+GO:0002562,somatic diversification of immune recept...,1,1,0.01,15,0.00768,1.00000,1.00000,1.0000
+GO:0006022,aminoglycan metabolic process,20,1,0.15,74,0.14313,0.14313,1.00000,0.1439
+GO:0006040,amino sugar metabolic process,20,1,0.15,75,0.14313,0.14313,1.00000,0.1581
+GO:0006082,organic acid metabolic process,189,1,1.45,175,0.77155,0.77155,1.00000,0.7192
+GO:0006139,nucleobase-containing compound metabolic...,1208,9,9.28,157,0.59597,0.71162,1.00000,0.6019
+GO:0006259,DNA metabolic process,250,2,1.92,156,0.57755,0.85333,1.00000,0.7058
+GO:0006281,DNA repair,124,1,0.95,160,0.61880,0.61880,1.00000,0.5771
+GO:0006310,DNA recombination,62,1,0.48,133,0.38135,1.00000,1.00000,0.4352
+GO:0006351,transcription, DNA-templated,562,7,4.32,70,0.13765,0.13765,1.00000,0.0355
+GO:0006464,cellular protein modification process,868,12,6.67,28,0.02995,0.92184,1.00000,0.0492
+GO:0006497,protein lipidation,16,1,0.12,62,0.11622,0.11622,1.00000,0.2012
+GO:0006505,GPI anchor metabolic process,15,1,0.12,59,0.10936,0.10936,1.00000,0.3125
+GO:0006506,GPI anchor biosynthetic process,15,1,0.12,60,0.10936,0.10936,1.00000,0.5000
+GO:0006643,membrane lipid metabolic process,38,1,0.29,107,0.25461,0.25461,1.00000,0.2992
+GO:0006644,phospholipid metabolic process,75,1,0.58,141,0.44089,0.44089,1.00000,0.6858
+GO:0006650,glycerophospholipid metabolic process,38,1,0.29,108,0.25461,0.25461,1.00000,0.4810
+GO:0006661,phosphatidylinositol biosynthetic proces...,15,1,0.12,61,0.10936,0.10936,1.00000,0.3947
+GO:0006664,glycolipid metabolic process,30,1,0.23,90,0.20694,0.20694,1.00000,0.7895
+GO:0006725,cellular aromatic compound metabolic pro...,1258,9,9.67,164,0.64765,0.75529,1.00000,0.7343
+GO:0006793,phosphorus metabolic process,779,12,5.99,21,0.01381,0.85409,1.00000,0.0069
+GO:0006796,phosphate-containing compound metabolic ...,767,12,5.89,20,0.01230,0.84138,1.00000,0.8289
+GO:0006807,nitrogen compound metabolic process,1591,11,12.23,170,0.70380,0.79029,1.00000,0.7412
+GO:0006950,response to stress,280,1,2.15,183,0.88930,0.88930,1.00000,0.9341
+GO:0006974,cellular response to DNA damage stimulus,152,1,1.17,168,0.69408,0.69408,1.00000,0.7835
+GO:0007049,cell cycle,157,2,1.21,127,0.34073,0.69731,1.00000,0.3147

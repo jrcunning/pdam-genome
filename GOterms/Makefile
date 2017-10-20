@@ -1,16 +1,10 @@
 all: pdam_specific_enrichment coral_specific_enrichment coral_diversified_enrichment 
 
-coral_diversified_enrichment: all_pdam_genes.txt coral_diversified_gene_names.txt
+coral_diversified_enrichment: all_pdam_genes.txt ../fastOrtho/CoralDiversified/coral_diversified_pdam_gene_names.txt
 	R --vanilla < ../R/topGO.R --args $^ $@
 
-coral_diversified_gene_names.txt: ../fastOrtho/CoralDiversified/CoralDiversified.txt
-	grep -o pdam_[0-9]* $< > $@
-
-coral_specific_enrichment: all_pdam_genes.txt coral_specific_gene_names.txt
+coral_specific_enrichment: all_pdam_genes.txt ../fastOrtho/Coral_specific/coral_specific_pdam_gene_names.txt
 	R --vanilla < ../R/topGO.R --args $^ $@
-
-coral_specific_gene_names.txt: ../fastOrtho/Coral_specific/Coral_specific.txt
-	grep -o pdam_[0-9]* $< > $@
 
 pdam_specific_enrichment: all_pdam_genes.txt ../fastOrtho/Pdam_specific/pdam_specific_gene_names.txt
 	R --vanilla < ../R/topGO.R --args $^ $@
