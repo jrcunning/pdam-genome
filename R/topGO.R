@@ -48,7 +48,7 @@ write.table(toRevigo, file = paste0(output_file, "_GO_pvals.txt"), row.names=F, 
 
 # print a graph (to a pdf file) with the top 'numsignif' results:
 output_file2 = paste(output_file,"Topgo", sep="_")
-printGraph(myGOdata, resultTopgo, firstSigNodes = numsignif, fn.prefix = output_file2, useInfo = "all", pdfSW = TRUE)
+#printGraph(myGOdata, resultTopgo, firstSigNodes = numsignif, fn.prefix = output_file2, useInfo = "all", pdfSW = TRUE)
 
 # print out the genes that are annotated with the significantly enriched GO terms:
 myterms <- allRes$GO.ID
