@@ -118,7 +118,7 @@ pdamOnly <- na.omit(dat[which(pdam>0 & nonpdam==0),])
 
 if (args[1]=="Pdam_specific_groups.txt") write.table(pdamOnly,"Pdam_specific_groups.txt",quote=F,row.names=F,col.names=T,sep="\t")
 coralOnly <- dat[which(coralMin>0 & noncorMax==0),]
-if (args[1]=="Coral_specific.txt") write.table(coralOnly, "Coral_specific.txt",quote=F,row.names=F,col.names=T,sep="\t")
+if (args[1]=="Coral_specific_groups.txt") write.table(coralOnly, "Coral_specific_groups.txt",quote=F,row.names=F,col.names=T,sep="\t")
 
 # Spis-specific
 spis <- counts[,2]
@@ -142,7 +142,7 @@ adigOnly <- dat[which(adig>0 & nonadig==0),]
 if (args[1]=="Adig_specific.txt") write.table(adigOnly, "Adig_specific.txt",quote=F,row.names=F,col.names=T,sep="\t")
 
 ###Diversification in corals
-if (args[1]=="CoralDiversified.txt") {
+if (args[1]=="CoralDiversified_groups.txt") {
   minanth <- apply(counts[,c(coral,morph,anem)],1,min)
   sumcor <- apply(counts[,coral],1,sum)
   pgens <- counts[which(minanth>0 & sumcor>20),] # genes to test
@@ -160,6 +160,6 @@ if (args[1]=="CoralDiversified.txt") {
   divs <- pgens[divadj<0.01,]
   divs
   pdivGens <- dat[dat$Group%in%rownames(divs),]
-  write.table(pdivGens,"CoralDiversified.txt",quote=F,row.names=F,col.names=T,sep="\t")
+  write.table(pdivGens,"CoralDiversified_groups.txt",quote=F,row.names=F,col.names=T,sep="\t")
 }
 
