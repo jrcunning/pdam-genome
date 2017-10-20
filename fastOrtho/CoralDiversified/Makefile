@@ -1,12 +1,4 @@
-all: coral_diversified_goterms_counts.txt
-
-coral_diversified_goterms_counts.txt: coral_diversified_ips.gff3
-	grep -o "GO:......." coral_diversified_ips.gff3 > coral_diversified_goterms.txt
-	cat coral_diversified_goterms.txt | sort | uniq -c | awk '{ print $$2 " " $$1}' > coral_diversified_goterms_counts.txt
-
-coral_diversified_ips.gff3: CoralDiversified_all.fasta
-	interproscan.sh -i $< -b coral_diversified_ips --goterms
-
+all: CoralDiversified_all.fasta
 
 CoralDiversified_all.fasta: CoralDiversified.txt
 	rm -f *.fasta && rm -f ORTHOMCL*
@@ -26,9 +18,9 @@ CoralDiversified_all.fasta: CoralDiversified.txt
 	-f ../../data/ref/all.pep \
 	-o CoralDiversified_all.fasta \
 	-s ORTHOMCL_cat ; \
-
-	# Remove asterisks (A digitifera has asterisks in protein seqs for stop codons)
-	sed -i 's/\*//g' CoralDiversified_all.fasta
+	
+	# Clean up
+	rm ORTHOMCL[0-9]*
 
 CoralDiversified.txt: ../ortho.table ../../R/Diversification.R
 	R --vanilla < ../../R/Diversification.R --args CoralDiversified.txt
