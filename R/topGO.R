@@ -40,9 +40,9 @@ allRes <- GenTable(myGOdata, classicFisher = resultClassic, elimFisher = resultE
                    orderBy = "topgoFisher", ranksOf = "classicFisher", 
                    topNodes = attributes(resultTopgo)$geneData[[2]])
 allRes
-write.table(allRes, file=paste0(output_file, "_data.csv", row.names=F, quote=F))
+write.csv(allRes, file=paste0(output_file, "_data.csv"), row.names=F, quote=F)
 toRevigo <- allRes[, c(1, 9)]
-toRevigo$topgoFisher <- as.numeric(gsub("< ", "", toRevigo$topgoFisher))
+toRevigo$topgoFisher <- as.numeric(gsub("<", "", toRevigo$topgoFisher))
 write.table(toRevigo, file = paste0(output_file, "_GO_pvals.txt"), row.names=F, col.names=F, quote=F)
 
 
