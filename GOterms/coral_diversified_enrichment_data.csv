@@ -1,17 +1,28 @@
-GO.ID Term Annotated Significant Expected Rank in classicFisher classicFisher elimFisher topgoFisher parentchildFisher
-GO:0006811 ion transport 512 8 1.09 1 3.4e-06 3.4e-06 3.4e-06 0.0011
-GO:0007264 small GTPase mediated signal transductio... 137 5 0.29 2 6.8e-06 6.8e-06 6.8e-06 0.0157
-GO:0033151 V(D)J recombination 1 1 0 7 0.0021 0.0021 0.0021 1.0000
-GO:0007346 regulation of mitotic cell cycle 31 1 0.07 12 0.0638 0.0638 0.0638 0.3780
-GO:0055085 transmembrane transport 578 3 1.23 16 0.1187 0.1187 0.1187 0.8297
-GO:0006468 protein phosphorylation 497 2 1.05 31 0.2845 0.2845 0.2845 0.3040
-GO:0007165 signal transduction 1930 6 4.09 21 0.2048 0.9526 0.9383 0.3140
-GO:0000278 mitotic cell cycle 59 1 0.13 15 0.1181 0.1181 1.0000 0.3831
-GO:0002200 somatic diversification of immune recept... 1 1 0 8 0.0021 1.0000 1.0000 0.0143
-GO:0002376 immune system process 70 1 0.15 18 0.1386 1.0000 1.0000 0.1386
-GO:0002520 immune system development 2 1 0 11 0.0042 1.0000 1.0000 0.0177
-GO:0002562 somatic diversification of immune recept... 1 1 0 9 0.0021 1.0000 1.0000 1.0000
-GO:0006139 nucleobase-containing compound metabolic... 1206 1 2.56 49 0.9385 1.0000 1.0000 0.7659
-GO:0006259 DNA metabolic process 250 1 0.53 37 0.4169 1.0000 1.0000 0.3160
-GO:0006310 DNA recombination 62 1 0.13 17 0.1237 1.0000 1.0000 0.2480
-GO:0006464 cellular protein modification process 863 2 1.83 41 0.5609 0.5609 1.0000 0.6054
+GO.ID,Term,Annotated,Significant,Expected,Rank in classicFisher,classicFisher,elimFisher,topgoFisher,parentchildFisher
+GO:0006468,protein phosphorylation,497,9,1.78,5,3.5e-05,3.5e-05,3.5e-05,0.022
+GO:0007264,small GTPase mediated signal transductio...,137,5,0.49,7,0.00011,0.00011,0.00011,0.016
+GO:0001822,kidney development,6,2,0.02,8,0.00018,0.00018,0.00018,0.006
+GO:0006355,regulation of transcription, DNA-templat...,492,7,1.76,19,0.00135,0.00135,0.00135,0.253
+GO:0033151,V(D)J recombination,1,1,0,40,0.00358,0.00358,0.00358,1.000
+GO:0016255,attachment of GPI anchor to protein,5,1,0.02,66,0.01776,0.01776,0.01776,0.056
+GO:0007186,G-protein coupled receptor signaling pat...,1243,8,4.45,82,0.06352,0.06352,0.06352,0.804
+GO:0007346,regulation of mitotic cell cycle,31,1,0.11,94,0.10534,0.10534,0.10534,0.378
+GO:0006520,cellular amino acid metabolic process,130,1,0.47,111,0.37493,0.37493,0.37493,0.546
+GO:0007165,signal transduction,1930,14,6.9,36,0.00302,0.06199,0.60228,0.793
+GO:0006508,proteolysis,480,1,1.72,123,0.83089,0.83089,0.83089,0.978
+GO:0000278,mitotic cell cycle,59,1,0.21,104,0.19123,0.19123,1.00000,0.376
+GO:0001655,urogenital system development,6,2,0.02,9,0.00018,1.00000,1.00000,0.043
+GO:0002200,somatic diversification of immune recept...,1,1,0,41,0.00358,1.00000,1.00000,0.014
+GO:0002376,immune system process,70,1,0.25,106,0.22276,1.00000,1.00000,0.223
+GO:0002520,immune system development,2,1,0.01,55,0.00714,1.00000,1.00000,0.053
+GO:0002562,somatic diversification of immune recept...,1,1,0,42,0.00358,1.00000,1.00000,1.000
+GO:0006082,organic acid metabolic process,189,1,0.68,115,0.49635,0.49635,1.00000,0.547
+GO:0006139,nucleobase-containing compound metabolic...,1208,8,4.32,78,0.05509,1.00000,1.00000,0.445
+GO:0006259,DNA metabolic process,250,1,0.89,120,0.59789,1.00000,1.00000,0.898
+GO:0006310,DNA recombination,62,1,0.22,105,0.19995,1.00000,1.00000,0.248
+GO:0006351,transcription, DNA-templated,562,7,2.01,33,0.00291,1.00000,1.00000,0.035
+GO:0006464,cellular protein modification process,868,10,3.1,15,0.00052,0.62248,1.00000,0.082
+GO:0006497,protein lipidation,16,1,0.06,79,0.05578,0.05578,1.00000,0.171
+GO:0006505,GPI anchor metabolic process,15,1,0.05,74,0.05238,0.05238,1.00000,0.312
+GO:0006506,GPI anchor biosynthetic process,15,1,0.05,75,0.05238,0.05238,1.00000,0.500
+GO:0006629,lipid metabolic process,201,1,0.72,117,0.51810,0.51810,1.00000,0.657

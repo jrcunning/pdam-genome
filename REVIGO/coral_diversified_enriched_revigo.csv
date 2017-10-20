@@ -1,7 +1,10 @@
 term_ID,description,frequency,plot_X,plot_Y,plot_size,log10 p-value,uniqueness,dispensability,representative,eliminated
-GO:0006811,"ion transport",5.344%,-5.471, 2.655,5.836,-5.3188,0.495,0.000,6811,0
-GO:0007264,"small GTPase mediated signal transduction",0.485%, 3.326, 5.677,4.794,-5.1675,0.540,0.000,7264,0
-GO:0033151,"V(D)J recombination",0.004%,-2.679,-5.016,2.736,-2.6778,0.574,0.053,33151,0
-GO:0006468,"protein phosphorylation",4.137%, 3.771,-4.107,5.725,-0.5459,0.596,0.106,6468,0
-GO:0007346,"regulation of mitotic cell cycle",0.269%, 4.833, 3.507,4.537,-1.1952,0.540,0.241,7346,0
-GO:0055085,"transmembrane transport",8.916%,-5.107, 3.760,6.058,-0.9255,0.505,0.535,55085,0
+GO:0006468,"protein phosphorylation",4.137%,-2.514, 4.914,5.725,-4.4559,0.572,0.000,6468,0
+GO:0007264,"small GTPase mediated signal transduction",0.485%, 4.483,-3.574,4.794,-3.9586,0.488,0.038,7264,0
+GO:0001822,"kidney development",0.058%,-4.644,-3.919,3.870,-3.7447,0.598,0.064,1822,0
+GO:0006520,"cellular amino acid metabolic process",5.591%, 4.785, 4.837,5.856,-0.4260,0.558,0.099,6520,0
+GO:0007346,"regulation of mitotic cell cycle",0.269%, 5.388, 0.343,4.537,-0.9774,0.505,0.241,7346,0
+GO:0006355,"regulation of transcription, DNA-templated",9.917%, 2.178, 0.665,6.105,-2.8697,0.407,0.355,6355,0
+GO:0016255,"attachment of GPI anchor to protein",0.027%,-0.232, 5.324,3.545,-1.7506,0.522,0.415,16255,0
+GO:0033151,"V(D)J recombination",0.004%,-4.036,-2.683,2.736,-2.4461,0.540,0.493,33151,0
+GO:0007186,"G-protein coupled receptor signaling pathway",0.882%, 5.098,-2.758,5.054,-1.1971,0.478,0.504,7186,0
