@@ -97,10 +97,10 @@ pgens <- counts[which(anth>0),]
 divp <- c()
 for (i in 1:nrow(pgens)) {
 #	print(i)
-	g1 <- sum(pgens[i,1:3])
-	g2 <- sum(pgens[i,4:7])
-	n1 <- sum(pgens[-i,1:3])
-	n2 <- sum(pgens[-i,4:7])
+	g1 <- sum(pgens[i,1:4])
+	g2 <- sum(pgens[i,5:8])
+	n1 <- sum(pgens[-i,1:4])
+	n2 <- sum(pgens[-i,5:8])
 	divp[i] <- fisher.test(cbind(c(g1,g2),c(n1,n2)))$p.value
 }
 divadj <- p.adjust(divp,method="fdr")
