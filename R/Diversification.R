@@ -3,7 +3,7 @@ library(tidyverse)
 
 args = commandArgs(trailingOnly=TRUE)
 
-dat <- read.delim("../ortho.table",header=F,sep="\t")
+dat <- read.delim(args[1],header=F,sep="\t")
 colnames(dat) <- c("Group", "Genes", "Taxa", "IDs")
 dat5 <- filter(dat, Taxa>=1)
 dim(dat5) #23380
@@ -25,17 +25,17 @@ counts$Mnem <- apply(dat5,1,function(x) str_count(x[4],"Mnemiopsis"))
 counts$Amph <- apply(dat5,1,function(x) str_count(x[4],"Amphimedon"))
 
 # Count singletons -- not included in ortho.table
-nPdam <- as.numeric(system('grep -c ">" ../../data/ref/PocilloporaDamicornis.pep', intern=T))
-nSpis <- as.numeric(system('grep -c ">" ../../data/ref/StylophoraPistillata.pep', intern=T))
-nAdig <- as.numeric(system('grep -c ">" ../../data/ref/AcroporaDigitifera.pep', intern=T))
-nOfav <- as.numeric(system('grep -c ">" ../../data/ref/OrbicellaFaveolata.pep', intern=T))
-nAmpl <- as.numeric(system('grep -c ">" ../../data/ref/AmplexidiscusFenestrafer.pep', intern=T))
-nDisc <- as.numeric(system('grep -c ">" ../../data/ref/DiscosomaSp.pep', intern=T))
-nAipt <- as.numeric(system('grep -c ">" ../../data/ref/AiptasiaPallida.pep', intern=T))
-nNema <- as.numeric(system('grep -c ">" ../../data/ref/NematostellaVectensis.pep', intern=T))
-nHydr <- as.numeric(system('grep -c ">" ../../data/ref/HydraVulgaris.pep', intern=T))
-nMnem <- as.numeric(system('grep -c ">" ../../data/ref/MnemiopsisLeidyi.pep', intern=T))
-nAmph <- as.numeric(system('grep -c ">" ../../data/ref/AmphimedonQueenslandica.pep', intern=T))
+nPdam <- as.numeric(system('grep -c ">" ../data/ref/PocilloporaDamicornis.pep', intern=T))
+nSpis <- as.numeric(system('grep -c ">" ../data/ref/StylophoraPistillata.pep', intern=T))
+nAdig <- as.numeric(system('grep -c ">" ../data/ref/AcroporaDigitifera.pep', intern=T))
+nOfav <- as.numeric(system('grep -c ">" ../data/ref/OrbicellaFaveolata.pep', intern=T))
+nAmpl <- as.numeric(system('grep -c ">" ../data/ref/AmplexidiscusFenestrafer.pep', intern=T))
+nDisc <- as.numeric(system('grep -c ">" ../data/ref/DiscosomaSp.pep', intern=T))
+nAipt <- as.numeric(system('grep -c ">" ../data/ref/AiptasiaPallida.pep', intern=T))
+nNema <- as.numeric(system('grep -c ">" ../data/ref/NematostellaVectensis.pep', intern=T))
+nHydr <- as.numeric(system('grep -c ">" ../data/ref/HydraVulgaris.pep', intern=T))
+nMnem <- as.numeric(system('grep -c ">" ../data/ref/MnemiopsisLeidyi.pep', intern=T))
+nAmph <- as.numeric(system('grep -c ">" ../data/ref/AmphimedonQueenslandica.pep', intern=T))
 
 singles <- vector()
 singles["Pdam"] <- nPdam - sum(counts$Pdam)
@@ -116,33 +116,33 @@ nonpdam <- apply(counts[,-k],1,max)
 length(which(pdam>0 & nonpdam==0)) #560 in pdam only
 pdamOnly <- na.omit(dat[which(pdam>0 & nonpdam==0),])
 
-if (args[1]=="Pdam_specific_groups.txt") write.table(pdamOnly,"Pdam_specific_groups.txt",quote=F,row.names=F,col.names=T,sep="\t")
+if (args[2]=="Pdam_specific_groups.txt") write.table(pdamOnly,"Pdam_specific_groups.txt",quote=F,row.names=F,col.names=T,sep="\t")
 coralOnly <- dat[which(coralMin>0 & noncorMax==0),]
-if (args[1]=="Coral_specific_groups.txt") write.table(coralOnly, "Coral_specific_groups.txt",quote=F,row.names=F,col.names=T,sep="\t")
+if (args[2]=="Coral_specific_groups.txt") write.table(coralOnly, "Coral_specific_groups.txt",quote=F,row.names=F,col.names=T,sep="\t")
 
 # Spis-specific
 spis <- counts[,2]
 nonspis <- apply(counts[,-2],1,max)
 length(which(spis>0 & nonspis==0))
 spisOnly <- dat[which(spis>0 & nonspis==0),]
-if (args[1]=="Spis_specific.txt") write.table(spisOnly, "Spis_specific.txt",quote=F,row.names=F,col.names=T,sep="\t")
+if (args[2]=="Spis_specific.txt") write.table(spisOnly, "Spis_specific.txt",quote=F,row.names=F,col.names=T,sep="\t")
 
 # Ofav-specific
 ofav <- counts[,4]
 nonofav <- apply(counts[,-4],1,max)
 length(which(ofav>0 & nonofav==0))
 ofavOnly <- dat[which(ofav>0 & nonofav==0),]
-if (args[1]=="Ofav_specific.txt") write.table(ofavOnly, "Ofav_specific.txt",quote=F,row.names=F,col.names=T,sep="\t")
+if (args[2]=="Ofav_specific.txt") write.table(ofavOnly, "Ofav_specific.txt",quote=F,row.names=F,col.names=T,sep="\t")
 
 # Adig-specific
 adig <- counts[,3]
 nonadig <- apply(counts[,-3],1,max)
 length(which(adig>0 & nonadig==0))
 adigOnly <- dat[which(adig>0 & nonadig==0),]
-if (args[1]=="Adig_specific.txt") write.table(adigOnly, "Adig_specific.txt",quote=F,row.names=F,col.names=T,sep="\t")
+if (args[2]=="Adig_specific.txt") write.table(adigOnly, "Adig_specific.txt",quote=F,row.names=F,col.names=T,sep="\t")
 
 ###Diversification in corals
-if (args[1]=="CoralDiversified_groups.txt") {
+if (args[2]=="coral_diversified_groups.txt") {
   minanth <- apply(counts[,c(coral,morph,anem)],1,min)
   sumcor <- apply(counts[,coral],1,sum)
   pgens <- counts[which(minanth>0 & sumcor>20),] # genes to test
@@ -160,6 +160,6 @@ if (args[1]=="CoralDiversified_groups.txt") {
   divs <- pgens[divadj<0.01,]
   divs
   pdivGens <- dat[dat$Group%in%rownames(divs),]
-  write.table(pdivGens,"CoralDiversified_groups.txt",quote=F,row.names=F,col.names=T,sep="\t")
+  write.table(pdivGens,"coral_diversified_groups.txt",quote=F,row.names=F,col.names=T,sep="\t")
 }
 
