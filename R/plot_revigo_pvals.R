@@ -18,7 +18,7 @@ wrap <- function(x, len) sapply(x, function(y) paste(strwrap(y, len), collapse =
 
 revigo.data$description <- wrap(revigo.data$description, 20)
 
-if (any(is.na(revigo.data$plot_X))) revigo.data <- na.omit(revigo.data)
+if (any(is.na(revigo.data$plot_X))) revigo.data <- revigo.data[!is.na(revigo.data$plot_X),]
 # --------------------------------------------------------------------------
 # Names of the axes, sizes of the numbers and letters, names of the columns,
 # etc. can be changed below

@@ -85,6 +85,8 @@ cnid <- c(coral,morph,anem,hyd)
 
 coralMin <- apply(counts[,coral],1,min)
 length(which(coralMin>0)) #7962 found in all corals (core coral genome)
+coralCore <- dat[which(coralMin>0),]
+if (args[2]=="coral_core_groups.txt") write.table(coralCore, "coral_core_groups.txt",quote=F,row.names=F,col.names=T,sep="\t")
 anemMin <- apply(counts[,anem],1,min)
 cnidMin <- apply(counts[,cnid],1,min)
 length(which(cnidMin>0)) #found in all cnidarians 2367

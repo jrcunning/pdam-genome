@@ -34,6 +34,8 @@ resultParentchild <- runTest(myGOdata, algorithm="parentchild", statistic="fishe
 mysummary <- summary(attributes(resultTopgo)$score <= 0.5)
 numsignif <- as.integer(mysummary[[3]]) # how many terms is it true that P <= 0.01
 
+if (args[3]=="coral_core_enrichment") attributes(resultTopgo)$geneData[[2]] <- numsignif
+
 # print out the top 'numsignif' results:
 allRes <- GenTable(myGOdata, classicFisher = resultClassic, elimFisher = resultElim, 
                    topgoFisher = resultTopgo, parentchildFisher = resultParentchild, 
