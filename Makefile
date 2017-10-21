@@ -1,4 +1,4 @@
-all: gag_out/genome.stats fastOrtho/CoralDiversified/CoralDiversified_all.txt
+all: 
 
 # Run fastOrtho analysis on proteins from 10 genomes
 fastOrtho/CoralDiversified/CoralDiversified_all.txt: pdam.maker.output/pdam.all.gff
@@ -7,6 +7,14 @@ fastOrtho/CoralDiversified/CoralDiversified_all.txt: pdam.maker.output/pdam.all.
 # Generate annotation statistics using GAG
 gag_out/genome.stats: annotation/pdam.all.renamed.function.domain.gff
 	python ~/local/GAG/gag.py --fasta data/filter/pdam.fasta --gff annotation/pdam.all.renamed.function.domain.gff --fix_start_stop --out gag_out
+
+# Get GO terms for all genes
+annotation/pdam_genes_GO.txt: annotation/genes.gff
+	sed -n 's/.*ID=\([^;]*\).*Ontology_term=\(.*\)/\1\t\2/p' $< | sed 's/,/, /g' | sed 's/;//g' > $@
+
+# Filter out genes only from gff
+annotation/genes.gff: 
+	awk '($$3 == "gene") {print $$0}' annotation/pdam.all.renamed.function.domain.gff > $@
 
 # Add protein domain information to final annotation
 annotation/pdam.all.renamed.function.domain.gff: pdam.maker.output/pdam.all.renamed.function.gff
@@ -31,6 +39,12 @@ pdam.maker.output/blastp.output.renamed: pdam.maker.output/blastp.output
 	map_fasta_ids pdam.maker.output/pdam.all.id.map pdam.maker.output/pdam.all.maker.proteins.renamed.fasta
 	map_fasta_ids pdam.maker.output/pdam.all.id.map pdam.maker.output/pdam.all.maker.transcripts.renamed.fasta
 	map_data_ids pdam.maker.output/pdam.all.id.map pdam.maker.output/blastp.output.renamed
+
+# BLAST maker proteins against nr database
+pdam.maker.output/blastp.nr.output:
+	blastp -db nr -remote -query pdam.maker.output/pdam.all.maker.proteins.fasta \
+	-evalue 1e-5 -outfmt 6 -num_alignments 1 \
+	-out pdam.maker.output/blastp.nr.output
 
 # BLAST maker proteins against uniprot-sprot
 pdam.maker.output/blastp.output: pdam.maker.output/pdam.all.gff
