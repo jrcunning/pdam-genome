@@ -22,6 +22,7 @@ pdam_specific_enrichment_GO_pvals.txt: pdam_specific_gene_names.txt
 # Use GO enrichment data in REVIGO analysis
 pdam_specific_enriched_revigo.csv: pdam_specific_enrichment_GO_pvals.txt
 	/anaconda/bin/python ../python/scrape_revigo.py 0.70 yes $< $@
+	sed -i '' 's/, / /g' pdam_specific_enrichment_data.csv
 	
 # Visualize REVIGO output
 pdam_specific_enriched_revigo.png: pdam_specific_enriched_revigo.csv

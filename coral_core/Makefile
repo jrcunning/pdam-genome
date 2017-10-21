@@ -15,6 +15,7 @@ coral_core_enrichment_GO_pvals.txt: coral_core_pdam_gene_names.txt
 # Use GO enrichment data in REVIGO analysis
 coral_core_enriched_revigo.csv: coral_core_enrichment_GO_pvals.txt
 	/anaconda/bin/python ../python/scrape_revigo.py 0.70 yes $< $@
+	sed -i '' 's/, / /g' coral_core_enrichment_data.csv
 	
 # Visualize REVIGO output
 coral_core_enriched_revigo.png: coral_core_enriched_revigo.csv

@@ -5,7 +5,7 @@ GO:0046654,tetrahydrofolate biosynthetic process,1,1,0.01,13,0.0123,0.012,0.0123
 GO:0051092,positive regulation of NF-kappaB transcr...,2,1,0.02,24,0.0245,0.024,0.0245,0.667
 GO:0070836,caveola assembly,3,1,0.04,29,0.0365,0.037,0.0365,1.000
 GO:0051607,defense response to virus,26,2,0.32,39,0.0403,0.040,0.0403,0.655
-GO:0006355,regulation of transcription, DNA-templat...,492,12,6.06,18,0.0171,0.017,0.0456,0.298
+GO:0006355,regulation of transcription DNA-templat...,492,12,6.06,18,0.0171,0.017,0.0456,0.298
 GO:0000183,chromatin silencing at rDNA,4,1,0.05,47,0.0484,0.048,0.0484,0.800
 GO:0045132,meiotic chromosome segregation,4,1,0.05,48,0.0484,0.048,0.0484,0.143
 GO:0007156,homophilic cell adhesion via plasma memb...,31,2,0.38,50,0.0554,0.055,0.0554,1.000
@@ -49,7 +49,7 @@ GO:0006139,nucleobase-containing compound metabolic...,1208,14,14.88,269,0.6430,
 GO:0006259,DNA metabolic process,250,2,3.08,286,0.8193,0.819,1.0000,0.848
 GO:0006325,chromatin organization,75,1,0.92,260,0.6072,0.607,1.0000,0.258
 GO:0006342,chromatin silencing,5,1,0.06,55,0.0601,0.060,1.0000,0.101
-GO:0006351,transcription, DNA-templated,562,12,6.92,41,0.0423,0.042,1.0000,0.018
+GO:0006351,transcription DNA-templated,562,12,6.92,41,0.0423,0.042,1.0000,0.018
 GO:0006412,translation,191,1,2.35,299,0.9091,0.909,1.0000,0.928
 GO:0006417,regulation of translation,23,1,0.28,146,0.2484,0.248,1.0000,0.357
 GO:0006464,cellular protein modification process,868,12,10.69,210,0.3816,0.382,1.0000,0.181

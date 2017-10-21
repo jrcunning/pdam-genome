@@ -1,21 +1,21 @@
 term_ID,description,frequency,plot_X,plot_Y,plot_size,log10 p-value,uniqueness,dispensability,representative,eliminated
-GO:0006857,"oligopeptide transport",0.057%,-3.514,-4.564,3.864,-4.8239,0.840,0.000,6857,0
-GO:0007264,"small GTPase mediated signal transduction",0.485%, 6.302,-0.364,4.794,-3.2218,0.642,0.000,7264,0
-GO:0008152,"metabolic process",75.387%,-4.792, 3.527,6.986,-1.8959,0.974,0.000,8152,0
-GO:0006468,"protein phosphorylation",4.137%, 4.085, 5.287,5.725,-2.7077,0.733,0.038,6468,0
-GO:0007154,"cell communication",7.219%,-5.625, 0.960,5.967,-0.7368,0.861,0.056,7154,0
-GO:0001822,"kidney development",0.058%, 1.932,-6.521,3.870,-3.0706,0.701,0.064,1822,0
-GO:0006629,"lipid metabolic process",3.522%,-2.782, 5.722,5.655,-1.0860,0.795,0.094,6629,0
-GO:0006030,"chitin metabolic process",0.077%, 0.478, 7.122,3.994,-0.8868,0.816,0.109,6030,0
-GO:0006811,"ion transport",5.344%,-4.280,-3.472,5.836,-1.2884,0.817,0.275,6811,0
-GO:0006355,"regulation of transcription, DNA-templated",9.917%, 4.562, 0.975,6.105,-1.0897,0.596,0.355,6355,0
-GO:0006289,"nucleotide-excision repair",0.310%, 6.568,-1.868,4.599,-1.0200,0.678,0.382,6289,0
-GO:0007219,"Notch signaling pathway",0.061%, 7.105,-0.329,3.894,-2.3028,0.676,0.398,7219,0
-GO:0045737,"positive regulation of cyclin-dependent protein serine/threonine kinase activity",0.018%, 4.594, 3.357,3.357,-2.1146,0.620,0.400,45737,0
+GO:0006857,"oligopeptide transport",0.057%, 3.429,-4.615,3.864,-4.8239,0.840,0.000,6857,0
+GO:0007264,"small GTPase mediated signal transduction",0.485%,-6.385,-0.373,4.794,-3.2218,0.642,0.000,7264,0
+GO:0008152,"metabolic process",75.387%, 4.736, 3.502,6.986,-1.8959,0.974,0.000,8152,0
+GO:0006468,"protein phosphorylation",4.137%,-4.153, 5.274,5.725,-2.7077,0.733,0.038,6468,0
+GO:0007154,"cell communication",7.219%, 5.529, 0.922,5.967,-0.7368,0.861,0.056,7154,0
+GO:0001822,"kidney development",0.058%,-2.034,-6.538,3.870,-3.0706,0.701,0.064,1822,0
+GO:0006629,"lipid metabolic process",3.522%, 2.708, 5.679,5.655,-1.0860,0.795,0.094,6629,0
+GO:0006030,"chitin metabolic process",0.077%,-0.541, 7.102,3.994,-0.8868,0.816,0.109,6030,0
+GO:0006811,"ion transport",5.344%, 4.121,-3.180,5.836,-1.2884,0.817,0.275,6811,0
+GO:0006355,"regulation of transcription, DNA-templated",9.917%,-4.641, 0.962,6.105,-1.0897,0.596,0.355,6355,0
+GO:0006289,"nucleotide-excision repair",0.310%,-6.656,-1.874,4.599,-1.0200,0.678,0.382,6289,0
+GO:0007219,"Notch signaling pathway",0.061%,-7.187,-0.332,3.894,-2.3028,0.676,0.398,7219,0
+GO:0045737,"positive regulation of cyclin-dependent protein serine/threonine kinase activity",0.018%,-4.665, 3.345,3.357,-2.1146,0.620,0.400,45737,0
 GO:0007346,"regulation of mitotic cell cycle",0.269%,null,null,4.537,-0.6715,0.656,0.712,45737,1
-GO:0016255,"attachment of GPI anchor to protein",0.027%, 2.133, 5.840,3.545,-1.4220,0.697,0.415,16255,0
-GO:0033151,"V(D)J recombination",0.004%, 3.042,-5.425,2.736,-2.1146,0.656,0.493,33151,0
-GO:0007186,"G-protein coupled receptor signaling pathway",0.882%, 5.834,-0.705,5.054,-0.3085,0.631,0.504,7186,0
-GO:0050793,"regulation of developmental process",1.205%, 3.566,-3.318,5.189,-0.9100,0.585,0.585,50793,0
+GO:0016255,"attachment of GPI anchor to protein",0.027%,-2.199, 5.821,3.545,-1.4220,0.697,0.415,16255,0
+GO:0033151,"V(D)J recombination",0.004%,-3.140,-5.439,2.736,-2.1146,0.656,0.493,33151,0
+GO:0007186,"G-protein coupled receptor signaling pathway",0.882%,-5.916,-0.713,5.054,-0.3085,0.631,0.504,7186,0
+GO:0050793,"regulation of developmental process",1.205%,-3.655,-3.330,5.189,-0.9100,0.585,0.585,50793,0
 GO:0030154,"cell differentiation",1.133%,null,null,5.162,-0.7399,0.638,0.780,50793,1
-GO:0006810,"transport",17.616%,-3.972,-3.253,6.354,-0.7442,0.825,0.609,6810,0
+GO:0006810,"transport",17.616%, 3.939,-3.616,6.354,-0.7442,0.825,0.609,6810,0

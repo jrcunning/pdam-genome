@@ -9,7 +9,7 @@ GO:0045737,positive regulation of cyclin-dependent ...,1,1,0.01,13,0.00768,0.007
 GO:0008152,metabolic process,4017,31,30.87,153,0.53969,0.90684,0.01271,0.5397
 GO:0016255,attachment of GPI anchor to protein,5,1,0.04,34,0.03784,0.03784,0.03784,0.0674
 GO:0006811,ion transport,537,8,4.13,39,0.05147,0.05147,0.05147,0.1481
-GO:0006355,regulation of transcription, DNA-templat...,492,7,3.78,44,0.08134,0.08134,0.08134,0.2532
+GO:0006355,regulation of transcription DNA-templat...,492,7,3.78,44,0.08134,0.08134,0.08134,0.2532
 GO:0006629,lipid metabolic process,201,3,1.54,88,0.20033,0.20033,0.08204,0.1536
 GO:0006289,nucleotide-excision repair,13,1,0.1,51,0.09549,0.09549,0.09549,0.1048
 GO:0050793,regulation of developmental process,17,1,0.13,65,0.12302,0.12302,0.12302,0.1774
@@ -40,7 +40,7 @@ GO:0006139,nucleobase-containing compound metabolic...,1208,9,9.28,157,0.59597,0
 GO:0006259,DNA metabolic process,250,2,1.92,156,0.57755,0.85333,1.00000,0.7058
 GO:0006281,DNA repair,124,1,0.95,160,0.61880,0.61880,1.00000,0.5771
 GO:0006310,DNA recombination,62,1,0.48,133,0.38135,1.00000,1.00000,0.4352
-GO:0006351,transcription, DNA-templated,562,7,4.32,70,0.13765,0.13765,1.00000,0.0355
+GO:0006351,transcription DNA-templated,562,7,4.32,70,0.13765,0.13765,1.00000,0.0355
 GO:0006464,cellular protein modification process,868,12,6.67,28,0.02995,0.92184,1.00000,0.0492
 GO:0006497,protein lipidation,16,1,0.12,62,0.11622,0.11622,1.00000,0.2012
 GO:0006505,GPI anchor metabolic process,15,1,0.12,59,0.10936,0.10936,1.00000,0.3125

@@ -1,5 +1,5 @@
 GO.ID,Term,Annotated,Significant,Expected,Rank in classicFisher,classicFisher,elimFisher,topgoFisher,parentchildFisher
-GO:0006355,regulation of transcription, DNA-templat...,492,380,309.81,37,1.7e-12,1.2e-08,3.7e-09,0.78402
+GO:0006355,regulation of transcription DNA-templat...,492,380,309.81,37,1.7e-12,1.2e-08,3.7e-09,0.78402
 GO:0035556,intracellular signal transduction,311,242,195.84,57,7.0e-09,6.3e-05,4.2e-07,< 1e-30
 GO:0007018,microtubule-based movement,76,68,47.86,73,1.6e-07,1.6e-07,8.1e-07,0.06693
 GO:0006886,intracellular protein transport,103,84,64.86,111,3.0e-05,3.0e-05,1.2e-06,0.20216
@@ -12,7 +12,7 @@ GO:0006357,regulation of transcription from RNA pol...,57,52,35.89,80,1.2e-06,1.
 GO:0055085,transmembrane transport,578,405,363.97,120,0.00012,0.00012,0.00034,2.6e-11
 GO:0035023,regulation of Rho protein signal transdu...,37,33,23.3,140,0.00035,0.00035,0.00035,1.00000
 GO:0006397,mRNA processing,65,51,40.93,223,0.00540,0.00540,0.00079,0.86888
-GO:0006351,transcription, DNA-templated,562,440,353.89,28,3.7e-16,1.1e-05,0.00091,0.16159
+GO:0006351,transcription DNA-templated,562,440,353.89,28,3.7e-16,1.1e-05,0.00091,0.16159
 GO:0008152,metabolic process,4017,2860,2529.52,1,< 1e-30,0.00011,0.00133,< 1e-30
 GO:0006396,RNA processing,185,149,116.5,72,1.2e-07,0.00053,0.00300,0.12825
 GO:0006887,exocytosis,26,25,16.37,118,9.6e-05,9.6e-05,0.00383,0.20542
@@ -52,7 +52,7 @@ GO:0007099,centriole replication,7,7,4.41,377,0.03920,0.03920,0.06225,0.12471
 GO:0001822,kidney development,6,6,3.78,427,0.06227,0.06227,0.06227,0.14376
 GO:0015914,phospholipid transport,6,6,3.78,428,0.06227,0.06227,0.06227,0.02927
 GO:0048015,phosphatidylinositol-mediated signaling,6,6,3.78,429,0.06227,0.06227,0.06227,1.00000
-GO:0006352,DNA-templated transcription, initiation,26,21,16.37,397,0.04210,0.04210,0.06239,0.47504
+GO:0006352,DNA-templated transcription initiation,26,21,16.37,397,0.04210,0.04210,0.06239,0.47504
 GO:0006807,nitrogen compound metabolic process,1591,1218,1001.86,5,< 1e-30,0.39062,0.06559,5.8e-10
 GO:0006888,ER to Golgi vesicle-mediated transport,12,11,7.56,358,0.03122,0.03122,0.06724,0.20376
 GO:0006413,translational initiation,19,15,11.96,552,0.11139,0.11139,0.07536,0.38351
@@ -158,7 +158,7 @@ GO:0005978,glycogen biosynthetic process,3,3,1.89,747,0.24964,0.24964,0.24964,1.
 GO:0006004,fucose metabolic process,3,3,1.89,748,0.24964,0.24964,0.24964,0.76087
 GO:0006013,mannose metabolic process,3,3,1.89,749,0.24964,0.24964,0.24964,0.76087
 GO:0006432,phenylalanyl-tRNA aminoacylation,3,3,1.89,750,0.24964,0.24964,0.24964,0.68115
-GO:0006890,retrograde vesicle-mediated transport, G...,3,3,1.89,751,0.24964,0.24964,0.24964,0.81855
+GO:0006890,retrograde vesicle-mediated transport G...,3,3,1.89,751,0.24964,0.24964,0.24964,0.81855
 GO:0007016,cytoskeletal anchoring at plasma membran...,3,3,1.89,752,0.24964,0.24964,0.24964,0.62502
 GO:0007205,protein kinase C-activating G-protein co...,3,3,1.89,753,0.24964,0.24964,0.24964,0.01423
 GO:0017183,peptidyl-diphthamide biosynthetic proces...,3,3,1.89,754,0.24964,0.24964,0.24964,0.21556
@@ -168,7 +168,7 @@ GO:0030968,endoplasmic reticulum unfolded protein r...,3,3,1.89,757,0.24964,0.24
 GO:0032007,negative regulation of TOR signaling,3,3,1.89,758,0.24964,0.24964,0.24964,0.72727
 GO:0032218,riboflavin transport,3,3,1.89,759,0.24964,0.24964,0.24964,0.25765
 GO:0033198,response to ATP,3,3,1.89,760,0.24964,0.24964,0.24964,0.50000
-GO:0042147,retrograde transport, endosome to Golgi,3,3,1.89,761,0.24964,0.24964,0.24964,0.59986
+GO:0042147,retrograde transport endosome to Golgi,3,3,1.89,761,0.24964,0.24964,0.24964,0.59986
 GO:0051103,DNA ligation involved in DNA repair,3,3,1.89,762,0.24964,0.24964,0.24964,0.62207
 GO:1904668,positive regulation of ubiquitin protein...,3,3,1.89,763,0.24964,0.24964,0.24964,0.62500
 GO:0007269,neurotransmitter secretion,12,8,7.56,1218,0.52400,0.52400,0.24974,0.67528
@@ -201,7 +201,7 @@ GO:0006885,regulation of pH,5,4,3.15,923,0.39007,0.39007,0.39007,1.00000
 GO:0009435,NAD biosynthetic process,5,4,3.15,924,0.39007,0.39007,0.39007,1.00000
 GO:0016255,attachment of GPI anchor to protein,5,4,3.15,925,0.39007,0.39007,0.39007,0.51708
 GO:0006518,peptide metabolic process,226,165,142.31,156,0.00077,0.00897,0.39273,0.81141
-GO:0000398,mRNA splicing, via spliceosome,39,28,24.56,676,0.16420,0.16420,0.39365,0.97545
+GO:0000398,mRNA splicing via spliceosome,39,28,24.56,676,0.16420,0.16420,0.39365,0.97545
 GO:0007266,Rho protein signal transduction,39,35,24.56,130,0.00017,0.39487,0.39487,1.00000
 GO:0046488,phosphatidylinositol metabolic process,33,28,20.78,222,0.00531,0.00531,0.39541,0.59881
 GO:0032956,regulation of actin cytoskeleton organiz...,21,19,13.22,215,0.00515,0.28117,0.39565,0.44248
