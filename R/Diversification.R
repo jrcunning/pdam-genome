@@ -1,5 +1,6 @@
 library(stringr)
 library(tidyverse)
+library(lsmeans)
 
 args = commandArgs(trailingOnly=TRUE)
 
@@ -71,6 +72,7 @@ allsingles <- rbind(Pdamsingles, Spissingles, Adigsingles, Ofavsingles,
 colnames(allsingles) <- names(counts)
 
 counts <- rbind(counts, allsingles)
+save(counts, file="../fastOrtho/counts.RData")
 
 
 ###Groupings
@@ -145,20 +147,29 @@ if (args[2]=="Adig_specific.txt") write.table(adigOnly, "Adig_specific.txt",quot
 
 ###Diversification in corals
 if (args[2]=="coral_diversified_groups.txt") {
+  anth <- counts[,1:8]
   minanth <- apply(counts[,c(coral,morph,anem)],1,min)
   sumcor <- apply(counts[,coral],1,sum)
   pgens <- counts[which(minanth>0 & sumcor>20),] # genes to test
   divp <- c()
   for (g in rownames(pgens)) {
-    g1 <- sum(counts[g,1:4]) # total copies of the gene in corals
-    g2 <- sum(counts[g,5:8]) # total copies of the gene in non-coral anthozoans
-    n1 <- sum(counts[-which(rownames(counts) %in% g),1:4]) # total copies of OTHER genes in corals
-    n2 <- sum(counts[-which(rownames(counts) %in% g),5:8]) # total copies of OTHER genes in non-coral anthozoans
-    divp[g] <- fisher.test(cbind(c(g1,g2),c(n1,n2)),
-                           alternative="greater")$p.value
+    df <- data.frame(members=rep(NA,8), nonmembers=NA, group=NA)
+    rownames(df) <- colnames(anth)
+    df["Pdam",1:2] <- c(sum(anth[g,"Pdam"]), sum(anth[-which(rownames(anth) %in% g),"Pdam"])) 
+    df["Spis",1:2] <- c(sum(anth[g,"Spis"]), sum(anth[-which(rownames(anth) %in% g),"Spis"])) 
+    df["Adig",1:2] <- c(sum(anth[g,"Adig"]), sum(anth[-which(rownames(anth) %in% g),"Adig"])) 
+    df["Ofav",1:2] <- c(sum(anth[g,"Ofav"]), sum(anth[-which(rownames(anth) %in% g),"Ofav"])) 
+    df["Ampl",1:2] <- c(sum(anth[g,"Ampl"]), sum(anth[-which(rownames(anth) %in% g),"Ampl"])) 
+    df["Disc",1:2] <- c(sum(anth[g,"Disc"]), sum(anth[-which(rownames(anth) %in% g),"Disc"])) 
+    df["Aipt",1:2] <- c(sum(anth[g,"Aipt"]), sum(anth[-which(rownames(anth) %in% g),"Aipt"])) 
+    df["Nema",1:2] <- c(sum(anth[g,"Nema"]), sum(anth[-which(rownames(anth) %in% g),"Nema"])) 
+    df[,"group"] <- c(rep("coral",4), rep("noncoral",4))
+    mod <- glm(cbind(members, nonmembers) ~ group, data=df, family="binomial")
+    lsm <- lsmeans(mod, specs="group")
+    lsmtest <- test(contrast(lsm, "trt.vs.ctrl", ref=2), side=">")
+    divp[g] <- lsmtest$p.value
   }
   divadj <- p.adjust(divp,method="fdr")
-  #dir <- apply(pgens,1,function(x) mean(x[1:4])-mean(x[5:8]))
   divs <- pgens[divadj<0.01,]
   divs
   pdivGens <- dat[dat$Group%in%rownames(divs),]
