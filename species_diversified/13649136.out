@@ -1,0 +1,146 @@
+Sender: LSF System <lsfadmin@n249>
+Subject: Job 13649136: <adig_ips> in cluster <mk2> Done
+
+Job <adig_ips> was submitted from host <login4> by user <rcunning> in cluster <mk2>.
+Job was executed on host(s) <n249>, in queue <general>, as user <rcunning> in cluster <mk2>.
+</nethome/rcunning> was used as the home directory.
+</nethome/rcunning/projects/pdam-genome/species_diversified> was used as the working directory.
+Started at Thu Dec 14 18:30:17 2017
+Results reported on Thu Dec 14 18:40:52 2017
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+#!/bin/bash
+#BSUB -J adig_ips
+#BSUB -o %J.out
+#BSUB -e %J.err
+#BSUB -q general
+#BSUB -P crf
+#
+
+module load java/1.8.0_60
+export _JAVA_OPTIONS=''
+
+cd ~/projects/pdam-genome/species_diversified && make
+
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   1376.05 sec.
+    Max Memory :                                 3097 MB
+    Average Memory :                             2609.16 MB
+    Total Requested Memory :                     1500.00 MB
+    Delta Memory :                               -1597.00 MB
+    Max Swap :                                   10105 MB
+    Max Processes :                              13
+    Max Threads :                                79
+
+The output (if any) follows:
+
+sed -i 's/\*//g' adig_diversified_rep_set.fasta
+interproscan.sh -i adig_diversified_rep_set.fasta -b adig_diversified_ips --goterms
+14/12/2017 23:30:19:760 Welcome to InterProScan-5.24-63.0
+14/12/2017 23:30:27:632 Running InterProScan v5 in STANDALONE mode... on Linux
+14/12/2017 23:30:40:263 Loading file /nethome/rcunning/projects/pdam-genome/species_diversified/adig_diversified_rep_set.fasta
+14/12/2017 23:30:40:282 Running the following analyses:
+[CDD-3.14,Coils-2.2.1,Gene3D-4.1.0,Hamap-201701.18,MobiDBLite-1.0,PANTHER-11.1,Pfam-31.0,PIRSF-3.02,PRINTS-42.0,ProDom-2006.1,ProSitePatterns-20.132,ProSiteProfiles-20.132,SFLD-2,SMART-7.1,SUPERFAMILY-1.75,TIGRFAM-15.0]
+Available matches will be retrieved from the pre-calculated match lookup service.
+
+Matches for any sequences that are not represented in the lookup service will be calculated locally.
+2017-12-14 23:30:40,943 [amqEmbeddedWorkerJmsContainer-1] [uk.ac.ebi.interpro.scan.business.sequence.BerkeleyPrecalculatedProteinLookup:350] WARN - 
+
+The version of InterProScan you are using is 5.24-63.0
+The version of the lookup service you are using is 5.27-66.0
+As the data in these versions is not the same, you cannot use this match lookup service.
+InterProScan will now run locally
+If you would like to use the match lookup service, you have the following options:
+i) Download the newest version of InterProScan5 from our FTP site by following the instructions on:
+   https://www.ebi.ac.uk/interpro/interproscan.html
+ii) Download the match lookup service for your version of InterProScan from our FTP site and install it locally.
+    You will then need to edit the following property in your configuration file to point to your local installation:
+    precalculated.match.lookup.service.url=
+
+In the meantime, the analysis will continue to run locally.
+
+
+14/12/2017 23:30:59:433 25% completed
+14/12/2017 23:31:22:559 51% completed
+14/12/2017 23:31:33:850 75% completed
+14/12/2017 23:34:05:267 91% completed
+14/12/2017 23:34:15:933 96% completed
+14/12/2017 23:34:21:289 100% done:  InterProScan analyses completed
+sed -i 's/\*//g' spis_diversified_rep_set.fasta
+interproscan.sh -i spis_diversified_rep_set.fasta -b spis_diversified_ips --goterms
+14/12/2017 23:34:22:436 Welcome to InterProScan-5.24-63.0
+14/12/2017 23:34:28:541 Running InterProScan v5 in STANDALONE mode... on Linux
+14/12/2017 23:34:39:354 Loading file /nethome/rcunning/projects/pdam-genome/species_diversified/spis_diversified_rep_set.fasta
+14/12/2017 23:34:39:357 Running the following analyses:
+[CDD-3.14,Coils-2.2.1,Gene3D-4.1.0,Hamap-201701.18,MobiDBLite-1.0,PANTHER-11.1,Pfam-31.0,PIRSF-3.02,PRINTS-42.0,ProDom-2006.1,ProSitePatterns-20.132,ProSiteProfiles-20.132,SFLD-2,SMART-7.1,SUPERFAMILY-1.75,TIGRFAM-15.0]
+Available matches will be retrieved from the pre-calculated match lookup service.
+
+Matches for any sequences that are not represented in the lookup service will be calculated locally.
+2017-12-14 23:34:39,931 [amqEmbeddedWorkerJmsContainer-1] [uk.ac.ebi.interpro.scan.business.sequence.BerkeleyPrecalculatedProteinLookup:350] WARN - 
+
+The version of InterProScan you are using is 5.24-63.0
+The version of the lookup service you are using is 5.27-66.0
+As the data in these versions is not the same, you cannot use this match lookup service.
+InterProScan will now run locally
+If you would like to use the match lookup service, you have the following options:
+i) Download the newest version of InterProScan5 from our FTP site by following the instructions on:
+   https://www.ebi.ac.uk/interpro/interproscan.html
+ii) Download the match lookup service for your version of InterProScan from our FTP site and install it locally.
+    You will then need to edit the following property in your configuration file to point to your local installation:
+    precalculated.match.lookup.service.url=
+
+In the meantime, the analysis will continue to run locally.
+
+
+14/12/2017 23:34:58:456 25% completed
+14/12/2017 23:35:38:308 50% completed
+14/12/2017 23:35:58:094 76% completed
+14/12/2017 23:37:40:355 91% completed
+14/12/2017 23:37:51:013 96% completed
+14/12/2017 23:37:57:292 100% done:  InterProScan analyses completed
+sed -i 's/\*//g' ofav_diversified_rep_set.fasta
+interproscan.sh -i ofav_diversified_rep_set.fasta -b ofav_diversified_ips --goterms
+14/12/2017 23:37:58:357 Welcome to InterProScan-5.24-63.0
+14/12/2017 23:38:04:414 Running InterProScan v5 in STANDALONE mode... on Linux
+14/12/2017 23:38:17:092 Loading file /nethome/rcunning/projects/pdam-genome/species_diversified/ofav_diversified_rep_set.fasta
+14/12/2017 23:38:17:095 Running the following analyses:
+[CDD-3.14,Coils-2.2.1,Gene3D-4.1.0,Hamap-201701.18,MobiDBLite-1.0,PANTHER-11.1,Pfam-31.0,PIRSF-3.02,PRINTS-42.0,ProDom-2006.1,ProSitePatterns-20.132,ProSiteProfiles-20.132,SFLD-2,SMART-7.1,SUPERFAMILY-1.75,TIGRFAM-15.0]
+Available matches will be retrieved from the pre-calculated match lookup service.
+
+Matches for any sequences that are not represented in the lookup service will be calculated locally.
+2017-12-14 23:38:17,807 [amqEmbeddedWorkerJmsContainer-1] [uk.ac.ebi.interpro.scan.business.sequence.BerkeleyPrecalculatedProteinLookup:350] WARN - 
+
+The version of InterProScan you are using is 5.24-63.0
+The version of the lookup service you are using is 5.27-66.0
+As the data in these versions is not the same, you cannot use this match lookup service.
+InterProScan will now run locally
+If you would like to use the match lookup service, you have the following options:
+i) Download the newest version of InterProScan5 from our FTP site by following the instructions on:
+   https://www.ebi.ac.uk/interpro/interproscan.html
+ii) Download the match lookup service for your version of InterProScan from our FTP site and install it locally.
+    You will then need to edit the following property in your configuration file to point to your local installation:
+    precalculated.match.lookup.service.url=
+
+In the meantime, the analysis will continue to run locally.
+
+
+14/12/2017 23:38:28:964 25% completed
+14/12/2017 23:38:44:453 50% completed
+14/12/2017 23:38:56:235 75% completed
+14/12/2017 23:40:42:110 90% completed
+14/12/2017 23:40:48:724 97% completed
+14/12/2017 23:40:51:871 100% done:  InterProScan analyses completed
+
+
+PS:
+
+Read file <13649136.err> for stderr output of this job.
+

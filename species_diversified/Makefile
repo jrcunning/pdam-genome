@@ -1,4 +1,4 @@
-all: adig_diversified_rep_set.fasta spis_diversified_rep_set.fasta ofav_diversified_rep_set.fasta
+all: adig_diversified_ips.tsv spis_diversified_ips.tsv ofav_diversified_ips.tsv
 
 adig_diversified.txt: ../R/species_diversification.R
 	R --vanilla < $<
@@ -37,4 +37,16 @@ ofav_diversified_rep_set.fasta: ofav_diversified.txt
 	rm ofav_diversified_orthos.txt ofav_diversified_orthos2.txt ofav_diversified_rep_set.txt
 	
 adig_diversified_ips.tsv: adig_diversified_rep_set.fasta
-	interproscan.sh -i $< -b $@ --goterms
+# Remove asterisks (A digitifera has asterisks in protein seqs for stop codons)
+	sed -i 's/\*//g' adig_diversified_rep_set.fasta
+	interproscan.sh -i $< -b adig_diversified_ips --goterms
+
+spis_diversified_ips.tsv: spis_diversified_rep_set.fasta
+# Remove asterisks (A digitifera has asterisks in protein seqs for stop codons)
+	sed -i 's/\*//g' spis_diversified_rep_set.fasta
+	interproscan.sh -i $< -b spis_diversified_ips --goterms
+
+ofav_diversified_ips.tsv: ofav_diversified_rep_set.fasta
+# Remove asterisks (A digitifera has asterisks in protein seqs for stop codons)
+	sed -i 's/\*//g' ofav_diversified_rep_set.fasta
+	interproscan.sh -i $< -b ofav_diversified_ips --goterms

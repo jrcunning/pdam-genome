@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<protein-matches xmlns="http://www.ebi.ac.uk/interpro/resources/schemas/interproscan5">
+    <protein>
+        <sequence md5="28b012f3bed526d0d7b671291ea4d1f3">MTKMSPFRAVEKWLLDYEPAVGLLDYKVHHGASTVIKKRRDLCGINEPSLVLPTVFFDAIFNAFHHRAVEHVLPYPTQYERGCIFCCNRDTMITVEVKFGGQALLFAPVTAGNPKHRKYDRSATNMTAISREFIARIKQEAPPMLRNHVIFEMLHAGPKTYLNSKSPSFCVNVSRHQPIVPYRHLLTDV</sequence>
+        <xref id="ofav_00010370-RA|&gt;ofav_00010370-RA|&gt;ofav_00010370-RA|&gt;ofav_00010370-RA|&gt;ofav_00010370-RA" name="protein Name:&quot;Protein of unknown function&quot; AED:0.06 eAED:0.06 QI:0|-1|0|1|-1|1|1|0|189"/>
+        <matches/>
+    </protein>
+</protein-matches>
