@@ -22,34 +22,49 @@ coral_diversified_enriched_revigo.png: coral_diversified_enriched_revigo.csv
 	R --vanilla < ../R/plot_revigo_pvals.R --args $< coral_diversified_enrichment_data.csv $@
 	
 # Get protein sequences of pdam genes in coral-diversified gene families
-coral_diversified_rep_set.fasta: coral_diversified_groups.txt
-	pcregrep -o1 "(pdam_........-RA).*" $< > names.txt
-	filter_fasta.py -f ../pdam.maker.output/pdam.all.maker.proteins.renamed.function.fasta \
-	-o coral_diversified_rep_set.fasta \
-	-s names.txt
-	# Match each gene name to ortho group/family
-	while read gene; do group=$(awk '/'$gene'/ {print $1}' coral_diversified_groups.txt); echo "$gene      $group"; done < names.txt > genes-fams.txt
+#coral_diversified_rep_set.fasta: coral_diversified_groups.txt
+#	pcregrep -o1 "(pdam_........-RA).*" $< > names.txt
+#	filter_fasta.py -f ../pdam.maker.output/pdam.all.maker.proteins.renamed.function.fasta \
+#	-o coral_diversified_rep_set.fasta \
+#	-s names.txt
+#	# Match each gene name to ortho group/family
+#	while read gene; do group=$(awk '/'$gene'/ {print $1}' coral_diversified_groups.txt); echo "$gene      $group"; done < names.txt > genes-fams.txt
 
 # Get rep set - longest protein in each ortho group
 cd_longest.fasta: coral_diversified_groups.txt
-	# Remove parenthetical species IDs and split into new files: one ortho group per file
-	sed "s/([^)]*)//g" coral_diversified_groups.txt | tail -n +2 | split -l 1 -a 1 - cd_
+# Remove parenthetical species IDs and split into new files: one ortho group per file
+sed "s/([^)]*)//g" coral_diversified_groups.txt | tail -n +2 | split -l 1 -a 1 - cd_
+# For each ortho group, get longest pdam gene
+for ortho in cd_?;
+do
+	cat $ortho | cut -f4 | sed -e 's/ /\'$'\n/g' | awk '/pdam/ {print}' > $ortho'_'
+	filter_fasta.py -f ../pdam.maker.output/pdam.all.maker.proteins.renamed.function.fasta \
+	-o $ortho'.fasta' -s $ortho'_'
+	R --vanilla < ../R/get_longest.R --args $ortho'.fasta' $ortho'_longest.fasta'
+	R --vanilla < ../R/get_median.R --args $ortho'.fasta' $ortho'_med.fasta'
+done
+cat cd_?_longest.fasta > cd_longest.fasta
+cat cd_?_med.fasta > cd_med.fasta
+	
+	
 	# For each ortho group, get name of longest pdam gene
-	for ortho in cd_?
-	do
-		cat $ortho | cut -f4 | sed -e 's/ /\'$'\n/g' | awk '/pdam/ {print}' > $ortho'_'
-		grep -f $ortho'_' ../pdam.maker.output/pdam.all.maker.proteins.renamed.function.fasta > $ortho'__'
-		sort -t'|' -k9,9nr $ortho'__' | head -1 >> cd_longest.txt
-		rm $ortho
-		rm $ortho'_'
-		rm $ortho'__'
-	done
+	#for ortho in cd_?
+	#do
+	#	cat $ortho | cut -f4 | sed -e 's/ /\'$'\n/g' | awk '/pdam/ {print}' > $ortho'_'
+	#	grep -f $ortho'_' ../pdam.maker.output/pdam.all.maker.proteins.renamed.function.fasta > $ortho'__'
+	#	sort -t'|' -k9,9nr $ortho'__' | head -1 >> cd_longest.txt
+	#	rm $ortho
+	#	rm $ortho'_'
+	#	rm $ortho'__'
+	#done
 	# Get protein sequences for these representative genes
-	sed -i '' 's/>//' cd_longest.txt
-	filter_fasta.py -f ../pdam.maker.output/pdam.all.maker.proteins.renamed.function.fasta -o cd_longest.fasta -s cd_longest.txt
+	#sed -i '' 's/>//' cd_longest.txt
+	#filter_fasta.py -f ../pdam.maker.output/pdam.all.maker.proteins.renamed.function.fasta -o cd_longest.fasta -s cd_longest.txt
 	# Match each gene name to ortho group/family
-	cut -d' ' -f1 cd_longest.txt > gene-names.txt
-	while read gene; do group=$(awk '/'$gene'/ {print $1}' coral_diversified_groups.txt); echo "$gene      $group"; done < gene-names.txt > genes-fams.txt
+grep -o -E "^>\w+" cd_med.fasta | tr -d ">" > med_gene-names.txt
+grep -o -E "^>\w+" cd_longest.fasta | tr -d ">" > longest_gene-names.txt
+while read gene; do group=$(awk '/'$gene'/ {print $1}' coral_diversified_groups.txt); echo "$gene      $group"; done < longest_gene-names.txt > longest_genes-fams.txt
+while read gene; do group=$(awk '/'$gene'/ {print $1}' coral_diversified_groups.txt); echo "$gene      $group"; done < med_gene-names.txt > med_genes-fams.txt
 
 # BLAST rep set proteins against nr database
 #cd_nr_tophits.txt: coral_diversified_rep_set.fasta
@@ -67,10 +82,20 @@ cd_longest.fasta: coral_diversified_groups.txt
 #	cat xa*topten.txt > cd_nr_topten.txt
 #	sort -k1,1 -u cd_nr_topten.txt > cd_nr_tophits.txt
 	
-# BLAST rep set proteins against SwissProt database
-cd_longest_sp_blastout: coral_diversified_rep_set.fasta
+# BLAST longest rep set proteins against SwissProt database
+cd_longest_sp_blastout: cd_longest.fasta
 	blastp -db /Volumes/CoralReefFutures/ref/swissprot/uniprot_sprot.fasta -query cd_longest.fasta -evalue 1e-10 -max_target_seqs 100 -out cd_longest_sp_blastout -outfmt '6 qaccver saccver pident qlen slen qcovs evalue bitscore stitle'
 	# Get top hits for each one
 	sort -k1,2 -k7g cd_longest_sp_blastout | sort -k1,2 -u | sort -k7,7g | sort -k1,1 -u > cd_longest_sp_tophits.txt
+	cp cd_longest_sp_tophits.txt ../output/Supplementary_Data_S3.txt
+
+cd_med_sp_blastout: cd_med.fasta
+	blastp -db /Volumes/CoralReefFutures/ref/swissprot/uniprot_sprot.fasta -query cd_med.fasta -evalue 1e-10 -max_target_seqs 100 -out cd_med_sp_blastout -outfmt '6 qaccver saccver pident qlen slen qcovs evalue bitscore stitle'
+	# Get top hits for each one
+	sort -k1,2 -k7g cd_med_sp_blastout | sort -k1,2 -u | sort -k7,7g | sort -k1,1 -u > cd_med_sp_tophits.txt
 	
-	
+# Get Pfam domains for rep set proteins
+grep -f longest_gene-names.txt ../interproscan/pdam_ips.renamed.tsv | awk '/Pfam/' > cd_longest_Pfam.txt
+grep -f med_gene-names.txt ../interproscan/pdam_ips.renamed.tsv | awk '/Pfam/' > cd_med_Pfam.txt
+
+

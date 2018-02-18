@@ -11,6 +11,7 @@ coral_core_pdam_gene_names.txt: coral_core_groups.txt
 # Test for enrichment of GO terms in the pdam genes in coral-specific gene families using topGO
 coral_core_enrichment_GO_pvals.txt: coral_core_pdam_gene_names.txt
 	R --vanilla < ../R/topGO.R --args ../annotation/pdam_genes_GO.txt $< coral_core_enrichment
+	cp coral_core_enrichment_data.csv ../output/Supplementary_Data_S1.csv
 
 # Use GO enrichment data in REVIGO analysis
 coral_core_enriched_revigo.csv: coral_core_enrichment_GO_pvals.txt

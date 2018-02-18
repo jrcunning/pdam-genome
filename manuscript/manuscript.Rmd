@@ -1,0 +1,188 @@
+---
+title: "The _Pocillopora damicornis_ genome and comparative genomic analysis highlights innate immune role in coral evolution"
+author: Ross Cunning, Rachael A. Bay, Philip Gillette, Andrew C. Baker, Nikki Traylor-Knowles
+output: word_document
+nocite: |
+  @Voolstra2017, @Srivastava2010, @Wang2017a, @Shinzato2011, @Prada2016a, @Baumgarten2015, @Putnam2007, @Chapman2010, @Ryan2013
+bibliography: library.bib
+csl: nature.csl
+abstract: |
+  Expanding genomic resources and comparative genomic analyses in scleractinian corals may provide insights into evolutionary adaptation in these organisms, with implications for their future persistence under the threat of global climate change. Here, we sequenced and annotated the genome of *Pocillopora damicornis*, one of the most abundant and widespread corals throughout the Indo-Pacific. We compared this genome with other publicly available genomes of scleractinians, cnidarians, and basal metazoans based on protein-coding gene orthology. We found that 45% of *P. damicornis* genes had orthologs in all other scleractinians, defining a set of core genes enriched in basic housekeeping functions. However, 4.6% of these core genes were found only in scleractinians and were enriched in immune functionality, suggesting a role in adaptive processes in corals. An additional 25% of *P. damicornis* genes were species-specific, and were enriched in cellular signaling and stress response pathways, indicating that immune system diversification is a prominent feature of both coral clade and species evolution. Furthermore, we found immune-related gene family expansions in other scleractinian species. Overall, these results suggest that immune evolution is a prominent feature of scleractinian evolution, and may underlie adaptive responses involving symbiosis, pathogen interactions, and environmental stress.
+---
+
+```{r setup, include=F}
+knitr::opts_knit$set(root.dir = normalizePath(".."))
+knitr::opts_chunk$set(echo = F, warning = F, message = F)
+options(scipen = 3, digits = 9)
+library(magrittr)
+library(xtable)
+library(tidyverse)
+```
+
+# Introduction
+
+  Scleractinian corals serve the critical ecological role of building reefs that provide billions of dollars annually in goods and services [@Costanza2014] and sustain high levels of biodiversity [@Knowlton2010]. Moreover, as basal metazoans, corals provide a model for studying the evolution of key traits such as symbiosis [@Neubauer2016a], immunity [@Palmer2012; @Quistad2014], and biomineralization [@Takeuchi2016]. However, corals are declining rapidly as ocean acidification impairs coral skeleton formation [@Kleypas1999], and ocean warming disrupts their symbiosis with photosynthetic *Symbiodinium* spp. [@Jokiel_1977]. Understanding the genomic architecture of these traits is therefore key to understanding corals' success through evolutionary history [@Bhattacharya2016] and under future climate scenarios. In particular, there is great interest in whether corals possess the genetic basis and genetic variation required to acclimatize and/or adapt to rapid climate change [@van_Oppen_2015; @Dixon2015; @Bay2017]. Addressing these questions requires expanding genomic resources for corals, and establishes a fundamental role for comparative genomic analysis in these organisms.
+
+  Genomic resources for corals have expanded rapidly in recent years, with genomic or transcriptomic information available for at least 20 coral species (see @Bhattacharya2016). Comparative analysis of single copy orthologs in corals has identified genes that may be important in biomineralization, symbiosis, and environmental stress responses [@Bhattacharya2016]. However, complete genome sequences have only been analyzed and compared for two coral species, *Acropora digitifera* and *Stylophora pistillata* [@Voolstra2017], which revealed extensive differences in genomic architecture and content. Therefore, additional complete coral genomes and more comprehensive comparative analysis may be transformative in our understanding of the genomic content and evolutionary history of reef-building corals, as well as the importance of specific gene repertoires and diversification within coral lineages.
+  
+  Here, we present the genome of *Pocillopora damicornis*, one of the most abundant and widespread reef-building corals in the Indo-Pacific. This ecologically important coral is the subject of a large body of research on speciation [@Pinzon2013; @Schmidt-Roach2014; @Johnston2017], population genetics [@Stoddart1984; @Pinzon2011; @Combosch2011; @Thomas2017], symbiosis ecology [@Glynn:2001p7571; @McGinley_2012; @Cunning_2013], and reproduction [@Stoddart1983; @Ward1992; @Schmidt-Roach2012], and is commonly used in experimental biology and physiology. Therefore, availability of the *P. damicornis* genome advances a number of fields in biology, ecology, and evolution, and provides a direct foundation for future studies in transcriptomics, population genomics, and functional genomics of corals. 
+  
+  Using the *P. damicornis* genome and other publicly available genomes of corals, cnidarians, and basal metazoans, we perform the most comprehensive comparative genomic analysis to date in Scleractinia. In particular, we address critical questions such as: 1) what genes are specific to or diversified within scleractinians, and 2) what genes are specific to or diversified within individual scleractinian species, and 3) what features distinguish the *P. damicornis* genome from other corals. We address these questions based on orthology of protein-coding genes, which generalizes the approaches taken by @Bhattacharya2016 and @Voolstra2017 to a larger set of complete genomes to describe both shared and unique adaptations in the Scleractinia. In comparing these genomes, we reveal prominent diversification and expansion of immune-related genes and pathways, demonstrating that the immune pathways are the subject of diverse evolutionary adaptations in corals.
+
+
+# Results and discussion
+
+## *P. damicornis* genome assembly and annotation
+
+  The estimated genome size of *P. damicornis* is 348 Mb, smaller than other scleractinian genomes analyzed to date. The size of the final assembly produced here was 234 Mb, and likely lacks high-identity repeat content that could not be assembled. The assembly comprises 96.3% contiguous sequence, and has the highest contig N50 (28.5 kb) of any cnidarian genome assembly (Table 1). We identified 26,077 gene models, with 21,389 (82%) of these being apparently complete with start and stop codons. This number of genes is consistent with other scleractinian and cnidarian genomes (Table 1). Among all gene models, 59.7% had identifiable homologs (E-value $\leq$ 10^-5^) in the SwissProt database, and 83.7% contained protein domains annotated by InterProScan. In addition, 73% of genes contained identifiable homologs in at least one of the other 10 genomes analyzed here. Furthermore, a BUSCO search found that out of 978 metazoan single-copy orthologs, 865 (88.4%) were present and complete (5 of these were duplicated). An additional 28 orthologs were present but fragmented, and 85 (8.7%) were missing. Together, these statistics indicate the *P. damicornis* genome assembly is the highest quality and most complete scleractinian genome to date (Table 1).
+
+```{r Table1_xtable, eval=F, results='asis'}
+gs <- read.table("data/genome_stats.txt", fileEncoding="macintosh", sep="\t", check.names=F,
+                 header=T, row.names=1, colClasses="character")
+gsList <- list(gs)
+attr(gsList, "message") <- c("* Re-annotated using present pipeline (github.com/jrcunning/ofav-genome)", "† Computed as total occurrences for non-error k-mers divided by homozygous-peak depth (Dovetail Genomics)", "‡ Calculated in this study using GAG based on downloaded data")
+print(xtableList(gsList, 
+                 caption="Assembly and annotation statistics for the \\emph{P. damicornis} genome (Pdam) and others used for comparative analysis. (Spis=\\emph{Stylophora pistillata} (Voolstra et al. 2017); Adig=\\emph{Acropora digitifera} (Shinzato et al. 2011); Ofav=\\emph{Orbicella faveolata} (Prada et al. 2016); Disc=\\emph{Discosoma spp.} (Wang et al. 2017a); Afen=\\emph{Amplexidiscus fenestrafer} (Wang et al. 2017a); Aipt=\\emph{Aiptasia} (Baumgarten et al. 2015); Nema=\\emph{Nematostella vectensis} (Putnam et al. 2007); Hydr=\\emph{Hydra vulgaris} (Chapman et al. 2010); Mlei=\\emph{Mnemiopsis leidyi} (Ryan et al. 2013); Aque=\\emph{Amphimedon queenslandica} (Srivastava et al. 2010))."), 
+      comment=F, type="latex", scalebox='0.82', sanitize.text.function=identity,
+      caption.placement="top")
+```
+
+```{r Table1_kable, eval=T, results='asis'}
+gs <- read.table("data/genome_stats.txt", fileEncoding="macintosh", sep="\t", check.names=F,
+                 header=T, row.names=1, colClasses="character")
+knitr::kable(gs, format="markdown", caption="Assembly and annotation statistics for the P. damicornis genome (Pdam) and others used for comparative analysis. (Spis=Stylophora pistillata (Voolstra et al. 2017); Adig=Acropora digitifera (Shinzato et al. 2011); Ofav=Orbicella faveolata (Prada et al. 2016); Disc=Discosoma spp. (Wang et al. 2017a); Afen=Amplexidiscus fenestrafer (Wang et al. 2017a); Aipt=Aiptasia (Baumgarten et al. 2015); Nema=Nematostella vectensis (Putnam et al. 2007); Hydr=Hydra vulgaris (Chapman et al. 2010); Mlei=Mnemiopsis leidyi (Ryan et al. 2013); Aque=Amphimedon queenslandica (Srivastava et al. 2010)). *=Re-annotated using present pipeline (github.com/jrcunning/ofav-genome). †=Computed as total occurrences for non-error k-mers divided by homozygous-peak depth (Dovetail Genomics). ‡=Calculated in this study using GAG based on downloaded data")
+```
+
+## Scleractinian gene content and core function
+
+  Analysis of ortholog groups revealed genes and gene families that were shared or unique to specific scleractinian species. Comparison of the four scleractinians (Fig. 1) identified 7,536 gene families shared by all corals, constituting putative coral 'core' genes. Each coral species also contained numerous gene families that were not shared by others, constituting lineage-specific genes. Since the number of shared ortholog groups between a given pair of species is related to the evolutionary distance that separates them, the highest number of shared ortholog groups was between *P. damicornis* and *S. pistillata*, the two most closely related corals in this analysis. Indeed, a dendrogram based on the number of shared gene families relative to the total number of gene families [@Snel1999] reproduces the evolutionary relationships among these corals [@Fukami2008] (Fig. 1).
+  
+  The coral 'core' gene families (i.e., those found in all four corals) comprise 17.3% of all gene families identified among the four genomes. In *P. damicornis*, core gene family members totaled 12,147, or 46.6% of all genes. Functional profiling of this core genome in *P. damicornis* revealed significant enrichment of 44 GO terms associated with basic cellular and metabolic functions, including nucleic acid synthesis and processing, cellular signaling and transport, and lipid, carbohydrate, and protein metabolism (Fig. 2, Supplementary Data S1). This basic functionality explains why over 30% of these gene families are also found in all other cnidarians, and 96.3% have orthologs in at least one non-coral. This is consistent with the identification of basic housekeeping functions in the core (shared) protein sets characterized by @Bhattacharya2016 and @Voolstra2017.
+
+![Figure 1. Species-specific and shared gene families across four scleractinian genomes. Numbers indicate the number of gene families, which include both single-copy genes and multi-copy gene families. Dendrogram is based on shared gene content, following @Snel1999.](../figures/Fig1.png)
+
+![Figure 2. Functional profile of the core coral genome in *P. damicornis*. Significantly enriched GO terms (p < 0.05) within this gene set were reduced (allowed similarity = 0.4) and visualized in semantic space by REVIGO. Point size is scaled to the ratio of observed to expected (O/E) occurrences of each GO term in the coral core gene set.](../coral_core/coral_core_enriched_revigo.png)
+
+## Genes specific to and diversified in the scleractinian clade are enriched for immune functionality
+
+  Among the coral core gene families, 278 (3.7%) had no orthologs outside Scleractinia, suggesting they may reflect important evolutionary processes in scleractinians [@Khalturin2009]. These coral-specific genes in *P. damicornis* (n=349) were significantly enriched for GO terms related to immune function, such as viral defense, signal transduction, and NF-$\kappa$B pathway regulation (Table 2). NF-$\kappa$B signaling plays a central role in innate immunity [@Hatada2000; @Mydlarz2016], and was recently demonstrated to be conserved and responsive to immune challenge in *O. faveolata* [@Williams2017]. The 32 genes in this set associated with signal transduction may also represent coral-specific immune pathways; SwissProt annotations of these genes included dopamine receptors, neuropeptide receptors, G-protein coupled receptors, and tumor necrosis factor (TNF) receptor-associated factors (TRAFs) (Supplementary Data S2). The TNF receptor superfamily in *A. digitifera* is comprised of 40 proteins, and is more diverse in corals than any organism described thus far other than choanoflagellates [@Quistad2014; @Quistad2016]. That similar genes were present in each coral genome but absent from other cnidarians suggests that diversification of these immune signaling pathways is a common feature of corals. Indeed, *P. damicornis* contained 39 proteins with TNFR cysteine-rich domains. Finally, caveola assembly, or the formation of structures in cell membranes that anchor transmembrane proteins, may also serve an important role in signal transduction and immunity [@Patel2009]. Together, these results suggest that corals as a group have evolved a diverse set of immune signaling genes for interacting with and responding to pathogens and the environment. 
+  
+  Another enriched function in the coral-specific gene set was copper ion transmembrane transport (Table 2), which may reflect an important role for delivery of copper to endosymbionts, where it is a critical component of proteins involved in photosynthesis (plastocyanin) and antioxidant activity (superoxide dismutase) [@Festa2011]. Indeed, in mycorrhizal symbioses, fungi are known to deliver copper to their photosynthetic plant partners [@Gonzalez-Guerrero2016]. Other enriched functions in the coral-specific genes include regulation of transcription and chromatin silencing, potentially indicating coral-specific pathways of controlling gene expression.
+  
+```{r Table2_xtable, eval=F, results='asis'}
+cs <- read.csv("coral_specific/coral_specific_enrichment_data.csv", stringsAsFactors = FALSE)
+cs <- cs[, c(1,2,4,5,9)]
+colnames(cs) <- c("GO Accession", "GO Term Name", "Observed", "Expected", "p")
+cs[4,2] <- "NF-kappaB activation"
+cs[7,2] <- "regulation of gene-specific transcription"
+
+cd <- read.csv("coral_diversified/coral_diversified_enrichment_data.csv", stringsAsFactors = F)
+cd <- cd[, c(1,2,4,5,9)]
+colnames(cd) <- c("GO Accession", "GO Term Name", "Observed", "Expected", "p")
+cd[2,2] <- "small GTPase mediated signal transduction"
+cd[7,2] <- "positive regulation of CDK activity"
+
+golist <- list(cs, cd)
+names(golist) <- c("Coral-specific", "Coral-diversified")
+gotable <- bind_rows(golist, .id="Gene set")
+gotable$`Gene set`[-c(1, 10)] <- ""
+
+print(xtable(gotable, caption="Enrichment of GO terms in the coral-specific and coral-diversified genes in \\emph{P. damicornis}."), comment=F, type="latex", sanitize.text.function=identity, caption.placement="top", include.rownames=F, hline.after=c(-1,0,9,nrow(gotable)), scalebox='0.92')
+```
+
+```{r Table2_kable, results='asis'}
+cs <- read.csv("coral_specific/coral_specific_enrichment_data.csv", stringsAsFactors = FALSE)
+cs <- cs[, c(1,2,4,5,9)]
+colnames(cs) <- c("GO Accession", "GO Term Name", "Observed", "Expected", "p")
+cs[4,2] <- "NF-kappaB activation"
+cs[7,2] <- "regulation of gene-specific transcription"
+
+cd <- read.csv("coral_diversified/coral_diversified_enrichment_data.csv", stringsAsFactors = F)
+cd <- cd[, c(1,2,4,5,9)]
+colnames(cd) <- c("GO Accession", "GO Term Name", "Observed", "Expected", "p")
+cd[2,2] <- "small GTPase mediated signal transduction"
+cd[7,2] <- "positive regulation of CDK activity"
+
+golist <- list(cs, cd)
+names(golist) <- c("Coral-specific", "Coral-diversified")
+gotable <- bind_rows(golist, .id="Gene set")
+gotable$`Gene set`[-c(1, 10)] <- ""
+
+knitr::kable(gotable, output="markdown", caption="Enrichment of GO terms in the coral-specific and coral-diversified genes in P. damicornis.")
+```
+
+  In addition to gene families that were only found in scleractinians, there were also gene families (n=21) that were significantly larger in scleractinians compared to corallimorphs and anemones (*p* < 0.01; Fig. 3, Supplementary Table S1), which may indicate diversification within the scleractinian lineage. The expansion of gene families may drive evolutionary adaptation [@Sharpton2009]. Members of these gene families in *P. damicornis* (n=339) were significantly enriched for 9 GO terms suggesting roles in cellular signaling and immunity (Table 2). To further investigate these 21 coral-diversified gene families, we compared representative proteins to the Swissprot database and found significant similarities to proteins with known immune functions (Fig. 3, Supplementary Table S1). 
+  
+  The top SwissProt hits of the coral-diversified gene families included receptors for pathogen recognition, such as a C-type lectin, a G-protein-coupled receptors (GPCRs), and both Notch and Wnt-signaling receptors (lipoprotein receptor-related protein). Notch and Wnt signaling are critical developmental gene pathways that may also have a role in coral innate immunity [@Anderson2016], particularly in wound-healing processes [@DuBuc2014; @Mydlarz2016]. Other coral-diversified genes were similar to Ras-related proteins with leucine-rich repeats, and a tetratricopeptide repeat-containing protein, which may also play roles in signal transduction [@Schapire2006]. Many of these tetratricopeptide repeat proteins also contained a CHAT domain characteristic of caspases [@Aravind2002], indicating a potential role in apoptotic signaling. Another coral-diversified gene group was similar to Poly (ADP-ribose) polymerase, which may act as an anti-apoptotic signal transducer [@Iwata2016]. Lastly, lactadherin-like genes in the coral-diversified gene set may be involved in phagocytosis and clearance of apoptotic cells [@Ait-Oufella2007]. Several of the other coral-diversified gene families were similar to genes that were differentially expressed in corals in response to stress or immune challenges, including the HSP70 co-chaperone sacsin [@Weiss2013, @Mayfield2017], the oligopeptide transporter solute carrier family 15 [@Moya2016], and NFX1-type zinc finger protein [@DeSalvo2008, @Weiss2013], indicating that these gene families may also have important roles in the innate immune response.
+  
+  Coral-diversified gene families may also provide insight into other unique functional traits of corals, such as their production of calcium carbonate skeletons. Coral-diversified gene families that may be involved in this process include genes similar to calcium ion channels (e.g., polycystins) and cell adhesion proteins (e.g., coadhesin, Fig. 3) that have previously been identified as components of the skeletal organic matrix [@Ramos-Silva2013; @Takeuchi2016]. Finally, we also found significant similarities between coral-diversified genes and a histone demethylation protein, potentially indicating an important role of histone modification in regulating gene expression, which could drive phenotypic plasticity and epigenetic inheritance in corals [@Putnam2016].
+  
+![Figure 3. Heatmap showing gene ortholog groups that were larger in scleractinians compared to other cnidarians (Nv=*N. vectensis*, Ap=*A. pallida*, Ds=*Discosoma sp.*, Af=*A. fenestrafer*, Of=*O. faveolata*, Ad=*A. digitifera*, Sp=*S. pistillata*, Pd=*P. damicornis*). For each ortholog group, the longest protein sequence from *P. damicornis* was compared to the UniProt-SwissProt database using blastp, and the top hit was selected based on the lowest E-value (if < 1e-10).](../figures/coral_divgenes_heatmap.png)
+
+## Gene diversification in each scleractinian species also highlights immune functionality
+
+  Lineage-specific gene family expansion may represent an important mechanism of molecular evolution driving adaptation [@Sharpton2009]. The number of gene families in all corals decreased exponentially as gene family size increased, consistent with patterns of gene family size in other organisms [@Huynen1998] (Fig. 4). *P. damicornis* had smaller gene families overall, and the fewest large gene families (n=3 with size>32, max size=75). The most large gene families were observed in *A. digitifera* (n=25 with size>32, max size=255), consistent with pervasive gene duplication in this species suggested by @Voolstra2017. However, statistical comparison of gene family sizes across the four coral species, accounting for differences in total gene number, indicated that *S. pistillata* had the most significantly expanded gene families relative to other corals (n=15), followed by *A. digitifera* (n=10). *O. faveolata* only had one gene family that was significantly expanded, while *P. damicornis* had none. This finding confirms that uneven gene family size [@Voolstra2017] and lineage-specific gene family expansion is common in the Scleractinia.
+  
+![Figure 4. Gene family size distribution in four coral genomes. Pdam=*P. damicornis*, Spis=*S. pistillata*, Ofav=*O. faveolata*, Adig=*A. digitifera*. Bars represent the total number of gene families in a given size class using exponential binning, with each interval open on the left (i.e., the first interval contains gene families of size 1, the second interval contains gene families of size 2 and 3, etc.).](../figures/gene_family_size.png)
+
+  Among the gene families with lineage-specific expansions in corals, several were similar to reverse transcriptases and transposable elements (see SwissProt annotations in Supplementary Data S3 and Supplementary Table S2). These genes may reflect the presence of 'genetic parasites' that propagate across the genome [@Schiffer2016]. However, other expanded gene families may be important in interactions with the environment, cellular signaling, and immunity (Supplementary Data S3), which are the functional categories most likely to undergo lineage-specific expansions [@Lespinet2002]. While gene families with different sizes across the four scleractinian genomes could also reflect variation in assembly completeness and quality [@Hahn2007], their functional annotations are consistent with expectations of true gene family expansion.
+  
+  One expanded gene family in *A. digitifera* was similar to NOD-like receptors (NLRs), which are cytoplasmic pattern recognition receptors that play a key role in pathogen detection and immune activation [@Kanneganti2007]. Characterized by the presence of NACHT domains, NLR genes have been found to be highly diversified, yet highly variable in number, in the genomes of different cnidarians [@Hamada2013] and other species [@Schiffer2016]. The expansion in *A. digitifera* is consistent with these observations, and may represent adaptation to a new pathogen environment [@Stein2007], or to species-specific symbiotic interactions with microbial eukaryotes and prokaryotes [@Mydlarz2016]. Another expanded gene family in *A. digitifera* was similar to ephrin-like receptors, which may mediate signaling cascades and cell-cell communication [@Kullander2002]. In *S. pistillata*, one expanded gene family was similar to tachylectin-2, a pattern recognition receptor that has been identified in many cnidarians [@Mydlarz2016]. A tachylectin-2 homolog was found to be under selection in the coral *Oculina* [@Hayes2010], providing more evidence that such genes are involved in adaptive evolution in corals. The one significantly expanded gene family in *O. faveolata* did not have a strong hit in the SwissProt database, but did contain a caspase-like domain, suggesting a potential role in apoptotic signaling. Overall, differential expansion of genes related to the immune system is consistent with the findings of @Voolstra2017, and suggests that this phenomenon is generally applicable to corals.
+  
+  In addition to putative immune-related function, genes that have undergone lineage-specific expansions in corals may also play roles in biomineralization. For example, one significantly expanded gene family in *A. digitifera* was similar to a CUB and peptidase domain-containing protein that was found to be secreted in the skeletal organic matrix [@Ramos-Silva2013], and another in *S. pistillata* was similar to fibrillar collagen with roles in biomineralization [@Christiansen2009].
+
+  Although the *P. damicornis* genome did not contain any gene families that were significantly expanded relative to the other corals, it did contain many genes (n=6966) with no orthologs in other genomes. These *P. damicornis*-specific genes were significantly enriched for 11 GO terms, including G-protein coupled receptor (GPCR) signaling pathway, bioluminescence, activation of NF-$\kappa$B-inducing kinase, and positive regulation of JNK cascade (Supplementary Data S4). The mitogen-activated protein kinase JNK plays a role in responses to stress stimuli, inflammation, and apoptosis [@Newton2012]. JNK prevents the accumulation of reactive oxygen species (ROS) in corals in response to thermal and UV stress, and, inhibition of JNK leads to coral bleaching and cell death [@Courtial2017]. The NF-$\kappa$B transcription factor may also link oxidative stress and apoptosis involved in coral bleaching [@Weis2008], in addition to its central role in innate immunity [@Mydlarz2016]. The occurrence of lineage-specific genes that may function in these pathways indicates that *P. damicornis* may have evolved unique strategies for coping with environmental stress based on these immune pathways.
+  
+  An expanded role of immunity in *P. damicornis* may explain how *Pocillopora* has achieved such a widespread distribution [@Veron2000a; @Pinzon2013]. Indeed, *Pocillopora* corals function as fast-growing and weedy pioneer species in Hawaii [@Grigg1974], on the Great Barrier Reef [@Connell1973], and in the eastern tropical Pacific (ETP) [@Glynn1972]. In fact, throughout the ETP, *Pocillopora* thrives in marginal habitats, often dealing with elevated turbidity and reduced salinity after heavy rainfall events, subaerial exposure during extreme low tides, and both warm- and cold-water stress due to ENSO events and periodic upwelling [@Glynn2017b].
+
+![Figure 5. Functional profile of the gene families only found in *P. damicornis*. Significantly enriched GO terms (p < 0.05) within this gene set were visualized in semantic space by REVIGO. Point size is scaled to the ratio of observed to expected (O/E) occurrences of each GO term in the coral core gene set.](../pdam_specific/pdam_specific_enriched_revigo.png)
+
+## Conclusions
+
+  This comparative analysis revealed significant expansion of immune-related pathways within the scleractinian clade, and further lineage-specific diversification in each scleractinian species. Different immune genes were diversified in each species (e.g., Nod-like and tachylectin-like receptors in *A. digitifera* and *S. pistillata*, and caspase-like and JNK signaling genes in *O. faveolata* and *P. damicornis*), suggesting diverse adaptive roles for innate immune pathways. Indeed, immune pathways govern the interactions between corals and their algal endosymbionts [@Davy2012; @Poole2016], the susceptibility of corals to disease [@Libro2013], and their responses to environmental stress [@Courtial2017]. Therefore, prominent diversification of immune-related functionality across the Scleractinia is not surprising, and may underlie responses to selection involving symbiosis, self-defense, and stress-susceptibility.
+  
+  The specific roles of the scleractinian and species-specific immune repertoires should be elucidated with further study to better understand the genomic underpinnings of coral responses to stress and their future under global climate change. Indeed, factors placing high selection pressure on corals, such as bleaching and disease, both involve challenges to the immune system. Lineage-specific adpatations indicate corals continue to evolve novel immune-related functionality in response to niche-specific selection pressures. These results suggest that evolution of the innate immune system has been a defining feature of the success of scleractinian corals, and likewise may mediate their continued success under scenarios of global climate change. Importantly, the complete sequences of more coral genomes, such as *P. damicornis*, will serve as a genomic resources to enable further study of these systems.
+
+
+# Methods
+
+## *P. damicornis* genome sequencing and assembly
+
+  The *P. damicornis* genotype used for sequencing was collected at Isla de Saboga, Panama in March 2005, and cultured indoors at the University of Miami Coral Resource Facility until the time of sampling. Genomic DNA was extracted from two healthy fragments and two bleached fragments of this genotype in September 2016 using a Qiagen DNAeasy Midi kit. DNA was shipped overnight on dry ice to Dovetail Genomics (Santa Cruz, CA, USA), where Chicago libraries were prepared and sequenced on an Illumina XXX platform, and genome scaffolds were assembled *de novo* using the HiRise software pipeline [@Putnam2016a]. The Dovetail HiRise scaffolds were then filtered to remove those of potential non-coral origin using BLAST [@Altschul1990] searches against three databases: 1) *Symbiodinium*, containing the genomes of *S. minutum* [@Shoguchi2013] and *S. microadriaticum* [@Aranda2016], 2) bacteria, containing 6954 complete bacterial genomes from NCBI, and 3) viruses, containing 2996 viral genomes from the phantome database (phantome.org; accessed 2017-03-01). Scaffolds with a BLAST hit to any of these databases with an e-value < 10^-20^ and a bitscore > 1000 were considered to be non-coral in origin and removed from the assembly [@Baumgarten2015].
+
+## *P. damicornis* genome annotation
+
+  The filtered assembly was analyzed for completeness using BUSCO [@Simao2015] to search for 978 universal metazoan single-copy orthologs. The `--long` option was passed to BUSCO in order to train the *ab initio* gene prediction software Augustus [@Stanke2004]. Augustus gene prediction parameters were then used in the MAKER pipeline [@Campbell2014] to annotate gene models, using as supporting evidence two RNA-seq datasets from *P. damicornis* [Mayfield?; Traylor-Knowles/Bhattacharya?], one from closely-related *S. pistillata* [@Voolstra2017], and protein sequences from 20 coral species [@Bhattacharya2016]. Results from this initial MAKER run were used to train a second gene predictor (SNAP [@Korf2004]) prior to an iterative MAKER run to refine gene models. Predicted protein sequences were then extracted from the assembly and putative functional annotations were added by searching for homologous proteins in the Uniprot-Swissprot database [@TheUniProtConsortium2017] using BLAST (E<10^-5^), and protein domains using InterProScan [@Finn2017]. Genome annotation summary statistics were generated using the Genome Annotation Generator software [@Hall2014].
+
+## Comparative genomic analyses
+
+  We identified ortholog groups (gene families) among the predicted proteins of four scleractinians, two corallimorpharians, two anemones, one hydrozoan, one sponge, and one ctenophore (Table 1) using the software fastOrtho (http://enews.patricbrc.org/fastortho/) based on the MCL algorithm with a blastp E-value cutoff of 10^-5^. Based on these orthologous gene families, we defined and extracted several gene sets of interest: 1) gene families that were shared by all four scleractinians (i.e., coral 'core' genes), 2) gene families that were present in all four scleractinians but absent from other organisms (i.e., coral-specific genes), 3) gene families that were significantly larger in scleractinians relative to other anthozoans (Binomial generalized linear model, FDR-adjusted *p*<0.01; i.e., coral-diversified genes), 4) gene families that were significantly larger in each scleractinian species relative to other scleractinians (pairwise comparisons using Fisher's exact test, FDR-adjusted *p*<0.01; i.e., coral species-specific gene family expansions), and 5) genes present in *P. damicornis* with no orthologs in any other genome (i.e., *P. damicornis*-specific genes).
+
+## Functional characterization
+
+  Putative gene functionality was characterized using Gene Ontology (GO) analysis. GO terms were assigned to predicted *P. damicornis* protein sequences using InterProScan [@Jones2014a]. Significantly enriched GO terms in gene sets of interest relative to the whole genome were identified using the R package topGO [@Alexa2016], and significantly enriched GO terms were clustered and visualized using REVIGO [@Supek2011]. These analyses were implemented using custom scripts in R, Python, and Unix shell, which are available in the accompanying data repository (http://www.github.com/jrcunning/pdam-genome).
+
+
+# References
+
+
+# Acknowledgements
+
+RC was supported by NSF OCE-1358699. We thank Peter Glynn for the original field collection of the *P. damicornis* genotype used for genome sequencing.
+
+
+# Author contributions
+
+NTK conceived and directed sequencing of the genome of *P. damicornis*, which was cultured by PG. RC, RAB, and NTK designed the comparative genomic study. RC and RAB analyzed the data, and RC prepared figures, tables, and the first draft of this manuscript. All authors reviewed, commented on and approved the final manuscript. (This is how I see author roles now, which may change before project completion).
+
+
+# Additional information
+
+Data availability: All data and code to reproduce the analyses and figures described herein can be found at github.com/jrcunning/pdam-genome.  
+Competing interests: The authors declare that they have no competing interests.
+
+
+
+
+
+

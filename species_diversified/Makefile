@@ -67,6 +67,15 @@ ofavd_longest.txt: ofav_diversified.txt
 	# Get top hits for each one
 	sort -k1,2 -k7g ofavd_longest_sp_blastout | sort -k1,2 -u | sort -k7,7g | sort -k1,1 -u > ofavd_longest_sp_tophits.txt
 	
+species_specific_expansions_tophits.txt: ofavd_longest_sp_tophits.txt spisd_longest_sp_tophits.txt adigd_longest_sp_tophits.txt
+	cat $^ > species_specific_expansions_tophits.txt
+	cp species_specific_expansions_tophits.txt ../output/Supplementary_Data_S3.txt
 	
-	
+
+# Match each gene name to ortho group/family
+sd_longest_genes-fams.txt: adigd_longest.fasta
+	cat *_longest.fasta > sd_longest.fasta
+	cat *_orthos2.txt > sd_orthos.txt
+	grep -o -E "^>[^\ ]+" sd_longest.fasta | tr -d ">" > sd_longest_gene-names.txt
+	while read gene; do group=$(awk '/'$gene'/ {print $1}' sd_orthos.txt); echo "$gene      $group"; done < sd_longest_gene-names.txt > sd_longest_genes-fams.txt
 

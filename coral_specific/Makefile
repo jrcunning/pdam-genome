@@ -1,5 +1,11 @@
 all: coral_specific_enriched_revigo.png
 
+# Get genes associated with the significant GO term signal transduction
+coral_specific_signal_transduction_genes.fasta: coral_specific_enrichment
+	awk '/Term GO:0007165 genes:/ {print $$5}' coral_specific_enrichment | sed -e 's/,/-RA\'$$'\n/g' | sed 's/"/-RA/' > signal_transduction_gene_names.txt
+	filter_fasta.py -f ../pdam.maker.output/pdam.all.maker.proteins.renamed.function.fasta -o coral_specific_signal_transduction_genes.fasta -s signal_transduction_gene_names.txt
+	cp coral_specific_signal_transduction_genes.fasta ../output/Supplementary_Data_S2.fasta
+
 # Get coral-specific ortholog groups from fastOrtho analysis
 Coral_specific_groups.txt: ../R/Diversification.R ../fastOrtho/ortho.table
 	R --vanilla < $< --args ../fastOrtho/ortho.table $@

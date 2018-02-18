@@ -18,6 +18,7 @@ pdam_specific_gene_names.txt: Pdam_specific_groups.txt Pdam_singletons.txt
 # Test for enrichment of GO terms in pdam-specific gene set using topGO
 pdam_specific_enrichment_GO_pvals.txt: pdam_specific_gene_names.txt
 	R --vanilla < ../R/topGO.R --args ../annotation/pdam_genes_GO.txt $< pdam_specific_enrichment
+	cp pdam_specific_enrichment_data.csv ../output/Supplementary_Data_S4.csv
 
 # Use GO enrichment data in REVIGO analysis
 pdam_specific_enriched_revigo.csv: pdam_specific_enrichment_GO_pvals.txt
@@ -27,3 +28,4 @@ pdam_specific_enriched_revigo.csv: pdam_specific_enrichment_GO_pvals.txt
 # Visualize REVIGO output
 pdam_specific_enriched_revigo.png: pdam_specific_enriched_revigo.csv
 	R --vanilla < ../R/plot_revigo_pvals.R --args $< pdam_specific_enrichment_data.csv $@
+	
