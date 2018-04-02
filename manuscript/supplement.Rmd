@@ -119,6 +119,18 @@ plot(tree)
 
 # Gene content analysis
 
+## Basic information about gene family groupings
+```{r}
+# How many gene families, including singletons, were found across all the genomes?
+nrow(counts)  # 98,499
+# How many non-singleton gene families were found across all genomes?
+nrow(counts[rowSums(counts) > 1, ])
+
+# How many gene families, including singletons, were found in at least one scleractinian?
+nrow(counts[rowSums(counts[, 1:4] > 0), ])  # 43580
+```
+
+
 ## Compare scleractinian species
 ```{r compare_corals, results='hide'}
 png(filename="figures/coral_venn.png", width=3, height=2.5, units="in", res=300)
@@ -217,6 +229,10 @@ I am not sure why phylogeny based on gene content (shared ortholog groups) is di
 ```{r coral_core}
 coralCore <- counts[apply(counts[,1:4], 1, function(x) min(x)>0), ]
 n.coral.core <- nrow(coralCore)
+
+# Number of P. damicornis genes that are members of coral core gene families
+sum(coralCore$Pdam)
+sum(coralCore$Pdam) / sum(counts$Pdam)
 
 present.all.cni <- sum(apply(coralCore[,5:9], 1, function(x) min(x)>0))
 pct.all.cni <- present.all.cni / n.coral.core
