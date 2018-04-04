@@ -1,0 +1,12 @@
+GO Accession,GO Term Name,Observed,Expected,p
+GO:0007186,G-protein coupled receptor signaling pathway,407,149.36,<1e-30
+GO:0008218,bioluminescence,15,3.24,6e-08
+GO:0007250,activation of NF-kappaB-inducing kinase activity,10,3.48,0.0014
+GO:0046330,positive regulation of JNK cascade,10,3.48,0.0014
+GO:0007165,signal transduction,478,231.92,0.0018
+GO:0035278,miRNA mediated inhibition of translation,5,1.68,0.0196
+GO:0007411,axon guidance,3,0.72,0.0261
+GO:0035385,Roundabout signaling pathway,3,0.72,0.0261
+GO:0006814,sodium ion transport,11,6.25,0.0419
+GO:0050482,arachidonic acid secretion,5,2.04,0.0446
+GO:0015074,DNA integration,11,6.37,0.0474
