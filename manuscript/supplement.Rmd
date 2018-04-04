@@ -285,9 +285,9 @@ axis(side=3, at=quantile(par("usr")[1:2], c(1, 3, 5, 7, 9, 11, 13, 15)*0.0625),
      labels=rev(c("Pd", "Sp", "Ad", "Of", "Af", "Ds", "Ap", "Nv")), cex.axis=0.75)
 abline(v=0.5)
 text(par("usr")[2]+0.01, quantile(par("usr")[3:4], seq(0.025,0.975,len=21)), hits, xpd=NA, adj=0, cex=0.75)
-mtext(side=3, "Cnidarians", line=2.5, adj=0)
+mtext(side=3, "Anthozoa", line=2.5, adj=0)
 segments(par("usr")[1], 1.19, par("usr")[2], 1.19, xpd=NA, lwd=1.5)
-mtext(side=3, "Corals", line=1.3, adj=0.58)
+mtext(side=3, "Scleractinia", line=1.3, adj=0.72)
 segments(0.5, 1.11, par("usr")[2], 1.11, xpd=NA, lwd=1.5)
 text(par("usr")[2]-0.03, par("usr")[4]+0.04, "Top hit in UniProt-SwissProt database (E<1e-10)", xpd=NA, pos=4)
 segments(par("usr")[2], 1.03, 2.6, 1.03, xpd=NA, lwd=1.5)
@@ -305,56 +305,6 @@ colnames(out2) <- c("ortholog_group", "Pdam", "Spis", "Adig", "Ofav", "Ampl", "D
 write.table(out2, file="output/Supplementary_Table_S1.txt", quote=F, row.names=F)
 
 
-
-
-
-# Heatmap with domain structures
-rot <- function(x) "[<-"(x, , rev(x))
-flip <- function(x) apply(x, 2, rot)
-#png("figures/coral_divgenes_heatmap.png", height=4, width=7, units="in", res=300)
-par(mar=c(1,1,3.5,1), mgp=c(1.5,0.25,0), tcl=-0.25)
-layout(mat=matrix(c(1,1,2,2,2,2), nrow=2))
-divs2 <- as.matrix(divs)
-divs2 <- t(log(divs2[hclust(dist(divs2))$order,]))
-hits <- med_sphits[match(colnames(divs2), as.character(med_sphits$V2.x)), "labels"]
-pal <- brewer.pal(n=9, "GnBu")
-GnBu <- colorRampPalette(brewer.pal(n=9, "GnBu"))
-image(flip(divs2), col=GnBu(50), axes=F)
-box()
-axis(side=3, at=quantile(par("usr")[1:2], c(1, 3, 5, 7, 9, 11, 13, 15)*0.0625),
-     labels=rev(c("Pd", "Sp", "Ad", "Of", "Af", "Ds", "Ap", "Nv")), cex.axis=0.75)
-abline(v=0.5)
-
-domains <- read.table("coral_diversified/cd_med_Pfam.txt", sep="\t", fill=T, row.names=NULL, 
-                      header=F, stringsAsFactors=T, 
-                      col.names=c("protein", "md5", "protein.length", "Pfam", 
-                       "signature.acc", "signature.descr", "start", "stop", "score", "status",
-                       "rundate", "interpro.acc", "interpro.descr", "GO"))
-domains$protein <- str_replace_all(domains$protein, "-RA", "")
-ndom <- nlevels(domains$signature.acc)
-
-prots <- split(domains, f=domains$protein)
-
-# get dimensions for plotting
-nprot <- dim(divs2)[2]
-longest <- max(domains$protein.length)
-
-draw.prot <- function(prot, y=1) with(prot, {
-  length <- protein.length[1]
-  segments(0, y, length, y)
-  rect(start, y-0.3, stop, y+0.3, col=rainbow(ndom)[signature.acc])
-  #text(prot$start+(prot$stop-prot$start)/2, y+0.1, labels=signature.descr, srt=45)
-})
-
-prots.order <- med_sphits[match(colnames(divs2), as.character(med_sphits$V2.x)), "V1"]
-
-plot(NA, xlim=c(0, longest), ylim=c(0, nprot), axes=F, xlab="", ylab="", yaxs="i", xaxs="i")
-
-for (i in 1:length(prots)) {
-  draw.prot(prots[[i]], y=match(names(prots)[[i]], prots.order)-(0.5))
-}
-text(par("usr")[1]+0.01, quantile(par("usr")[3:4], seq(0.025,0.975,len=21)), hits, xpd=NA, adj=0, cex=0.75)
-#dev.off()
 ```
 
 ### How many of the coral-diversified genes in Pdam had annotations?
@@ -580,6 +530,10 @@ pdam.specific.orthos <- counts[pdam.specific, ]
 n.pdam.specific.orthos <- nrow(pdam.specific.orthos)
 n.pdam.specific.singletons <- sum(pdam.specific.orthos$Pdam==1)
 n.pdam.specific.genes <- sum(pdam.specific.orthos[,1])
+
+pds_gene_names <- read.table("pdam_specific/pdam_specific_gene_names.txt")
+pdam_specific_genes_with_GO_annotations <- intersect(pds_gene_names$V1, pdam_GO$V1)
+length(pdam_specific_genes_with_GO_annotations) / length(pds_gene_names$V1)
 ```
 
 This is a functional profile of the genes in Pdam for which *no orthologs were found in any other genome* (with an e-value cutoff of 1e-5), including the other corals and the other inverts. There were `r n.pdam.specific.orthos` pdam-specific ortholog groups, including `r n.pdam.specific.singletons` singletons, containing a total of `r n.pdam.specific.genes` genes. Eleven GO terms were significantly enriched: G-protein coupled receptor signaling pathway, bioluminescence, activation of NFkappaB-inducing kinase activity, positive regulation of JNK cascade, and signal transduction.
