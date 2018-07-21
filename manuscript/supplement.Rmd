@@ -258,8 +258,8 @@ divs <- pgens[divadj<0.01,]
 divs
 pdivGens <- dat[dat$Group%in%rownames(divs),]
 
-n.coral.div.orthos <- nrow(divs)
-n.coral.div.genes <- sum(divs[,1]) #(in Pdam)
+n.coral.div.orthos <- nrow(divs)  # number of gene families larger in scleractinians than other anthozoans
+n.coral.div.genes <- sum(divs[,1]) # number of members of these gene families in Pdam
 
 
 # Get top SwissProt hits for coral-diversified proteins (using longest as representative set)
@@ -275,7 +275,7 @@ flip <- function(x) apply(x, 2, rot)
 png("figures/coral_divgenes_heatmap.png", height=4, width=7, units="in", res=300)
 par(mar=c(1,1,3.5,20), mgp=c(1.5,0.25,0), tcl=-0.25)
 divs2 <- as.matrix(divs)
-divs2 <- t(log(divs2[hclust(dist(divs2))$order,]))
+divs2 <- t(log10(divs2[hclust(dist(divs2))$order,]))
 hits <- sphits[match(colnames(divs2), as.character(sphits$V2.x)), "labels"]
 pal <- brewer.pal(n=9, "GnBu")
 GnBu <- colorRampPalette(brewer.pal(n=9, "GnBu"))
@@ -291,17 +291,21 @@ mtext(side=3, "Scleractinia", line=1.3, adj=0.72)
 segments(0.5, 1.11, par("usr")[2], 1.11, xpd=NA, lwd=1.5)
 text(par("usr")[2]-0.03, par("usr")[4]+0.04, "Top hit in UniProt-SwissProt database (E<1e-10)", xpd=NA, pos=4)
 segments(par("usr")[2], 1.03, 2.6, 1.03, xpd=NA, lwd=1.5)
+fields::image.plot(flip(divs2), col=GnBu(50), axes=F, legend.only=TRUE, horizontal=FALSE,
+                   smallplot=c(0.89,0.92,0.05,0.5))
+text(2.45, 0.65, labels = "log10 # Genes", xpd=T, cex=1)
 dev.off()
 
 # Table with gene family size and SiwssProt annotations
 colnames(sphits)[1] <- "gene"
 colnames(fams) <- c("gene", "ortho")
 divs$ortho <- rownames(divs)
+divs$pval <- divadj[rownames(divs)]
 out <- merge(divs, fams)
-out2 <- merge(out, sphits, by="gene")[,c(2:10,1,12,17)]
+out2 <- merge(out, sphits, by="gene")[,c(2:11,1,13,18)]
 head(out2)
 colnames(out2) <- c("ortholog_group", "Pdam", "Spis", "Adig", "Ofav", "Ampl", "Disc", "Aipt",
-                    "Nema", "rep_gene", "SwissProt_tophit", "E-value")
+                    "Nema", "pval", "rep_gene", "SwissProt_tophit", "E-value")
 write.table(out2, file="output/Supplementary_Table_S1.txt", quote=F, row.names=F)
 
 
