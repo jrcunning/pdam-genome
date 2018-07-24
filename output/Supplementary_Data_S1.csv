@@ -1,45 +1,45 @@
-GO.ID,Term,Annotated,Significant,Expected,Rank in classicFisher,classicFisher,elimFisher,topgoFisher,parentchildFisher
-GO:0006355,regulation of transcription DNA-templat...,492,380,309.81,37,1.7e-12,1.2e-08,3.7e-09,0.7840
-GO:0035556,intracellular signal transduction,311,242,195.84,57,7.0e-09,6.3e-05,4.2e-07,< 1e-30
-GO:0007018,microtubule-based movement,76,68,47.86,73,1.6e-07,1.6e-07,8.1e-07,0.0669
-GO:0006886,intracellular protein transport,103,84,64.86,111,3.0e-05,3.0e-05,1.2e-06,0.2022
-GO:0006511,ubiquitin-dependent protein catabolic pr...,72,63,45.34,86,2.9e-06,2.9e-06,7.3e-06,1.0000
-GO:0016579,protein deubiquitination,38,36,23.93,93,6.0e-06,6.0e-06,1.4e-05,1.0000
-GO:0016192,vesicle-mediated transport,124,113,78.08,34,5.1e-13,6.4e-06,2.7e-05,1.6e-09
-GO:0055114,oxidation-reduction process,562,402,353.89,92,5.5e-06,5.5e-06,5.3e-05,0.9192
-GO:0006281,DNA repair,124,106,78.08,62,2.0e-08,3.9e-05,9.2e-05,4.4e-11
-GO:0006357,regulation of transcription from RNA pol...,57,52,35.89,80,1.2e-06,1.2e-06,9.3e-05,0.0041
-GO:0055085,transmembrane transport,578,405,363.97,120,0.00012,0.00012,0.00034,2.6e-11
-GO:0035023,regulation of Rho protein signal transdu...,37,33,23.3,140,0.00035,0.00035,0.00035,1.0000
-GO:0006397,mRNA processing,65,51,40.93,223,0.00540,0.00540,0.00079,0.8689
-GO:0006351,transcription DNA-templated,562,440,353.89,28,3.7e-16,1.1e-05,0.00091,0.1616
-GO:0008152,metabolic process,4017,2860,2529.52,1,< 1e-30,0.00011,0.00133,< 1e-30
-GO:0006396,RNA processing,185,149,116.5,72,1.2e-07,0.00053,0.00300,0.1283
-GO:0006887,exocytosis,26,25,16.37,118,9.6e-05,9.6e-05,0.00383,0.2054
-GO:0006364,rRNA processing,23,22,14.48,138,0.00034,0.00034,0.00627,0.0682
-GO:0006464,cellular protein modification process,868,603,546.58,98,1.2e-05,0.00962,0.00639,0.7587
-GO:0006338,chromatin remodeling,16,15,10.08,230,0.00632,0.00632,0.00974,0.5369
-GO:0043087,regulation of GTPase activity,18,16,11.33,311,0.01554,0.01554,0.00975,0.2513
-GO:0006298,mismatch repair,10,10,6.3,260,0.00977,0.00977,0.00977,0.1952
-GO:0045454,cell redox homeostasis,52,41,32.74,270,0.01055,0.01055,0.01055,1.2e-05
-GO:0006260,DNA replication,62,50,39.04,180,0.00202,0.00202,0.01388,0.1834
-GO:0030036,actin cytoskeleton organization,41,35,25.82,172,0.00144,0.04155,0.01535,0.6604
-GO:0006096,glycolytic process,9,9,5.67,296,0.01552,0.01552,0.01552,0.4680
-GO:0006904,vesicle docking involved in exocytosis,9,9,5.67,297,0.01552,0.01552,0.01552,0.6667
-GO:0007224,smoothened signaling pathway,9,9,5.67,298,0.01552,0.01552,0.01552,0.0080
-GO:0046854,phosphatidylinositol phosphorylation,9,9,5.67,299,0.01552,0.01552,0.01552,0.1791
-GO:0006457,protein folding,50,39,31.49,318,0.01704,0.01704,0.01979,0.0104
-GO:0060271,cilium morphogenesis,16,14,10.08,362,0.03159,0.03159,0.02107,0.1858
-GO:0006099,tricarboxylic acid cycle,13,12,8.19,324,0.02108,0.02108,0.02108,0.0847
-GO:0006810,transport,1202,837,756.9,68,7.9e-08,0.36755,0.02383,1.0000
-GO:0005975,carbohydrate metabolic process,260,190,163.72,135,0.00029,0.01600,0.02408,0.4174
-GO:0006139,nucleobase-containing compound metabolic...,1208,935,760.68,10,< 1e-30,0.56805,0.02420,1.6e-07
-GO:0007156,homophilic cell adhesion via plasma memb...,31,25,19.52,349,0.02779,0.02779,0.02779,1.0000
-GO:0007264,small GTPase mediated signal transductio...,137,109,86.27,105,1.8e-05,0.00339,0.03112,0.3020
-GO:0006629,lipid metabolic process,201,138,126.57,420,0.05161,0.33240,0.03491,0.8688
-GO:0009072,aromatic amino acid family metabolic pro...,11,11,6.93,227,0.00615,0.00615,0.03911,0.0571
-GO:0016226,iron-sulfur cluster assembly,8,8,5.04,337,0.02467,0.02467,0.03917,0.1098
-GO:0006207,'de novo' pyrimidine nucleobase biosynth...,7,7,4.41,374,0.03920,0.03920,0.03920,1.0000
-GO:0007020,microtubule nucleation,7,7,4.41,375,0.03920,0.03920,0.03920,0.7270
-GO:0046856,phosphatidylinositol dephosphorylation,7,7,4.41,376,0.03920,0.03920,0.03920,0.2772
-GO:0070588,calcium ion transmembrane transport,37,29,23.3,371,0.03439,0.03439,0.04371,0.0452
+GO.ID,Term,Observed,Expected,p
+GO:0006355,regulation of transcription DNA-templat...,380,309.81,3.7e-9
+GO:0035556,intracellular signal transduction,242,195.84,4.2e-7
+GO:0007018,microtubule-based movement,68,47.86,8.1e-7
+GO:0006886,intracellular protein transport,84,64.86,1.2e-6
+GO:0006511,ubiquitin-dependent protein catabolic pr...,63,45.34,7.3e-6
+GO:0016579,protein deubiquitination,36,23.93,1.4e-5
+GO:0016192,vesicle-mediated transport,113,78.08,2.7e-5
+GO:0055114,oxidation-reduction process,402,353.89,5.3e-5
+GO:0006281,DNA repair,106,78.08,9.2e-5
+GO:0006357,regulation of transcription from RNA pol...,52,35.89,9.3e-5
+GO:0055085,transmembrane transport,405,363.97,3.4e-4
+GO:0035023,regulation of Rho protein signal transdu...,33,23.3,3.5e-4
+GO:0006397,mRNA processing,51,40.93,7.9e-4
+GO:0006351,transcription DNA-templated,440,353.89,9.1e-4
+GO:0008152,metabolic process,2860,2529.52,0.00133
+GO:0006396,RNA processing,149,116.5,0.003
+GO:0006887,exocytosis,25,16.37,0.00383
+GO:0006364,rRNA processing,22,14.48,0.00627
+GO:0006464,cellular protein modification process,603,546.58,0.00639
+GO:0006338,chromatin remodeling,15,10.08,0.00974
+GO:0043087,regulation of GTPase activity,16,11.33,0.00975
+GO:0006298,mismatch repair,10,6.3,0.00977
+GO:0045454,cell redox homeostasis,41,32.74,0.01055
+GO:0006260,DNA replication,50,39.04,0.01388
+GO:0030036,actin cytoskeleton organization,35,25.82,0.01535
+GO:0006096,glycolytic process,9,5.67,0.01552
+GO:0006904,vesicle docking involved in exocytosis,9,5.67,0.01552
+GO:0007224,smoothened signaling pathway,9,5.67,0.01552
+GO:0046854,phosphatidylinositol phosphorylation,9,5.67,0.01552
+GO:0006457,protein folding,39,31.49,0.01979
+GO:0060271,cilium morphogenesis,14,10.08,0.02107
+GO:0006099,tricarboxylic acid cycle,12,8.19,0.02108
+GO:0006810,transport,837,756.9,0.02383
+GO:0005975,carbohydrate metabolic process,190,163.72,0.02408
+GO:0006139,nucleobase-containing compound metabolic...,935,760.68,0.0242
+GO:0007156,homophilic cell adhesion via plasma memb...,25,19.52,0.02779
+GO:0007264,small GTPase mediated signal transductio...,109,86.27,0.03112
+GO:0006629,lipid metabolic process,138,126.57,0.03491
+GO:0009072,aromatic amino acid family metabolic pro...,11,6.93,0.03911
+GO:0016226,iron-sulfur cluster assembly,8,5.04,0.03917
+GO:0006207,'de novo' pyrimidine nucleobase biosynth...,7,4.41,0.0392
+GO:0007020,microtubule nucleation,7,4.41,0.0392
+GO:0046856,phosphatidylinositol dephosphorylation,7,4.41,0.0392
+GO:0070588,calcium ion transmembrane transport,29,23.3,0.04371
