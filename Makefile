@@ -8,6 +8,10 @@ data/filter/pdam.fasta:
 annotation/gag_out/genome.stats:
   cd annotation && make
   
+# Run feature frequency profiling
+ffp/tree:
+	cd ffp && make
+
 # Run ortholog analysis pipeline
 cd orthologs && make
   
