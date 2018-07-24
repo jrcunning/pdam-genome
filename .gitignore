@@ -24,24 +24,24 @@ data/ref/viruses/*
 !data/ref/bacteria/Makefile
 !data/ref/viruses/Makefile
 
-busco/tmp*
-busco/*
-!busco/full_table_pdam.tsv
-!busco/missing_busco_list_pdam.tsv
-!busco/short_summary_pdam.txt
+annotation/busco/tmp*
+annotation/busco/*
+!annotation/busco/full_table_pdam.tsv
+!annotation/busco/missing_busco_list_pdam.tsv
+!annotation/busco/short_summary_pdam.txt
 
-snap/*
-!snap/pdam.hmm
+annotation/snap/*
+!annotation/snap/pdam.hmm
 
-pdam.maker.output/*.gff
+annotation/pdam.maker.output/*.gff
 
-gag_out/*
-!gag_out/genome.stats
+annotation/gag_out/*
+!annotation/gag_out/genome.stats
 
-fastOrtho/version1*
-fastOrtho/Coral_specific/ORTHO*
-fastOrtho/CoralDiversified/ORTHO*
-fastOrtho/Pdam_specific/ORTHO*
+orthologs/fastOrtho/version1*
+orthologs/fastOrtho/Coral_specific/ORTHO*
+orthologs/fastOrtho/CoralDiversified/ORTHO*
+orthologs/fastOrtho/Pdam_specific/ORTHO*
 
 
 .Rproj.user
@@ -49,14 +49,14 @@ fastOrtho/Pdam_specific/ORTHO*
 
 ip.job
 
-interproscan/*
-!interproscan/pdam_ips.tsv
-!interproscan/pdam_ips.renamed.tsv
+annotation/interproscan/*
+!annotation/interproscan/pdam_ips.tsv
+!annotation/interproscan/pdam_ips.renamed.tsv
 
 annotation/pdam.all.renamed.function.domain.gff
 
-repeatmasker/*
-!repeatmasker/consensi.fa.classified
-!repeatmasker/Makefile
-!repeatmasker/pdam.fasta.out
-!repeatmasker/pdam.fasta.tbl
+annotation/repeatmasker/*
+!annotation/repeatmasker/consensi.fa.classified
+!annotation/repeatmasker/Makefile
+!annotation/repeatmasker/pdam.fasta.out
+!annotation/repeatmasker/pdam.fasta.tbl
