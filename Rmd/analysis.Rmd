@@ -1,15 +1,12 @@
 ---
-title: "Comparative genomics of *P. damicornis* and scleractinian corals"
+title: "Results walk-through"
 author: "Ross Cunning"
 date: "`r Sys.Date()`"
-output:
-  word_document: default
-  html_document: default
+output: html_document
 ---
 
 ```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE, cache = TRUE)
-knitr::opts_knit$set(root.dir = normalizePath(".."))
+knitr::opts_chunk$set(echo = TRUE, warning = FALSE, message = FALSE, cache = TRUE)
 library(ape)
 library(Biostrings)
 library(stringr)
@@ -17,11 +14,12 @@ library(tidyverse)
 library(VennDiagram)
 library(lsmeans)
 library(RColorBrewer)
+library(ggtree)
 ```
 
 ```{r load_data_and_functions, include=FALSE}
 # Load gene family count data (includes singletons)
-load("fastOrtho/counts.RData")
+load("orthologs/fastOrtho/counts.RData")
 
 # Define function to get total number of ortholog groups in a species (or shared by a group of species)
 nfam <- function(spp) {
@@ -92,38 +90,18 @@ make.italic <- function(x) as.expression(lapply(x, function(y) bquote(italic(.(y
 [^h]: @Ryan2013
 [^i]: @Srivastava2010
 
-\* Calculated in this study using GAG based on downloaded data  
+\* Calculated in this study using GAG based on publicly available data  
 \^ Calculated in this study using RepeatModeler and RepeatMasker  
 ^\$^ Computed as the total occurrences for non-error k-mers divided by the homozygous-peak depth (Dovetail Genomics Assembly Report)
 
-#### Conclusions:
-* Pdam assembly is most complete coral genome to date
-* Genome structure is similar to other corals
-
 ***
 
-# Feature frequency profiling based on whole proteomes
-```{r ffp-tree}
-tree <- ape::read.tree("ffp/tree")
-tree <- root(tree, "Mnemiopsis")
-tree <- drop.tip(tree, c(1,3,6))
-plot(tree)
-tree$tip.label <- c("O. faveolata", "P. damicornis", "S. pistillata", "A. fenestrafer", "Discosoma spp.", "A. pallida", "N. vectensis", "H. vulgaris", "A. queenslandica", "M. leidyi", "A. digitifera")
-plot(tree)
-```
-
+# Feature frequency profiling based on all gene models
 ```{r}
 tree <- ape::read.tree("ffp/tree")
 tree <- root(tree, "Mnemiopsis")
 tree <- drop.tip(tree, c(1,3,6))
 tree$tip.label <- c("Orbicella faveolata", "Pocillopora damicornis", "Stylophora pistillata", "Amplexidiscus fenestrafer", "Discosoma spp.", "Aiptasia pallida", "Nematostella vectensis", "Hydra vulgaris", "Amphimdeon queenslandica", "Mnemiopsis leidyi", "Acropora digitifera")
-
-ggtree(tree) +
-  #geom_text2(aes(subset=!isTip, label=node), hjust=-.3) +
-  geom_tiplab() +
-  geom_hilight(node=13, fill='darkgreen',alpha=0.3, extend=0.1) +
-  geom_hilight(node=16, fill='steelblue',alpha=0.3, extend=0.1) +
-  geom_hilight(node=19, fill='darkred',alpha=0.3, extend=0.12)
 
 p <- ggtree(tree) +
   #geom_text2(aes(subset=!isTip, label=node), hjust=-.3) +
@@ -145,41 +123,33 @@ p <- ggtree(tree) +
 
 p2 <- rotate(p, c(18))
 p3 <- rotate(p2, 20)
-p3
 
 ggsave(filename = "figures/Fig1_tree.png", plot = p3, device = "png", height = 4, width = 5, units = "in")
 ```
+![](../figures/Fig1_tree.png)
 
 # Gene content analysis
 
-## Basic information about gene family groupings
+## Counts of ortholog groups / gene families
 ```{r}
 # How many gene families, including singletons, were found across all the genomes?
-nrow(counts)  # 98,499
+nrow(counts)
 # How many non-singleton gene families were found across all genomes?
-nrow(counts[rowSums(counts) > 1, ])  # 29,115
+nrow(counts[rowSums(counts) > 1, ])
 # How many gene families, including singletons, were found in at least one scleractinian?
 scler_genefams <- counts %>%
   select("Pdam", "Adig", "Spis", "Ofav") %>%
   filter(rowSums(.) > 0)
-nrow(scler_genefams)  # 43,580
+nrow(scler_genefams)
 # How many gene families, including singletons, were found in more than one scleractinian?
 sum(apply(scler_genefams, 1, FUN=function(x) sum(x>0)>1))
-
 # Size range of all gene families in scleractinians
-range(rowSums(scler_genefams))  # 1 - 566
-
-# Number of gene families found in 1, 2, 3, or 4 scleractinians
-nscler <- as_data_frame(table(apply(scler_genefams, 1, FUN=function(x) sum(x>0))))
-ggplot(nscler, aes(x=Var1, y=n)) + theme_bw() +
-  geom_bar(stat="identity") +
-  labs(x="Number of scleractinians with gene family", y="Number of gene families") 
-
+range(rowSums(scler_genefams))
 ```
 
 ## Number of gene families shared by scleractinian species
 ```{r compare_corals, results='hide'}
-png(filename="figures/coral_venn.png", width=3, height=2.5, units="in", res=300)
+png(filename="figures/Fig2_coral_venn.png", width=3, height=2.5, units="in", res=300)
 # Compare four coral species
 ## Venn diagram
 plotGeneFams(c("Pdam", "Adig", "Spis", "Ofav"), 
@@ -188,11 +158,6 @@ plotGeneFams(c("Pdam", "Adig", "Spis", "Ofav"),
              lty="blank", fill=c("skyblue", "pink1", "mediumorchid", "gray60"),
              cat.cex=0.75, cex=0.75, margin=0.075)
 dev.off()
-
-plotGeneFams(c("Pdam", "Ofav", "Spis", "Adig"), 
-             category=make.italic(c("P. damicornis", "A. digitifera", 
-                                    "S. pistillata", "O. faveolata")), 
-             lty="blank", fill=c("skyblue", "pink1", "mediumorchid", "gray60"))
 
 ## Dendrogram
 l <- t(combn(c("Pdam", "Spis", "Adig", "Ofav"), 2))
@@ -206,32 +171,34 @@ colnames(dm) <- c("Pdam", "Spis", "Adig", "Ofav")
 
 dd <- as.dendrogram(hclust(as.dist(dm)))
 dd.reorder <- reorder(dd, c(1,3,2222222,1111111))
-plot(as.hclust(dd.reorder), xlab=NA, sub=NA, yaxt="n", ylab=NA, main=NA, cex=0.75)
 
-png("figures/coral_genecontent_dendro.png", width=2, height=1, units="in", res=300)
+png("figures/Fig2_coral_genecontent_dendro.png", width=2, height=1, units="in", res=300)
 par(mar=c(0,0,0,0))
 plot(as.hclust(dd.reorder), xlab=NA, sub=NA, yaxt="n", ylab=NA, main=NA, cex=0.75)
 dev.off()
 
 ```
+![](../figures/Fig2_coral_venn.png)
 
 Venn diagram shows the number of gene families shared by each of the four coral species. A pairwise similarity metric can be calculated for each pair of corals as the number of shared gene families divided by their total number of gene families (based on Snel et al. 1999). Based on this similarity metric, a dendrogram can be created showing the relationships among all four corals. Relationships based on shared gene families are consistent with evolutionary phylogeny.
 
-![](../figures/coral_genecontent_dendro.png)
+![](../figures/Fig2_coral_genecontent_dendro.png)
 
 ***
 
-# Functional analysis of gene content
+## 'Core' coral ortholog groups
 
-## Coral core genes
+These are gene families found in all scleractinian genomes, without regard to their present in non-scleractinian genomes.
+
 ```{r coral_core}
+# Number of coral core gene families
 coralCore <- counts[apply(counts[,1:4], 1, function(x) min(x)>0), ]
-n.coral.core <- nrow(coralCore)
-n.coral.core  # 7,536
+(n.coral.core <- nrow(coralCore))
 
 # Number of P. damicornis genes that are members of coral core gene families
 sum(coralCore$Pdam)
 sum(coralCore$Pdam) / sum(counts$Pdam)
+
 
 present.all.cni <- sum(apply(coralCore[,5:9], 1, function(x) min(x)>0))
 pct.all.cni <- present.all.cni / n.coral.core
@@ -240,40 +207,55 @@ present.one <- sum(apply(coralCore[,-(1:4)], 1, function(x) max(x)>0))
 pct.present.one <- present.one / n.coral.core
 ```
 
-The coral core genome (orthologs present in all four scleractinians) includes `r n.coral.core` gene families. Of these genes, `r round(pct.all.cni * 100, 1)`% are present in all other cnidarians, and `r round(pct.present.one * 100, 2)`% are present in at least one non-coral genome. Functional analysis of these core genes in *P. damicornis* revealed enrichment of 44 GO terms. REVIGO visualization:
+The coral core genome (orthologs present in all four scleractinians) includes `r n.coral.core` gene families. Of these genes, `r round(pct.all.cni * 100, 1)`% are present in all other cnidarians, and `r round(pct.present.one * 100, 2)`% are present in at least one non-coral genome. Functional analysis of these core genes in *P. damicornis* revealed enrichment of 44 GO terms:
 
-![](../coral_core/coral_core_enriched_revigo.png)
+##### Supplementary Data S1: GO terms enriched in coral core gene families
+```{r}
+S1 <- read_csv("orthologs/coral_core/coral_core_enrichment_data.csv") %>%
+  select(1, 2, 4, 5, 9) %>%
+  rename(Observed = Significant,
+         p = topgoFisher)
+write_csv(S1, path = "output/Supplementary_Data_S1.csv")
+
+knitr::kable(S1, caption="Enrichment of GO terms in the coral core gene set.")
+```
 
 ## Coral-specific genes
 ```{r coral_specific}
+# Number of coral specific gene families (present in all coral genomes and not in any other genomes)
 coral.specific <- apply(counts, 1, function(x) min(x[1:4]>0) & max(x[-(1:4)])==0)
 coral.specific.orthos <- counts[coral.specific, ]
 n.coral.specific.orthos <- nrow(coral.specific.orthos)
+n.coral.specific.orthos
+
 n.coral.specific.singletons <-with(coral.specific.orthos, sum(Pdam==1 & Spis==1 & Adig==1 & Ofav==1))
 n.coral.specific.genes <- sum(coral.specific.orthos[,1]) #(in Pdam)
-```
 
-This is a set of genes for which orthologs were present *in all coral genomes* but *NOT* in any of the other genomes. There were `r n.coral.specific.orthos` coral-specific gene families, including `r n.coral.specific.singletons` that were single-copy in each coral. In Pdam, these coral-specific gene families comprised a total of `r n.coral.specific.genes` genes. As above, the GO terms for these Pdam genes were tested for enrichment relative to the whole Pdam genome using topGO. Nine GO terms were significantly enriched (p < 0.05): copper ion transmembrane transport, signal transduction, tetrahydrofolate biosynthetic process, positive regulation of NFkB transcription factor, caveola assembly, defense response to virus, regulation of transcription, and chromatin silencing at rDNA, and meiotic chromosome segregation. There were 2 genes associated with copper ion transport with swissprot annotations similar to SLC31A1 copper uptake protein. There were 32 genes associated with signal transduction: SwissProt annotations associated with these genes include dopamine receptors, neuropeptide receptors, G-protein coupled receptors, and TRAF (associated with TNF-receptors). NFkB regulation, caveola assembly, and defense response to virus also likely function in immune pathways. Regulation of transcription and chromatin silencing play roles in gene expression, suggesting some coral-specific mechanisms of gene expression regulation. In addition to GO enrichment, we could also look at the blast results of the coral-specific genes, but there are 278 coral-specific ortholog groups making this very difficult to do manually....
-
-![](../coral_specific/coral_specific_enriched_revigo.png)
-### How many of the coral-specific genes in Pdam had annotations?
-```{r}
-cs_in_pdam <- read.table("coral_specific/coral_specific_pdam_gene_names.txt")  # contains the 349 coral-specific genes in Pdam
-
+# How many of the coral-specific genes in Pdam had GO annotations?
+cs_in_pdam <- read.table("orthologs/coral_specific/coral_specific_pdam_gene_names.txt")  # contains the 349 coral-specific genes in Pdam
 pdam_GO <- read.table("annotation/pdam_genes_GO.txt", sep="\t")  # contains GO annotations for all genes in Pdam
-
 cs_in_pdam_with_GO_annot <- intersect(cs_in_pdam$V1, pdam_GO$V1)
 length(cs_in_pdam_with_GO_annot) / length(cs_in_pdam$V1)
-
 ```
+
+This is a set of genes for which orthologs were present *in all coral genomes* but *NOT* in any of the other genomes. There were `r n.coral.specific.orthos` coral-specific gene families, including `r n.coral.specific.singletons` that were single-copy in each coral. In Pdam, these coral-specific gene families comprised a total of `r n.coral.specific.genes` genes. As above, the GO terms for these Pdam genes were tested for enrichment relative to the whole Pdam genome using topGO. Nine GO terms were significantly enriched.
+
+```{r}
+csgo <- read_csv("orthologs/coral_specific/coral_specific_enrichment_data.csv") %>%
+  select(1,2,4,5,9) %>%
+  rename(Observed = Significant,
+         p = topgoFisher)
+knitr::kable(csgo, caption="Enrichment of GO terms in the coral-specific gene set.")
+```
+
 
 ### Count number of Pdam genes with TNFR cysteine-rich domains annotated by InterProScan
 ```{bash}
-grep "TNFR" interproscan/pdam_ips.renamed.tsv > interproscan/TNFR
-cat interproscan/TNFR | cut -f1 | uniq | wc -l
+grep "TNFR" annotation/interproscan/pdam_ips.renamed.tsv > annotation/interproscan/TNFR
+cat annotation/interproscan/TNFR | cut -f1 | uniq | wc -l
 ```
 
-## Genes diversified in corals
+## Gene families diversified in corals
 ```{r coral_diversified}
 coral <- 1:4
 morph <- 5:6
@@ -304,24 +286,43 @@ for (g in rownames(pgens)) {
 }
 divadj <- p.adjust(divp,method="fdr")
 divs <- pgens[divadj<0.01,]
-divs
-pdivGens <- dat[dat$Group%in%rownames(divs),]
+#pdivGens <- dat[dat$Group%in%rownames(divs),]
 
-n.coral.div.orthos <- nrow(divs)  # number of gene families larger in scleractinians than other anthozoans
+(n.coral.div.orthos <- nrow(divs))  # number of gene families larger in scleractinians than other anthozoans
 n.coral.div.genes <- sum(divs[,1]) # number of members of these gene families in Pdam
 
+# How many of the coral-diversified genes in Pdam had annotations?
+div_in_pdam <- read.table("orthologs/coral_diversified/coral_diversified_pdam_gene_names.txt")  # contains the 349 coral-specific genes in Pdam
 
+pdam_GO <- read.table("annotation/pdam_genes_GO.txt", sep="\t")  # contains GO annotations for all genes in Pdam
+
+div_in_pdam_with_GO_annot <- intersect(div_in_pdam$V1, pdam_GO$V1)
+length(div_in_pdam_with_GO_annot) / length(div_in_pdam$V1)
+```
+
+`r n.coral.div.orthos` ortholog groups found in all cnidarians were significantly diversified in corals. As above, the genes within these families in Pdam (n=`r n.coral.div.genes`) were analyzed using topGO. Nine GO terms were enriched.
+
+```{r}
+cdgo <- read_csv("orthologs/coral_diversified/coral_diversified_enrichment_data.csv") %>%
+  select(1,2,4,5,9) %>%
+  rename(Observed = Significant,
+         p = topgoFisher)
+knitr::kable(cdgo, caption="Enrichment of GO terms in the coral-diversified gene set.")
+```
+
+
+```{r}
 # Get top SwissProt hits for coral-diversified proteins (using longest as representative set)
-sphits <- read.table("coral_diversified/cd_longest_sp_tophits.txt", sep="\t")
+sphits <- read.table("orthologs/coral_diversified/cd_longest_sp_tophits.txt", sep="\t")
 sphits$V1 <- str_replace_all(sphits$V1, "-RA", "")
-fams <- read.table("coral_diversified/longest_genes-fams.txt", row.names=NULL)
+fams <- read.table("orthologs/coral_diversified/longest_genes-fams.txt", row.names=NULL)
 sphits <- merge(fams, sphits, by="V1")
 sphits$labels <- stringr::str_extract(as.character(sphits$V9), " [^O]*")
 
 # heatmap of gene family size of coral-diversified genes
 rot <- function(x) "[<-"(x, , rev(x))
 flip <- function(x) apply(x, 2, rot)
-png("figures/coral_divgenes_heatmap.png", height=4, width=7, units="in", res=300)
+png("figures/Fig3_coral_divgenes_heatmap.png", height=4, width=7, units="in", res=300)
 
 
 par(mar=c(1,1,3.5,20), mgp=c(1.5,0.25,0), tcl=-0.25)
@@ -351,33 +352,18 @@ text(2.45, 0.65, labels = "log10 # Genes", xpd=T, cex=1)
 
 dev.off()
 
-# Table with gene family size and SiwssProt annotations
+# Table with gene family size and SwissProt annotations
 colnames(sphits)[1] <- "gene"
 colnames(fams) <- c("gene", "ortho")
 divs$ortho <- rownames(divs)
 divs$pval <- divadj[rownames(divs)]
 out <- merge(divs, fams)
-out2 <- merge(out, sphits, by="gene")[,c(2:11,1,13,18)]
-head(out2)
+out2 <- merge(out, sphits, by="gene", all = TRUE)[,c(2:11,1,13,18)]
 colnames(out2) <- c("ortholog_group", "Pdam", "Spis", "Adig", "Ofav", "Ampl", "Disc", "Aipt",
                     "Nema", "pval", "rep_gene", "SwissProt_tophit", "E-value")
 write.table(out2, file="output/Supplementary_Table_S1.txt", quote=F, row.names=F)
-
-
 ```
-
-### How many of the coral-diversified genes in Pdam had annotations?
-```{r}
-div_in_pdam <- read.table("coral_diversified/coral_diversified_pdam_gene_names.txt")  # contains the 349 coral-specific genes in Pdam
-
-pdam_GO <- read.table("annotation/pdam_genes_GO.txt", sep="\t")  # contains GO annotations for all genes in Pdam
-
-div_in_pdam_with_GO_annot <- intersect(div_in_pdam$V1, pdam_GO$V1)
-length(div_in_pdam_with_GO_annot) / length(div_in_pdam$V1)
-
-```
-
-`r n.coral.div.orthos` ortholog groups found in all cnidarians were significantly diversified in corals. As above, the genes within these families in Pdam (n=`r n.coral.div.genes`) were analyzed using topGO. Nine GO terms were enriched: oligopeptide transport, small GTPase mediated signal transduction, kidney development, protein phosphorylation, Notch signaling pathway, V(D)J recombination, positive regulation of cyclin-dependent protein serine/threonine kinase activity, metabolic process, and attachment of GPI anchor to protein. The GO enrichment suggests a lot of functionality in signaling/possibly immunity. However, with only `r n.coral.div.orthos` gene families in the coral-diversified set, it is feasible to manually look at each these genes.
+![](../figures/Fig3_coral_divgenes_heatmap.png)
 
 ## Coral species-specific gene family expansions
 ### Gene family size analysis
@@ -394,7 +380,7 @@ logdat <- log10(rbind(pdam.counts$counts, spis.counts$counts,
                     ofav.counts$counts, adig.counts$counts))
 logdat[is.infinite(logdat)] <- NA
 
-png(filename="figures/gene_family_size.png", width=4, height=4, units="in", res=300)
+png(filename="figures/Fig4_gene_family_size.png", width=4, height=4, units="in", res=300)
 bars <- barplot(logdat, beside=T, space=c(0,0), axes=F, col=alpha(cols,0.5),
                 xlab="Gene family size", ylab="Number of gene families", xpd=NA)
 axis(side=1, at=c(0,4,8,12,16,20,24,28,32),
@@ -405,9 +391,7 @@ legend("topright", pch=22, pt.bg=alpha(cols, 0.5), pt.cex=1.5, bty="n",
 dev.off()
 
 ```
-![](../figures/gene_family_size.png)
-
-Pdam tends to have smallest gene families relative to other coral species. The largest gene family expansions have occurred in Acropora.
+![](../figures/Fig4_gene_family_size.png)
 
 ### Gene families diversified in each coral species
 ```{r div_other_corals}
@@ -430,6 +414,7 @@ for (g in genestotest) {
                   dimnames=list("Species"=c("Adig", "Spis", "Pdam", "Ofav"),
                                 "GeneFam"=c("Member", "NonMember")))
   tab <- as.table(tab)
+  set.seed(5234)
   divp[g] <- fisher.test(tab, simulate.p.value=TRUE)$p.value
 }
 padj <- p.adjust(divp, method = "fdr")
@@ -463,7 +448,6 @@ for (g in rownames(divs)) {
   data.frame(prop.table(tab, 1))[1:4,]
 }
 
-
 obvidivs <- divs[apply(res, 1, function(x) (sum(x=="a")==1) & sum(x=="b")==3), ]
 obvires <- res[apply(res, 1, function(x) (sum(x=="a")==1) & sum(x=="b")==3), ]
 obvires[obvires=="a"] <- 1
@@ -479,128 +463,48 @@ spisdiv <- obvidivs[obvires$Spis==1, ]
 ofavdiv <- obvidivs[obvires$Ofav==1, ]
 
 pdamdiv <- obvidivs[obvires$Pdam==1, ]
-
 ```
 
-```{r coral_spp_diversified_heatmap}
-# heatmap of gene family size in each coral species
-png("figures/coral_genefams_heatmap.png", height=4, width=2, units="in", res=300)
-par(mar=c(1,1,2,1), mgp=c(1.5,0.25,0), tcl=-0.25)
-divs2 <- as.matrix(divs)
-divs2 <- t(log(divs2[hclust(dist(divs2))$order,]))
-pal <- brewer.pal(n=10, "GnBu")
-image(divs2, col=pal, axes=F)
-box()
-axis(side=3, at=quantile(par("usr")[1:2], c(1, 3, 5, 7)*0.125),
-     labels=c("Pdam", "Spis", "Adig", "Ofav"), cex.axis=0.75)
-points(rep(quantile(par("usr")[1:2], 5*0.125), nrow(adigdiv)),
-       quantile(par("usr")[3:4], match(rownames(adigdiv), colnames(divs2))/54) - 0.009433962,
-       pch="*", cex=0.8)
-points(rep(quantile(par("usr")[1:2], 3*0.125), nrow(spisdiv)),
-       quantile(par("usr")[3:4], match(rownames(spisdiv), colnames(divs2))/54) - 0.009433962,
-       pch="*", cex=0.8)
-points(rep(quantile(par("usr")[1:2], 7*0.125), nrow(ofavdiv)),
-       quantile(par("usr")[3:4], match(rownames(ofavdiv), colnames(divs2))/54) - 0.009433962,
-       pch="*", cex=0.8)
-dev.off()
-```
-![](../figures/coral_divgenes_heatmap.png)
 
 ```{r supp_table_s2}
 # Table with gene family size and SwissProt annotations
-sd_sp_tophits <- read.table("species_diversified/species_specific_expansions_tophits.txt",
+sd_sp_tophits <- read.table("orthologs/species_diversified/species_specific_expansions_tophits.txt",
                             sep="\t")
 colnames(sd_sp_tophits)[1] <- "gene"
-fams <- read.table("species_diversified/sd_longest_genes-fams.txt")
+fams <- read.table("orthologs/species_diversified/sd_longest_genes-fams.txt")
 colnames(fams) <- c("gene", "ortho")
-divs$ortho <- rownames(divs)
-out <- merge(divs, fams)
-out2 <- merge(out, sd_sp_tophits, by="gene")[,c(2,3,4,5,6,1,7,12)]
-colnames(out2) <- c("ortholog_group", "Pdam", "Spis", "Adig", "Ofav",
+obvidivs$ortho <- rownames(obvidivs)
+obvidivs$pval <- padj[rownames(obvidivs)]
+out <- merge(obvidivs, fams, all = TRUE)
+out2 <- merge(out, sd_sp_tophits, by="gene", all = TRUE)[,c(2,3,4,5,6,7,1,15,13)]
+colnames(out2) <- c("ortholog_group", "Pdam", "Spis", "Adig", "Ofav", "pval",
                     "rep_gene", "SwissProt_tophit", "E-value")
 write.table(out2, file="output/Supplementary_Table_S2.txt", quote=F, row.names=F)
+
+knitr::kable(out2, caption="Lineage-specific gene family expansions in corals.")
 ```
-
-Spis (15) and Adig (10) have most independently diversified gene fams. Ofav=1, Pdam=0.
-
-
-#### Diversified in Adig
-```{r div_adig}
-adigdiv
-```
-** ORTHOMCL15: aug_v2a.12719.t1: nr: uncharacterized protein. InterProScan: nucleoside phosphorylase superfamily, P-loop containing nucleoside trophosphate hydrolase, NACHT nucleoside triphosphatase. "unintegrated": NACHT.
-* ORTHOMCL77: aug_v2a.15442.t1: nr: transposon ty3 gag-pol polyprotein. InterProScan: aspartic peptidase domain/catalytic peptidase retrovirus / tetropepsins, and reverse transcriptase domain -> GO: proteolysis, aspartic-type endopeptidase activity (hydrolysis of peptide bonds). "Retroviral reverse transcriptase is synthesised as part of the POL polyprotein that contains; an aspartyl protease, a reverse transcriptase, RNase H and integrase. POL polyprotein undergoes specific enzymatic cleavage to yield the mature proteins." (InterPro RT_dom documentation)
-** ORTHOMCL80: aug_v2a.03626.t1: nr: uncharacterized protein / probably serine/threonine-protein kinase roco6. SMART: Death domain. InterProScan: P-loop containing nucleoside triphosphate hydrolase, C-terminal of Roc (COR) domain, and Death domain -> GO: signal transduction and protein binding./10331/
-** ORTHOMCL298: aug_v2a.15546.t1: nr: NLRC3-like. SMART: many leucine-rich repeats (LRR domains). InterProScan: "unintegrated" NACHT domain (apoptosis/MHC recognition)
-** ORTHOMCL472: aug_v2a.13941.t1: nr: MAM and LDL-receptor class A domain-containing protein 2-like isoform. Interproscan: FN3, CUB, and MAM domains. may be membrane associated, signal receptor, protein binding.
-** ORTHOMCL502: aug_v2a.24492.t1: nr: uncharacterized protein. InterProScan: tetratricopeptide-like helical domain superfamily. protein binding.
-* ORTHOMCL2424: aug_v2a.12383.t1: nr: piggyBac transposable element-derive protein 4-like. InterProScan: transposase domain DDE_Tnp_1_7
-** ORTHOMCL3871: aug_v2a.10418.t1: nr: fibrinogen alpha-2 chain-like. i think it is actually missing the fibrinogen portion within its closest blast hits that contain it. SMART found no confident domains. InterProScan: PAN/Apple domain. swissprot: lowest evalue is 0.1....
-** ORTHOMCL733: aug_v2a.24144.t1: nr: probable ephrin type-B receptor. SMART: fibronectin type 3 domain. InterProScan: immunoglobin, fibronectin, "unintegrated" ephrin receptor
-** ORTHOMCL9: aug_v2a.10331.t1: nr: dynein heavy chain 5 or 8. InterProScan: Dynein heavy chain family membership - lots of domains. 
-
-#### Diversified in Spis
-```{r div_spis}
-spisdiv
-```
-* ORTHOMCL23: Spis24421: 1) collagen-like protein, or 2) complement c1q and tumor necrosis factor-related protein 9. has transposase domain. InterProScan: transmembrane structure, cysteine-rich insect antifreeze protein, collagen triple helix repeat - structural?
-** ORTHOMCL100: Spis22893: nr: Proprotein convertase subtilisin/kexin type 6 / furin-like. InterProScan: protein family: peptidase s8, subtilisin-related. kexin/furin domain and galactose-binding-like domain.
-* ORTHOMCL114: Spis24333: 1) pol polyprotein from type-1 retrotransposable element, 2) tyrosine kinase receptor. InterProScan: reverse transcriptase domain.
-* ORTHOMCL120: Spis22596: nr: phosphatidate phosphatase PPAPDC1A / Myosin light chain kinase, smooth muscle / has reverse transcriptase domain and GIY-YIG endonuclease domain. InterProScan: 2x GIY-YIG endonuclease superfamily, 2x reverse transcriptase domain, zinc-finger. nucleic acid binding GO.
-** ORTHOMCL121: Spis2941: nr: transient receptor potential cation channel subfamily A member 1-like. INterProScan: ion transport protein
-** ORTHOMCL181: Spis322: similar to inhibitor of growth protein (ING protein), tumor suppressor?. InterProScan: Exonuclease, phage-type/RecB, C-terminal / ING family, zinc finger, Ulp1 protease family, C-terminal catalytic domain
-* ORTHOMCL286: Spis24261: nr: RNA-directed DNA polymerase from mobile element jockey / Fibrilin-1. InterProScan: Endonuclease/exonuclease/phosphatase, DUF, Alkylated DNA repair protein AlkB, homologue 8, N-terminal
-** ORTHOMCL372: Spis8530: nr: serine/threonine-protein kinase/endoribonuclease IRE1/Eq ubiquitin-protein ligase/G-protein signaling modulator 2. InterProScan: Coils.
-* ORTHOMCL517: Spis11534: nr: RNA-directed DNA polymerase from mobile element jockey / Beta-hexosaminidase 1. InterProScan: reverse transcriptase domain
-* ORTHOMCL606: Spis6398: nr: Tachylectin-2 / uncharacterized transposon-derived protein. InterProScan: Ribonuclease H-like domain, INtegrase core domain, Integrase catalytic domain profile, 
-** ORTHOMCL706: Spis16969: nr: repressor of the inhibitor of the protein kinase-like / Phosphatidylinositol-glycan-specific phospholipase D. InterProScan: hAT family C-terminal dimerisation region, Ribonuclease H-like domain, Coil.
-* ORTHOMCL707: Spis21566: nr: RNA-directed DNA polymerase from mobile element jockey / Dimethyladenosine transferase 1, mitochondrial / Coiled-coil domain-containing protein lobo-like. InterProScan: Reverse transcriptase domain.
-* ORTHOMCL851: Spis21717: nr: RNA-directed DNA polymerase from transposon X-element / Nephrocystin-4 / Twinfilin-1 / G-protein coupled receptor. InterProScan: Reverse transcriptase domainq
-* ORTHOMCL1742: Spis24269: nr: RNA-directed DNA polymerase / Long-chain-fatty-acid--CoA ligase 5 / FMRF-amide neuropeptide / REST corepressor 2. InterProScan: Reverse transcriptase domain.
-* ORTHOMCL1901: Spis13079: nr: Pogo transposable element with KRAB domain / Arylsulfatase B. InterProScan: Winged helix-turn-helix DNA-binding domain, Homeobox domain-like, DDE superfamily endonuclease, Tc5 transposase DNA-binding domain, HTH CenpB-type DNA-binding domain, Transposase IS3/Is911family
-
-
-#### Diversified in Ofav
-```{r div_ofav}
-ofavdiv
-```
-* ORTHOMCL2848: ofav_00010370: nr: Metabotropic glutamate receptor 3 / ?
-
-#### Diversified in Pdam
-```{r div_pdam}
-pdamdiv
-```
-
-.....no gene families are significantly diversified in Pdam relative to all three other coral species. There are some gene families in which Pdam and another species have larger families than the other two species, but none for which Pdam is significantly higher than all three other corals.
-
-* "The functional categories most prone to lineage-specific expansion are structural proteins, enzymes involved in an organism's response to pathogens and environmental stress, and various components of signaling pathways responsible for specificity, including ubiquitin ligase E3 subunits" (Lespinet et al. 2002)
-
-* similar gene families have been expanded in sea cucumber genome.
 
 ***
 
 ## Pdam-specific genes
 
-However, there are genes that were found in Pdam with NO ORTHOLOGS in the other corals. These Pdam-specific genes include...:
-
 ```{r pdam_specific}
 pdam.specific <- apply(counts[,-1], 1, function(x) max(x)==0)
 pdam.specific.orthos <- counts[pdam.specific, ]
-n.pdam.specific.orthos <- nrow(pdam.specific.orthos)
-n.pdam.specific.singletons <- sum(pdam.specific.orthos$Pdam==1)
-n.pdam.specific.genes <- sum(pdam.specific.orthos[,1])
+(n.pdam.specific.orthos <- nrow(pdam.specific.orthos))
+(n.pdam.specific.singletons <- sum(pdam.specific.orthos$Pdam==1))
+(n.pdam.specific.genes <- sum(pdam.specific.orthos[,1]))
 
-pds_gene_names <- read.table("pdam_specific/pdam_specific_gene_names.txt")
+pds_gene_names <- read.table("orthologs/pdam_specific/pdam_specific_gene_names.txt")
 pdam_specific_genes_with_GO_annotations <- intersect(pds_gene_names$V1, pdam_GO$V1)
 length(pdam_specific_genes_with_GO_annotations) / length(pds_gene_names$V1)
 ```
 
 This is a functional profile of the genes in Pdam for which *no orthologs were found in any other genome* (with an e-value cutoff of 1e-5), including the other corals and the other inverts. There were `r n.pdam.specific.orthos` pdam-specific ortholog groups, including `r n.pdam.specific.singletons` singletons, containing a total of `r n.pdam.specific.genes` genes. Eleven GO terms were significantly enriched: G-protein coupled receptor signaling pathway, bioluminescence, activation of NFkappaB-inducing kinase activity, positive regulation of JNK cascade, and signal transduction.
 
-![](../pdam_specific/pdam_specific_enriched_revigo.png)
 
 ```{r}
-pdam_specific <- read.csv("pdam_specific/pdam_specific_enrichment_data.csv", stringsAsFactors = F)
+pdam_specific <- read.csv("orthologs/pdam_specific/pdam_specific_enrichment_data.csv", stringsAsFactors = F)
 pdam_specific <- pdam_specific[, c(1,2,4,5,9)]
 colnames(pdam_specific) <- c("GO Accession", "GO Term Name", "Observed", "Expected", "p")
 pdam_specific[1,2] <- "G-protein coupled receptor signaling pathway"
