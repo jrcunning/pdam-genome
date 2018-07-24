@@ -1,8 +1,0 @@
-aug_v2a.00365.t1	sp|Q7RTR2|NLRC3_HUMAN	25.666	1297	1065	61	5.43e-39	162	sp|Q7RTR2|NLRC3_HUMAN NLR family CARD domain-containing protein 3 OS=Homo sapiens GN=NLRC3 PE=1 SV=2
-aug_v2a.03173.t1	sp|B8V7S0|CPP1_ACRMI	68.075	2677	435	27	4.99e-177	553	sp|B8V7S0|CPP1_ACRMI CUB and peptidase domain-containing protein 1 (Fragment) OS=Acropora millepora PE=1 SV=1
-aug_v2a.04004.t2	sp|Q96AY4|TTC28_HUMAN	27.340	2248	2481	32	7.56e-31	137	sp|Q96AY4|TTC28_HUMAN Tetratricopeptide repeat protein 28 OS=Homo sapiens GN=TTC28 PE=1 SV=4
-aug_v2a.04548.t1	sp|P04323|POL3_DROME	33.990	2516	1058	16	6.06e-62	236	sp|P04323|POL3_DROME Retrovirus-related Pol polyprotein from transposon 17.6 OS=Drosophila melanogaster GN=pol PE=3 SV=1
-aug_v2a.10500.t1	sp|Q7LHG5|YI31B_YEAST	44.253	1510	1498	29	2.01e-31	138	sp|Q7LHG5|YI31B_YEAST Transposon Ty3-I Gag-Pol polyprotein OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) GN=TY3B-I PE=3 SV=2
-aug_v2a.13437.t1	sp|Q86Y13|DZIP3_HUMAN	31.410	1654	1208	9	2.16e-19	99.4	sp|Q86Y13|DZIP3_HUMAN E3 ubiquitin-protein ligase DZIP3 OS=Homo sapiens GN=DZIP3 PE=1 SV=2
-aug_v2a.15481.t1	sp|P54763|EPHB2_MOUSE	35.942	938	986	94	7.48e-177	542	sp|P54763|EPHB2_MOUSE Ephrin type-B receptor 2 OS=Mus musculus GN=Ephb2 PE=1 SV=3
-aug_v2a.20445.t2	sp|Q96DM1|PGBD4_HUMAN	27.358	1174	585	32	1.95e-36	150	sp|Q96DM1|PGBD4_HUMAN PiggyBac transposable element-derived protein 4 OS=Homo sapiens GN=PGBD4 PE=2 SV=3
