@@ -19,6 +19,7 @@ for (g in genestotest) {
                 dimnames=list("Species"=c("Adig", "Spis", "Pdam", "Ofav"),
                               "GeneFam"=c("Member", "NonMember")))
   tab <- as.table(tab)
+  set.seed(5234)
   divp[g] <- fisher.test(tab, simulate.p.value=TRUE)$p.value
 }
 padj <- p.adjust(divp, method = "fdr")
