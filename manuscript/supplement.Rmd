@@ -10,6 +10,7 @@ output:
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE, cache = TRUE)
 knitr::opts_knit$set(root.dir = normalizePath(".."))
+library(ape)
 library(Biostrings)
 library(stringr)
 library(tidyverse)
@@ -100,6 +101,54 @@ make.italic <- function(x) as.expression(lapply(x, function(y) bquote(italic(.(y
 * Genome structure is similar to other corals
 
 ***
+
+# Feature frequency profiling based on whole proteomes
+```{r ffp-tree}
+tree <- ape::read.tree("ffp/tree")
+tree <- root(tree, "Mnemiopsis")
+tree <- drop.tip(tree, c(1,3,6))
+plot(tree)
+tree$tip.label <- c("O. faveolata", "P. damicornis", "S. pistillata", "A. fenestrafer", "Discosoma spp.", "A. pallida", "N. vectensis", "H. vulgaris", "A. queenslandica", "M. leidyi", "A. digitifera")
+plot(tree)
+```
+
+```{r}
+tree <- ape::read.tree("ffp/tree")
+tree <- root(tree, "Mnemiopsis")
+tree <- drop.tip(tree, c(1,3,6))
+tree$tip.label <- c("Orbicella faveolata", "Pocillopora damicornis", "Stylophora pistillata", "Amplexidiscus fenestrafer", "Discosoma spp.", "Aiptasia pallida", "Nematostella vectensis", "Hydra vulgaris", "Amphimdeon queenslandica", "Mnemiopsis leidyi", "Acropora digitifera")
+
+ggtree(tree) +
+  #geom_text2(aes(subset=!isTip, label=node), hjust=-.3) +
+  geom_tiplab() +
+  geom_hilight(node=13, fill='darkgreen',alpha=0.3, extend=0.1) +
+  geom_hilight(node=16, fill='steelblue',alpha=0.3, extend=0.1) +
+  geom_hilight(node=19, fill='darkred',alpha=0.3, extend=0.12)
+
+p <- ggtree(tree) +
+  #geom_text2(aes(subset=!isTip, label=node), hjust=-.3) +
+  geom_tiplab(aes(fontface = 'italic'), size = 3, vjust = -0.5, hjust = 'right') +
+  #geom_tiplab(size=3, vjust=-0.5, hjust = 'right') +
+  geom_cladelabel(node=13, label = "Cnidarians", offset = 0.05, 
+                  angle = 270, hjust = 'center', vjust = 'bottom', fontsize = 4.5) +
+  geom_cladelabel(node=14, label = "Anothozoans", offset = 0.025, 
+                  angle = 270, hjust = 'center', vjust = 'bottom', fontsize = 3.5) +
+  geom_cladelabel(node=16, label = "Scleractinians", offset = 0.02, 
+                  angle = 270, hjust = 'center', vjust = 'bottom', fontsize = 2.5) +
+  geom_cladelabel(node=17, label = "Robusta", offset = 0.015, 
+                  angle = 270, hjust = 'center', vjust = 'bottom', fontsize = 2.5) +
+  geom_cladelabel(node=19, label = "Corallimorpharians", offset = 0.025, 
+                  angle = 270, hjust = 'center', vjust = 'bottom', fontsize = 2.5) +
+  geom_hilight(node=16, fill='steelblue',alpha=0.3, extend=0.01) +
+  geom_hilight(node=19, fill='darkred',alpha=0.3, extend=0.015) +
+  geom_treescale()
+
+p2 <- rotate(p, c(18))
+p3 <- rotate(p2, 20)
+p3
+
+ggsave(filename = "figures/Fig1_tree.png", plot = p3, device = "png", height = 4, width = 5, units = "in")
+```
 
 # Gene content analysis
 
@@ -273,27 +322,33 @@ sphits$labels <- stringr::str_extract(as.character(sphits$V9), " [^O]*")
 rot <- function(x) "[<-"(x, , rev(x))
 flip <- function(x) apply(x, 2, rot)
 png("figures/coral_divgenes_heatmap.png", height=4, width=7, units="in", res=300)
+
+
 par(mar=c(1,1,3.5,20), mgp=c(1.5,0.25,0), tcl=-0.25)
 divs2 <- as.matrix(divs)
 divs2 <- t(log10(divs2[hclust(dist(divs2))$order,]))
+divs2 <- divs2[c(8,7,5,6,3,4,2,1), ]
 hits <- sphits[match(colnames(divs2), as.character(sphits$V2.x)), "labels"]
 pal <- brewer.pal(n=9, "GnBu")
 GnBu <- colorRampPalette(brewer.pal(n=9, "GnBu"))
 image(flip(divs2), col=GnBu(50), axes=F)
 box()
 axis(side=3, at=quantile(par("usr")[1:2], c(1, 3, 5, 7, 9, 11, 13, 15)*0.0625),
-     labels=rev(c("Pd", "Sp", "Ad", "Of", "Af", "Ds", "Ap", "Nv")), cex.axis=0.75)
+     labels=rev(c("Nv", "Ap", "Af", "Ds", "Ad", "Of", "Sp", "Pd")), cex.axis=0.75)
 abline(v=0.5)
 text(par("usr")[2]+0.01, quantile(par("usr")[3:4], seq(0.025,0.975,len=21)), hits, xpd=NA, adj=0, cex=0.75)
 mtext(side=3, "Anthozoa", line=2.5, adj=0)
 segments(par("usr")[1], 1.19, par("usr")[2], 1.19, xpd=NA, lwd=1.5)
-mtext(side=3, "Scleractinia", line=1.3, adj=0.72)
-segments(0.5, 1.11, par("usr")[2], 1.11, xpd=NA, lwd=1.5)
+mtext(side=3, "Scleractinia", line=1.3, adj=0)
+segments(par("usr")[1], 1.11, 0.5, 1.11, xpd=NA, lwd=1.5)
 text(par("usr")[2]-0.03, par("usr")[4]+0.04, "Top hit in UniProt-SwissProt database (E<1e-10)", xpd=NA, pos=4)
 segments(par("usr")[2], 1.03, 2.6, 1.03, xpd=NA, lwd=1.5)
 fields::image.plot(flip(divs2), col=GnBu(50), axes=F, legend.only=TRUE, horizontal=FALSE,
                    smallplot=c(0.89,0.92,0.05,0.5))
 text(2.45, 0.65, labels = "log10 # Genes", xpd=T, cex=1)
+
+
+
 dev.off()
 
 # Table with gene family size and SiwssProt annotations
@@ -449,7 +504,7 @@ points(rep(quantile(par("usr")[1:2], 7*0.125), nrow(ofavdiv)),
        pch="*", cex=0.8)
 dev.off()
 ```
-![](../figures/coral_genefams_heatmap.png)
+![](../figures/coral_divgenes_heatmap.png)
 
 ```{r supp_table_s2}
 # Table with gene family size and SwissProt annotations
