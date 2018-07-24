@@ -1,0 +1,13 @@
+Spis10603	sp|Q9P215|POGK_HUMAN	35.459	1390	609	27	1.21e-69	249	sp|Q9P215|POGK_HUMAN Pogo transposable element with KRAB domain OS=Homo sapiens OX=9606 GN=POGK PE=1 SV=2
+Spis11227	sp|P21328|RTJK_DROME	28.267	4125	916	8	5.65e-21	105	sp|P21328|RTJK_DROME RNA-directed DNA polymerase from mobile element jockey OS=Drosophila melanogaster OX=7227 GN=pol PE=1 SV=1
+Spis12138	sp|O88813|ACSL5_RAT	40.230	1361	683	25	5.80e-30	131	sp|O88813|ACSL5_RAT Long-chain-fatty-acid--CoA ligase 5 OS=Rattus norvegicus OX=10116 GN=Acsl5 PE=1 SV=1
+Spis14598	sp|Q9H490|PIGU_HUMAN	36.019	1336	435	27	1.36e-73	255	sp|Q9H490|PIGU_HUMAN Phosphatidylinositol glycan anchor biosynthesis class U protein OS=Homo sapiens OX=9606 GN=PIGU PE=1 SV=3
+Spis15792	sp|Q27084|TAL2_TACTR	52.655	899	255	55	6.65e-72	240	sp|Q27084|TAL2_TACTR Tachylectin-2 OS=Tachypleus tridentatus OX=6853 PE=1 SV=1
+Spis18451	sp|Q9UGM3|DMBT1_HUMAN	54.369	2789	2413	21	2.70e-53	212	sp|Q9UGM3|DMBT1_HUMAN Deleted in malignant brain tumors 1 protein OS=Homo sapiens OX=9606 GN=DMBT1 PE=1 SV=2
+Spis19594	sp|Q96DM1|PGBD4_HUMAN	24.190	1600	585	28	1.45e-27	123	sp|Q96DM1|PGBD4_HUMAN PiggyBac transposable element-derived protein 4 OS=Homo sapiens OX=9606 GN=PGBD4 PE=2 SV=3
+Spis22308	sp|Q09575|YRD6_CAEEL	37.344	1489	1268	16	1.39e-41	171	sp|Q09575|YRD6_CAEEL Uncharacterized protein K02A2.6 OS=Caenorhabditis elegans OX=6239 GN=K02A2.6 PE=4 SV=1
+Spis23235	sp|O75460|ERN1_HUMAN	30.077	2638	977	14	1.08e-31	139	sp|O75460|ERN1_HUMAN Serine/threonine-protein kinase/endoribonuclease IRE1 OS=Homo sapiens OX=9606 GN=ERN1 PE=1 SV=2
+Spis3249	sp|A0MSJ1|CRA1B_DANRE	39.933	1804	1658	65	1.46e-139	478	sp|A0MSJ1|CRA1B_DANRE Collagen alpha-1(XXVII) chain B OS=Danio rerio OX=7955 GN=col27a1b PE=2 SV=1
+Spis332	sp|P21328|RTJK_DROME	26.782	2231	916	45	2.09e-34	148	sp|P21328|RTJK_DROME RNA-directed DNA polymerase from mobile element jockey OS=Drosophila melanogaster OX=7227 GN=pol PE=1 SV=1
+Spis7114	sp|P29119|FURI1_XENLA	39.613	2891	783	51	1.03e-113	385	sp|P29119|FURI1_XENLA Furin-1 OS=Xenopus laevis OX=8355 GN=furin PE=2 SV=1
+Spis9925	sp|G2HE57|DRC7_PANTR	56.452	2356	874	31	0.0	798	sp|G2HE57|DRC7_PANTR Dynein regulatory complex subunit 7 OS=Pan troglodytes OX=9598 GN=DRC7 PE=2 SV=1

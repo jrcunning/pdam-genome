@@ -1,0 +1,12 @@
+term_ID,description,frequency,plot_X,plot_Y,plot_size,log10 p-value,uniqueness,dispensability,representative,eliminated
+GO:0006814,"sodium ion transport",0.305%, 3.395, 5.527,4.592,-1.3778,0.741,0.000,6814,0
+GO:0007186,"G-protein coupled receptor signaling pathway",0.882%,-6.135, 2.599,5.054,-30.0000,0.438,0.000,7186,0
+GO:0008218,"bioluminescence",0.010%, 3.973,-2.473,3.112,-7.2218,0.770,0.023,8218,0
+GO:0015074,"DNA integration",0.682%,-0.141,-6.170,4.942,-1.3242,0.729,0.042,15074,0
+GO:0007411,"axon guidance",0.066%,-5.442, 5.146,3.930,-1.5834,0.554,0.306,7411,0
+GO:0035385,"Roundabout signaling pathway",0.006%,-4.238, 3.270,2.920,-1.5834,0.526,0.353,35385,0
+GO:0007250,"activation of NF-kappaB-inducing kinase activity",0.008%,-6.060, 0.397,2.985,-2.8539,0.416,0.356,7250,0
+GO:0050482,"arachidonic acid secretion",0.026%, 3.987, 4.270,3.528,-1.3507,0.677,0.395,50482,0
+GO:0035278,"miRNA mediated inhibition of translation",0.006%,-5.899,-2.066,2.851,-1.7077,0.531,0.431,35278,0
+GO:0007165,"signal transduction",6.621%,-5.533, 2.231,5.929,-2.7447,0.408,0.675,7165,0
+GO:0046330,"positive regulation of JNK cascade",0.028%,-5.361, 0.445,3.549,-2.8539,0.394,0.693,46330,0

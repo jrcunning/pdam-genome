@@ -1,0 +1,809 @@
+aug_v2a.18355.t1	sp|Q8TD57|DYH3_HUMAN	46.479	3424	4116	99	0.0	2790	sp|Q8TD57|DYH3_HUMAN Dynein heavy chain 3, axonemal OS=Homo sapiens OX=9606 GN=DNAH3 PE=2 SV=1
+aug_v2a.18355.t1	sp|Q8TD57|DYH3_HUMAN	63.187	3424	4116	99	4.09e-136	486	sp|Q8TD57|DYH3_HUMAN Dynein heavy chain 3, axonemal OS=Homo sapiens OX=9606 GN=DNAH3 PE=2 SV=1
+aug_v2a.18355.t1	sp|Q63170|DYH7_RAT	59.705	3424	4057	99	0.0	2097	sp|Q63170|DYH7_RAT Dynein heavy chain 7, axonemal OS=Rattus norvegicus OX=10116 GN=Dnah7 PE=2 SV=2
+aug_v2a.18355.t1	sp|Q63170|DYH7_RAT	46.755	3424	4057	99	0.0	1263	sp|Q63170|DYH7_RAT Dynein heavy chain 7, axonemal OS=Rattus norvegicus OX=10116 GN=Dnah7 PE=2 SV=2
+aug_v2a.18355.t1	sp|Q63170|DYH7_RAT	64.187	3424	4057	99	7.06e-144	511	sp|Q63170|DYH7_RAT Dynein heavy chain 7, axonemal OS=Rattus norvegicus OX=10116 GN=Dnah7 PE=2 SV=2
+aug_v2a.18355.t1	sp|Q8WXX0|DYH7_HUMAN	59.174	3424	4024	99	0.0	2081	sp|Q8WXX0|DYH7_HUMAN Dynein heavy chain 7, axonemal OS=Homo sapiens OX=9606 GN=DNAH7 PE=1 SV=2
+aug_v2a.18355.t1	sp|Q8WXX0|DYH7_HUMAN	48.078	3424	4024	99	0.0	1303	sp|Q8WXX0|DYH7_HUMAN Dynein heavy chain 7, axonemal OS=Homo sapiens OX=9606 GN=DNAH7 PE=1 SV=2
+aug_v2a.18355.t1	sp|Q8WXX0|DYH7_HUMAN	63.636	3424	4024	99	2.69e-144	513	sp|Q8WXX0|DYH7_HUMAN Dynein heavy chain 7, axonemal OS=Homo sapiens OX=9606 GN=DNAH7 PE=1 SV=2
+aug_v2a.18355.t1	sp|Q8BW94|DYH3_MOUSE	55.967	3424	4083	99	0.0	1901	sp|Q8BW94|DYH3_MOUSE Dynein heavy chain 3, axonemal OS=Mus musculus OX=10090 GN=Dnah3 PE=1 SV=2
+aug_v2a.18355.t1	sp|Q8BW94|DYH3_MOUSE	41.440	3424	4083	99	0.0	1051	sp|Q8BW94|DYH3_MOUSE Dynein heavy chain 3, axonemal OS=Mus musculus OX=10090 GN=Dnah3 PE=1 SV=2
+aug_v2a.18355.t1	sp|Q8BW94|DYH3_MOUSE	61.264	3424	4083	99	1.11e-130	468	sp|Q8BW94|DYH3_MOUSE Dynein heavy chain 3, axonemal OS=Mus musculus OX=10090 GN=Dnah3 PE=1 SV=2
+aug_v2a.18355.t1	sp|Q6ZR08|DYH12_HUMAN	57.544	3424	3092	75	0.0	1646	sp|Q6ZR08|DYH12_HUMAN Dynein heavy chain 12, axonemal OS=Homo sapiens OX=9606 GN=DNAH12 PE=2 SV=2
+aug_v2a.18355.t1	sp|Q6ZR08|DYH12_HUMAN	59.362	3424	3092	75	0.0	917	sp|Q6ZR08|DYH12_HUMAN Dynein heavy chain 12, axonemal OS=Homo sapiens OX=9606 GN=DNAH12 PE=2 SV=2
+aug_v2a.18355.t1	sp|Q6ZR08|DYH12_HUMAN	70.799	3424	3092	75	1.18e-159	562	sp|Q6ZR08|DYH12_HUMAN Dynein heavy chain 12, axonemal OS=Homo sapiens OX=9606 GN=DNAH12 PE=2 SV=2
+aug_v2a.18355.t1	sp|Q6ZR08|DYH12_HUMAN	63.303	3424	3092	75	1.62e-36	157	sp|Q6ZR08|DYH12_HUMAN Dynein heavy chain 12, axonemal OS=Homo sapiens OX=9606 GN=DNAH12 PE=2 SV=2
+aug_v2a.18355.t1	sp|Q3V0Q1|DYH12_MOUSE	56.912	3424	3086	75	0.0	1640	sp|Q3V0Q1|DYH12_MOUSE Dynein heavy chain 12, axonemal OS=Mus musculus OX=10090 GN=Dnah12 PE=1 SV=2
+aug_v2a.18355.t1	sp|Q3V0Q1|DYH12_MOUSE	60.306	3424	3086	75	0.0	933	sp|Q3V0Q1|DYH12_MOUSE Dynein heavy chain 12, axonemal OS=Mus musculus OX=10090 GN=Dnah12 PE=1 SV=2
+aug_v2a.18355.t1	sp|Q3V0Q1|DYH12_MOUSE	71.074	3424	3086	75	1.61e-160	565	sp|Q3V0Q1|DYH12_MOUSE Dynein heavy chain 12, axonemal OS=Mus musculus OX=10090 GN=Dnah12 PE=1 SV=2
+aug_v2a.18355.t1	sp|Q3V0Q1|DYH12_MOUSE	64.356	3424	3086	75	5.44e-35	152	sp|Q3V0Q1|DYH12_MOUSE Dynein heavy chain 12, axonemal OS=Mus musculus OX=10090 GN=Dnah12 PE=1 SV=2
+aug_v2a.18355.t1	sp|Q923J6|DYH12_RAT	57.053	3424	3092	75	0.0	1637	sp|Q923J6|DYH12_RAT Dynein heavy chain 12, axonemal OS=Rattus norvegicus OX=10116 GN=Dnah12 PE=2 SV=2
+aug_v2a.18355.t1	sp|Q923J6|DYH12_RAT	58.322	3424	3092	75	0.0	913	sp|Q923J6|DYH12_RAT Dynein heavy chain 12, axonemal OS=Rattus norvegicus OX=10116 GN=Dnah12 PE=2 SV=2
+aug_v2a.18355.t1	sp|Q923J6|DYH12_RAT	70.523	3424	3092	75	7.45e-159	559	sp|Q923J6|DYH12_RAT Dynein heavy chain 12, axonemal OS=Rattus norvegicus OX=10116 GN=Dnah12 PE=2 SV=2
+aug_v2a.18355.t1	sp|Q923J6|DYH12_RAT	61.607	3424	3092	75	5.70e-36	155	sp|Q923J6|DYH12_RAT Dynein heavy chain 12, axonemal OS=Rattus norvegicus OX=10116 GN=Dnah12 PE=2 SV=2
+aug_v2a.18355.t1	sp|E9Q8T7|DYH1_MOUSE	44.820	3424	4250	94	0.0	1496	sp|E9Q8T7|DYH1_MOUSE Dynein heavy chain 1, axonemal OS=Mus musculus OX=10090 GN=Dnah1 PE=1 SV=1
+aug_v2a.18355.t1	sp|E9Q8T7|DYH1_MOUSE	41.845	3424	4250	94	0.0	892	sp|E9Q8T7|DYH1_MOUSE Dynein heavy chain 1, axonemal OS=Mus musculus OX=10090 GN=Dnah1 PE=1 SV=1
+aug_v2a.18355.t1	sp|E9Q8T7|DYH1_MOUSE	49.311	3424	4250	94	6.73e-102	373	sp|E9Q8T7|DYH1_MOUSE Dynein heavy chain 1, axonemal OS=Mus musculus OX=10090 GN=Dnah1 PE=1 SV=1
+aug_v2a.18355.t1	sp|Q9P2D7|DYH1_HUMAN	43.915	3424	4330	94	0.0	1479	sp|Q9P2D7|DYH1_HUMAN Dynein heavy chain 1, axonemal OS=Homo sapiens OX=9606 GN=DNAH1 PE=1 SV=4
+aug_v2a.18355.t1	sp|Q9P2D7|DYH1_HUMAN	40.988	3424	4330	94	0.0	886	sp|Q9P2D7|DYH1_HUMAN Dynein heavy chain 1, axonemal OS=Homo sapiens OX=9606 GN=DNAH1 PE=1 SV=4
+aug_v2a.18355.t1	sp|Q9P2D7|DYH1_HUMAN	49.036	3424	4330	94	4.26e-103	377	sp|Q9P2D7|DYH1_HUMAN Dynein heavy chain 1, axonemal OS=Homo sapiens OX=9606 GN=DNAH1 PE=1 SV=4
+aug_v2a.18355.t1	sp|Q63164|DYH1_RAT	44.079	3424	4516	89	0.0	1474	sp|Q63164|DYH1_RAT Dynein heavy chain 1, axonemal OS=Rattus norvegicus OX=10116 GN=Dnah1 PE=2 SV=2
+aug_v2a.18355.t1	sp|Q63164|DYH1_RAT	41.021	3424	4516	89	0.0	801	sp|Q63164|DYH1_RAT Dynein heavy chain 1, axonemal OS=Rattus norvegicus OX=10116 GN=Dnah1 PE=2 SV=2
+aug_v2a.18355.t1	sp|Q63164|DYH1_RAT	50.964	3424	4516	89	4.14e-106	387	sp|Q63164|DYH1_RAT Dynein heavy chain 1, axonemal OS=Rattus norvegicus OX=10116 GN=Dnah1 PE=2 SV=2
+aug_v2a.18355.t1	sp|P0C6F1|DYH2_MOUSE	40.807	3424	4456	93	0.0	1306	sp|P0C6F1|DYH2_MOUSE Dynein heavy chain 2, axonemal OS=Mus musculus OX=10090 GN=Dnah2 PE=1 SV=1
+aug_v2a.18355.t1	sp|P0C6F1|DYH2_MOUSE	32.494	3424	4456	93	0.0	659	sp|P0C6F1|DYH2_MOUSE Dynein heavy chain 2, axonemal OS=Mus musculus OX=10090 GN=Dnah2 PE=1 SV=1
+aug_v2a.18355.t1	sp|P0C6F1|DYH2_MOUSE	42.033	3424	4456	93	7.36e-82	307	sp|P0C6F1|DYH2_MOUSE Dynein heavy chain 2, axonemal OS=Mus musculus OX=10090 GN=Dnah2 PE=1 SV=1
+aug_v2a.18355.t1	sp|Q9C0G6|DYH6_HUMAN	40.802	3424	4158	94	0.0	1299	sp|Q9C0G6|DYH6_HUMAN Dynein heavy chain 6, axonemal OS=Homo sapiens OX=9606 GN=DNAH6 PE=2 SV=3
+aug_v2a.18355.t1	sp|Q9C0G6|DYH6_HUMAN	34.637	3424	4158	94	0.0	713	sp|Q9C0G6|DYH6_HUMAN Dynein heavy chain 6, axonemal OS=Homo sapiens OX=9606 GN=DNAH6 PE=2 SV=3
+aug_v2a.18355.t1	sp|Q9C0G6|DYH6_HUMAN	43.666	3424	4158	94	7.58e-90	333	sp|Q9C0G6|DYH6_HUMAN Dynein heavy chain 6, axonemal OS=Homo sapiens OX=9606 GN=DNAH6 PE=2 SV=3
+aug_v2a.18355.t1	sp|Q9P225|DYH2_HUMAN	40.273	3424	4427	91	0.0	1290	sp|Q9P225|DYH2_HUMAN Dynein heavy chain 2, axonemal OS=Homo sapiens OX=9606 GN=DNAH2 PE=2 SV=3
+aug_v2a.18355.t1	sp|Q9P225|DYH2_HUMAN	34.821	3424	4427	91	0.0	663	sp|Q9P225|DYH2_HUMAN Dynein heavy chain 2, axonemal OS=Homo sapiens OX=9606 GN=DNAH2 PE=2 SV=3
+aug_v2a.18355.t1	sp|Q9P225|DYH2_HUMAN	41.530	3424	4427	91	3.65e-81	305	sp|Q9P225|DYH2_HUMAN Dynein heavy chain 2, axonemal OS=Homo sapiens OX=9606 GN=DNAH2 PE=2 SV=3
+aug_v2a.18355.t1	sp|Q9MBF8|DYH1B_CHLRE	38.547	3424	4513	94	0.0	1190	sp|Q9MBF8|DYH1B_CHLRE Dynein-1-beta heavy chain, flagellar inner arm I1 complex OS=Chlamydomonas reinhardtii OX=3055 GN=DHC10 PE=1 SV=1
+aug_v2a.18355.t1	sp|Q9MBF8|DYH1B_CHLRE	31.260	3424	4513	94	3.63e-177	620	sp|Q9MBF8|DYH1B_CHLRE Dynein-1-beta heavy chain, flagellar inner arm I1 complex OS=Chlamydomonas reinhardtii OX=3055 GN=DHC10 PE=1 SV=1
+aug_v2a.18355.t1	sp|Q9MBF8|DYH1B_CHLRE	40.941	3424	4513	94	1.56e-87	326	sp|Q9MBF8|DYH1B_CHLRE Dynein-1-beta heavy chain, flagellar inner arm I1 complex OS=Chlamydomonas reinhardtii OX=3055 GN=DHC10 PE=1 SV=1
+aug_v2a.18355.t1	sp|Q9SMH3|DYH1A_CHLRE	35.217	3424	4625	95	0.0	1028	sp|Q9SMH3|DYH1A_CHLRE Dynein-1-alpha heavy chain, flagellar inner arm I1 complex OS=Chlamydomonas reinhardtii OX=3055 GN=DHC1 PE=1 SV=1
+aug_v2a.18355.t1	sp|Q9SMH3|DYH1A_CHLRE	33.205	3424	4625	95	4.19e-178	624	sp|Q9SMH3|DYH1A_CHLRE Dynein-1-alpha heavy chain, flagellar inner arm I1 complex OS=Chlamydomonas reinhardtii OX=3055 GN=DHC1 PE=1 SV=1
+aug_v2a.18355.t1	sp|Q9SMH3|DYH1A_CHLRE	40.374	3424	4625	95	3.84e-67	258	sp|Q9SMH3|DYH1A_CHLRE Dynein-1-alpha heavy chain, flagellar inner arm I1 complex OS=Chlamydomonas reinhardtii OX=3055 GN=DHC1 PE=1 SV=1
+aug_v2a.18355.t1	sp|Q39565|DYHB_CHLRE	35.259	3424	4568	80	0.0	1011	sp|Q39565|DYHB_CHLRE Dynein beta chain, flagellar outer arm OS=Chlamydomonas reinhardtii OX=3055 GN=ODA4 PE=3 SV=1
+aug_v2a.18355.t1	sp|Q39565|DYHB_CHLRE	37.711	3424	4568	80	6.44e-144	511	sp|Q39565|DYHB_CHLRE Dynein beta chain, flagellar outer arm OS=Chlamydomonas reinhardtii OX=3055 GN=ODA4 PE=3 SV=1
+aug_v2a.18355.t1	sp|Q39565|DYHB_CHLRE	31.183	3424	4568	80	1.14e-47	194	sp|Q39565|DYHB_CHLRE Dynein beta chain, flagellar outer arm OS=Chlamydomonas reinhardtii OX=3055 GN=ODA4 PE=3 SV=1
+aug_v2a.18355.t1	sp|Q8IVF4|DYH10_HUMAN	34.568	3424	4471	95	0.0	994	sp|Q8IVF4|DYH10_HUMAN Dynein heavy chain 10, axonemal OS=Homo sapiens OX=9606 GN=DNAH10 PE=1 SV=4
+aug_v2a.18355.t1	sp|Q8IVF4|DYH10_HUMAN	31.294	3424	4471	95	4.46e-175	613	sp|Q8IVF4|DYH10_HUMAN Dynein heavy chain 10, axonemal OS=Homo sapiens OX=9606 GN=DNAH10 PE=1 SV=4
+aug_v2a.18355.t1	sp|Q8IVF4|DYH10_HUMAN	39.702	3424	4471	95	6.17e-71	271	sp|Q8IVF4|DYH10_HUMAN Dynein heavy chain 10, axonemal OS=Homo sapiens OX=9606 GN=DNAH10 PE=1 SV=4
+aug_v2a.18355.t1	sp|Q8TE73|DYH5_HUMAN	34.218	3424	4624	91	0.0	982	sp|Q8TE73|DYH5_HUMAN Dynein heavy chain 5, axonemal OS=Homo sapiens OX=9606 GN=DNAH5 PE=1 SV=3
+aug_v2a.18355.t1	sp|Q8TE73|DYH5_HUMAN	31.029	3424	4624	91	7.84e-151	534	sp|Q8TE73|DYH5_HUMAN Dynein heavy chain 5, axonemal OS=Homo sapiens OX=9606 GN=DNAH5 PE=1 SV=3
+aug_v2a.18355.t1	sp|Q8TE73|DYH5_HUMAN	35.393	3424	4624	91	1.76e-63	246	sp|Q8TE73|DYH5_HUMAN Dynein heavy chain 5, axonemal OS=Homo sapiens OX=9606 GN=DNAH5 PE=1 SV=3
+aug_v2a.18355.t1	sp|Q96DT5|DYH11_HUMAN	34.710	3424	4516	82	0.0	979	sp|Q96DT5|DYH11_HUMAN Dynein heavy chain 11, axonemal OS=Homo sapiens OX=9606 GN=DNAH11 PE=1 SV=4
+aug_v2a.18355.t1	sp|Q96DT5|DYH11_HUMAN	36.269	3424	4516	82	2.40e-161	569	sp|Q96DT5|DYH11_HUMAN Dynein heavy chain 11, axonemal OS=Homo sapiens OX=9606 GN=DNAH11 PE=1 SV=4
+aug_v2a.18355.t1	sp|Q96DT5|DYH11_HUMAN	33.702	3424	4516	82	6.17e-52	208	sp|Q96DT5|DYH11_HUMAN Dynein heavy chain 11, axonemal OS=Homo sapiens OX=9606 GN=DNAH11 PE=1 SV=4
+aug_v2a.18355.t1	sp|P23098|DYHC_TRIGR	34.467	3424	4466	95	0.0	978	sp|P23098|DYHC_TRIGR Dynein beta chain, ciliary OS=Tripneustes gratilla OX=7673 PE=1 SV=1
+aug_v2a.18355.t1	sp|P23098|DYHC_TRIGR	31.949	3424	4466	95	6.86e-177	620	sp|P23098|DYHC_TRIGR Dynein beta chain, ciliary OS=Tripneustes gratilla OX=7673 PE=1 SV=1
+aug_v2a.18355.t1	sp|P23098|DYHC_TRIGR	34.783	3424	4466	95	4.14e-53	212	sp|P23098|DYHC_TRIGR Dynein beta chain, ciliary OS=Tripneustes gratilla OX=7673 PE=1 SV=1
+aug_v2a.18355.t1	sp|Q69Z23|DYH17_MOUSE	35.199	3424	4481	93	0.0	974	sp|Q69Z23|DYH17_MOUSE Dynein heavy chain 17, axonemal OS=Mus musculus OX=10090 GN=Dnah17 PE=1 SV=2
+aug_v2a.18355.t1	sp|Q69Z23|DYH17_MOUSE	31.675	3424	4481	93	1.53e-164	579	sp|Q69Z23|DYH17_MOUSE Dynein heavy chain 17, axonemal OS=Mus musculus OX=10090 GN=Dnah17 PE=1 SV=2
+aug_v2a.18355.t1	sp|Q69Z23|DYH17_MOUSE	31.266	3424	4481	93	2.52e-46	189	sp|Q69Z23|DYH17_MOUSE Dynein heavy chain 17, axonemal OS=Mus musculus OX=10090 GN=Dnah17 PE=1 SV=2
+aug_v2a.18355.t1	sp|Q9UFH2|DYH17_HUMAN	35.315	3424	4485	92	0.0	974	sp|Q9UFH2|DYH17_HUMAN Dynein heavy chain 17, axonemal OS=Homo sapiens OX=9606 GN=DNAH17 PE=1 SV=2
+aug_v2a.18355.t1	sp|Q9UFH2|DYH17_HUMAN	31.545	3424	4485	92	5.72e-161	568	sp|Q9UFH2|DYH17_HUMAN Dynein heavy chain 17, axonemal OS=Homo sapiens OX=9606 GN=DNAH17 PE=1 SV=2
+aug_v2a.18355.t1	sp|Q9UFH2|DYH17_HUMAN	31.220	3424	4485	92	3.02e-47	192	sp|Q9UFH2|DYH17_HUMAN Dynein heavy chain 17, axonemal OS=Homo sapiens OX=9606 GN=DNAH17 PE=1 SV=2
+aug_v2a.18355.t1	sp|P39057|DYHC_HELCR	34.349	3424	4466	95	0.0	972	sp|P39057|DYHC_HELCR Dynein beta chain, ciliary OS=Heliocidaris crassispina OX=1043166 PE=1 SV=1
+aug_v2a.18355.t1	sp|P39057|DYHC_HELCR	31.418	3424	4466	95	3.01e-175	614	sp|P39057|DYHC_HELCR Dynein beta chain, ciliary OS=Heliocidaris crassispina OX=1043166 PE=1 SV=1
+aug_v2a.18355.t1	sp|P39057|DYHC_HELCR	35.054	3424	4466	95	1.46e-53	214	sp|P39057|DYHC_HELCR Dynein beta chain, ciliary OS=Heliocidaris crassispina OX=1043166 PE=1 SV=1
+aug_v2a.18355.t1	sp|Q8VHE6|DYH5_MOUSE	34.059	3424	4621	91	0.0	966	sp|Q8VHE6|DYH5_MOUSE Dynein heavy chain 5, axonemal OS=Mus musculus OX=10090 GN=Dnah5 PE=1 SV=2
+aug_v2a.18355.t1	sp|Q8VHE6|DYH5_MOUSE	30.922	3424	4621	91	1.84e-148	526	sp|Q8VHE6|DYH5_MOUSE Dynein heavy chain 5, axonemal OS=Mus musculus OX=10090 GN=Dnah5 PE=1 SV=2
+aug_v2a.18355.t1	sp|Q8VHE6|DYH5_MOUSE	35.955	3424	4621	91	3.53e-65	252	sp|Q8VHE6|DYH5_MOUSE Dynein heavy chain 5, axonemal OS=Mus musculus OX=10090 GN=Dnah5 PE=1 SV=2
+aug_v2a.18355.t1	sp|Q9NYC9|DYH9_HUMAN	33.142	3424	4486	93	0.0	943	sp|Q9NYC9|DYH9_HUMAN Dynein heavy chain 9, axonemal OS=Homo sapiens OX=9606 GN=DNAH9 PE=1 SV=3
+aug_v2a.18355.t1	sp|Q9NYC9|DYH9_HUMAN	31.894	3424	4486	93	6.39e-166	584	sp|Q9NYC9|DYH9_HUMAN Dynein heavy chain 9, axonemal OS=Homo sapiens OX=9606 GN=DNAH9 PE=1 SV=3
+aug_v2a.18355.t1	sp|Q9NYC9|DYH9_HUMAN	35.054	3424	4486	93	4.57e-54	215	sp|Q9NYC9|DYH9_HUMAN Dynein heavy chain 9, axonemal OS=Homo sapiens OX=9606 GN=DNAH9 PE=1 SV=3
+aug_v2a.18355.t1	sp|Q96JB1|DYH8_HUMAN	32.625	3424	4490	91	0.0	922	sp|Q96JB1|DYH8_HUMAN Dynein heavy chain 8, axonemal OS=Homo sapiens OX=9606 GN=DNAH8 PE=1 SV=2
+aug_v2a.18355.t1	sp|Q96JB1|DYH8_HUMAN	31.416	3424	4490	91	3.86e-153	542	sp|Q96JB1|DYH8_HUMAN Dynein heavy chain 8, axonemal OS=Homo sapiens OX=9606 GN=DNAH8 PE=1 SV=2
+aug_v2a.18355.t1	sp|Q96JB1|DYH8_HUMAN	36.813	3424	4490	91	6.39e-67	258	sp|Q96JB1|DYH8_HUMAN Dynein heavy chain 8, axonemal OS=Homo sapiens OX=9606 GN=DNAH8 PE=1 SV=2
+aug_v2a.18355.t1	sp|Q91XQ0|DYH8_MOUSE	32.704	3424	4731	91	0.0	922	sp|Q91XQ0|DYH8_MOUSE Dynein heavy chain 8, axonemal OS=Mus musculus OX=10090 GN=Dnah8 PE=1 SV=2
+aug_v2a.18355.t1	sp|Q91XQ0|DYH8_MOUSE	31.411	3424	4731	91	1.33e-151	537	sp|Q91XQ0|DYH8_MOUSE Dynein heavy chain 8, axonemal OS=Mus musculus OX=10090 GN=Dnah8 PE=1 SV=2
+aug_v2a.18355.t1	sp|Q91XQ0|DYH8_MOUSE	37.466	3424	4731	91	1.01e-68	264	sp|Q91XQ0|DYH8_MOUSE Dynein heavy chain 8, axonemal OS=Mus musculus OX=10090 GN=Dnah8 PE=1 SV=2
+aug_v2a.18355.t1	sp|Q39575|DYHG_CHLRE	32.365	3424	4485	95	0.0	897	sp|Q39575|DYHG_CHLRE Dynein gamma chain, flagellar outer arm OS=Chlamydomonas reinhardtii OX=3055 GN=ODA2 PE=1 SV=1
+aug_v2a.18355.t1	sp|Q39575|DYHG_CHLRE	29.230	3424	4485	95	6.25e-146	518	sp|Q39575|DYHG_CHLRE Dynein gamma chain, flagellar outer arm OS=Chlamydomonas reinhardtii OX=3055 GN=ODA2 PE=1 SV=1
+aug_v2a.18355.t1	sp|Q39575|DYHG_CHLRE	34.316	3424	4485	95	2.85e-54	216	sp|Q39575|DYHG_CHLRE Dynein gamma chain, flagellar outer arm OS=Chlamydomonas reinhardtii OX=3055 GN=ODA2 PE=1 SV=1
+aug_v2a.18355.t1	sp|Q39610|DYHA_CHLRE	33.250	3424	4499	78	0.0	856	sp|Q39610|DYHA_CHLRE Dynein alpha chain, flagellar outer arm OS=Chlamydomonas reinhardtii OX=3055 GN=ODA11 PE=3 SV=2
+aug_v2a.18355.t1	sp|Q39610|DYHA_CHLRE	34.403	3424	4499	78	4.08e-125	450	sp|Q39610|DYHA_CHLRE Dynein alpha chain, flagellar outer arm OS=Chlamydomonas reinhardtii OX=3055 GN=ODA11 PE=3 SV=2
+aug_v2a.18355.t1	sp|Q39610|DYHA_CHLRE	29.383	3424	4499	78	1.84e-37	160	sp|Q39610|DYHA_CHLRE Dynein alpha chain, flagellar outer arm OS=Chlamydomonas reinhardtii OX=3055 GN=ODA11 PE=3 SV=2
+aug_v2a.18355.t1	sp|Q27802|DYHC2_TRIGR	26.265	3424	4318	79	0.0	831	sp|Q27802|DYHC2_TRIGR Cytoplasmic dynein 2 heavy chain 1 OS=Tripneustes gratilla OX=7673 GN=DYH1B PE=2 SV=2
+aug_v2a.18355.t1	sp|Q27802|DYHC2_TRIGR	30.081	3424	4318	79	8.60e-38	161	sp|Q27802|DYHC2_TRIGR Cytoplasmic dynein 2 heavy chain 1 OS=Tripneustes gratilla OX=7673 GN=DYH1B PE=2 SV=2
+aug_v2a.18355.t1	sp|P78716|DYHC_FUSSO	27.081	3424	4349	87	0.0	697	sp|P78716|DYHC_FUSSO Dynein heavy chain, cytoplasmic OS=Fusarium solani subsp. pisi OX=70791 GN=DHC1 PE=3 SV=1
+aug_v2a.18355.t1	sp|P78716|DYHC_FUSSO	28.076	3424	4349	87	2.48e-121	437	sp|P78716|DYHC_FUSSO Dynein heavy chain, cytoplasmic OS=Fusarium solani subsp. pisi OX=70791 GN=DHC1 PE=3 SV=1
+aug_v2a.18355.t1	sp|P78716|DYHC_FUSSO	32.171	3424	4349	87	1.81e-28	130	sp|P78716|DYHC_FUSSO Dynein heavy chain, cytoplasmic OS=Fusarium solani subsp. pisi OX=70791 GN=DHC1 PE=3 SV=1
+aug_v2a.18355.t1	sp|Q14204|DYHC1_HUMAN	26.655	3424	4646	76	0.0	686	sp|Q14204|DYHC1_HUMAN Cytoplasmic dynein 1 heavy chain 1 OS=Homo sapiens OX=9606 GN=DYNC1H1 PE=1 SV=5
+aug_v2a.18355.t1	sp|Q14204|DYHC1_HUMAN	32.907	3424	4646	76	2.23e-119	431	sp|Q14204|DYHC1_HUMAN Cytoplasmic dynein 1 heavy chain 1 OS=Homo sapiens OX=9606 GN=DYNC1H1 PE=1 SV=5
+aug_v2a.18355.t1	sp|Q14204|DYHC1_HUMAN	32.819	3424	4646	76	1.05e-31	141	sp|Q14204|DYHC1_HUMAN Cytoplasmic dynein 1 heavy chain 1 OS=Homo sapiens OX=9606 GN=DYNC1H1 PE=1 SV=5
+aug_v2a.18355.t1	sp|P45443|DYHC_NEUCR	26.772	3424	4367	76	0.0	686	sp|P45443|DYHC_NEUCR Dynein heavy chain, cytoplasmic OS=Neurospora crassa (strain ATCC 24698 / 74-OR23-1A / CBS 708.71 / DSM 1257 / FGSC 987) OX=367110 GN=ro-1 PE=3 SV=1
+aug_v2a.18355.t1	sp|P45443|DYHC_NEUCR	33.632	3424	4367	76	3.48e-118	427	sp|P45443|DYHC_NEUCR Dynein heavy chain, cytoplasmic OS=Neurospora crassa (strain ATCC 24698 / 74-OR23-1A / CBS 708.71 / DSM 1257 / FGSC 987) OX=367110 GN=ro-1 PE=3 SV=1
+aug_v2a.18355.t1	sp|P45443|DYHC_NEUCR	30.000	3424	4367	76	6.78e-25	119	sp|P45443|DYHC_NEUCR Dynein heavy chain, cytoplasmic OS=Neurospora crassa (strain ATCC 24698 / 74-OR23-1A / CBS 708.71 / DSM 1257 / FGSC 987) OX=367110 GN=ro-1 PE=3 SV=1
+aug_v2a.18355.t1	sp|P38650|DYHC1_RAT	26.655	3424	4644	76	0.0	684	sp|P38650|DYHC1_RAT Cytoplasmic dynein 1 heavy chain 1 OS=Rattus norvegicus OX=10116 GN=Dync1h1 PE=1 SV=1
+aug_v2a.18355.t1	sp|P38650|DYHC1_RAT	32.526	3424	4644	76	3.57e-118	427	sp|P38650|DYHC1_RAT Cytoplasmic dynein 1 heavy chain 1 OS=Rattus norvegicus OX=10116 GN=Dync1h1 PE=1 SV=1
+aug_v2a.18355.t1	sp|P38650|DYHC1_RAT	32.432	3424	4644	76	2.31e-31	140	sp|P38650|DYHC1_RAT Cytoplasmic dynein 1 heavy chain 1 OS=Rattus norvegicus OX=10116 GN=Dync1h1 PE=1 SV=1
+aug_v2a.18355.t1	sp|Q9JHU4|DYHC1_MOUSE	26.543	3424	4644	76	0.0	682	sp|Q9JHU4|DYHC1_MOUSE Cytoplasmic dynein 1 heavy chain 1 OS=Mus musculus OX=10090 GN=Dync1h1 PE=1 SV=2
+aug_v2a.18355.t1	sp|Q9JHU4|DYHC1_MOUSE	33.035	3424	4644	76	1.88e-119	431	sp|Q9JHU4|DYHC1_MOUSE Cytoplasmic dynein 1 heavy chain 1 OS=Mus musculus OX=10090 GN=Dync1h1 PE=1 SV=2
+aug_v2a.18355.t1	sp|Q9JHU4|DYHC1_MOUSE	32.819	3424	4644	76	1.12e-31	141	sp|Q9JHU4|DYHC1_MOUSE Cytoplasmic dynein 1 heavy chain 1 OS=Mus musculus OX=10090 GN=Dync1h1 PE=1 SV=2
+aug_v2a.18355.t1	sp|P45444|DYHC_EMENI	26.609	3424	4345	76	0.0	669	sp|P45444|DYHC_EMENI Dynein heavy chain, cytoplasmic OS=Emericella nidulans (strain FGSC A4 / ATCC 38163 / CBS 112.46 / NRRL 194 / M139) OX=227321 GN=nudA PE=3 SV=2
+aug_v2a.18355.t1	sp|P45444|DYHC_EMENI	32.206	3424	4345	76	3.44e-117	424	sp|P45444|DYHC_EMENI Dynein heavy chain, cytoplasmic OS=Emericella nidulans (strain FGSC A4 / ATCC 38163 / CBS 112.46 / NRRL 194 / M139) OX=227321 GN=nudA PE=3 SV=2
+aug_v2a.18355.t1	sp|P45444|DYHC_EMENI	32.443	3424	4345	76	1.69e-27	127	sp|P45444|DYHC_EMENI Dynein heavy chain, cytoplasmic OS=Emericella nidulans (strain FGSC A4 / ATCC 38163 / CBS 112.46 / NRRL 194 / M139) OX=227321 GN=nudA PE=3 SV=2
+aug_v2a.18355.t1	sp|Q27171|DYHC_PARTE	27.863	3424	4540	91	0.0	665	sp|Q27171|DYHC_PARTE Dynein heavy chain, cytoplasmic OS=Paramecium tetraurelia OX=5888 GN=DHC-8 PE=2 SV=1
+aug_v2a.18355.t1	sp|Q27171|DYHC_PARTE	28.454	3424	4540	91	7.08e-131	469	sp|Q27171|DYHC_PARTE Dynein heavy chain, cytoplasmic OS=Paramecium tetraurelia OX=5888 GN=DHC-8 PE=2 SV=1
+aug_v2a.18355.t1	sp|Q27171|DYHC_PARTE	26.923	3424	4540	91	1.60e-30	137	sp|Q27171|DYHC_PARTE Dynein heavy chain, cytoplasmic OS=Paramecium tetraurelia OX=5888 GN=DHC-8 PE=2 SV=1
+aug_v2a.18355.t1	sp|P34036|DYHC_DICDI	28.190	3424	4730	76	1.78e-180	631	sp|P34036|DYHC_DICDI Dynein heavy chain, cytoplasmic OS=Dictyostelium discoideum OX=44689 GN=dhcA PE=1 SV=2
+aug_v2a.18355.t1	sp|P34036|DYHC_DICDI	34.576	3424	4730	76	2.38e-126	454	sp|P34036|DYHC_DICDI Dynein heavy chain, cytoplasmic OS=Dictyostelium discoideum OX=44689 GN=dhcA PE=1 SV=2
+aug_v2a.18355.t1	sp|P34036|DYHC_DICDI	28.324	3424	4730	76	7.32e-31	139	sp|P34036|DYHC_DICDI Dynein heavy chain, cytoplasmic OS=Dictyostelium discoideum OX=44689 GN=dhcA PE=1 SV=2
+aug_v2a.18355.t1	sp|P34036|DYHC_DICDI	36.719	3424	4730	76	9.10e-19	99.0	sp|P34036|DYHC_DICDI Dynein heavy chain, cytoplasmic OS=Dictyostelium discoideum OX=44689 GN=dhcA PE=1 SV=2
+aug_v2a.18355.t1	sp|P37276|DYHC_DROME	27.686	3424	4639	75	8.15e-179	626	sp|P37276|DYHC_DROME Dynein heavy chain, cytoplasmic OS=Drosophila melanogaster OX=7227 GN=Dhc64C PE=2 SV=2
+aug_v2a.18355.t1	sp|P37276|DYHC_DROME	35.156	3424	4639	75	1.08e-127	458	sp|P37276|DYHC_DROME Dynein heavy chain, cytoplasmic OS=Drosophila melanogaster OX=7227 GN=Dhc64C PE=2 SV=2
+aug_v2a.18355.t1	sp|P37276|DYHC_DROME	33.234	3424	4639	75	5.77e-35	152	sp|P37276|DYHC_DROME Dynein heavy chain, cytoplasmic OS=Drosophila melanogaster OX=7227 GN=Dhc64C PE=2 SV=2
+aug_v2a.18355.t1	sp|P37276|DYHC_DROME	37.037	3424	4639	75	1.07e-17	95.5	sp|P37276|DYHC_DROME Dynein heavy chain, cytoplasmic OS=Drosophila melanogaster OX=7227 GN=Dhc64C PE=2 SV=2
+aug_v2a.18355.t1	sp|M0R8U1|DYH5_RAT	32.568	3424	3470	67	1.54e-176	617	sp|M0R8U1|DYH5_RAT Dynein heavy chain 5, axonemal (Fragment) OS=Rattus norvegicus OX=10116 GN=Dnah5 PE=1 SV=1
+aug_v2a.18355.t1	sp|M0R8U1|DYH5_RAT	31.266	3424	3470	67	1.45e-150	533	sp|M0R8U1|DYH5_RAT Dynein heavy chain 5, axonemal (Fragment) OS=Rattus norvegicus OX=10116 GN=Dnah5 PE=1 SV=1
+aug_v2a.18355.t1	sp|Q9SMH5|DYHC2_CHLRE	27.539	3424	4334	77	3.10e-172	604	sp|Q9SMH5|DYHC2_CHLRE Cytoplasmic dynein 2 heavy chain 1 OS=Chlamydomonas reinhardtii OX=3055 GN=DHC1B PE=1 SV=2
+aug_v2a.18355.t1	sp|Q9SMH5|DYHC2_CHLRE	35.526	3424	4334	77	7.59e-110	399	sp|Q9SMH5|DYHC2_CHLRE Cytoplasmic dynein 2 heavy chain 1 OS=Chlamydomonas reinhardtii OX=3055 GN=DHC1B PE=1 SV=2
+aug_v2a.18355.t1	sp|Q9SMH5|DYHC2_CHLRE	27.688	3424	4334	77	1.53e-31	140	sp|Q9SMH5|DYHC2_CHLRE Cytoplasmic dynein 2 heavy chain 1 OS=Chlamydomonas reinhardtii OX=3055 GN=DHC1B PE=1 SV=2
+aug_v2a.18355.t1	sp|Q19020|DYHC_CAEEL	26.928	3424	4568	75	8.75e-167	587	sp|Q19020|DYHC_CAEEL Dynein heavy chain, cytoplasmic OS=Caenorhabditis elegans OX=6239 GN=dhc-1 PE=1 SV=1
+aug_v2a.18355.t1	sp|Q19020|DYHC_CAEEL	35.121	3424	4568	75	9.39e-124	445	sp|Q19020|DYHC_CAEEL Dynein heavy chain, cytoplasmic OS=Caenorhabditis elegans OX=6239 GN=dhc-1 PE=1 SV=1
+aug_v2a.18355.t1	sp|Q19020|DYHC_CAEEL	28.610	3424	4568	75	2.66e-31	140	sp|Q19020|DYHC_CAEEL Dynein heavy chain, cytoplasmic OS=Caenorhabditis elegans OX=6239 GN=dhc-1 PE=1 SV=1
+aug_v2a.18355.t1	sp|Q19020|DYHC_CAEEL	41.000	3424	4568	75	2.61e-16	90.9	sp|Q19020|DYHC_CAEEL Dynein heavy chain, cytoplasmic OS=Caenorhabditis elegans OX=6239 GN=dhc-1 PE=1 SV=1
+aug_v2a.18355.t1	sp|Q8NCM8|DYHC2_HUMAN	25.860	3424	4307	80	1.08e-162	573	sp|Q8NCM8|DYHC2_HUMAN Cytoplasmic dynein 2 heavy chain 1 OS=Homo sapiens OX=9606 GN=DYNC2H1 PE=1 SV=4
+aug_v2a.18355.t1	sp|Q8NCM8|DYHC2_HUMAN	34.383	3424	4307	80	7.11e-120	432	sp|Q8NCM8|DYHC2_HUMAN Cytoplasmic dynein 2 heavy chain 1 OS=Homo sapiens OX=9606 GN=DYNC2H1 PE=1 SV=4
+aug_v2a.18355.t1	sp|Q8NCM8|DYHC2_HUMAN	28.841	3424	4307	80	1.91e-32	144	sp|Q8NCM8|DYHC2_HUMAN Cytoplasmic dynein 2 heavy chain 1 OS=Homo sapiens OX=9606 GN=DYNC2H1 PE=1 SV=4
+aug_v2a.18355.t1	sp|Q9JJ79|DYHC2_RAT	25.917	3424	4306	79	1.16e-160	566	sp|Q9JJ79|DYHC2_RAT Cytoplasmic dynein 2 heavy chain 1 OS=Rattus norvegicus OX=10116 GN=Dync2h1 PE=1 SV=1
+aug_v2a.18355.t1	sp|Q9JJ79|DYHC2_RAT	33.541	3424	4306	79	5.91e-120	432	sp|Q9JJ79|DYHC2_RAT Cytoplasmic dynein 2 heavy chain 1 OS=Rattus norvegicus OX=10116 GN=Dync2h1 PE=1 SV=1
+aug_v2a.18355.t1	sp|Q9JJ79|DYHC2_RAT	28.919	3424	4306	79	2.09e-33	147	sp|Q9JJ79|DYHC2_RAT Cytoplasmic dynein 2 heavy chain 1 OS=Rattus norvegicus OX=10116 GN=Dync2h1 PE=1 SV=1
+aug_v2a.18355.t1	sp|Q45VK7|DYHC2_MOUSE	25.789	3424	4306	79	1.65e-160	566	sp|Q45VK7|DYHC2_MOUSE Cytoplasmic dynein 2 heavy chain 1 OS=Mus musculus OX=10090 GN=Dync2h1 PE=1 SV=1
+aug_v2a.18355.t1	sp|Q45VK7|DYHC2_MOUSE	33.544	3424	4306	79	7.11e-120	432	sp|Q45VK7|DYHC2_MOUSE Cytoplasmic dynein 2 heavy chain 1 OS=Mus musculus OX=10090 GN=Dync2h1 PE=1 SV=1
+aug_v2a.18355.t1	sp|Q45VK7|DYHC2_MOUSE	28.919	3424	4306	79	1.23e-32	144	sp|Q45VK7|DYHC2_MOUSE Cytoplasmic dynein 2 heavy chain 1 OS=Mus musculus OX=10090 GN=Dync2h1 PE=1 SV=1
+aug_v2a.18355.t1	sp|Q9C1M7|DYHC_ASHGO	24.217	3424	4083	76	2.89e-157	555	sp|Q9C1M7|DYHC_ASHGO Dynein heavy chain, cytoplasmic OS=Ashbya gossypii (strain ATCC 10895 / CBS 109.51 / FGSC 9923 / NRRL Y-1056) OX=284811 GN=DYN1 PE=3 SV=1
+aug_v2a.18355.t1	sp|Q9C1M7|DYHC_ASHGO	30.261	3424	4083	76	7.47e-96	353	sp|Q9C1M7|DYHC_ASHGO Dynein heavy chain, cytoplasmic OS=Ashbya gossypii (strain ATCC 10895 / CBS 109.51 / FGSC 9923 / NRRL Y-1056) OX=284811 GN=DYN1 PE=3 SV=1
+aug_v2a.18355.t1	sp|Q8IBG1|DYHC1_PLAF7	27.892	3424	4985	72	1.78e-155	550	sp|Q8IBG1|DYHC1_PLAF7 Dynein heavy chain-like protein MAL7P1.162 OS=Plasmodium falciparum (isolate 3D7) OX=36329 GN=MAL7P1.162 PE=1 SV=2
+aug_v2a.18355.t1	sp|Q8IBG1|DYHC1_PLAF7	32.386	3424	4985	72	2.40e-122	441	sp|Q8IBG1|DYHC1_PLAF7 Dynein heavy chain-like protein MAL7P1.162 OS=Plasmodium falciparum (isolate 3D7) OX=36329 GN=MAL7P1.162 PE=1 SV=2
+aug_v2a.18355.t1	sp|Q8IBG1|DYHC1_PLAF7	28.000	3424	4985	72	2.01e-18	97.8	sp|Q8IBG1|DYHC1_PLAF7 Dynein heavy chain-like protein MAL7P1.162 OS=Plasmodium falciparum (isolate 3D7) OX=36329 GN=MAL7P1.162 PE=1 SV=2
+aug_v2a.18355.t1	sp|Q8IBG1|DYHC1_PLAF7	36.029	3424	4985	72	1.20e-14	85.1	sp|Q8IBG1|DYHC1_PLAF7 Dynein heavy chain-like protein MAL7P1.162 OS=Plasmodium falciparum (isolate 3D7) OX=36329 GN=MAL7P1.162 PE=1 SV=2
+aug_v2a.18355.t1	sp|Q19542|DYHC2_CAEEL	34.328	3424	4171	75	5.70e-122	439	sp|Q19542|DYHC2_CAEEL Cytoplasmic dynein 2 heavy chain 1 OS=Caenorhabditis elegans OX=6239 GN=che-3 PE=1 SV=2
+aug_v2a.18355.t1	sp|Q19542|DYHC2_CAEEL	23.894	3424	4171	75	1.74e-102	375	sp|Q19542|DYHC2_CAEEL Cytoplasmic dynein 2 heavy chain 1 OS=Caenorhabditis elegans OX=6239 GN=che-3 PE=1 SV=2
+aug_v2a.18355.t1	sp|Q19542|DYHC2_CAEEL	29.389	3424	4171	75	2.72e-22	110	sp|Q19542|DYHC2_CAEEL Cytoplasmic dynein 2 heavy chain 1 OS=Caenorhabditis elegans OX=6239 GN=che-3 PE=1 SV=2
+aug_v2a.18355.t1	sp|P36022|DYHC_YEAST	23.534	3424	4092	67	1.21e-106	389	sp|P36022|DYHC_YEAST Dynein heavy chain, cytoplasmic OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) OX=559292 GN=DYN1 PE=1 SV=1
+aug_v2a.18355.t1	sp|P36022|DYHC_YEAST	29.793	3424	4092	67	6.93e-78	294	sp|P36022|DYHC_YEAST Dynein heavy chain, cytoplasmic OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) OX=559292 GN=DYN1 PE=1 SV=1
+aug_v2a.18355.t1	sp|P36022|DYHC_YEAST	37.624	3424	4092	67	1.32e-13	81.6	sp|P36022|DYHC_YEAST Dynein heavy chain, cytoplasmic OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) OX=559292 GN=DYN1 PE=1 SV=1
+aug_v2a.18355.t1	sp|P36022|DYHC_YEAST	26.042	3424	4092	67	1.74e-11	74.7	sp|P36022|DYHC_YEAST Dynein heavy chain, cytoplasmic OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) OX=559292 GN=DYN1 PE=1 SV=1
+aug_v2a.18355.t1	sp|O13290|DYHC_SCHPO	22.076	3424	4196	65	2.11e-90	335	sp|O13290|DYHC_SCHPO Dynein heavy chain, cytoplasmic OS=Schizosaccharomyces pombe (strain 972 / ATCC 24843) OX=284812 GN=dhc1 PE=1 SV=1
+aug_v2a.18355.t1	sp|O13290|DYHC_SCHPO	25.070	3424	4196	65	3.59e-63	245	sp|O13290|DYHC_SCHPO Dynein heavy chain, cytoplasmic OS=Schizosaccharomyces pombe (strain 972 / ATCC 24843) OX=284812 GN=dhc1 PE=1 SV=1
+aug_v2a.18355.t1	sp|Q8IID4|DYHC2_PLAF7	26.674	3424	5251	68	1.13e-89	333	sp|Q8IID4|DYHC2_PLAF7 Dynein heavy chain-like protein PF11_0240 OS=Plasmodium falciparum (isolate 3D7) OX=36329 GN=PF11_0240 PE=1 SV=1
+aug_v2a.18355.t1	sp|Q8IID4|DYHC2_PLAF7	47.464	3424	5251	68	1.36e-72	276	sp|Q8IID4|DYHC2_PLAF7 Dynein heavy chain-like protein PF11_0240 OS=Plasmodium falciparum (isolate 3D7) OX=36329 GN=PF11_0240 PE=1 SV=1
+aug_v2a.18355.t1	sp|Q8IID4|DYHC2_PLAF7	31.673	3424	5251	68	1.16e-37	161	sp|Q8IID4|DYHC2_PLAF7 Dynein heavy chain-like protein PF11_0240 OS=Plasmodium falciparum (isolate 3D7) OX=36329 GN=PF11_0240 PE=1 SV=1
+aug_v2a.18355.t1	sp|Q8IID4|DYHC2_PLAF7	26.699	3424	5251	68	1.37e-27	128	sp|Q8IID4|DYHC2_PLAF7 Dynein heavy chain-like protein PF11_0240 OS=Plasmodium falciparum (isolate 3D7) OX=36329 GN=PF11_0240 PE=1 SV=1
+aug_v2a.18355.t1	sp|Q8IID4|DYHC2_PLAF7	25.846	3424	5251	68	3.42e-19	100	sp|Q8IID4|DYHC2_PLAF7 Dynein heavy chain-like protein PF11_0240 OS=Plasmodium falciparum (isolate 3D7) OX=36329 GN=PF11_0240 PE=1 SV=1
+aug_v2a.18355.t1	sp|Q8IID4|DYHC2_PLAF7	27.523	3424	5251	68	5.53e-15	86.3	sp|Q8IID4|DYHC2_PLAF7 Dynein heavy chain-like protein PF11_0240 OS=Plasmodium falciparum (isolate 3D7) OX=36329 GN=PF11_0240 PE=1 SV=1
+aug_v2a.18355.t1	sp|Q0VDD8|DYH14_HUMAN	31.679	3424	3507	50	1.05e-78	296	sp|Q0VDD8|DYH14_HUMAN Dynein heavy chain 14, axonemal OS=Homo sapiens OX=9606 GN=DNAH14 PE=2 SV=3
+aug_v2a.18355.t1	sp|Q0VDD8|DYH14_HUMAN	42.857	3424	3507	50	6.06e-76	287	sp|Q0VDD8|DYH14_HUMAN Dynein heavy chain 14, axonemal OS=Homo sapiens OX=9606 GN=DNAH14 PE=2 SV=3
+aug_v2a.18355.t1	sp|Q0VDD8|DYH14_HUMAN	29.398	3424	3507	50	2.34e-48	196	sp|Q0VDD8|DYH14_HUMAN Dynein heavy chain 14, axonemal OS=Homo sapiens OX=9606 GN=DNAH14 PE=2 SV=3
+aug_v2a.18355.t1	sp|Q0VDD8|DYH14_HUMAN	26.143	3424	3507	50	2.74e-47	192	sp|Q0VDD8|DYH14_HUMAN Dynein heavy chain 14, axonemal OS=Homo sapiens OX=9606 GN=DNAH14 PE=2 SV=3
+aug_v2a.18355.t1	sp|Q96M86|DNHD1_HUMAN	21.376	3424	4753	47	3.84e-26	123	sp|Q96M86|DNHD1_HUMAN Dynein heavy chain domain-containing protein 1 OS=Homo sapiens OX=9606 GN=DNHD1 PE=2 SV=2
+aug_v2a.18355.t1	sp|Q96M86|DNHD1_HUMAN	23.077	3424	4753	47	6.65e-16	89.4	sp|Q96M86|DNHD1_HUMAN Dynein heavy chain domain-containing protein 1 OS=Homo sapiens OX=9606 GN=DNHD1 PE=2 SV=2
+aug_v2a.18355.t1	sp|Q96M86|DNHD1_HUMAN	22.324	3424	4753	47	1.03e-15	89.0	sp|Q96M86|DNHD1_HUMAN Dynein heavy chain domain-containing protein 1 OS=Homo sapiens OX=9606 GN=DNHD1 PE=2 SV=2
+aug_v2a.04548.t1	sp|P04323|POL3_DROME	33.990	2516	1058	16	6.07e-62	236	sp|P04323|POL3_DROME Retrovirus-related Pol polyprotein from transposon 17.6 OS=Drosophila melanogaster OX=7227 GN=pol PE=3 SV=1
+aug_v2a.04548.t1	sp|Q8I7P9|POL5_DROME	32.723	2516	1003	16	1.02e-60	232	sp|Q8I7P9|POL5_DROME Retrovirus-related Pol polyprotein from transposon opus OS=Drosophila melanogaster OX=7227 GN=pol PE=3 SV=1
+aug_v2a.04548.t1	sp|P20825|POL2_DROME	32.319	2516	1059	16	4.22e-57	221	sp|P20825|POL2_DROME Retrovirus-related Pol polyprotein from transposon 297 OS=Drosophila melanogaster OX=7227 GN=pol PE=3 SV=1
+aug_v2a.04548.t1	sp|P10401|POLY_DROME	28.429	2516	1035	19	1.25e-51	204	sp|P10401|POLY_DROME Retrovirus-related Pol polyprotein from transposon gypsy OS=Drosophila melanogaster OX=7227 GN=pol PE=3 SV=1
+aug_v2a.04548.t1	sp|P10394|POL4_DROME	32.483	2516	1237	16	1.06e-50	202	sp|P10394|POL4_DROME Retrovirus-related Pol polyprotein from transposon 412 OS=Drosophila melanogaster OX=7227 GN=POL PE=3 SV=1
+aug_v2a.04548.t1	sp|Q7LHG5|YI31B_YEAST	31.605	2516	1498	16	2.86e-50	201	sp|Q7LHG5|YI31B_YEAST Transposon Ty3-I Gag-Pol polyprotein OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) OX=559292 GN=TY3B-I PE=3 SV=2
+aug_v2a.04548.t1	sp|Q99315|YG31B_YEAST	30.455	2516	1547	17	1.49e-49	199	sp|Q99315|YG31B_YEAST Transposon Ty3-G Gag-Pol polyprotein OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) OX=559292 GN=TY3B-G PE=1 SV=3
+aug_v2a.04548.t1	sp|P0CT43|TF28_SCHPO	26.852	2516	1333	17	1.03e-42	176	sp|P0CT43|TF28_SCHPO Transposon Tf2-8 polyprotein OS=Schizosaccharomyces pombe (strain 972 / ATCC 24843) OX=284812 GN=Tf2-8 PE=3 SV=1
+aug_v2a.04548.t1	sp|P0CT42|TF27_SCHPO	26.852	2516	1333	17	1.03e-42	176	sp|P0CT42|TF27_SCHPO Transposon Tf2-7 polyprotein OS=Schizosaccharomyces pombe (strain 972 / ATCC 24843) OX=284812 GN=Tf2-7 PE=3 SV=1
+aug_v2a.04548.t1	sp|P0CT40|TF29_SCHPO	26.620	2516	1333	17	1.14e-42	176	sp|P0CT40|TF29_SCHPO Transposon Tf2-9 polyprotein OS=Schizosaccharomyces pombe (strain 972 / ATCC 24843) OX=284812 GN=Tf2-9 PE=3 SV=1
+aug_v2a.04548.t1	sp|P0CT37|TF24_SCHPO	26.620	2516	1333	17	1.14e-42	176	sp|P0CT37|TF24_SCHPO Transposon Tf2-4 polyprotein OS=Schizosaccharomyces pombe (strain 972 / ATCC 24843) OX=284812 GN=Tf2-4 PE=3 SV=1
+aug_v2a.04548.t1	sp|P0CT35|TF22_SCHPO	26.620	2516	1333	17	1.14e-42	176	sp|P0CT35|TF22_SCHPO Transposon Tf2-2 polyprotein OS=Schizosaccharomyces pombe (strain 972 / ATCC 24843) OX=284812 GN=Tf2-2 PE=3 SV=1
+aug_v2a.04548.t1	sp|P0CT34|TF21_SCHPO	26.620	2516	1333	17	1.14e-42	176	sp|P0CT34|TF21_SCHPO Transposon Tf2-1 polyprotein OS=Schizosaccharomyces pombe (strain 972 / ATCC 24843) OX=284812 GN=Tf2-1 PE=3 SV=1
+aug_v2a.04548.t1	sp|Q9UR07|TF211_SCHPO	26.852	2516	1333	17	1.20e-42	176	sp|Q9UR07|TF211_SCHPO Transposon Tf2-11 polyprotein OS=Schizosaccharomyces pombe (strain 972 / ATCC 24843) OX=284812 GN=Tf2-11 PE=3 SV=1
+aug_v2a.04548.t1	sp|P0CT39|TF26_SCHPO	26.620	2516	1333	17	1.22e-42	176	sp|P0CT39|TF26_SCHPO Transposon Tf2-6 polyprotein OS=Schizosaccharomyces pombe (strain 972 / ATCC 24843) OX=284812 GN=Tf2-6 PE=3 SV=1
+aug_v2a.04548.t1	sp|P0CT38|TF25_SCHPO	26.620	2516	1333	17	1.22e-42	176	sp|P0CT38|TF25_SCHPO Transposon Tf2-5 polyprotein OS=Schizosaccharomyces pombe (strain 972 / ATCC 24843) OX=284812 GN=Tf2-5 PE=3 SV=1
+aug_v2a.04548.t1	sp|P0CT36|TF23_SCHPO	26.620	2516	1333	17	1.22e-42	176	sp|P0CT36|TF23_SCHPO Transposon Tf2-3 polyprotein OS=Schizosaccharomyces pombe (strain 972 / ATCC 24843) OX=284812 GN=Tf2-3 PE=1 SV=1
+aug_v2a.04548.t1	sp|P0CT41|TF212_SCHPO	26.620	2516	1333	17	1.22e-42	176	sp|P0CT41|TF212_SCHPO Transposon Tf2-12 polyprotein OS=Schizosaccharomyces pombe (strain 972 / ATCC 24843) OX=284812 GN=Tf2-12 PE=3 SV=1
+aug_v2a.04548.t1	sp|Q02964|POL_CAMVE	25.701	2516	679	16	5.52e-31	135	sp|Q02964|POL_CAMVE Enzymatic polyprotein OS=Cauliflower mosaic virus (strain BBC) OX=31556 GN=ORF V PE=3 SV=1
+aug_v2a.04548.t1	sp|P03554|POL_CAMVS	25.701	2516	679	16	5.71e-31	135	sp|P03554|POL_CAMVS Enzymatic polyprotein OS=Cauliflower mosaic virus (strain Strasbourg) OX=10648 GN=ORF V PE=3 SV=1
+aug_v2a.04548.t1	sp|P03555|POL_CAMVC	25.701	2516	679	16	5.97e-31	135	sp|P03555|POL_CAMVC Enzymatic polyprotein OS=Cauliflower mosaic virus (strain CM-1841) OX=10644 GN=ORF V PE=3 SV=1
+aug_v2a.04548.t1	sp|Q00962|POL_CAMVN	25.234	2516	680	16	8.79e-31	135	sp|Q00962|POL_CAMVN Enzymatic polyprotein OS=Cauliflower mosaic virus (strain NY8153) OX=31557 GN=ORF V PE=3 SV=1
+aug_v2a.04548.t1	sp|P03556|POL_CAMVD	25.467	2516	674	16	3.96e-30	133	sp|P03556|POL_CAMVD Enzymatic polyprotein OS=Cauliflower mosaic virus (strain D/H) OX=10645 GN=ORF V PE=3 SV=1
+aug_v2a.04548.t1	sp|P09523|POL_FMVD	24.007	2516	666	21	7.88e-30	132	sp|P09523|POL_FMVD Enzymatic polyprotein OS=Figwort mosaic virus (strain DxS) OX=10650 GN=ORF V PE=3 SV=1
+aug_v2a.04548.t1	sp|Q6XKE6|POLG_PVCV2	24.413	2516	2180	16	2.82e-27	126	sp|Q6XKE6|POLG_PVCV2 Genome polyprotein OS=Petunia vein clearing virus (isolate Hohn) OX=492095 PE=3 SV=1
+aug_v2a.04548.t1	sp|Q91DM0|POLG_PVCV1	24.413	2516	2179	16	3.23e-27	125	sp|Q91DM0|POLG_PVCV1 Genome polyprotein OS=Petunia vein clearing virus (isolate Shepherd) OX=492094 PE=3 SV=1
+aug_v2a.04548.t1	sp|Q89703|POL_CSVMV	24.902	2516	652	19	6.38e-27	122	sp|Q89703|POL_CSVMV Putative enzymatic polyprotein OS=Cassava vein mosaic virus OX=38062 GN=ORF 3 PE=3 SV=1
+aug_v2a.04548.t1	sp|P05400|POL_CERV	24.138	2516	659	16	7.32e-27	122	sp|P05400|POL_CERV Enzymatic polyprotein OS=Carnation etched ring virus OX=10640 GN=ORF V PE=3 SV=1
+aug_v2a.04548.t1	sp|Q7TD08|POL_CYLCV	27.294	2516	643	16	3.13e-25	117	sp|Q7TD08|POL_CYLCV Enzymatic polyprotein OS=Cestrum yellow leaf curling virus OX=175814 GN=ORF V PE=3 SV=1
+aug_v2a.04548.t1	sp|P27502|POL_RTBVP	23.721	2516	1675	16	2.57e-17	93.2	sp|P27502|POL_RTBVP Polyprotein P3 OS=Rice tungro bacilliform virus (isolate Philippines) OX=10655 PE=1 SV=1
+aug_v2a.04548.t1	sp|P10273|POL_FLV	22.857	2516	1712	13	4.78e-17	92.4	sp|P10273|POL_FLV Gag-Pol polyprotein OS=Feline leukemia virus OX=11768 GN=pol PE=3 SV=2
+aug_v2a.04548.t1	sp|P31792|POL_FENV1	22.000	2516	1046	13	4.92e-17	92.0	sp|P31792|POL_FENV1 Pol polyprotein (Fragment) OS=Feline endogenous virus ECE1 OX=11766 GN=pol PE=3 SV=1
+aug_v2a.04548.t1	sp|P19199|POL_COYMV	25.188	2516	1886	10	1.32e-16	90.9	sp|P19199|POL_COYMV Polyprotein P3 OS=Commelina yellow mottle virus OX=10653 PE=3 SV=2
+aug_v2a.04548.t1	sp|P10272|POL_BAEVM	23.077	2516	1727	13	4.39e-16	89.4	sp|P10272|POL_BAEVM Gag-Pol polyprotein OS=Baboon endogenous virus (strain M7) OX=11764 GN=pol PE=3 SV=2
+aug_v2a.04548.t1	sp|Q9TTC1|POL_KORV	23.099	2516	1687	13	1.79e-15	87.4	sp|Q9TTC1|POL_KORV Gag-Pol polyprotein OS=Koala retrovirus OX=394239 GN=pro-pol PE=3 SV=2
+aug_v2a.04548.t1	sp|P08361|POL_MLVCB	22.159	2516	1733	13	2.44e-15	86.7	sp|P08361|POL_MLVCB Gag-Pol polyprotein OS=Cas-Br-E murine leukemia virus OX=11792 GN=gag-pol PE=3 SV=2
+aug_v2a.04548.t1	sp|Q09575|YRD6_CAEEL	26.016	2516	1268	10	2.93e-15	86.3	sp|Q09575|YRD6_CAEEL Uncharacterized protein K02A2.6 OS=Caenorhabditis elegans OX=6239 GN=K02A2.6 PE=4 SV=1
+aug_v2a.04548.t1	sp|P15629|POL_SOCMV	29.719	2516	692	9	2.93e-15	85.9	sp|P15629|POL_SOCMV Enzymatic polyprotein OS=Soybean chlorotic mottle virus OX=10651 GN=ORF V PE=3 SV=2
+aug_v2a.04548.t1	sp|P03359|POL_WMSV	24.000	2516	1687	13	3.18e-15	86.3	sp|P03359|POL_WMSV Gag-Pol polyprotein OS=Woolly monkey sarcoma virus OX=11970 GN=pol PE=3 SV=2
+aug_v2a.04548.t1	sp|Q2F7J0|POL_XMRV4	21.591	2516	1733	13	3.75e-15	86.3	sp|Q2F7J0|POL_XMRV4 Gag-Pol polyprotein OS=Xenotropic MuLV-related virus (isolate VP42) OX=356664 GN=gag-pol PE=3 SV=1
+aug_v2a.04548.t1	sp|A1Z651|POL_XMRV6	21.591	2516	1733	13	3.79e-15	86.3	sp|A1Z651|POL_XMRV6 Gag-Pol polyprotein OS=Xenotropic MuLV-related virus (isolate VP62) OX=373193 GN=gag-pol PE=1 SV=1
+aug_v2a.04548.t1	sp|Q2F7J3|POL_XMRV3	21.591	2516	1733	13	3.98e-15	86.3	sp|Q2F7J3|POL_XMRV3 Gag-Pol polyprotein OS=Xenotropic MuLV-related virus (isolate VP35) OX=356663 GN=gag-pol PE=1 SV=1
+aug_v2a.04548.t1	sp|P21414|POL_GALV	23.714	2516	1686	13	4.34e-15	85.9	sp|P21414|POL_GALV Gag-Pol polyprotein OS=Gibbon ape leukemia virus OX=11840 GN=pol PE=3 SV=2
+aug_v2a.04548.t1	sp|P03355|POL_MLVMS	21.591	2516	1738	13	5.22e-15	85.9	sp|P03355|POL_MLVMS Gag-Pol polyprotein OS=Moloney murine leukemia virus (isolate Shinnick) OX=928306 GN=gag-pol PE=1 SV=5
+aug_v2a.04548.t1	sp|Q7SVK7|POL_MLVBM	21.591	2516	1734	13	1.14e-14	84.7	sp|Q7SVK7|POL_MLVBM Gag-pol polyprotein OS=Murine leukemia virus (strain BM5 eco) OX=31687 GN=gag-pol PE=3 SV=2
+aug_v2a.04548.t1	sp|P03360|POL_AVIRE	21.892	2516	1152	13	1.34e-14	84.3	sp|P03360|POL_AVIRE Gag-Pol polyprotein (Fragment) OS=Avian reticuloendotheliosis virus OX=11636 GN=pol PE=1 SV=2
+aug_v2a.04548.t1	sp|P03356|POL_MLVAV	21.875	2516	1734	13	1.83e-14	84.0	sp|P03356|POL_MLVAV Gag-Pol polyprotein OS=AKV murine leukemia virus OX=11791 GN=pol PE=3 SV=3
+aug_v2a.04548.t1	sp|F6R2G2|NLRC4_XENTR	22.841	2516	997	14	2.19e-14	83.6	sp|F6R2G2|NLRC4_XENTR NLR family CARD domain-containing protein 4 OS=Xenopus tropicalis OX=8364 GN=nlrc4 PE=2 SV=2
+aug_v2a.04548.t1	sp|O92815|POL_WDSV	24.064	2516	1752	14	6.26e-14	82.0	sp|O92815|POL_WDSV Gag-Pol polyprotein OS=Walleye dermal sarcoma virus OX=39720 GN=gag-pol PE=1 SV=2
+aug_v2a.04548.t1	sp|P26808|POL_MLVFP	21.307	2516	1738	13	6.30e-14	82.0	sp|P26808|POL_MLVFP Gag-Pol polyprotein OS=Friend murine leukemia virus (isolate PVC-211) OX=11798 GN=pol PE=3 SV=2
+aug_v2a.04548.t1	sp|P26809|POL_MLVFF	21.307	2516	1738	13	7.51e-14	82.0	sp|P26809|POL_MLVFF Gag-Pol polyprotein OS=Friend murine leukemia virus (isolate FB29) OX=11797 GN=pol PE=3 SV=2
+aug_v2a.04548.t1	sp|P26810|POL_MLVF5	21.530	2516	1739	13	1.03e-13	81.6	sp|P26810|POL_MLVF5 Gag-Pol polyprotein OS=Friend murine leukemia virus (isolate 57) OX=11796 GN=pol PE=3 SV=2
+aug_v2a.04548.t1	sp|P11227|POL_MLVRD	20.917	2516	1734	13	4.39e-13	79.3	sp|P11227|POL_MLVRD Gag-Pol polyprotein OS=Radiation murine leukemia virus OX=11787 GN=pol PE=3 SV=2
+aug_v2a.04548.t1	sp|B1VEI4|MSHA_CORU7	24.768	2516	424	12	5.81e-12	73.9	sp|B1VEI4|MSHA_CORU7 D-inositol 3-phosphate glycosyltransferase OS=Corynebacterium urealyticum (strain ATCC 43042 / DSM 7109) OX=504474 GN=mshA PE=3 SV=1
+aug_v2a.04548.t1	sp|Q63035|NLRP6_RAT	22.507	2516	881	13	6.89e-11	72.0	sp|Q63035|NLRP6_RAT NACHT, LRR and PYD domains-containing protein 6 OS=Rattus norvegicus OX=10116 GN=Nlrp6 PE=1 SV=4
+aug_v2a.04548.t1	sp|Q96P20|NLRP3_HUMAN	23.601	2516	1036	15	9.17e-11	71.6	sp|Q96P20|NLRP3_HUMAN NACHT, LRR and PYD domains-containing protein 3 OS=Homo sapiens OX=9606 GN=NLRP3 PE=1 SV=3
+aug_v2a.10500.t1	sp|Q7LHG5|YI31B_YEAST	44.253	1510	1498	29	2.02e-31	138	sp|Q7LHG5|YI31B_YEAST Transposon Ty3-I Gag-Pol polyprotein OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) OX=559292 GN=TY3B-I PE=3 SV=2
+aug_v2a.10500.t1	sp|Q7LHG5|YI31B_YEAST	27.206	1510	1498	29	1.29e-14	83.6	sp|Q7LHG5|YI31B_YEAST Transposon Ty3-I Gag-Pol polyprotein OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) OX=559292 GN=TY3B-I PE=3 SV=2
+aug_v2a.10500.t1	sp|Q99315|YG31B_YEAST	44.253	1510	1547	29	2.08e-31	138	sp|Q99315|YG31B_YEAST Transposon Ty3-G Gag-Pol polyprotein OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) OX=559292 GN=TY3B-G PE=1 SV=3
+aug_v2a.10500.t1	sp|Q99315|YG31B_YEAST	27.206	1510	1547	29	9.93e-15	84.0	sp|Q99315|YG31B_YEAST Transposon Ty3-G Gag-Pol polyprotein OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) OX=559292 GN=TY3B-G PE=1 SV=3
+aug_v2a.10500.t1	sp|Q8I7P9|POL5_DROME	42.500	1510	1003	10	2.94e-28	127	sp|Q8I7P9|POL5_DROME Retrovirus-related Pol polyprotein from transposon opus OS=Drosophila melanogaster OX=7227 GN=pol PE=3 SV=1
+aug_v2a.10500.t1	sp|P20825|POL2_DROME	37.725	1510	1059	11	9.63e-26	119	sp|P20825|POL2_DROME Retrovirus-related Pol polyprotein from transposon 297 OS=Drosophila melanogaster OX=7227 GN=pol PE=3 SV=1
+aug_v2a.10500.t1	sp|P10394|POL4_DROME	38.158	1510	1237	10	7.68e-25	116	sp|P10394|POL4_DROME Retrovirus-related Pol polyprotein from transposon 412 OS=Drosophila melanogaster OX=7227 GN=POL PE=3 SV=1
+aug_v2a.10500.t1	sp|P04323|POL3_DROME	36.527	1510	1058	11	7.57e-24	113	sp|P04323|POL3_DROME Retrovirus-related Pol polyprotein from transposon 17.6 OS=Drosophila melanogaster OX=7227 GN=pol PE=3 SV=1
+aug_v2a.10500.t1	sp|P31843|RRPO_OENBE	49.462	1510	142	6	8.47e-23	99.4	sp|P31843|RRPO_OENBE RNA-directed DNA polymerase homolog OS=Oenothera berteroana OX=3950 PE=4 SV=1
+aug_v2a.10500.t1	sp|P03554|POL_CAMVS	37.241	1510	679	9	1.53e-21	105	sp|P03554|POL_CAMVS Enzymatic polyprotein OS=Cauliflower mosaic virus (strain Strasbourg) OX=10648 GN=ORF V PE=3 SV=1
+aug_v2a.10500.t1	sp|P03555|POL_CAMVC	37.241	1510	679	9	1.66e-21	105	sp|P03555|POL_CAMVC Enzymatic polyprotein OS=Cauliflower mosaic virus (strain CM-1841) OX=10644 GN=ORF V PE=3 SV=1
+aug_v2a.10500.t1	sp|Q02964|POL_CAMVE	37.241	1510	679	9	1.74e-21	104	sp|Q02964|POL_CAMVE Enzymatic polyprotein OS=Cauliflower mosaic virus (strain BBC) OX=31556 GN=ORF V PE=3 SV=1
+aug_v2a.10500.t1	sp|Q00962|POL_CAMVN	36.552	1510	680	9	2.27e-21	104	sp|Q00962|POL_CAMVN Enzymatic polyprotein OS=Cauliflower mosaic virus (strain NY8153) OX=31557 GN=ORF V PE=3 SV=1
+aug_v2a.10500.t1	sp|P03556|POL_CAMVD	36.552	1510	674	9	1.48e-20	102	sp|P03556|POL_CAMVD Enzymatic polyprotein OS=Cauliflower mosaic virus (strain D/H) OX=10645 GN=ORF V PE=3 SV=1
+aug_v2a.10500.t1	sp|P10401|POLY_DROME	40.602	1510	1035	8	2.00e-20	102	sp|P10401|POLY_DROME Retrovirus-related Pol polyprotein from transposon gypsy OS=Drosophila melanogaster OX=7227 GN=pol PE=3 SV=1
+aug_v2a.10500.t1	sp|P15629|POL_SOCMV	37.662	1510	692	10	2.70e-19	97.8	sp|P15629|POL_SOCMV Enzymatic polyprotein OS=Soybean chlorotic mottle virus OX=10651 GN=ORF V PE=3 SV=2
+aug_v2a.10500.t1	sp|P0CT40|TF29_SCHPO	35.211	1510	1333	9	2.70e-18	95.5	sp|P0CT40|TF29_SCHPO Transposon Tf2-9 polyprotein OS=Schizosaccharomyces pombe (strain 972 / ATCC 24843) OX=284812 GN=Tf2-9 PE=3 SV=1
+aug_v2a.10500.t1	sp|P0CT39|TF26_SCHPO	35.211	1510	1333	9	2.70e-18	95.5	sp|P0CT39|TF26_SCHPO Transposon Tf2-6 polyprotein OS=Schizosaccharomyces pombe (strain 972 / ATCC 24843) OX=284812 GN=Tf2-6 PE=3 SV=1
+aug_v2a.10500.t1	sp|P0CT38|TF25_SCHPO	35.211	1510	1333	9	2.70e-18	95.5	sp|P0CT38|TF25_SCHPO Transposon Tf2-5 polyprotein OS=Schizosaccharomyces pombe (strain 972 / ATCC 24843) OX=284812 GN=Tf2-5 PE=3 SV=1
+aug_v2a.10500.t1	sp|P0CT37|TF24_SCHPO	35.211	1510	1333	9	2.70e-18	95.5	sp|P0CT37|TF24_SCHPO Transposon Tf2-4 polyprotein OS=Schizosaccharomyces pombe (strain 972 / ATCC 24843) OX=284812 GN=Tf2-4 PE=3 SV=1
+aug_v2a.10500.t1	sp|P0CT36|TF23_SCHPO	35.211	1510	1333	9	2.70e-18	95.5	sp|P0CT36|TF23_SCHPO Transposon Tf2-3 polyprotein OS=Schizosaccharomyces pombe (strain 972 / ATCC 24843) OX=284812 GN=Tf2-3 PE=1 SV=1
+aug_v2a.10500.t1	sp|P0CT35|TF22_SCHPO	35.211	1510	1333	9	2.70e-18	95.5	sp|P0CT35|TF22_SCHPO Transposon Tf2-2 polyprotein OS=Schizosaccharomyces pombe (strain 972 / ATCC 24843) OX=284812 GN=Tf2-2 PE=3 SV=1
+aug_v2a.10500.t1	sp|P0CT34|TF21_SCHPO	35.211	1510	1333	9	2.70e-18	95.5	sp|P0CT34|TF21_SCHPO Transposon Tf2-1 polyprotein OS=Schizosaccharomyces pombe (strain 972 / ATCC 24843) OX=284812 GN=Tf2-1 PE=3 SV=1
+aug_v2a.10500.t1	sp|P0CT41|TF212_SCHPO	35.211	1510	1333	9	2.70e-18	95.5	sp|P0CT41|TF212_SCHPO Transposon Tf2-12 polyprotein OS=Schizosaccharomyces pombe (strain 972 / ATCC 24843) OX=284812 GN=Tf2-12 PE=3 SV=1
+aug_v2a.10500.t1	sp|P05400|POL_CERV	36.496	1510	659	9	2.81e-18	94.7	sp|P05400|POL_CERV Enzymatic polyprotein OS=Carnation etched ring virus OX=10640 GN=ORF V PE=3 SV=1
+aug_v2a.10500.t1	sp|P0CT43|TF28_SCHPO	35.211	1510	1333	9	5.87e-18	94.4	sp|P0CT43|TF28_SCHPO Transposon Tf2-8 polyprotein OS=Schizosaccharomyces pombe (strain 972 / ATCC 24843) OX=284812 GN=Tf2-8 PE=3 SV=1
+aug_v2a.10500.t1	sp|P0CT42|TF27_SCHPO	35.211	1510	1333	9	5.87e-18	94.4	sp|P0CT42|TF27_SCHPO Transposon Tf2-7 polyprotein OS=Schizosaccharomyces pombe (strain 972 / ATCC 24843) OX=284812 GN=Tf2-7 PE=3 SV=1
+aug_v2a.10500.t1	sp|Q9UR07|TF211_SCHPO	35.211	1510	1333	9	6.34e-18	94.4	sp|Q9UR07|TF211_SCHPO Transposon Tf2-11 polyprotein OS=Schizosaccharomyces pombe (strain 972 / ATCC 24843) OX=284812 GN=Tf2-11 PE=3 SV=1
+aug_v2a.10500.t1	sp|P09523|POL_FMVD	34.014	1510	666	9	1.56e-17	92.0	sp|P09523|POL_FMVD Enzymatic polyprotein OS=Figwort mosaic virus (strain DxS) OX=10650 GN=ORF V PE=3 SV=1
+aug_v2a.10500.t1	sp|Q7TD08|POL_CYLCV	35.256	1510	643	10	6.52e-17	90.1	sp|Q7TD08|POL_CYLCV Enzymatic polyprotein OS=Cestrum yellow leaf curling virus OX=175814 GN=ORF V PE=3 SV=1
+aug_v2a.10500.t1	sp|P19199|POL_COYMV	31.126	1510	1886	9	1.20e-15	87.0	sp|P19199|POL_COYMV Polyprotein P3 OS=Commelina yellow mottle virus OX=10653 PE=3 SV=2
+aug_v2a.10500.t1	sp|Q6XKE6|POLG_PVCV2	30.714	1510	2180	9	2.58e-15	85.9	sp|Q6XKE6|POLG_PVCV2 Genome polyprotein OS=Petunia vein clearing virus (isolate Hohn) OX=492095 PE=3 SV=1
+aug_v2a.10500.t1	sp|Q91DM0|POLG_PVCV1	30.714	1510	2179	9	2.88e-15	85.9	sp|Q91DM0|POLG_PVCV1 Genome polyprotein OS=Petunia vein clearing virus (isolate Shepherd) OX=492094 PE=3 SV=1
+aug_v2a.10500.t1	sp|Q09575|YRD6_CAEEL	28.289	1510	1268	10	4.79e-14	81.6	sp|Q09575|YRD6_CAEEL Uncharacterized protein K02A2.6 OS=Caenorhabditis elegans OX=6239 GN=K02A2.6 PE=4 SV=1
+aug_v2a.10500.t1	sp|Q89703|POL_CSVMV	29.412	1510	652	8	7.80e-14	80.1	sp|Q89703|POL_CSVMV Putative enzymatic polyprotein OS=Cassava vein mosaic virus OX=38062 GN=ORF 3 PE=3 SV=1
+aug_v2a.10500.t1	sp|O93209|POL_FFV	29.221	1510	1156	10	5.99e-11	71.2	sp|O93209|POL_FFV Pro-Pol polyprotein OS=Feline foamy virus OX=53182 GN=pol PE=3 SV=1
+aug_v2a.04004.t2	sp|Q96AY4|TTC28_HUMAN	27.340	2248	2481	32	7.58e-31	137	sp|Q96AY4|TTC28_HUMAN Tetratricopeptide repeat protein 28 OS=Homo sapiens OX=9606 GN=TTC28 PE=1 SV=4
+aug_v2a.04004.t2	sp|Q96AY4|TTC28_HUMAN	26.265	2248	2481	32	1.00e-26	124	sp|Q96AY4|TTC28_HUMAN Tetratricopeptide repeat protein 28 OS=Homo sapiens OX=9606 GN=TTC28 PE=1 SV=4
+aug_v2a.04004.t2	sp|Q96AY4|TTC28_HUMAN	27.273	2248	2481	32	4.94e-26	122	sp|Q96AY4|TTC28_HUMAN Tetratricopeptide repeat protein 28 OS=Homo sapiens OX=9606 GN=TTC28 PE=1 SV=4
+aug_v2a.04004.t2	sp|Q96AY4|TTC28_HUMAN	26.010	2248	2481	32	1.38e-25	120	sp|Q96AY4|TTC28_HUMAN Tetratricopeptide repeat protein 28 OS=Homo sapiens OX=9606 GN=TTC28 PE=1 SV=4
+aug_v2a.04004.t2	sp|Q96AY4|TTC28_HUMAN	25.980	2248	2481	32	6.87e-25	118	sp|Q96AY4|TTC28_HUMAN Tetratricopeptide repeat protein 28 OS=Homo sapiens OX=9606 GN=TTC28 PE=1 SV=4
+aug_v2a.04004.t2	sp|Q96AY4|TTC28_HUMAN	24.364	2248	2481	32	3.73e-22	109	sp|Q96AY4|TTC28_HUMAN Tetratricopeptide repeat protein 28 OS=Homo sapiens OX=9606 GN=TTC28 PE=1 SV=4
+aug_v2a.04004.t2	sp|Q96AY4|TTC28_HUMAN	28.926	2248	2481	32	3.18e-21	106	sp|Q96AY4|TTC28_HUMAN Tetratricopeptide repeat protein 28 OS=Homo sapiens OX=9606 GN=TTC28 PE=1 SV=4
+aug_v2a.04004.t2	sp|Q96AY4|TTC28_HUMAN	30.660	2248	2481	32	5.93e-21	105	sp|Q96AY4|TTC28_HUMAN Tetratricopeptide repeat protein 28 OS=Homo sapiens OX=9606 GN=TTC28 PE=1 SV=4
+aug_v2a.04004.t2	sp|Q96AY4|TTC28_HUMAN	29.744	2248	2481	32	1.27e-20	103	sp|Q96AY4|TTC28_HUMAN Tetratricopeptide repeat protein 28 OS=Homo sapiens OX=9606 GN=TTC28 PE=1 SV=4
+aug_v2a.04004.t2	sp|Q96AY4|TTC28_HUMAN	30.526	2248	2481	32	3.16e-20	102	sp|Q96AY4|TTC28_HUMAN Tetratricopeptide repeat protein 28 OS=Homo sapiens OX=9606 GN=TTC28 PE=1 SV=4
+aug_v2a.04004.t2	sp|Q96AY4|TTC28_HUMAN	27.308	2248	2481	32	4.77e-20	102	sp|Q96AY4|TTC28_HUMAN Tetratricopeptide repeat protein 28 OS=Homo sapiens OX=9606 GN=TTC28 PE=1 SV=4
+aug_v2a.04004.t2	sp|Q96AY4|TTC28_HUMAN	28.729	2248	2481	32	3.77e-18	95.9	sp|Q96AY4|TTC28_HUMAN Tetratricopeptide repeat protein 28 OS=Homo sapiens OX=9606 GN=TTC28 PE=1 SV=4
+aug_v2a.04004.t2	sp|Q96AY4|TTC28_HUMAN	30.412	2248	2481	32	4.98e-18	95.5	sp|Q96AY4|TTC28_HUMAN Tetratricopeptide repeat protein 28 OS=Homo sapiens OX=9606 GN=TTC28 PE=1 SV=4
+aug_v2a.04004.t2	sp|Q96AY4|TTC28_HUMAN	26.383	2248	2481	32	8.59e-18	94.7	sp|Q96AY4|TTC28_HUMAN Tetratricopeptide repeat protein 28 OS=Homo sapiens OX=9606 GN=TTC28 PE=1 SV=4
+aug_v2a.04004.t2	sp|Q96AY4|TTC28_HUMAN	28.061	2248	2481	32	1.20e-17	94.4	sp|Q96AY4|TTC28_HUMAN Tetratricopeptide repeat protein 28 OS=Homo sapiens OX=9606 GN=TTC28 PE=1 SV=4
+aug_v2a.04004.t2	sp|Q96AY4|TTC28_HUMAN	28.495	2248	2481	32	1.76e-17	94.0	sp|Q96AY4|TTC28_HUMAN Tetratricopeptide repeat protein 28 OS=Homo sapiens OX=9606 GN=TTC28 PE=1 SV=4
+aug_v2a.04004.t2	sp|Q96AY4|TTC28_HUMAN	28.821	2248	2481	32	1.61e-16	90.5	sp|Q96AY4|TTC28_HUMAN Tetratricopeptide repeat protein 28 OS=Homo sapiens OX=9606 GN=TTC28 PE=1 SV=4
+aug_v2a.04004.t2	sp|Q96AY4|TTC28_HUMAN	27.979	2248	2481	32	2.22e-16	90.1	sp|Q96AY4|TTC28_HUMAN Tetratricopeptide repeat protein 28 OS=Homo sapiens OX=9606 GN=TTC28 PE=1 SV=4
+aug_v2a.04004.t2	sp|Q96AY4|TTC28_HUMAN	27.273	2248	2481	32	9.34e-12	75.1	sp|Q96AY4|TTC28_HUMAN Tetratricopeptide repeat protein 28 OS=Homo sapiens OX=9606 GN=TTC28 PE=1 SV=4
+aug_v2a.04004.t2	sp|Q80XJ3|TTC28_MOUSE	27.340	2248	2450	31	2.90e-30	135	sp|Q80XJ3|TTC28_MOUSE Tetratricopeptide repeat protein 28 OS=Mus musculus OX=10090 GN=Ttc28 PE=1 SV=3
+aug_v2a.04004.t2	sp|Q80XJ3|TTC28_MOUSE	27.033	2248	2450	31	9.25e-26	120	sp|Q80XJ3|TTC28_MOUSE Tetratricopeptide repeat protein 28 OS=Mus musculus OX=10090 GN=Ttc28 PE=1 SV=3
+aug_v2a.04004.t2	sp|Q80XJ3|TTC28_MOUSE	26.024	2248	2450	31	1.67e-25	120	sp|Q80XJ3|TTC28_MOUSE Tetratricopeptide repeat protein 28 OS=Mus musculus OX=10090 GN=Ttc28 PE=1 SV=3
+aug_v2a.04004.t2	sp|Q80XJ3|TTC28_MOUSE	25.773	2248	2450	31	1.52e-24	117	sp|Q80XJ3|TTC28_MOUSE Tetratricopeptide repeat protein 28 OS=Mus musculus OX=10090 GN=Ttc28 PE=1 SV=3
+aug_v2a.04004.t2	sp|Q80XJ3|TTC28_MOUSE	25.598	2248	2450	31	2.40e-24	116	sp|Q80XJ3|TTC28_MOUSE Tetratricopeptide repeat protein 28 OS=Mus musculus OX=10090 GN=Ttc28 PE=1 SV=3
+aug_v2a.04004.t2	sp|Q80XJ3|TTC28_MOUSE	24.153	2248	2450	31	4.15e-22	108	sp|Q80XJ3|TTC28_MOUSE Tetratricopeptide repeat protein 28 OS=Mus musculus OX=10090 GN=Ttc28 PE=1 SV=3
+aug_v2a.04004.t2	sp|Q80XJ3|TTC28_MOUSE	32.044	2248	2450	31	5.86e-21	105	sp|Q80XJ3|TTC28_MOUSE Tetratricopeptide repeat protein 28 OS=Mus musculus OX=10090 GN=Ttc28 PE=1 SV=3
+aug_v2a.04004.t2	sp|Q80XJ3|TTC28_MOUSE	28.899	2248	2450	31	1.14e-20	104	sp|Q80XJ3|TTC28_MOUSE Tetratricopeptide repeat protein 28 OS=Mus musculus OX=10090 GN=Ttc28 PE=1 SV=3
+aug_v2a.04004.t2	sp|Q80XJ3|TTC28_MOUSE	29.744	2248	2450	31	3.51e-20	102	sp|Q80XJ3|TTC28_MOUSE Tetratricopeptide repeat protein 28 OS=Mus musculus OX=10090 GN=Ttc28 PE=1 SV=3
+aug_v2a.04004.t2	sp|Q80XJ3|TTC28_MOUSE	27.308	2248	2450	31	3.85e-20	102	sp|Q80XJ3|TTC28_MOUSE Tetratricopeptide repeat protein 28 OS=Mus musculus OX=10090 GN=Ttc28 PE=1 SV=3
+aug_v2a.04004.t2	sp|Q80XJ3|TTC28_MOUSE	30.526	2248	2450	31	1.34e-19	100	sp|Q80XJ3|TTC28_MOUSE Tetratricopeptide repeat protein 28 OS=Mus musculus OX=10090 GN=Ttc28 PE=1 SV=3
+aug_v2a.04004.t2	sp|Q80XJ3|TTC28_MOUSE	28.099	2248	2450	31	6.23e-18	95.1	sp|Q80XJ3|TTC28_MOUSE Tetratricopeptide repeat protein 28 OS=Mus musculus OX=10090 GN=Ttc28 PE=1 SV=3
+aug_v2a.04004.t2	sp|Q80XJ3|TTC28_MOUSE	28.061	2248	2450	31	1.28e-17	94.4	sp|Q80XJ3|TTC28_MOUSE Tetratricopeptide repeat protein 28 OS=Mus musculus OX=10090 GN=Ttc28 PE=1 SV=3
+aug_v2a.04004.t2	sp|Q80XJ3|TTC28_MOUSE	28.177	2248	2450	31	3.52e-17	92.8	sp|Q80XJ3|TTC28_MOUSE Tetratricopeptide repeat protein 28 OS=Mus musculus OX=10090 GN=Ttc28 PE=1 SV=3
+aug_v2a.04004.t2	sp|Q80XJ3|TTC28_MOUSE	25.532	2248	2450	31	1.03e-16	91.3	sp|Q80XJ3|TTC28_MOUSE Tetratricopeptide repeat protein 28 OS=Mus musculus OX=10090 GN=Ttc28 PE=1 SV=3
+aug_v2a.04004.t2	sp|Q80XJ3|TTC28_MOUSE	27.957	2248	2450	31	1.38e-16	90.9	sp|Q80XJ3|TTC28_MOUSE Tetratricopeptide repeat protein 28 OS=Mus musculus OX=10090 GN=Ttc28 PE=1 SV=3
+aug_v2a.04004.t2	sp|Q80XJ3|TTC28_MOUSE	27.225	2248	2450	31	1.51e-16	90.9	sp|Q80XJ3|TTC28_MOUSE Tetratricopeptide repeat protein 28 OS=Mus musculus OX=10090 GN=Ttc28 PE=1 SV=3
+aug_v2a.04004.t2	sp|Q80XJ3|TTC28_MOUSE	27.979	2248	2450	31	3.43e-16	89.7	sp|Q80XJ3|TTC28_MOUSE Tetratricopeptide repeat protein 28 OS=Mus musculus OX=10090 GN=Ttc28 PE=1 SV=3
+aug_v2a.04004.t2	sp|Q80XJ3|TTC28_MOUSE	28.384	2248	2450	31	1.05e-15	87.8	sp|Q80XJ3|TTC28_MOUSE Tetratricopeptide repeat protein 28 OS=Mus musculus OX=10090 GN=Ttc28 PE=1 SV=3
+aug_v2a.04004.t2	sp|Q80XJ3|TTC28_MOUSE	26.842	2248	2450	31	1.58e-13	80.9	sp|Q80XJ3|TTC28_MOUSE Tetratricopeptide repeat protein 28 OS=Mus musculus OX=10090 GN=Ttc28 PE=1 SV=3
+aug_v2a.04004.t2	sp|Q80XJ3|TTC28_MOUSE	27.751	2248	2450	31	1.35e-12	77.8	sp|Q80XJ3|TTC28_MOUSE Tetratricopeptide repeat protein 28 OS=Mus musculus OX=10090 GN=Ttc28 PE=1 SV=3
+aug_v2a.04004.t2	sp|Q8VDU0|GPSM2_MOUSE	32.573	2248	679	28	8.16e-24	113	sp|Q8VDU0|GPSM2_MOUSE G-protein-signaling modulator 2 OS=Mus musculus OX=10090 GN=Gpsm2 PE=1 SV=2
+aug_v2a.04004.t2	sp|Q8VDU0|GPSM2_MOUSE	33.971	2248	679	28	2.05e-22	108	sp|Q8VDU0|GPSM2_MOUSE G-protein-signaling modulator 2 OS=Mus musculus OX=10090 GN=Gpsm2 PE=1 SV=2
+aug_v2a.04004.t2	sp|Q8VDU0|GPSM2_MOUSE	31.731	2248	679	28	1.90e-19	99.0	sp|Q8VDU0|GPSM2_MOUSE G-protein-signaling modulator 2 OS=Mus musculus OX=10090 GN=Gpsm2 PE=1 SV=2
+aug_v2a.04004.t2	sp|Q8VDU0|GPSM2_MOUSE	29.808	2248	679	28	2.60e-18	95.5	sp|Q8VDU0|GPSM2_MOUSE G-protein-signaling modulator 2 OS=Mus musculus OX=10090 GN=Gpsm2 PE=1 SV=2
+aug_v2a.04004.t2	sp|Q8VDU0|GPSM2_MOUSE	27.273	2248	679	28	2.96e-17	92.0	sp|Q8VDU0|GPSM2_MOUSE G-protein-signaling modulator 2 OS=Mus musculus OX=10090 GN=Gpsm2 PE=1 SV=2
+aug_v2a.04004.t2	sp|Q8VDU0|GPSM2_MOUSE	32.143	2248	679	28	5.78e-17	91.3	sp|Q8VDU0|GPSM2_MOUSE G-protein-signaling modulator 2 OS=Mus musculus OX=10090 GN=Gpsm2 PE=1 SV=2
+aug_v2a.04004.t2	sp|Q8VDU0|GPSM2_MOUSE	32.407	2248	679	28	1.91e-16	89.4	sp|Q8VDU0|GPSM2_MOUSE G-protein-signaling modulator 2 OS=Mus musculus OX=10090 GN=Gpsm2 PE=1 SV=2
+aug_v2a.04004.t2	sp|Q8VDU0|GPSM2_MOUSE	29.965	2248	679	28	6.84e-14	81.3	sp|Q8VDU0|GPSM2_MOUSE G-protein-signaling modulator 2 OS=Mus musculus OX=10090 GN=Gpsm2 PE=1 SV=2
+aug_v2a.04004.t2	sp|P81274|GPSM2_HUMAN	32.248	2248	684	28	8.31e-24	113	sp|P81274|GPSM2_HUMAN G-protein-signaling modulator 2 OS=Homo sapiens OX=9606 GN=GPSM2 PE=1 SV=3
+aug_v2a.04004.t2	sp|P81274|GPSM2_HUMAN	33.971	2248	684	28	1.67e-22	108	sp|P81274|GPSM2_HUMAN G-protein-signaling modulator 2 OS=Homo sapiens OX=9606 GN=GPSM2 PE=1 SV=3
+aug_v2a.04004.t2	sp|P81274|GPSM2_HUMAN	31.250	2248	684	28	8.18e-19	97.1	sp|P81274|GPSM2_HUMAN G-protein-signaling modulator 2 OS=Homo sapiens OX=9606 GN=GPSM2 PE=1 SV=3
+aug_v2a.04004.t2	sp|P81274|GPSM2_HUMAN	26.970	2248	684	28	4.41e-18	94.7	sp|P81274|GPSM2_HUMAN G-protein-signaling modulator 2 OS=Homo sapiens OX=9606 GN=GPSM2 PE=1 SV=3
+aug_v2a.04004.t2	sp|P81274|GPSM2_HUMAN	29.487	2248	684	28	4.93e-18	94.7	sp|P81274|GPSM2_HUMAN G-protein-signaling modulator 2 OS=Homo sapiens OX=9606 GN=GPSM2 PE=1 SV=3
+aug_v2a.04004.t2	sp|P81274|GPSM2_HUMAN	32.407	2248	684	28	1.04e-16	90.1	sp|P81274|GPSM2_HUMAN G-protein-signaling modulator 2 OS=Homo sapiens OX=9606 GN=GPSM2 PE=1 SV=3
+aug_v2a.04004.t2	sp|P81274|GPSM2_HUMAN	31.633	2248	684	28	1.29e-16	90.1	sp|P81274|GPSM2_HUMAN G-protein-signaling modulator 2 OS=Homo sapiens OX=9606 GN=GPSM2 PE=1 SV=3
+aug_v2a.04004.t2	sp|P81274|GPSM2_HUMAN	29.617	2248	684	28	1.25e-13	80.5	sp|P81274|GPSM2_HUMAN G-protein-signaling modulator 2 OS=Homo sapiens OX=9606 GN=GPSM2 PE=1 SV=3
+aug_v2a.04004.t2	sp|Q6IR34|GPSM1_MOUSE	28.966	2248	673	28	4.47e-19	97.8	sp|Q6IR34|GPSM1_MOUSE G-protein-signaling modulator 1 OS=Mus musculus OX=10090 GN=Gpsm1 PE=1 SV=3
+aug_v2a.04004.t2	sp|Q6IR34|GPSM1_MOUSE	30.769	2248	673	28	4.77e-18	94.7	sp|Q6IR34|GPSM1_MOUSE G-protein-signaling modulator 1 OS=Mus musculus OX=10090 GN=Gpsm1 PE=1 SV=3
+aug_v2a.04004.t2	sp|Q6IR34|GPSM1_MOUSE	28.617	2248	673	28	1.25e-17	93.2	sp|Q6IR34|GPSM1_MOUSE G-protein-signaling modulator 1 OS=Mus musculus OX=10090 GN=Gpsm1 PE=1 SV=3
+aug_v2a.04004.t2	sp|Q6IR34|GPSM1_MOUSE	28.507	2248	673	28	1.34e-17	93.2	sp|Q6IR34|GPSM1_MOUSE G-protein-signaling modulator 1 OS=Mus musculus OX=10090 GN=Gpsm1 PE=1 SV=3
+aug_v2a.04004.t2	sp|Q6IR34|GPSM1_MOUSE	32.955	2248	673	28	1.56e-17	92.8	sp|Q6IR34|GPSM1_MOUSE G-protein-signaling modulator 1 OS=Mus musculus OX=10090 GN=Gpsm1 PE=1 SV=3
+aug_v2a.04004.t2	sp|Q6IR34|GPSM1_MOUSE	30.612	2248	673	28	1.63e-15	86.3	sp|Q6IR34|GPSM1_MOUSE G-protein-signaling modulator 1 OS=Mus musculus OX=10090 GN=Gpsm1 PE=1 SV=3
+aug_v2a.04004.t2	sp|Q6IR34|GPSM1_MOUSE	32.143	2248	673	28	4.53e-15	85.1	sp|Q6IR34|GPSM1_MOUSE G-protein-signaling modulator 1 OS=Mus musculus OX=10090 GN=Gpsm1 PE=1 SV=3
+aug_v2a.04004.t2	sp|Q6IR34|GPSM1_MOUSE	25.817	2248	673	28	1.33e-13	80.1	sp|Q6IR34|GPSM1_MOUSE G-protein-signaling modulator 1 OS=Mus musculus OX=10090 GN=Gpsm1 PE=1 SV=3
+aug_v2a.04004.t2	sp|Q6IR34|GPSM1_MOUSE	27.239	2248	673	28	5.98e-11	71.6	sp|Q6IR34|GPSM1_MOUSE G-protein-signaling modulator 1 OS=Mus musculus OX=10090 GN=Gpsm1 PE=1 SV=3
+aug_v2a.04004.t2	sp|Q9R080|GPSM1_RAT	28.966	2248	673	28	4.96e-19	97.8	sp|Q9R080|GPSM1_RAT G-protein-signaling modulator 1 OS=Rattus norvegicus OX=10116 GN=Gpsm1 PE=1 SV=2
+aug_v2a.04004.t2	sp|Q9R080|GPSM1_RAT	30.769	2248	673	28	4.77e-18	94.7	sp|Q9R080|GPSM1_RAT G-protein-signaling modulator 1 OS=Rattus norvegicus OX=10116 GN=Gpsm1 PE=1 SV=2
+aug_v2a.04004.t2	sp|Q9R080|GPSM1_RAT	28.617	2248	673	28	1.40e-17	93.2	sp|Q9R080|GPSM1_RAT G-protein-signaling modulator 1 OS=Rattus norvegicus OX=10116 GN=Gpsm1 PE=1 SV=2
+aug_v2a.04004.t2	sp|Q9R080|GPSM1_RAT	32.955	2248	673	28	1.57e-17	92.8	sp|Q9R080|GPSM1_RAT G-protein-signaling modulator 1 OS=Rattus norvegicus OX=10116 GN=Gpsm1 PE=1 SV=2
+aug_v2a.04004.t2	sp|Q9R080|GPSM1_RAT	28.507	2248	673	28	1.60e-17	92.8	sp|Q9R080|GPSM1_RAT G-protein-signaling modulator 1 OS=Rattus norvegicus OX=10116 GN=Gpsm1 PE=1 SV=2
+aug_v2a.04004.t2	sp|Q9R080|GPSM1_RAT	30.612	2248	673	28	1.66e-15	86.3	sp|Q9R080|GPSM1_RAT G-protein-signaling modulator 1 OS=Rattus norvegicus OX=10116 GN=Gpsm1 PE=1 SV=2
+aug_v2a.04004.t2	sp|Q9R080|GPSM1_RAT	32.143	2248	673	28	4.81e-15	84.7	sp|Q9R080|GPSM1_RAT G-protein-signaling modulator 1 OS=Rattus norvegicus OX=10116 GN=Gpsm1 PE=1 SV=2
+aug_v2a.04004.t2	sp|Q9R080|GPSM1_RAT	25.817	2248	673	28	1.54e-13	80.1	sp|Q9R080|GPSM1_RAT G-protein-signaling modulator 1 OS=Rattus norvegicus OX=10116 GN=Gpsm1 PE=1 SV=2
+aug_v2a.04004.t2	sp|Q9R080|GPSM1_RAT	27.239	2248	673	28	6.45e-11	71.6	sp|Q9R080|GPSM1_RAT G-protein-signaling modulator 1 OS=Rattus norvegicus OX=10116 GN=Gpsm1 PE=1 SV=2
+aug_v2a.04004.t2	sp|Q86YR5|GPSM1_HUMAN	27.606	2248	675	28	2.67e-18	95.5	sp|Q86YR5|GPSM1_HUMAN G-protein-signaling modulator 1 OS=Homo sapiens OX=9606 GN=GPSM1 PE=1 SV=2
+aug_v2a.04004.t2	sp|Q86YR5|GPSM1_HUMAN	28.614	2248	675	28	7.11e-18	94.0	sp|Q86YR5|GPSM1_HUMAN G-protein-signaling modulator 1 OS=Homo sapiens OX=9606 GN=GPSM1 PE=1 SV=2
+aug_v2a.04004.t2	sp|Q86YR5|GPSM1_HUMAN	30.332	2248	675	28	4.39e-17	91.7	sp|Q86YR5|GPSM1_HUMAN G-protein-signaling modulator 1 OS=Homo sapiens OX=9606 GN=GPSM1 PE=1 SV=2
+aug_v2a.04004.t2	sp|Q86YR5|GPSM1_HUMAN	28.788	2248	675	28	5.88e-17	90.9	sp|Q86YR5|GPSM1_HUMAN G-protein-signaling modulator 1 OS=Homo sapiens OX=9606 GN=GPSM1 PE=1 SV=2
+aug_v2a.04004.t2	sp|Q86YR5|GPSM1_HUMAN	34.270	2248	675	28	6.19e-17	90.9	sp|Q86YR5|GPSM1_HUMAN G-protein-signaling modulator 1 OS=Homo sapiens OX=9606 GN=GPSM1 PE=1 SV=2
+aug_v2a.04004.t2	sp|Q86YR5|GPSM1_HUMAN	30.653	2248	675	28	1.01e-14	84.0	sp|Q86YR5|GPSM1_HUMAN G-protein-signaling modulator 1 OS=Homo sapiens OX=9606 GN=GPSM1 PE=1 SV=2
+aug_v2a.04004.t2	sp|Q86YR5|GPSM1_HUMAN	32.653	2248	675	28	1.93e-14	82.8	sp|Q86YR5|GPSM1_HUMAN G-protein-signaling modulator 1 OS=Homo sapiens OX=9606 GN=GPSM1 PE=1 SV=2
+aug_v2a.04004.t2	sp|Q55E58|PATS1_DICDI	24.096	2248	3184	18	1.66e-17	94.0	sp|Q55E58|PATS1_DICDI Probable serine/threonine-protein kinase pats1 OS=Dictyostelium discoideum OX=44689 GN=pats1 PE=3 SV=1
+aug_v2a.04004.t2	sp|Q6YZI0|SPY_ORYSJ	29.612	2248	927	9	5.44e-14	82.0	sp|Q6YZI0|SPY_ORYSJ Probable UDP-N-acetylglucosamine--peptide N-acetylglucosaminyltransferase SPINDLY OS=Oryza sativa subsp. japonica OX=39947 GN=SPY PE=2 SV=1
+aug_v2a.04004.t2	sp|O82422|SPY_HORVU	28.279	2248	944	11	1.28e-13	80.5	sp|O82422|SPY_HORVU Probable UDP-N-acetylglucosamine--peptide N-acetylglucosaminyltransferase SPINDLY OS=Hordeum vulgare OX=4513 GN=SPY PE=2 SV=1
+aug_v2a.04004.t2	sp|O82039|SPY_PETHY	28.293	2248	932	9	2.21e-13	79.7	sp|O82039|SPY_PETHY Probable UDP-N-acetylglucosamine--peptide N-acetylglucosaminyltransferase SPINDLY OS=Petunia hybrida OX=4102 GN=SPY PE=2 SV=1
+aug_v2a.04004.t2	sp|O82039|SPY_PETHY	28.061	2248	932	9	3.27e-11	72.8	sp|O82039|SPY_PETHY Probable UDP-N-acetylglucosamine--peptide N-acetylglucosaminyltransferase SPINDLY OS=Petunia hybrida OX=4102 GN=SPY PE=2 SV=1
+aug_v2a.04004.t2	sp|Q8RVB2|SPY_SOLLC	27.572	2248	931	11	4.94e-13	78.6	sp|Q8RVB2|SPY_SOLLC Probable UDP-N-acetylglucosamine--peptide N-acetylglucosaminyltransferase SPINDLY OS=Solanum lycopersicum OX=4081 GN=SPY PE=2 SV=1
+aug_v2a.04004.t2	sp|Q96301|SPY_ARATH	28.649	2248	914	9	4.97e-13	78.6	sp|Q96301|SPY_ARATH Probable UDP-N-acetylglucosamine--peptide N-acetylglucosaminyltransferase SPINDLY OS=Arabidopsis thaliana OX=3702 GN=SPY PE=1 SV=1
+aug_v2a.04004.t2	sp|Q96301|SPY_ARATH	27.670	2248	914	9	3.35e-11	72.8	sp|Q96301|SPY_ARATH Probable UDP-N-acetylglucosamine--peptide N-acetylglucosaminyltransferase SPINDLY OS=Arabidopsis thaliana OX=3702 GN=SPY PE=1 SV=1
+aug_v2a.04004.t2	sp|Q13702|RAPSN_HUMAN	26.009	2248	412	10	1.14e-12	75.9	sp|Q13702|RAPSN_HUMAN 43 kDa receptor-associated protein of the synapse OS=Homo sapiens OX=9606 GN=RAPSN PE=1 SV=4
+aug_v2a.04004.t2	sp|Q5S006|LRRK2_MOUSE	25.704	2248	2527	12	6.86e-12	75.5	sp|Q5S006|LRRK2_MOUSE Leucine-rich repeat serine/threonine-protein kinase 2 OS=Mus musculus OX=10090 GN=Lrrk2 PE=1 SV=2
+aug_v2a.04004.t2	sp|P12672|RAPSN_MOUSE	25.893	2248	412	10	6.09e-11	70.5	sp|P12672|RAPSN_MOUSE 43 kDa receptor-associated protein of the synapse OS=Mus musculus OX=10090 GN=Rapsn PE=2 SV=4
+aug_v2a.13437.t1	sp|Q86Y13|DZIP3_HUMAN	31.410	1654	1208	9	2.16e-19	99.4	sp|Q86Y13|DZIP3_HUMAN E3 ubiquitin-protein ligase DZIP3 OS=Homo sapiens OX=9606 GN=DZIP3 PE=1 SV=2
+aug_v2a.13437.t1	sp|Q7TPV2|DZIP3_MOUSE	30.769	1654	1204	9	3.41e-18	95.1	sp|Q7TPV2|DZIP3_MOUSE E3 ubiquitin-protein ligase DZIP3 OS=Mus musculus OX=10090 GN=Dzip3 PE=1 SV=2
+aug_v2a.00365.t1	sp|Q7RTR2|NLRC3_HUMAN	25.666	1297	1065	61	5.45e-39	162	sp|Q7RTR2|NLRC3_HUMAN NLR family CARD domain-containing protein 3 OS=Homo sapiens OX=9606 GN=NLRC3 PE=1 SV=2
+aug_v2a.00365.t1	sp|Q7RTR2|NLRC3_HUMAN	36.090	1297	1065	61	5.88e-25	116	sp|Q7RTR2|NLRC3_HUMAN NLR family CARD domain-containing protein 3 OS=Homo sapiens OX=9606 GN=NLRC3 PE=1 SV=2
+aug_v2a.00365.t1	sp|Q7RTR2|NLRC3_HUMAN	37.968	1297	1065	61	1.30e-19	99.4	sp|Q7RTR2|NLRC3_HUMAN NLR family CARD domain-containing protein 3 OS=Homo sapiens OX=9606 GN=NLRC3 PE=1 SV=2
+aug_v2a.00365.t1	sp|Q8BHB0|NOD1_MOUSE	24.172	1297	953	58	5.17e-27	123	sp|Q8BHB0|NOD1_MOUSE Nucleotide-binding oligomerization domain-containing protein 1 OS=Mus musculus OX=10090 GN=Nod1 PE=1 SV=1
+aug_v2a.00365.t1	sp|Q8BHB0|NOD1_MOUSE	31.472	1297	953	58	1.69e-11	72.8	sp|Q8BHB0|NOD1_MOUSE Nucleotide-binding oligomerization domain-containing protein 1 OS=Mus musculus OX=10090 GN=Nod1 PE=1 SV=1
+aug_v2a.00365.t1	sp|Q5DU56|NLRC3_MOUSE	36.515	1297	1064	19	2.73e-25	117	sp|Q5DU56|NLRC3_MOUSE Protein NLRC3 OS=Mus musculus OX=10090 GN=Nlrc3 PE=1 SV=2
+aug_v2a.00365.t1	sp|Q5DU56|NLRC3_MOUSE	35.498	1297	1064	19	1.22e-22	108	sp|Q5DU56|NLRC3_MOUSE Protein NLRC3 OS=Mus musculus OX=10090 GN=Nlrc3 PE=1 SV=2
+aug_v2a.00365.t1	sp|Q5DU56|NLRC3_MOUSE	39.806	1297	1064	19	1.49e-22	108	sp|Q5DU56|NLRC3_MOUSE Protein NLRC3 OS=Mus musculus OX=10090 GN=Nlrc3 PE=1 SV=2
+aug_v2a.00365.t1	sp|Q53B88|NOD2_HYLLA	24.712	1297	1040	56	1.23e-24	115	sp|Q53B88|NOD2_HYLLA Nucleotide-binding oligomerization domain-containing protein 2 OS=Hylobates lar OX=9580 GN=NOD2 PE=3 SV=1
+aug_v2a.00365.t1	sp|Q9HC29|NOD2_HUMAN	24.328	1297	1040	56	1.52e-24	115	sp|Q9HC29|NOD2_HUMAN Nucleotide-binding oligomerization domain-containing protein 2 OS=Homo sapiens OX=9606 GN=NOD2 PE=1 SV=1
+aug_v2a.00365.t1	sp|Q53B87|NOD2_PANTR	24.456	1297	1040	56	2.41e-24	114	sp|Q53B87|NOD2_PANTR Nucleotide-binding oligomerization domain-containing protein 2 OS=Pan troglodytes OX=9598 GN=NOD2 PE=3 SV=1
+aug_v2a.00365.t1	sp|C6FG12|NLRC5_ICTPU	24.523	1297	1726	25	1.27e-16	89.7	sp|C6FG12|NLRC5_ICTPU Protein NLRC5 OS=Ictalurus punctatus OX=7998 GN=nlrc5 PE=2 SV=1
+aug_v2a.00365.t1	sp|Q0VAA2|LR74A_HUMAN	28.390	1297	488	18	6.50e-16	85.9	sp|Q0VAA2|LR74A_HUMAN Leucine-rich repeat-containing protein 74A OS=Homo sapiens OX=9606 GN=LRRC74A PE=2 SV=2
+aug_v2a.00365.t1	sp|B0FPE9|NLRP3_MACMU	30.709	1297	1035	46	9.21e-15	83.6	sp|B0FPE9|NLRP3_MACMU NACHT, LRR and PYD domains-containing protein 3 OS=Macaca mulatta OX=9544 GN=NLRP3 PE=2 SV=1
+aug_v2a.00365.t1	sp|B0FPE9|NLRP3_MACMU	21.696	1297	1035	46	2.11e-12	75.9	sp|B0FPE9|NLRP3_MACMU NACHT, LRR and PYD domains-containing protein 3 OS=Macaca mulatta OX=9544 GN=NLRP3 PE=2 SV=1
+aug_v2a.00365.t1	sp|Q8K3Z0|NOD2_MOUSE	24.791	1297	1020	40	3.41e-14	81.6	sp|Q8K3Z0|NOD2_MOUSE Nucleotide-binding oligomerization domain-containing protein 2 OS=Mus musculus OX=10090 GN=Nod2 PE=1 SV=1
+aug_v2a.00365.t1	sp|Q8K3Z0|NOD2_MOUSE	32.609	1297	1020	40	1.26e-12	76.6	sp|Q8K3Z0|NOD2_MOUSE Nucleotide-binding oligomerization domain-containing protein 2 OS=Mus musculus OX=10090 GN=Nod2 PE=1 SV=1
+aug_v2a.00365.t1	sp|Q86W24|NAL14_HUMAN	29.304	1297	1093	45	3.44e-14	81.6	sp|Q86W24|NAL14_HUMAN NACHT, LRR and PYD domains-containing protein 14 OS=Homo sapiens OX=9606 GN=NLRP14 PE=1 SV=1
+aug_v2a.00365.t1	sp|Q86W24|NAL14_HUMAN	23.653	1297	1093	45	3.59e-12	75.1	sp|Q86W24|NAL14_HUMAN NACHT, LRR and PYD domains-containing protein 14 OS=Homo sapiens OX=9606 GN=NLRP14 PE=1 SV=1
+aug_v2a.00365.t1	sp|Q86W24|NAL14_HUMAN	30.769	1297	1093	45	6.45e-11	70.9	sp|Q86W24|NAL14_HUMAN NACHT, LRR and PYD domains-containing protein 14 OS=Homo sapiens OX=9606 GN=NLRP14 PE=1 SV=1
+aug_v2a.00365.t1	sp|Q9Y239|NOD1_HUMAN	31.527	1297	953	17	3.73e-14	81.3	sp|Q9Y239|NOD1_HUMAN Nucleotide-binding oligomerization domain-containing protein 1 OS=Homo sapiens OX=9606 GN=NOD1 PE=1 SV=1
+aug_v2a.00365.t1	sp|Q9Y239|NOD1_HUMAN	32.323	1297	953	17	2.19e-12	75.5	sp|Q9Y239|NOD1_HUMAN Nucleotide-binding oligomerization domain-containing protein 1 OS=Homo sapiens OX=9606 GN=NOD1 PE=1 SV=1
+aug_v2a.00365.t1	sp|D4A523|NLRP3_RAT	28.571	1297	1035	17	5.86e-14	80.9	sp|D4A523|NLRP3_RAT NACHT, LRR and PYD domains-containing protein 3 OS=Rattus norvegicus OX=10116 GN=Nlrp3 PE=3 SV=2
+aug_v2a.00365.t1	sp|Q96P20|NLRP3_HUMAN	30.315	1297	1036	46	8.74e-14	80.1	sp|Q96P20|NLRP3_HUMAN NACHT, LRR and PYD domains-containing protein 3 OS=Homo sapiens OX=9606 GN=NLRP3 PE=1 SV=3
+aug_v2a.00365.t1	sp|Q96P20|NLRP3_HUMAN	21.696	1297	1036	46	3.78e-12	75.1	sp|Q96P20|NLRP3_HUMAN NACHT, LRR and PYD domains-containing protein 3 OS=Homo sapiens OX=9606 GN=NLRP3 PE=1 SV=3
+aug_v2a.00365.t1	sp|Q6ZQY2|LR74B_HUMAN	29.327	1297	392	16	1.31e-13	77.8	sp|Q6ZQY2|LR74B_HUMAN Leucine-rich repeat-containing protein 74B OS=Homo sapiens OX=9606 GN=LRRC74B PE=2 SV=3
+aug_v2a.00365.t1	sp|A0JPI9|LR74A_RAT	25.253	1297	479	21	1.41e-13	78.6	sp|A0JPI9|LR74A_RAT Leucine-rich repeat-containing protein 74A OS=Rattus norvegicus OX=10116 GN=Lrrc74a PE=2 SV=1
+aug_v2a.00365.t1	sp|Q8CCN1|NAL10_MOUSE	25.000	1297	673	34	2.94e-13	78.2	sp|Q8CCN1|NAL10_MOUSE NACHT, LRR and PYD domains-containing protein 10 OS=Mus musculus OX=10090 GN=Nlrp10 PE=1 SV=1
+aug_v2a.00365.t1	sp|Q14BP6|LR74B_MOUSE	28.378	1297	391	15	3.74e-13	76.6	sp|Q14BP6|LR74B_MOUSE Leucine-rich repeat-containing protein 74B OS=Mus musculus OX=10090 GN=Lrrc74b PE=2 SV=1
+aug_v2a.00365.t1	sp|Q6B966|NAL14_MOUSE	29.675	1297	993	19	4.19e-13	78.2	sp|Q6B966|NAL14_MOUSE NACHT, LRR and PYD domains-containing protein 14 OS=Mus musculus OX=10090 GN=Nlrp14 PE=2 SV=2
+aug_v2a.00365.t1	sp|Q8R4B8|NLRP3_MOUSE	27.706	1297	1033	45	5.94e-13	77.4	sp|Q8R4B8|NLRP3_MOUSE NACHT, LRR and PYD domains-containing protein 3 OS=Mus musculus OX=10090 GN=Nlrp3 PE=1 SV=1
+aug_v2a.00365.t1	sp|Q8R4B8|NLRP3_MOUSE	23.500	1297	1033	45	8.68e-12	73.9	sp|Q8R4B8|NLRP3_MOUSE NACHT, LRR and PYD domains-containing protein 3 OS=Mus musculus OX=10090 GN=Nlrp3 PE=1 SV=1
+aug_v2a.00365.t1	sp|A8HMZ4|DRC5_CHLRE	30.719	1297	390	15	8.39e-13	75.5	sp|A8HMZ4|DRC5_CHLRE Dynein regulatory complex subunit 5 OS=Chlamydomonas reinhardtii OX=3055 GN=DRC5 PE=1 SV=1
+aug_v2a.00365.t1	sp|A8HMZ4|DRC5_CHLRE	29.000	1297	390	15	2.50e-12	73.9	sp|A8HMZ4|DRC5_CHLRE Dynein regulatory complex subunit 5 OS=Chlamydomonas reinhardtii OX=3055 GN=DRC5 PE=1 SV=1
+aug_v2a.00365.t1	sp|P59046|NAL12_HUMAN	29.412	1297	1061	19	5.50e-12	74.3	sp|P59046|NAL12_HUMAN NACHT, LRR and PYD domains-containing protein 12 OS=Homo sapiens OX=9606 GN=NLRP12 PE=1 SV=2
+aug_v2a.00365.t1	sp|A1ADJ6|NEUO_ECOK1	42.045	1297	307	11	1.19e-11	70.9	sp|A1ADJ6|NEUO_ECOK1 Polysialic acid O-acetyltransferase OS=Escherichia coli O1:K1 / APEC OX=405955 GN=neuO PE=1 SV=1
+aug_v2a.00365.t1	sp|A1ADJ6|NEUO_ECOK1	36.134	1297	307	11	4.09e-11	69.3	sp|A1ADJ6|NEUO_ECOK1 Polysialic acid O-acetyltransferase OS=Escherichia coli O1:K1 / APEC OX=405955 GN=neuO PE=1 SV=1
+aug_v2a.00365.t1	sp|A1ADJ6|NEUO_ECOK1	43.023	1297	307	11	8.98e-11	68.2	sp|A1ADJ6|NEUO_ECOK1 Polysialic acid O-acetyltransferase OS=Escherichia coli O1:K1 / APEC OX=405955 GN=neuO PE=1 SV=1
+aug_v2a.00365.t1	sp|P59047|NALP5_HUMAN	28.099	1297	1200	19	1.75e-11	72.8	sp|P59047|NALP5_HUMAN NACHT, LRR and PYD domains-containing protein 5 OS=Homo sapiens OX=9606 GN=NLRP5 PE=2 SV=2
+aug_v2a.00365.t1	sp|P33076|C2TA_HUMAN	24.873	1297	1130	28	6.87e-11	70.9	sp|P33076|C2TA_HUMAN MHC class II transactivator OS=Homo sapiens OX=9606 GN=CIITA PE=1 SV=3
+aug_v2a.00365.t1	sp|Q3V3V9|CARL2_MOUSE	35.000	1297	1296	15	8.73e-11	70.5	sp|Q3V3V9|CARL2_MOUSE Capping protein, Arp2/3 and myosin-I linker protein 2 OS=Mus musculus OX=10090 GN=Carmil2 PE=1 SV=2
+aug_v2a.03173.t1	sp|B8V7S0|CPP1_ACRMI	68.075	2677	435	27	5.01e-177	553	sp|B8V7S0|CPP1_ACRMI CUB and peptidase domain-containing protein 1 (Fragment) OS=Acropora millepora OX=45264 PE=1 SV=1
+aug_v2a.03173.t1	sp|B8V7S0|CPP1_ACRMI	54.098	2677	435	27	1.22e-30	131	sp|B8V7S0|CPP1_ACRMI CUB and peptidase domain-containing protein 1 (Fragment) OS=Acropora millepora OX=45264 PE=1 SV=1
+aug_v2a.03173.t1	sp|B8V7S0|CPP1_ACRMI	56.757	2677	435	27	1.15e-28	125	sp|B8V7S0|CPP1_ACRMI CUB and peptidase domain-containing protein 1 (Fragment) OS=Acropora millepora OX=45264 PE=1 SV=1
+aug_v2a.03173.t1	sp|B8V7S0|CPP1_ACRMI	53.636	2677	435	27	5.43e-24	111	sp|B8V7S0|CPP1_ACRMI CUB and peptidase domain-containing protein 1 (Fragment) OS=Acropora millepora OX=45264 PE=1 SV=1
+aug_v2a.03173.t1	sp|B3EX02|MFP1_ACRMI	65.829	2677	422	45	3.23e-164	517	sp|B3EX02|MFP1_ACRMI MAM and fibronectin type III domain-containing protein 1 (Fragment) OS=Acropora millepora OX=45264 PE=1 SV=1
+aug_v2a.03173.t1	sp|B3EX02|MFP1_ACRMI	65.517	2677	422	45	2.94e-122	396	sp|B3EX02|MFP1_ACRMI MAM and fibronectin type III domain-containing protein 1 (Fragment) OS=Acropora millepora OX=45264 PE=1 SV=1
+aug_v2a.03173.t1	sp|B3EX02|MFP1_ACRMI	79.452	2677	422	45	1.32e-29	127	sp|B3EX02|MFP1_ACRMI MAM and fibronectin type III domain-containing protein 1 (Fragment) OS=Acropora millepora OX=45264 PE=1 SV=1
+aug_v2a.03173.t1	sp|B3EX02|MFP1_ACRMI	57.143	2677	422	45	7.44e-25	113	sp|B3EX02|MFP1_ACRMI MAM and fibronectin type III domain-containing protein 1 (Fragment) OS=Acropora millepora OX=45264 PE=1 SV=1
+aug_v2a.03173.t1	sp|B3EX02|MFP1_ACRMI	30.702	2677	422	45	2.53e-24	112	sp|B3EX02|MFP1_ACRMI MAM and fibronectin type III domain-containing protein 1 (Fragment) OS=Acropora millepora OX=45264 PE=1 SV=1
+aug_v2a.03173.t1	sp|B3EX02|MFP1_ACRMI	56.164	2677	422	45	1.61e-17	91.3	sp|B3EX02|MFP1_ACRMI MAM and fibronectin type III domain-containing protein 1 (Fragment) OS=Acropora millepora OX=45264 PE=1 SV=1
+aug_v2a.03173.t1	sp|B3EX02|MFP1_ACRMI	72.917	2677	422	45	1.27e-13	79.3	sp|B3EX02|MFP1_ACRMI MAM and fibronectin type III domain-containing protein 1 (Fragment) OS=Acropora millepora OX=45264 PE=1 SV=1
+aug_v2a.03173.t1	sp|B8VIV4|CPP2_ACRMI	64.317	2677	389	27	7.46e-88	296	sp|B8VIV4|CPP2_ACRMI CUB and peptidase domain-containing protein 2 (Fragment) OS=Acropora millepora OX=45264 PE=1 SV=1
+aug_v2a.03173.t1	sp|B8VIV4|CPP2_ACRMI	71.264	2677	389	27	2.39e-71	248	sp|B8VIV4|CPP2_ACRMI CUB and peptidase domain-containing protein 2 (Fragment) OS=Acropora millepora OX=45264 PE=1 SV=1
+aug_v2a.03173.t1	sp|B8VIV4|CPP2_ACRMI	53.333	2677	389	27	7.87e-32	133	sp|B8VIV4|CPP2_ACRMI CUB and peptidase domain-containing protein 2 (Fragment) OS=Acropora millepora OX=45264 PE=1 SV=1
+aug_v2a.03173.t1	sp|B8VIV4|CPP2_ACRMI	57.009	2677	389	27	7.87e-28	122	sp|B8VIV4|CPP2_ACRMI CUB and peptidase domain-containing protein 2 (Fragment) OS=Acropora millepora OX=45264 PE=1 SV=1
+aug_v2a.03173.t1	sp|B8VIV4|CPP2_ACRMI	53.636	2677	389	27	1.25e-24	112	sp|B8VIV4|CPP2_ACRMI CUB and peptidase domain-containing protein 2 (Fragment) OS=Acropora millepora OX=45264 PE=1 SV=1
+aug_v2a.03173.t1	sp|Q66TN7|OVCH2_RHIAE	27.890	2677	980	20	6.44e-49	195	sp|Q66TN7|OVCH2_RHIAE Ovochymase-2 OS=Rhinella arenarum OX=38577 GN=OVCH2 PE=2 SV=2
+aug_v2a.03173.t1	sp|Q66TN7|OVCH2_RHIAE	28.671	2677	980	20	5.76e-17	92.0	sp|Q66TN7|OVCH2_RHIAE Ovochymase-2 OS=Rhinella arenarum OX=38577 GN=OVCH2 PE=2 SV=2
+aug_v2a.03173.t1	sp|Q90WD8|OVCH2_BUFJA	27.440	2677	974	20	1.30e-48	194	sp|Q90WD8|OVCH2_BUFJA Ovochymase-2 OS=Bufo japonicus OX=8387 GN=OVCH2 PE=1 SV=1
+aug_v2a.03173.t1	sp|Q90WD8|OVCH2_BUFJA	26.730	2677	974	20	1.01e-14	84.7	sp|Q90WD8|OVCH2_BUFJA Ovochymase-2 OS=Bufo japonicus OX=8387 GN=OVCH2 PE=1 SV=1
+aug_v2a.03173.t1	sp|B3EWZ6|MLRP2_ACRMI	27.468	2677	7311	47	1.99e-47	193	sp|B3EWZ6|MLRP2_ACRMI MAM and LDL-receptor class A domain-containing protein 2 (Fragment) OS=Acropora millepora OX=45264 PE=1 SV=1
+aug_v2a.03173.t1	sp|B3EWZ6|MLRP2_ACRMI	42.105	2677	7311	47	4.06e-29	132	sp|B3EWZ6|MLRP2_ACRMI MAM and LDL-receptor class A domain-containing protein 2 (Fragment) OS=Acropora millepora OX=45264 PE=1 SV=1
+aug_v2a.03173.t1	sp|B3EWZ6|MLRP2_ACRMI	39.738	2677	7311	47	3.50e-28	129	sp|B3EWZ6|MLRP2_ACRMI MAM and LDL-receptor class A domain-containing protein 2 (Fragment) OS=Acropora millepora OX=45264 PE=1 SV=1
+aug_v2a.03173.t1	sp|B3EWZ6|MLRP2_ACRMI	46.988	2677	7311	47	9.89e-28	128	sp|B3EWZ6|MLRP2_ACRMI MAM and LDL-receptor class A domain-containing protein 2 (Fragment) OS=Acropora millepora OX=45264 PE=1 SV=1
+aug_v2a.03173.t1	sp|B3EWZ6|MLRP2_ACRMI	38.191	2677	7311	47	1.18e-27	127	sp|B3EWZ6|MLRP2_ACRMI MAM and LDL-receptor class A domain-containing protein 2 (Fragment) OS=Acropora millepora OX=45264 PE=1 SV=1
+aug_v2a.03173.t1	sp|B3EWZ6|MLRP2_ACRMI	46.061	2677	7311	47	2.70e-27	126	sp|B3EWZ6|MLRP2_ACRMI MAM and LDL-receptor class A domain-containing protein 2 (Fragment) OS=Acropora millepora OX=45264 PE=1 SV=1
+aug_v2a.03173.t1	sp|B3EWZ6|MLRP2_ACRMI	35.377	2677	7311	47	2.87e-26	123	sp|B3EWZ6|MLRP2_ACRMI MAM and LDL-receptor class A domain-containing protein 2 (Fragment) OS=Acropora millepora OX=45264 PE=1 SV=1
+aug_v2a.03173.t1	sp|B3EWZ6|MLRP2_ACRMI	37.037	2677	7311	47	8.33e-26	121	sp|B3EWZ6|MLRP2_ACRMI MAM and LDL-receptor class A domain-containing protein 2 (Fragment) OS=Acropora millepora OX=45264 PE=1 SV=1
+aug_v2a.03173.t1	sp|B3EWZ6|MLRP2_ACRMI	43.452	2677	7311	47	1.18e-25	121	sp|B3EWZ6|MLRP2_ACRMI MAM and LDL-receptor class A domain-containing protein 2 (Fragment) OS=Acropora millepora OX=45264 PE=1 SV=1
+aug_v2a.03173.t1	sp|B3EWZ6|MLRP2_ACRMI	28.238	2677	7311	47	2.24e-25	120	sp|B3EWZ6|MLRP2_ACRMI MAM and LDL-receptor class A domain-containing protein 2 (Fragment) OS=Acropora millepora OX=45264 PE=1 SV=1
+aug_v2a.03173.t1	sp|B3EWZ6|MLRP2_ACRMI	26.078	2677	7311	47	5.63e-25	119	sp|B3EWZ6|MLRP2_ACRMI MAM and LDL-receptor class A domain-containing protein 2 (Fragment) OS=Acropora millepora OX=45264 PE=1 SV=1
+aug_v2a.03173.t1	sp|B3EWZ6|MLRP2_ACRMI	44.242	2677	7311	47	7.74e-25	118	sp|B3EWZ6|MLRP2_ACRMI MAM and LDL-receptor class A domain-containing protein 2 (Fragment) OS=Acropora millepora OX=45264 PE=1 SV=1
+aug_v2a.03173.t1	sp|B3EWZ6|MLRP2_ACRMI	31.085	2677	7311	47	7.87e-25	118	sp|B3EWZ6|MLRP2_ACRMI MAM and LDL-receptor class A domain-containing protein 2 (Fragment) OS=Acropora millepora OX=45264 PE=1 SV=1
+aug_v2a.03173.t1	sp|B3EWZ6|MLRP2_ACRMI	36.066	2677	7311	47	8.77e-25	118	sp|B3EWZ6|MLRP2_ACRMI MAM and LDL-receptor class A domain-containing protein 2 (Fragment) OS=Acropora millepora OX=45264 PE=1 SV=1
+aug_v2a.03173.t1	sp|B3EWZ6|MLRP2_ACRMI	39.429	2677	7311	47	1.01e-24	118	sp|B3EWZ6|MLRP2_ACRMI MAM and LDL-receptor class A domain-containing protein 2 (Fragment) OS=Acropora millepora OX=45264 PE=1 SV=1
+aug_v2a.03173.t1	sp|B3EWZ6|MLRP2_ACRMI	40.120	2677	7311	47	1.03e-24	118	sp|B3EWZ6|MLRP2_ACRMI MAM and LDL-receptor class A domain-containing protein 2 (Fragment) OS=Acropora millepora OX=45264 PE=1 SV=1
+aug_v2a.03173.t1	sp|B3EWZ6|MLRP2_ACRMI	44.910	2677	7311	47	1.18e-24	117	sp|B3EWZ6|MLRP2_ACRMI MAM and LDL-receptor class A domain-containing protein 2 (Fragment) OS=Acropora millepora OX=45264 PE=1 SV=1
+aug_v2a.03173.t1	sp|B3EWZ6|MLRP2_ACRMI	40.000	2677	7311	47	1.35e-24	117	sp|B3EWZ6|MLRP2_ACRMI MAM and LDL-receptor class A domain-containing protein 2 (Fragment) OS=Acropora millepora OX=45264 PE=1 SV=1
+aug_v2a.03173.t1	sp|B3EWZ6|MLRP2_ACRMI	41.714	2677	7311	47	2.24e-24	117	sp|B3EWZ6|MLRP2_ACRMI MAM and LDL-receptor class A domain-containing protein 2 (Fragment) OS=Acropora millepora OX=45264 PE=1 SV=1
+aug_v2a.03173.t1	sp|B3EWZ6|MLRP2_ACRMI	40.212	2677	7311	47	2.44e-24	117	sp|B3EWZ6|MLRP2_ACRMI MAM and LDL-receptor class A domain-containing protein 2 (Fragment) OS=Acropora millepora OX=45264 PE=1 SV=1
+aug_v2a.03173.t1	sp|B3EWZ6|MLRP2_ACRMI	43.529	2677	7311	47	2.91e-24	116	sp|B3EWZ6|MLRP2_ACRMI MAM and LDL-receptor class A domain-containing protein 2 (Fragment) OS=Acropora millepora OX=45264 PE=1 SV=1
+aug_v2a.03173.t1	sp|B3EWZ6|MLRP2_ACRMI	42.169	2677	7311	47	3.16e-24	116	sp|B3EWZ6|MLRP2_ACRMI MAM and LDL-receptor class A domain-containing protein 2 (Fragment) OS=Acropora millepora OX=45264 PE=1 SV=1
+aug_v2a.03173.t1	sp|B3EWZ6|MLRP2_ACRMI	39.881	2677	7311	47	3.71e-24	116	sp|B3EWZ6|MLRP2_ACRMI MAM and LDL-receptor class A domain-containing protein 2 (Fragment) OS=Acropora millepora OX=45264 PE=1 SV=1
+aug_v2a.03173.t1	sp|B3EWZ6|MLRP2_ACRMI	37.888	2677	7311	47	6.56e-24	115	sp|B3EWZ6|MLRP2_ACRMI MAM and LDL-receptor class A domain-containing protein 2 (Fragment) OS=Acropora millepora OX=45264 PE=1 SV=1
+aug_v2a.03173.t1	sp|B3EWZ6|MLRP2_ACRMI	33.469	2677	7311	47	9.48e-24	115	sp|B3EWZ6|MLRP2_ACRMI MAM and LDL-receptor class A domain-containing protein 2 (Fragment) OS=Acropora millepora OX=45264 PE=1 SV=1
+aug_v2a.03173.t1	sp|B3EWZ6|MLRP2_ACRMI	43.636	2677	7311	47	1.06e-23	114	sp|B3EWZ6|MLRP2_ACRMI MAM and LDL-receptor class A domain-containing protein 2 (Fragment) OS=Acropora millepora OX=45264 PE=1 SV=1
+aug_v2a.03173.t1	sp|B3EWZ6|MLRP2_ACRMI	41.916	2677	7311	47	1.09e-23	114	sp|B3EWZ6|MLRP2_ACRMI MAM and LDL-receptor class A domain-containing protein 2 (Fragment) OS=Acropora millepora OX=45264 PE=1 SV=1
+aug_v2a.03173.t1	sp|B3EWZ6|MLRP2_ACRMI	42.331	2677	7311	47	2.89e-23	113	sp|B3EWZ6|MLRP2_ACRMI MAM and LDL-receptor class A domain-containing protein 2 (Fragment) OS=Acropora millepora OX=45264 PE=1 SV=1
+aug_v2a.03173.t1	sp|B3EWZ6|MLRP2_ACRMI	40.964	2677	7311	47	9.42e-23	111	sp|B3EWZ6|MLRP2_ACRMI MAM and LDL-receptor class A domain-containing protein 2 (Fragment) OS=Acropora millepora OX=45264 PE=1 SV=1
+aug_v2a.03173.t1	sp|B3EWZ6|MLRP2_ACRMI	37.870	2677	7311	47	1.09e-22	111	sp|B3EWZ6|MLRP2_ACRMI MAM and LDL-receptor class A domain-containing protein 2 (Fragment) OS=Acropora millepora OX=45264 PE=1 SV=1
+aug_v2a.03173.t1	sp|B3EWZ6|MLRP2_ACRMI	42.857	2677	7311	47	2.21e-22	110	sp|B3EWZ6|MLRP2_ACRMI MAM and LDL-receptor class A domain-containing protein 2 (Fragment) OS=Acropora millepora OX=45264 PE=1 SV=1
+aug_v2a.03173.t1	sp|B3EWZ6|MLRP2_ACRMI	27.235	2677	7311	47	9.36e-22	108	sp|B3EWZ6|MLRP2_ACRMI MAM and LDL-receptor class A domain-containing protein 2 (Fragment) OS=Acropora millepora OX=45264 PE=1 SV=1
+aug_v2a.03173.t1	sp|B3EWZ6|MLRP2_ACRMI	43.114	2677	7311	47	1.38e-21	107	sp|B3EWZ6|MLRP2_ACRMI MAM and LDL-receptor class A domain-containing protein 2 (Fragment) OS=Acropora millepora OX=45264 PE=1 SV=1
+aug_v2a.03173.t1	sp|B3EWZ6|MLRP2_ACRMI	43.030	2677	7311	47	1.59e-21	107	sp|B3EWZ6|MLRP2_ACRMI MAM and LDL-receptor class A domain-containing protein 2 (Fragment) OS=Acropora millepora OX=45264 PE=1 SV=1
+aug_v2a.03173.t1	sp|B3EWZ6|MLRP2_ACRMI	38.650	2677	7311	47	1.74e-21	107	sp|B3EWZ6|MLRP2_ACRMI MAM and LDL-receptor class A domain-containing protein 2 (Fragment) OS=Acropora millepora OX=45264 PE=1 SV=1
+aug_v2a.03173.t1	sp|B3EWZ6|MLRP2_ACRMI	45.625	2677	7311	47	2.37e-21	107	sp|B3EWZ6|MLRP2_ACRMI MAM and LDL-receptor class A domain-containing protein 2 (Fragment) OS=Acropora millepora OX=45264 PE=1 SV=1
+aug_v2a.03173.t1	sp|B3EWZ6|MLRP2_ACRMI	39.429	2677	7311	47	4.02e-21	106	sp|B3EWZ6|MLRP2_ACRMI MAM and LDL-receptor class A domain-containing protein 2 (Fragment) OS=Acropora millepora OX=45264 PE=1 SV=1
+aug_v2a.03173.t1	sp|B3EWZ6|MLRP2_ACRMI	41.317	2677	7311	47	6.43e-21	105	sp|B3EWZ6|MLRP2_ACRMI MAM and LDL-receptor class A domain-containing protein 2 (Fragment) OS=Acropora millepora OX=45264 PE=1 SV=1
+aug_v2a.03173.t1	sp|B3EWZ6|MLRP2_ACRMI	40.123	2677	7311	47	8.20e-21	105	sp|B3EWZ6|MLRP2_ACRMI MAM and LDL-receptor class A domain-containing protein 2 (Fragment) OS=Acropora millepora OX=45264 PE=1 SV=1
+aug_v2a.03173.t1	sp|B3EWZ6|MLRP2_ACRMI	43.976	2677	7311	47	9.61e-21	105	sp|B3EWZ6|MLRP2_ACRMI MAM and LDL-receptor class A domain-containing protein 2 (Fragment) OS=Acropora millepora OX=45264 PE=1 SV=1
+aug_v2a.03173.t1	sp|B3EWZ6|MLRP2_ACRMI	29.340	2677	7311	47	1.64e-20	104	sp|B3EWZ6|MLRP2_ACRMI MAM and LDL-receptor class A domain-containing protein 2 (Fragment) OS=Acropora millepora OX=45264 PE=1 SV=1
+aug_v2a.03173.t1	sp|B3EWZ6|MLRP2_ACRMI	37.037	2677	7311	47	1.51e-19	101	sp|B3EWZ6|MLRP2_ACRMI MAM and LDL-receptor class A domain-containing protein 2 (Fragment) OS=Acropora millepora OX=45264 PE=1 SV=1
+aug_v2a.03173.t1	sp|B3EWZ6|MLRP2_ACRMI	33.668	2677	7311	47	2.21e-19	100	sp|B3EWZ6|MLRP2_ACRMI MAM and LDL-receptor class A domain-containing protein 2 (Fragment) OS=Acropora millepora OX=45264 PE=1 SV=1
+aug_v2a.03173.t1	sp|B3EWZ6|MLRP2_ACRMI	39.375	2677	7311	47	2.54e-19	100	sp|B3EWZ6|MLRP2_ACRMI MAM and LDL-receptor class A domain-containing protein 2 (Fragment) OS=Acropora millepora OX=45264 PE=1 SV=1
+aug_v2a.03173.t1	sp|B3EWZ6|MLRP2_ACRMI	35.714	2677	7311	47	2.74e-19	100	sp|B3EWZ6|MLRP2_ACRMI MAM and LDL-receptor class A domain-containing protein 2 (Fragment) OS=Acropora millepora OX=45264 PE=1 SV=1
+aug_v2a.03173.t1	sp|B3EWZ6|MLRP2_ACRMI	31.064	2677	7311	47	3.53e-19	99.8	sp|B3EWZ6|MLRP2_ACRMI MAM and LDL-receptor class A domain-containing protein 2 (Fragment) OS=Acropora millepora OX=45264 PE=1 SV=1
+aug_v2a.03173.t1	sp|B3EWZ6|MLRP2_ACRMI	47.458	2677	7311	47	6.14e-18	95.9	sp|B3EWZ6|MLRP2_ACRMI MAM and LDL-receptor class A domain-containing protein 2 (Fragment) OS=Acropora millepora OX=45264 PE=1 SV=1
+aug_v2a.03173.t1	sp|B3EWZ6|MLRP2_ACRMI	39.375	2677	7311	47	7.70e-18	95.5	sp|B3EWZ6|MLRP2_ACRMI MAM and LDL-receptor class A domain-containing protein 2 (Fragment) OS=Acropora millepora OX=45264 PE=1 SV=1
+aug_v2a.03173.t1	sp|B3EWZ6|MLRP2_ACRMI	42.446	2677	7311	47	3.04e-17	93.6	sp|B3EWZ6|MLRP2_ACRMI MAM and LDL-receptor class A domain-containing protein 2 (Fragment) OS=Acropora millepora OX=45264 PE=1 SV=1
+aug_v2a.03173.t1	sp|B3EWZ6|MLRP2_ACRMI	39.759	2677	7311	47	3.09e-17	93.6	sp|B3EWZ6|MLRP2_ACRMI MAM and LDL-receptor class A domain-containing protein 2 (Fragment) OS=Acropora millepora OX=45264 PE=1 SV=1
+aug_v2a.03173.t1	sp|B3EWZ6|MLRP2_ACRMI	33.175	2677	7311	47	3.78e-17	93.2	sp|B3EWZ6|MLRP2_ACRMI MAM and LDL-receptor class A domain-containing protein 2 (Fragment) OS=Acropora millepora OX=45264 PE=1 SV=1
+aug_v2a.03173.t1	sp|B3EWZ6|MLRP2_ACRMI	41.667	2677	7311	47	5.47e-17	92.8	sp|B3EWZ6|MLRP2_ACRMI MAM and LDL-receptor class A domain-containing protein 2 (Fragment) OS=Acropora millepora OX=45264 PE=1 SV=1
+aug_v2a.03173.t1	sp|B3EWZ6|MLRP2_ACRMI	33.766	2677	7311	47	6.58e-17	92.4	sp|B3EWZ6|MLRP2_ACRMI MAM and LDL-receptor class A domain-containing protein 2 (Fragment) OS=Acropora millepora OX=45264 PE=1 SV=1
+aug_v2a.03173.t1	sp|B3EWZ6|MLRP2_ACRMI	38.462	2677	7311	47	7.91e-17	92.0	sp|B3EWZ6|MLRP2_ACRMI MAM and LDL-receptor class A domain-containing protein 2 (Fragment) OS=Acropora millepora OX=45264 PE=1 SV=1
+aug_v2a.03173.t1	sp|B3EWZ6|MLRP2_ACRMI	41.420	2677	7311	47	9.27e-17	92.0	sp|B3EWZ6|MLRP2_ACRMI MAM and LDL-receptor class A domain-containing protein 2 (Fragment) OS=Acropora millepora OX=45264 PE=1 SV=1
+aug_v2a.03173.t1	sp|B3EWZ6|MLRP2_ACRMI	39.157	2677	7311	47	1.35e-16	91.3	sp|B3EWZ6|MLRP2_ACRMI MAM and LDL-receptor class A domain-containing protein 2 (Fragment) OS=Acropora millepora OX=45264 PE=1 SV=1
+aug_v2a.03173.t1	sp|B3EWZ6|MLRP2_ACRMI	43.182	2677	7311	47	4.12e-16	89.7	sp|B3EWZ6|MLRP2_ACRMI MAM and LDL-receptor class A domain-containing protein 2 (Fragment) OS=Acropora millepora OX=45264 PE=1 SV=1
+aug_v2a.03173.t1	sp|B3EWZ6|MLRP2_ACRMI	31.489	2677	7311	47	4.33e-16	89.7	sp|B3EWZ6|MLRP2_ACRMI MAM and LDL-receptor class A domain-containing protein 2 (Fragment) OS=Acropora millepora OX=45264 PE=1 SV=1
+aug_v2a.03173.t1	sp|B3EWZ6|MLRP2_ACRMI	36.628	2677	7311	47	6.37e-16	89.0	sp|B3EWZ6|MLRP2_ACRMI MAM and LDL-receptor class A domain-containing protein 2 (Fragment) OS=Acropora millepora OX=45264 PE=1 SV=1
+aug_v2a.03173.t1	sp|B3EWZ6|MLRP2_ACRMI	32.973	2677	7311	47	1.09e-15	88.2	sp|B3EWZ6|MLRP2_ACRMI MAM and LDL-receptor class A domain-containing protein 2 (Fragment) OS=Acropora millepora OX=45264 PE=1 SV=1
+aug_v2a.03173.t1	sp|B3EWZ6|MLRP2_ACRMI	46.154	2677	7311	47	1.31e-15	88.2	sp|B3EWZ6|MLRP2_ACRMI MAM and LDL-receptor class A domain-containing protein 2 (Fragment) OS=Acropora millepora OX=45264 PE=1 SV=1
+aug_v2a.03173.t1	sp|B3EWZ6|MLRP2_ACRMI	38.824	2677	7311	47	1.39e-15	88.2	sp|B3EWZ6|MLRP2_ACRMI MAM and LDL-receptor class A domain-containing protein 2 (Fragment) OS=Acropora millepora OX=45264 PE=1 SV=1
+aug_v2a.03173.t1	sp|B3EWZ6|MLRP2_ACRMI	40.458	2677	7311	47	2.09e-15	87.4	sp|B3EWZ6|MLRP2_ACRMI MAM and LDL-receptor class A domain-containing protein 2 (Fragment) OS=Acropora millepora OX=45264 PE=1 SV=1
+aug_v2a.03173.t1	sp|B3EWZ6|MLRP2_ACRMI	43.307	2677	7311	47	2.88e-15	87.0	sp|B3EWZ6|MLRP2_ACRMI MAM and LDL-receptor class A domain-containing protein 2 (Fragment) OS=Acropora millepora OX=45264 PE=1 SV=1
+aug_v2a.03173.t1	sp|B3EWZ6|MLRP2_ACRMI	40.602	2677	7311	47	3.08e-15	87.0	sp|B3EWZ6|MLRP2_ACRMI MAM and LDL-receptor class A domain-containing protein 2 (Fragment) OS=Acropora millepora OX=45264 PE=1 SV=1
+aug_v2a.03173.t1	sp|B3EWZ6|MLRP2_ACRMI	40.299	2677	7311	47	8.34e-15	85.5	sp|B3EWZ6|MLRP2_ACRMI MAM and LDL-receptor class A domain-containing protein 2 (Fragment) OS=Acropora millepora OX=45264 PE=1 SV=1
+aug_v2a.03173.t1	sp|B3EWZ6|MLRP2_ACRMI	35.028	2677	7311	47	8.55e-15	85.5	sp|B3EWZ6|MLRP2_ACRMI MAM and LDL-receptor class A domain-containing protein 2 (Fragment) OS=Acropora millepora OX=45264 PE=1 SV=1
+aug_v2a.03173.t1	sp|B3EWZ6|MLRP2_ACRMI	42.188	2677	7311	47	1.00e-14	85.1	sp|B3EWZ6|MLRP2_ACRMI MAM and LDL-receptor class A domain-containing protein 2 (Fragment) OS=Acropora millepora OX=45264 PE=1 SV=1
+aug_v2a.03173.t1	sp|B3EWZ6|MLRP2_ACRMI	40.602	2677	7311	47	1.10e-14	85.1	sp|B3EWZ6|MLRP2_ACRMI MAM and LDL-receptor class A domain-containing protein 2 (Fragment) OS=Acropora millepora OX=45264 PE=1 SV=1
+aug_v2a.03173.t1	sp|B3EWZ6|MLRP2_ACRMI	35.754	2677	7311	47	2.40e-14	84.0	sp|B3EWZ6|MLRP2_ACRMI MAM and LDL-receptor class A domain-containing protein 2 (Fragment) OS=Acropora millepora OX=45264 PE=1 SV=1
+aug_v2a.03173.t1	sp|B3EWZ6|MLRP2_ACRMI	28.339	2677	7311	47	2.54e-14	84.0	sp|B3EWZ6|MLRP2_ACRMI MAM and LDL-receptor class A domain-containing protein 2 (Fragment) OS=Acropora millepora OX=45264 PE=1 SV=1
+aug_v2a.03173.t1	sp|B3EWZ6|MLRP2_ACRMI	28.994	2677	7311	47	3.19e-14	83.6	sp|B3EWZ6|MLRP2_ACRMI MAM and LDL-receptor class A domain-containing protein 2 (Fragment) OS=Acropora millepora OX=45264 PE=1 SV=1
+aug_v2a.03173.t1	sp|B3EWZ6|MLRP2_ACRMI	38.686	2677	7311	47	3.38e-14	83.6	sp|B3EWZ6|MLRP2_ACRMI MAM and LDL-receptor class A domain-containing protein 2 (Fragment) OS=Acropora millepora OX=45264 PE=1 SV=1
+aug_v2a.03173.t1	sp|B3EWZ6|MLRP2_ACRMI	42.188	2677	7311	47	4.65e-14	82.8	sp|B3EWZ6|MLRP2_ACRMI MAM and LDL-receptor class A domain-containing protein 2 (Fragment) OS=Acropora millepora OX=45264 PE=1 SV=1
+aug_v2a.03173.t1	sp|B3EWZ6|MLRP2_ACRMI	38.462	2677	7311	47	5.97e-14	82.8	sp|B3EWZ6|MLRP2_ACRMI MAM and LDL-receptor class A domain-containing protein 2 (Fragment) OS=Acropora millepora OX=45264 PE=1 SV=1
+aug_v2a.03173.t1	sp|B3EWZ6|MLRP2_ACRMI	42.000	2677	7311	47	6.44e-14	82.4	sp|B3EWZ6|MLRP2_ACRMI MAM and LDL-receptor class A domain-containing protein 2 (Fragment) OS=Acropora millepora OX=45264 PE=1 SV=1
+aug_v2a.03173.t1	sp|B3EWZ6|MLRP2_ACRMI	35.928	2677	7311	47	9.39e-14	82.0	sp|B3EWZ6|MLRP2_ACRMI MAM and LDL-receptor class A domain-containing protein 2 (Fragment) OS=Acropora millepora OX=45264 PE=1 SV=1
+aug_v2a.03173.t1	sp|B3EWZ6|MLRP2_ACRMI	37.313	2677	7311	47	1.18e-13	81.6	sp|B3EWZ6|MLRP2_ACRMI MAM and LDL-receptor class A domain-containing protein 2 (Fragment) OS=Acropora millepora OX=45264 PE=1 SV=1
+aug_v2a.03173.t1	sp|B3EWZ6|MLRP2_ACRMI	30.986	2677	7311	47	1.31e-13	81.6	sp|B3EWZ6|MLRP2_ACRMI MAM and LDL-receptor class A domain-containing protein 2 (Fragment) OS=Acropora millepora OX=45264 PE=1 SV=1
+aug_v2a.03173.t1	sp|B3EWZ6|MLRP2_ACRMI	38.525	2677	7311	47	1.43e-13	81.3	sp|B3EWZ6|MLRP2_ACRMI MAM and LDL-receptor class A domain-containing protein 2 (Fragment) OS=Acropora millepora OX=45264 PE=1 SV=1
+aug_v2a.03173.t1	sp|B3EWZ6|MLRP2_ACRMI	34.524	2677	7311	47	1.85e-13	80.9	sp|B3EWZ6|MLRP2_ACRMI MAM and LDL-receptor class A domain-containing protein 2 (Fragment) OS=Acropora millepora OX=45264 PE=1 SV=1
+aug_v2a.03173.t1	sp|B3EWZ6|MLRP2_ACRMI	36.641	2677	7311	47	1.02e-12	78.6	sp|B3EWZ6|MLRP2_ACRMI MAM and LDL-receptor class A domain-containing protein 2 (Fragment) OS=Acropora millepora OX=45264 PE=1 SV=1
+aug_v2a.03173.t1	sp|B3EWZ6|MLRP2_ACRMI	39.669	2677	7311	47	1.18e-12	78.2	sp|B3EWZ6|MLRP2_ACRMI MAM and LDL-receptor class A domain-containing protein 2 (Fragment) OS=Acropora millepora OX=45264 PE=1 SV=1
+aug_v2a.03173.t1	sp|B3EWZ6|MLRP2_ACRMI	39.669	2677	7311	47	1.29e-12	78.2	sp|B3EWZ6|MLRP2_ACRMI MAM and LDL-receptor class A domain-containing protein 2 (Fragment) OS=Acropora millepora OX=45264 PE=1 SV=1
+aug_v2a.03173.t1	sp|B3EWZ6|MLRP2_ACRMI	35.976	2677	7311	47	1.50e-12	77.8	sp|B3EWZ6|MLRP2_ACRMI MAM and LDL-receptor class A domain-containing protein 2 (Fragment) OS=Acropora millepora OX=45264 PE=1 SV=1
+aug_v2a.03173.t1	sp|B3EWZ6|MLRP2_ACRMI	35.385	2677	7311	47	1.92e-12	77.8	sp|B3EWZ6|MLRP2_ACRMI MAM and LDL-receptor class A domain-containing protein 2 (Fragment) OS=Acropora millepora OX=45264 PE=1 SV=1
+aug_v2a.03173.t1	sp|B3EWZ6|MLRP2_ACRMI	46.087	2677	7311	47	2.66e-12	77.0	sp|B3EWZ6|MLRP2_ACRMI MAM and LDL-receptor class A domain-containing protein 2 (Fragment) OS=Acropora millepora OX=45264 PE=1 SV=1
+aug_v2a.03173.t1	sp|B3EWZ6|MLRP2_ACRMI	46.018	2677	7311	47	3.04e-12	77.0	sp|B3EWZ6|MLRP2_ACRMI MAM and LDL-receptor class A domain-containing protein 2 (Fragment) OS=Acropora millepora OX=45264 PE=1 SV=1
+aug_v2a.03173.t1	sp|B3EWZ6|MLRP2_ACRMI	40.367	2677	7311	47	4.01e-12	76.6	sp|B3EWZ6|MLRP2_ACRMI MAM and LDL-receptor class A domain-containing protein 2 (Fragment) OS=Acropora millepora OX=45264 PE=1 SV=1
+aug_v2a.03173.t1	sp|B3EWZ6|MLRP2_ACRMI	40.441	2677	7311	47	9.18e-12	75.5	sp|B3EWZ6|MLRP2_ACRMI MAM and LDL-receptor class A domain-containing protein 2 (Fragment) OS=Acropora millepora OX=45264 PE=1 SV=1
+aug_v2a.03173.t1	sp|B3EWZ6|MLRP2_ACRMI	32.886	2677	7311	47	1.18e-11	75.1	sp|B3EWZ6|MLRP2_ACRMI MAM and LDL-receptor class A domain-containing protein 2 (Fragment) OS=Acropora millepora OX=45264 PE=1 SV=1
+aug_v2a.03173.t1	sp|B3EWZ6|MLRP2_ACRMI	34.395	2677	7311	47	1.48e-11	74.7	sp|B3EWZ6|MLRP2_ACRMI MAM and LDL-receptor class A domain-containing protein 2 (Fragment) OS=Acropora millepora OX=45264 PE=1 SV=1
+aug_v2a.03173.t1	sp|B3EWZ6|MLRP2_ACRMI	42.188	2677	7311	47	1.93e-11	74.3	sp|B3EWZ6|MLRP2_ACRMI MAM and LDL-receptor class A domain-containing protein 2 (Fragment) OS=Acropora millepora OX=45264 PE=1 SV=1
+aug_v2a.03173.t1	sp|B3EWZ6|MLRP2_ACRMI	37.500	2677	7311	47	1.93e-11	74.3	sp|B3EWZ6|MLRP2_ACRMI MAM and LDL-receptor class A domain-containing protein 2 (Fragment) OS=Acropora millepora OX=45264 PE=1 SV=1
+aug_v2a.03173.t1	sp|B3EWZ6|MLRP2_ACRMI	36.478	2677	7311	47	2.55e-11	73.9	sp|B3EWZ6|MLRP2_ACRMI MAM and LDL-receptor class A domain-containing protein 2 (Fragment) OS=Acropora millepora OX=45264 PE=1 SV=1
+aug_v2a.03173.t1	sp|B3EWZ6|MLRP2_ACRMI	41.379	2677	7311	47	5.16e-11	72.8	sp|B3EWZ6|MLRP2_ACRMI MAM and LDL-receptor class A domain-containing protein 2 (Fragment) OS=Acropora millepora OX=45264 PE=1 SV=1
+aug_v2a.03173.t1	sp|B3EWZ6|MLRP2_ACRMI	37.681	2677	7311	47	6.86e-11	72.4	sp|B3EWZ6|MLRP2_ACRMI MAM and LDL-receptor class A domain-containing protein 2 (Fragment) OS=Acropora millepora OX=45264 PE=1 SV=1
+aug_v2a.03173.t1	sp|B3EWZ6|MLRP2_ACRMI	36.937	2677	7311	47	7.90e-11	72.4	sp|B3EWZ6|MLRP2_ACRMI MAM and LDL-receptor class A domain-containing protein 2 (Fragment) OS=Acropora millepora OX=45264 PE=1 SV=1
+aug_v2a.03173.t1	sp|Q7RTZ1|OVCH2_HUMAN	26.236	2677	564	18	2.15e-46	181	sp|Q7RTZ1|OVCH2_HUMAN Ovochymase-2 OS=Homo sapiens OX=9606 GN=OVCH2 PE=3 SV=2
+aug_v2a.03173.t1	sp|B7T7N1|MFP2_ACRMI	68.750	2677	112	12	4.36e-45	162	sp|B7T7N1|MFP2_ACRMI MAM and fibronectin type III domain-containing protein 2 (Fragment) OS=Acropora millepora OX=45264 PE=1 SV=1
+aug_v2a.03173.t1	sp|B7T7N1|MFP2_ACRMI	64.602	2677	112	12	4.94e-42	153	sp|B7T7N1|MFP2_ACRMI MAM and fibronectin type III domain-containing protein 2 (Fragment) OS=Acropora millepora OX=45264 PE=1 SV=1
+aug_v2a.03173.t1	sp|B7T7N1|MFP2_ACRMI	34.259	2677	112	12	9.94e-15	75.9	sp|B7T7N1|MFP2_ACRMI MAM and fibronectin type III domain-containing protein 2 (Fragment) OS=Acropora millepora OX=45264 PE=1 SV=1
+aug_v2a.03173.t1	sp|P79953|OVCH2_XENLA	27.455	2677	1004	19	2.81e-43	177	sp|P79953|OVCH2_XENLA Ovochymase-2 OS=Xenopus laevis OX=8355 GN=ovch2 PE=1 SV=1
+aug_v2a.03173.t1	sp|P79953|OVCH2_XENLA	30.252	2677	1004	19	1.30e-15	87.4	sp|P79953|OVCH2_XENLA Ovochymase-2 OS=Xenopus laevis OX=8355 GN=ovch2 PE=1 SV=1
+aug_v2a.03173.t1	sp|Q7M761|OVCH2_MOUSE	27.358	2677	609	18	8.11e-43	171	sp|Q7M761|OVCH2_MOUSE Ovochymase-2 OS=Mus musculus OX=10090 GN=Ovch2 PE=2 SV=1
+aug_v2a.03173.t1	sp|P35033|TRY3_SALSA	38.843	2677	238	9	4.06e-35	138	sp|P35033|TRY3_SALSA Trypsin-3 (Fragment) OS=Salmo salar OX=8030 PE=1 SV=1
+aug_v2a.03173.t1	sp|P57727|TMPS3_HUMAN	34.884	2677	454	11	8.23e-35	144	sp|P57727|TMPS3_HUMAN Transmembrane protease serine 3 OS=Homo sapiens OX=9606 GN=TMPRSS3 PE=1 SV=2
+aug_v2a.03173.t1	sp|Q8K1T0|TMPS3_MOUSE	36.078	2677	453	9	1.02e-34	144	sp|Q8K1T0|TMPS3_MOUSE Transmembrane protease serine 3 OS=Mus musculus OX=10090 GN=Tmprss3 PE=1 SV=2
+aug_v2a.03173.t1	sp|Q9NRR2|TRYG1_HUMAN	38.783	2677	321	9	2.17e-34	139	sp|Q9NRR2|TRYG1_HUMAN Tryptase gamma OS=Homo sapiens OX=9606 GN=TPSG1 PE=2 SV=3
+aug_v2a.03173.t1	sp|Q9N2D1|TRYT_PIG	38.000	2677	275	9	3.86e-34	137	sp|Q9N2D1|TRYT_PIG Tryptase OS=Sus scrofa OX=9823 GN=MCT7 PE=2 SV=1
+aug_v2a.03173.t1	sp|Q9QUL7|TRYG1_MOUSE	39.419	2677	311	9	5.77e-34	137	sp|Q9QUL7|TRYG1_MOUSE Tryptase gamma OS=Mus musculus OX=10090 GN=Tpsg1 PE=2 SV=1
+aug_v2a.03173.t1	sp|P80009|PLMN_CANLF	39.271	2677	333	9	1.33e-33	137	sp|P80009|PLMN_CANLF Plasminogen (Fragment) OS=Canis lupus familiaris OX=9615 GN=PLG PE=1 SV=1
+aug_v2a.03173.t1	sp|Q6BEA2|PRS27_RAT	36.293	2677	328	9	1.46e-33	137	sp|Q6BEA2|PRS27_RAT Serine protease 27 OS=Rattus norvegicus OX=10116 GN=Prss27 PE=2 SV=1
+aug_v2a.03173.t1	sp|P00764|TRYP_SQUAC	37.500	2677	229	9	1.74e-33	133	sp|P00764|TRYP_SQUAC Trypsin OS=Squalus acanthias OX=7797 PE=1 SV=1
+aug_v2a.03173.t1	sp|Q9JHJ7|TEST_MOUSE	33.818	2677	324	10	2.38e-33	136	sp|Q9JHJ7|TEST_MOUSE Testisin OS=Mus musculus OX=10090 GN=Prss21 PE=1 SV=2
+aug_v2a.03173.t1	sp|P15944|TRYT_CANLF	37.751	2677	275	9	3.72e-33	134	sp|P15944|TRYT_CANLF Tryptase OS=Canis lupus familiaris OX=9615 PE=3 SV=1
+aug_v2a.03173.t1	sp|E7EML9|PRS44_HUMAN	36.328	2677	344	9	5.09e-33	135	sp|E7EML9|PRS44_HUMAN Serine protease 44 OS=Homo sapiens OX=9606 GN=PRSS44 PE=3 SV=3
+aug_v2a.03173.t1	sp|Q8VIF2|PRS42_MOUSE	34.137	2677	335	9	5.32e-33	135	sp|Q8VIF2|PRS42_MOUSE Serine protease 42 OS=Mus musculus OX=10090 GN=Prss42 PE=2 SV=1
+aug_v2a.03173.t1	sp|P80010|PLMN_HORSE	38.521	2677	338	9	6.08e-33	135	sp|P80010|PLMN_HORSE Plasminogen (Fragment) OS=Equus caballus OX=9796 GN=PLG PE=1 SV=1
+aug_v2a.03173.t1	sp|Q91Y47|FA11_MOUSE	35.146	2677	624	9	1.62e-32	140	sp|Q91Y47|FA11_MOUSE Coagulation factor XI OS=Mus musculus OX=10090 GN=F11 PE=2 SV=2
+aug_v2a.03173.t1	sp|Q9BQR3|PRS27_HUMAN	35.606	2677	290	9	1.70e-32	132	sp|Q9BQR3|PRS27_HUMAN Serine protease 27 OS=Homo sapiens OX=9606 GN=PRSS27 PE=1 SV=1
+aug_v2a.03173.t1	sp|P08426|TRY3_RAT	37.037	2677	247	9	2.03e-32	131	sp|P08426|TRY3_RAT Cationic trypsin-3 OS=Rattus norvegicus OX=10116 GN=Try3 PE=2 SV=1
+aug_v2a.03173.t1	sp|P03951|FA11_HUMAN	35.950	2677	625	9	2.16e-32	139	sp|P03951|FA11_HUMAN Coagulation factor XI OS=Homo sapiens OX=9606 GN=F11 PE=1 SV=1
+aug_v2a.03173.t1	sp|P00762|TRY1_RAT	37.872	2677	246	9	2.63e-32	130	sp|P00762|TRY1_RAT Anionic trypsin-1 OS=Rattus norvegicus OX=10116 GN=Prss1 PE=1 SV=1
+aug_v2a.03173.t1	sp|Q9CR35|CTRB1_MOUSE	35.772	2677	263	9	2.69e-32	131	sp|Q9CR35|CTRB1_MOUSE Chymotrypsinogen B OS=Mus musculus OX=10090 GN=Ctrb1 PE=1 SV=1
+aug_v2a.03173.t1	sp|Q9JIQ8|TMPS2_MOUSE	37.154	2677	490	9	3.29e-32	137	sp|Q9JIQ8|TMPS2_MOUSE Transmembrane protease serine 2 OS=Mus musculus OX=10090 GN=Tmprss2 PE=2 SV=3
+aug_v2a.03173.t1	sp|P07288|KLK3_HUMAN	35.433	2677	261	9	6.21e-32	130	sp|P07288|KLK3_HUMAN Prostate-specific antigen OS=Homo sapiens OX=9606 GN=KLK3 PE=1 SV=2
+aug_v2a.03173.t1	sp|Q9GZN4|BSSP4_HUMAN	32.806	2677	317	9	6.53e-32	132	sp|Q9GZN4|BSSP4_HUMAN Brain-specific serine protease 4 OS=Homo sapiens OX=9606 GN=PRSS22 PE=1 SV=1
+aug_v2a.03173.t1	sp|P12788|TRY4_RAT	37.190	2677	247	9	8.97e-32	129	sp|P12788|TRY4_RAT Trypsin-4 OS=Rattus norvegicus OX=10116 GN=Try4 PE=2 SV=1
+aug_v2a.03173.t1	sp|P20918|PLMN_MOUSE	39.516	2677	812	9	9.03e-32	139	sp|P20918|PLMN_MOUSE Plasminogen OS=Mus musculus OX=10090 GN=Plg PE=1 SV=3
+aug_v2a.03173.t1	sp|Q01177|PLMN_RAT	39.919	2677	812	9	9.11e-32	139	sp|Q01177|PLMN_RAT Plasminogen OS=Rattus norvegicus OX=10116 GN=Plg PE=2 SV=2
+aug_v2a.03173.t1	sp|O15393|TMPS2_HUMAN	36.905	2677	492	9	1.05e-31	135	sp|O15393|TMPS2_HUMAN Transmembrane protease serine 2 OS=Homo sapiens OX=9606 GN=TMPRSS2 PE=1 SV=3
+aug_v2a.03173.t1	sp|Q8BJR6|PRS27_MOUSE	36.122	2677	328	9	1.08e-31	131	sp|Q8BJR6|PRS27_MOUSE Serine protease 27 OS=Mus musculus OX=10090 GN=Prss27 PE=2 SV=1
+aug_v2a.03173.t1	sp|Q7RTY7|OVCH1_HUMAN	26.110	2677	1134	20	1.12e-31	140	sp|Q7RTY7|OVCH1_HUMAN Ovochymase-1 OS=Homo sapiens OX=9606 GN=OVCH1 PE=2 SV=2
+aug_v2a.03173.t1	sp|Q7RTY7|OVCH1_HUMAN	33.673	2677	1134	20	4.11e-26	122	sp|Q7RTY7|OVCH1_HUMAN Ovochymase-1 OS=Homo sapiens OX=9606 GN=OVCH1 PE=2 SV=2
+aug_v2a.03173.t1	sp|P00761|TRYP_PIG	36.626	2677	231	9	1.49e-31	128	sp|P00761|TRYP_PIG Trypsin OS=Sus scrofa OX=9823 PE=1 SV=1
+aug_v2a.03173.t1	sp|Q80WM7|PRS33_MOUSE	36.364	2677	277	9	1.53e-31	129	sp|Q80WM7|PRS33_MOUSE Serine protease 33 OS=Mus musculus OX=10090 GN=Prss33 PE=2 SV=1
+aug_v2a.03173.t1	sp|Q9Y6M0|TEST_HUMAN	34.191	2677	314	9	1.56e-31	130	sp|Q9Y6M0|TEST_HUMAN Testisin OS=Homo sapiens OX=9606 GN=PRSS21 PE=1 SV=1
+aug_v2a.03173.t1	sp|Q6DT45|KLK3_MACFA	33.465	2677	261	9	2.20e-31	128	sp|Q6DT45|KLK3_MACFA Prostate-specific antigen OS=Macaca fascicularis OX=9541 GN=KLK3 PE=2 SV=1
+aug_v2a.03173.t1	sp|P00767|CTRB_BOVIN	36.929	2677	245	9	2.24e-31	128	sp|P00767|CTRB_BOVIN Chymotrypsinogen B OS=Bos taurus OX=9913 PE=1 SV=1
+aug_v2a.03173.t1	sp|P03952|KLKB1_HUMAN	35.656	2677	638	9	2.47e-31	136	sp|P03952|KLKB1_HUMAN Plasma kallikrein OS=Homo sapiens OX=9606 GN=KLKB1 PE=1 SV=1
+aug_v2a.03173.t1	sp|Q9XSM2|TRYT_SHEEP	34.538	2677	273	9	2.99e-31	128	sp|Q9XSM2|TRYT_SHEEP Tryptase-2 OS=Ovis aries OX=9940 PE=2 SV=1
+aug_v2a.03173.t1	sp|P40313|CTRL_HUMAN	37.395	2677	264	9	3.59e-31	128	sp|P40313|CTRL_HUMAN Chymotrypsin-like protease CTRL-1 OS=Homo sapiens OX=9606 GN=CTRL PE=2 SV=1
+aug_v2a.03173.t1	sp|Q402U7|PRS44_MOUSE	31.786	2677	372	10	3.78e-31	131	sp|Q402U7|PRS44_MOUSE Serine protease 44 OS=Mus musculus OX=10090 GN=Prss44 PE=2 SV=1
+aug_v2a.03173.t1	sp|P50343|TRYB2_RAT	37.349	2677	274	9	4.13e-31	128	sp|P50343|TRYB2_RAT Tryptase beta-2 OS=Rattus norvegicus OX=10116 GN=Tpsb2 PE=2 SV=1
+aug_v2a.03173.t1	sp|P08519|APOA_HUMAN	38.618	2677	4548	9	4.35e-31	139	sp|P08519|APOA_HUMAN Apolipoprotein(a) OS=Homo sapiens OX=9606 GN=LPA PE=1 SV=1
+aug_v2a.03173.t1	sp|Q2KJ63|KLKB1_BOVIN	34.940	2677	636	9	5.78e-31	135	sp|Q2KJ63|KLKB1_BOVIN Plasma kallikrein OS=Bos taurus OX=9913 GN=KLKB1 PE=2 SV=1
+aug_v2a.03173.t1	sp|Q16651|PRSS8_HUMAN	33.582	2677	343	9	6.45e-31	129	sp|Q16651|PRSS8_HUMAN Prostasin OS=Homo sapiens OX=9606 GN=PRSS8 PE=1 SV=1
+aug_v2a.03173.t1	sp|Q6GPI1|CTRB2_HUMAN	35.685	2677	263	9	8.04e-31	127	sp|Q6GPI1|CTRB2_HUMAN Chymotrypsinogen B2 OS=Homo sapiens OX=9606 GN=CTRB2 PE=2 SV=2
+aug_v2a.03173.t1	sp|A1L453|PRS38_HUMAN	32.292	2677	326	10	9.28e-31	129	sp|A1L453|PRS38_HUMAN Serine protease 38 OS=Homo sapiens OX=9606 GN=PRSS38 PE=2 SV=2
+aug_v2a.03173.t1	sp|P22457|FA7_BOVIN	35.424	2677	447	9	1.02e-30	131	sp|P22457|FA7_BOVIN Coagulation factor VII OS=Bos taurus OX=9913 GN=F7 PE=1 SV=2
+aug_v2a.03173.t1	sp|P00766|CTRA_BOVIN	34.979	2677	245	9	1.12e-30	126	sp|P00766|CTRA_BOVIN Chymotrypsinogen A OS=Bos taurus OX=9913 PE=1 SV=1
+aug_v2a.03173.t1	sp|P80646|CTRB_GADMO	36.515	2677	245	9	1.51e-30	125	sp|P80646|CTRB_GADMO Chymotrypsin B OS=Gadus morhua OX=8049 PE=1 SV=1
+aug_v2a.03173.t1	sp|Q8NF86|PRS33_HUMAN	36.364	2677	280	9	1.54e-30	127	sp|Q8NF86|PRS33_HUMAN Serine protease 33 OS=Homo sapiens OX=9606 GN=PRSS33 PE=1 SV=3
+aug_v2a.03173.t1	sp|Q14C59|TM11B_MOUSE	35.632	2677	416	9	1.75e-30	130	sp|Q14C59|TM11B_MOUSE Transmembrane protease serine 11B-like protein OS=Mus musculus OX=10090 GN=Tmprss11b PE=2 SV=2
+aug_v2a.03173.t1	sp|P17538|CTRB1_HUMAN	35.685	2677	263	9	1.83e-30	126	sp|P17538|CTRB1_HUMAN Chymotrypsinogen B OS=Homo sapiens OX=9606 GN=CTRB1 PE=2 SV=2
+aug_v2a.03173.t1	sp|O18783|PLMN_MACEU	39.344	2677	806	9	1.86e-30	135	sp|O18783|PLMN_MACEU Plasminogen OS=Macropus eugenii OX=9315 GN=PLG PE=2 SV=1
+aug_v2a.03173.t1	sp|P06872|TRY2_CANLF	37.447	2677	247	9	3.24e-30	124	sp|P06872|TRY2_CANLF Anionic trypsin OS=Canis lupus familiaris OX=9615 PE=2 SV=1
+aug_v2a.03173.t1	sp|Q8CGR5|KLK14_MOUSE	34.836	2677	250	9	3.31e-30	125	sp|Q8CGR5|KLK14_MOUSE Kallikrein-14 OS=Mus musculus OX=10090 GN=Klk14 PE=2 SV=1
+aug_v2a.03173.t1	sp|P07338|CTRB1_RAT	35.628	2677	263	9	3.44e-30	125	sp|P07338|CTRB1_RAT Chymotrypsinogen B OS=Rattus norvegicus OX=10116 GN=Ctrb1 PE=1 SV=1
+aug_v2a.03173.t1	sp|P20231|TRYB2_HUMAN	35.458	2677	275	9	3.46e-30	125	sp|P20231|TRYB2_HUMAN Tryptase beta-2 OS=Homo sapiens OX=9606 GN=TPSB2 PE=1 SV=2
+aug_v2a.03173.t1	sp|Q15661|TRYB1_HUMAN	35.458	2677	275	9	3.46e-30	125	sp|Q15661|TRYB1_HUMAN Tryptase alpha/beta-1 OS=Homo sapiens OX=9606 GN=TPSAB1 PE=1 SV=1
+aug_v2a.03173.t1	sp|P12545|PLMN_MACMU	38.462	2677	810	9	3.84e-30	134	sp|P12545|PLMN_MACMU Plasminogen OS=Macaca mulatta OX=9544 GN=PLG PE=2 SV=1
+aug_v2a.03173.t1	sp|Q9ER04|TMPS5_MOUSE	34.921	2677	455	9	4.55e-30	130	sp|Q9ER04|TMPS5_MOUSE Transmembrane protease serine 5 OS=Mus musculus OX=10090 GN=Tmprss5 PE=2 SV=3
+aug_v2a.03173.t1	sp|P33619|KLK3_MACMU	33.858	2677	261	9	5.03e-30	124	sp|P33619|KLK3_MACMU Prostate-specific antigen OS=Macaca mulatta OX=9544 GN=KLK3 PE=2 SV=1
+aug_v2a.03173.t1	sp|Q9P0G3|KLK14_HUMAN	34.818	2677	267	9	5.32e-30	125	sp|Q9P0G3|KLK14_HUMAN Kallikrein-14 OS=Homo sapiens OX=9606 GN=KLK14 PE=1 SV=2
+aug_v2a.03173.t1	sp|Q92876|KLK6_HUMAN	35.874	2677	244	8	5.58e-30	124	sp|Q92876|KLK6_HUMAN Kallikrein-6 OS=Homo sapiens OX=9606 GN=KLK6 PE=1 SV=1
+aug_v2a.03173.t1	sp|Q5U405|TMPSD_MOUSE	31.529	2677	543	11	6.66e-30	130	sp|Q5U405|TMPSD_MOUSE Transmembrane protease serine 13 OS=Mus musculus OX=10090 GN=Tmprss13 PE=2 SV=2
+aug_v2a.03173.t1	sp|Q29463|TRY2_BOVIN	38.298	2677	247	9	6.78e-30	124	sp|Q29463|TRY2_BOVIN Anionic trypsin OS=Bos taurus OX=9913 PE=2 SV=1
+aug_v2a.03173.t1	sp|O70169|PRS39_MOUSE	29.818	2677	367	10	7.54e-30	127	sp|O70169|PRS39_MOUSE Inactive serine protease 39 OS=Mus musculus OX=10090 GN=Prss39 PE=2 SV=1
+aug_v2a.03173.t1	sp|P98139|FA7_RABIT	36.948	2677	444	9	8.47e-30	129	sp|P98139|FA7_RABIT Coagulation factor VII OS=Oryctolagus cuniculus OX=9986 GN=F7 PE=2 SV=2
+aug_v2a.03173.t1	sp|P00747|PLMN_HUMAN	37.652	2677	810	9	1.03e-29	132	sp|P00747|PLMN_HUMAN Plasminogen OS=Homo sapiens OX=9606 GN=PLG PE=1 SV=2
+aug_v2a.03173.t1	sp|P07478|TRY2_HUMAN	36.364	2677	247	9	1.11e-29	123	sp|P07478|TRY2_HUMAN Trypsin-2 OS=Homo sapiens OX=9606 GN=PRSS2 PE=1 SV=1
+aug_v2a.03173.t1	sp|P00763|TRY2_RAT	35.745	2677	246	9	1.11e-29	123	sp|P00763|TRY2_RAT Anionic trypsin-2 OS=Rattus norvegicus OX=10116 GN=Prss2 PE=1 SV=2
+aug_v2a.03173.t1	sp|P50342|TRYT_MERUN	35.521	2677	270	9	1.28e-29	124	sp|P50342|TRYT_MERUN Mast cell tryptase OS=Meriones unguiculatus OX=10047 PE=2 SV=1
+aug_v2a.03173.t1	sp|P70059|TRY2_XENLA	36.179	2677	244	9	1.34e-29	123	sp|P70059|TRY2_XENLA Trypsin OS=Xenopus laevis OX=8355 PE=2 SV=1
+aug_v2a.03173.t1	sp|Q9BYE2|TMPSD_HUMAN	33.910	2677	586	10	1.55e-29	130	sp|Q9BYE2|TMPSD_HUMAN Transmembrane protease serine 13 OS=Homo sapiens OX=9606 GN=TMPRSS13 PE=2 SV=4
+aug_v2a.03173.t1	sp|Q5R8X6|PLMN_PONAB	37.652	2677	810	9	1.70e-29	132	sp|Q5R8X6|PLMN_PONAB Plasminogen OS=Pongo abelii OX=9601 GN=PLG PE=2 SV=1
+aug_v2a.03173.t1	sp|A6NIE9|PRS29_HUMAN	36.047	2677	313	9	1.74e-29	124	sp|A6NIE9|PRS29_HUMAN Putative serine protease 29 OS=Homo sapiens OX=9606 GN=PRSS29P PE=5 SV=3
+aug_v2a.03173.t1	sp|P07477|TRY1_HUMAN	36.596	2677	247	9	1.95e-29	122	sp|P07477|TRY1_HUMAN Trypsin-1 OS=Homo sapiens OX=9606 GN=PRSS1 PE=1 SV=1
+aug_v2a.03173.t1	sp|P04813|CTR2_CANLF	35.745	2677	263	9	1.98e-29	123	sp|P04813|CTR2_CANLF Chymotrypsinogen 2 OS=Canis lupus familiaris OX=9615 GN=CTRB1 PE=2 SV=1
+aug_v2a.03173.t1	sp|Q9UKR3|KLK13_HUMAN	35.021	2677	277	9	2.19e-29	123	sp|Q9UKR3|KLK13_HUMAN Kallikrein-13 OS=Homo sapiens OX=9606 GN=KLK13 PE=2 SV=1
+aug_v2a.03173.t1	sp|B3EWZ5|MLRP1_ACRMI	42.105	2677	5145	48	2.99e-29	133	sp|B3EWZ5|MLRP1_ACRMI MAM and LDL-receptor class A domain-containing protein 1 (Fragment) OS=Acropora millepora OX=45264 PE=1 SV=1
+aug_v2a.03173.t1	sp|B3EWZ5|MLRP1_ACRMI	39.738	2677	5145	48	1.97e-28	130	sp|B3EWZ5|MLRP1_ACRMI MAM and LDL-receptor class A domain-containing protein 1 (Fragment) OS=Acropora millepora OX=45264 PE=1 SV=1
+aug_v2a.03173.t1	sp|B3EWZ5|MLRP1_ACRMI	38.462	2677	5145	48	6.82e-28	128	sp|B3EWZ5|MLRP1_ACRMI MAM and LDL-receptor class A domain-containing protein 1 (Fragment) OS=Acropora millepora OX=45264 PE=1 SV=1
+aug_v2a.03173.t1	sp|B3EWZ5|MLRP1_ACRMI	46.061	2677	5145	48	1.91e-27	127	sp|B3EWZ5|MLRP1_ACRMI MAM and LDL-receptor class A domain-containing protein 1 (Fragment) OS=Acropora millepora OX=45264 PE=1 SV=1
+aug_v2a.03173.t1	sp|B3EWZ5|MLRP1_ACRMI	40.719	2677	5145	48	3.30e-27	126	sp|B3EWZ5|MLRP1_ACRMI MAM and LDL-receptor class A domain-containing protein 1 (Fragment) OS=Acropora millepora OX=45264 PE=1 SV=1
+aug_v2a.03173.t1	sp|B3EWZ5|MLRP1_ACRMI	37.037	2677	5145	48	4.63e-26	122	sp|B3EWZ5|MLRP1_ACRMI MAM and LDL-receptor class A domain-containing protein 1 (Fragment) OS=Acropora millepora OX=45264 PE=1 SV=1
+aug_v2a.03173.t1	sp|B3EWZ5|MLRP1_ACRMI	35.377	2677	5145	48	5.61e-26	122	sp|B3EWZ5|MLRP1_ACRMI MAM and LDL-receptor class A domain-containing protein 1 (Fragment) OS=Acropora millepora OX=45264 PE=1 SV=1
+aug_v2a.03173.t1	sp|B3EWZ5|MLRP1_ACRMI	26.078	2677	5145	48	3.29e-25	119	sp|B3EWZ5|MLRP1_ACRMI MAM and LDL-receptor class A domain-containing protein 1 (Fragment) OS=Acropora millepora OX=45264 PE=1 SV=1
+aug_v2a.03173.t1	sp|B3EWZ5|MLRP1_ACRMI	31.085	2677	5145	48	5.31e-25	119	sp|B3EWZ5|MLRP1_ACRMI MAM and LDL-receptor class A domain-containing protein 1 (Fragment) OS=Acropora millepora OX=45264 PE=1 SV=1
+aug_v2a.03173.t1	sp|B3EWZ5|MLRP1_ACRMI	44.242	2677	5145	48	6.60e-25	118	sp|B3EWZ5|MLRP1_ACRMI MAM and LDL-receptor class A domain-containing protein 1 (Fragment) OS=Acropora millepora OX=45264 PE=1 SV=1
+aug_v2a.03173.t1	sp|B3EWZ5|MLRP1_ACRMI	39.429	2677	5145	48	7.48e-25	118	sp|B3EWZ5|MLRP1_ACRMI MAM and LDL-receptor class A domain-containing protein 1 (Fragment) OS=Acropora millepora OX=45264 PE=1 SV=1
+aug_v2a.03173.t1	sp|B3EWZ5|MLRP1_ACRMI	40.000	2677	5145	48	9.30e-25	118	sp|B3EWZ5|MLRP1_ACRMI MAM and LDL-receptor class A domain-containing protein 1 (Fragment) OS=Acropora millepora OX=45264 PE=1 SV=1
+aug_v2a.03173.t1	sp|B3EWZ5|MLRP1_ACRMI	44.910	2677	5145	48	1.05e-24	118	sp|B3EWZ5|MLRP1_ACRMI MAM and LDL-receptor class A domain-containing protein 1 (Fragment) OS=Acropora millepora OX=45264 PE=1 SV=1
+aug_v2a.03173.t1	sp|B3EWZ5|MLRP1_ACRMI	42.169	2677	5145	48	2.19e-24	117	sp|B3EWZ5|MLRP1_ACRMI MAM and LDL-receptor class A domain-containing protein 1 (Fragment) OS=Acropora millepora OX=45264 PE=1 SV=1
+aug_v2a.03173.t1	sp|B3EWZ5|MLRP1_ACRMI	43.529	2677	5145	48	2.42e-24	117	sp|B3EWZ5|MLRP1_ACRMI MAM and LDL-receptor class A domain-containing protein 1 (Fragment) OS=Acropora millepora OX=45264 PE=1 SV=1
+aug_v2a.03173.t1	sp|B3EWZ5|MLRP1_ACRMI	39.881	2677	5145	48	2.59e-24	116	sp|B3EWZ5|MLRP1_ACRMI MAM and LDL-receptor class A domain-containing protein 1 (Fragment) OS=Acropora millepora OX=45264 PE=1 SV=1
+aug_v2a.03173.t1	sp|B3EWZ5|MLRP1_ACRMI	37.888	2677	5145	48	4.81e-24	115	sp|B3EWZ5|MLRP1_ACRMI MAM and LDL-receptor class A domain-containing protein 1 (Fragment) OS=Acropora millepora OX=45264 PE=1 SV=1
+aug_v2a.03173.t1	sp|B3EWZ5|MLRP1_ACRMI	34.025	2677	5145	48	4.85e-24	115	sp|B3EWZ5|MLRP1_ACRMI MAM and LDL-receptor class A domain-containing protein 1 (Fragment) OS=Acropora millepora OX=45264 PE=1 SV=1
+aug_v2a.03173.t1	sp|B3EWZ5|MLRP1_ACRMI	39.683	2677	5145	48	7.02e-24	115	sp|B3EWZ5|MLRP1_ACRMI MAM and LDL-receptor class A domain-containing protein 1 (Fragment) OS=Acropora millepora OX=45264 PE=1 SV=1
+aug_v2a.03173.t1	sp|B3EWZ5|MLRP1_ACRMI	43.636	2677	5145	48	9.10e-24	115	sp|B3EWZ5|MLRP1_ACRMI MAM and LDL-receptor class A domain-containing protein 1 (Fragment) OS=Acropora millepora OX=45264 PE=1 SV=1
+aug_v2a.03173.t1	sp|B3EWZ5|MLRP1_ACRMI	42.604	2677	5145	48	1.56e-23	114	sp|B3EWZ5|MLRP1_ACRMI MAM and LDL-receptor class A domain-containing protein 1 (Fragment) OS=Acropora millepora OX=45264 PE=1 SV=1
+aug_v2a.03173.t1	sp|B3EWZ5|MLRP1_ACRMI	37.870	2677	5145	48	8.61e-23	111	sp|B3EWZ5|MLRP1_ACRMI MAM and LDL-receptor class A domain-containing protein 1 (Fragment) OS=Acropora millepora OX=45264 PE=1 SV=1
+aug_v2a.03173.t1	sp|B3EWZ5|MLRP1_ACRMI	41.566	2677	5145	48	8.98e-23	111	sp|B3EWZ5|MLRP1_ACRMI MAM and LDL-receptor class A domain-containing protein 1 (Fragment) OS=Acropora millepora OX=45264 PE=1 SV=1
+aug_v2a.03173.t1	sp|B3EWZ5|MLRP1_ACRMI	37.356	2677	5145	48	9.28e-23	111	sp|B3EWZ5|MLRP1_ACRMI MAM and LDL-receptor class A domain-containing protein 1 (Fragment) OS=Acropora millepora OX=45264 PE=1 SV=1
+aug_v2a.03173.t1	sp|B3EWZ5|MLRP1_ACRMI	41.317	2677	5145	48	1.08e-22	111	sp|B3EWZ5|MLRP1_ACRMI MAM and LDL-receptor class A domain-containing protein 1 (Fragment) OS=Acropora millepora OX=45264 PE=1 SV=1
+aug_v2a.03173.t1	sp|B3EWZ5|MLRP1_ACRMI	42.857	2677	5145	48	1.80e-22	110	sp|B3EWZ5|MLRP1_ACRMI MAM and LDL-receptor class A domain-containing protein 1 (Fragment) OS=Acropora millepora OX=45264 PE=1 SV=1
+aug_v2a.03173.t1	sp|B3EWZ5|MLRP1_ACRMI	43.114	2677	5145	48	1.05e-21	108	sp|B3EWZ5|MLRP1_ACRMI MAM and LDL-receptor class A domain-containing protein 1 (Fragment) OS=Acropora millepora OX=45264 PE=1 SV=1
+aug_v2a.03173.t1	sp|B3EWZ5|MLRP1_ACRMI	43.030	2677	5145	48	1.45e-21	107	sp|B3EWZ5|MLRP1_ACRMI MAM and LDL-receptor class A domain-containing protein 1 (Fragment) OS=Acropora millepora OX=45264 PE=1 SV=1
+aug_v2a.03173.t1	sp|B3EWZ5|MLRP1_ACRMI	38.650	2677	5145	48	1.54e-21	107	sp|B3EWZ5|MLRP1_ACRMI MAM and LDL-receptor class A domain-containing protein 1 (Fragment) OS=Acropora millepora OX=45264 PE=1 SV=1
+aug_v2a.03173.t1	sp|B3EWZ5|MLRP1_ACRMI	45.625	2677	5145	48	2.30e-21	107	sp|B3EWZ5|MLRP1_ACRMI MAM and LDL-receptor class A domain-containing protein 1 (Fragment) OS=Acropora millepora OX=45264 PE=1 SV=1
+aug_v2a.03173.t1	sp|B3EWZ5|MLRP1_ACRMI	27.027	2677	5145	48	3.39e-21	106	sp|B3EWZ5|MLRP1_ACRMI MAM and LDL-receptor class A domain-containing protein 1 (Fragment) OS=Acropora millepora OX=45264 PE=1 SV=1
+aug_v2a.03173.t1	sp|B3EWZ5|MLRP1_ACRMI	39.429	2677	5145	48	3.59e-21	106	sp|B3EWZ5|MLRP1_ACRMI MAM and LDL-receptor class A domain-containing protein 1 (Fragment) OS=Acropora millepora OX=45264 PE=1 SV=1
+aug_v2a.03173.t1	sp|B3EWZ5|MLRP1_ACRMI	40.123	2677	5145	48	5.79e-21	105	sp|B3EWZ5|MLRP1_ACRMI MAM and LDL-receptor class A domain-containing protein 1 (Fragment) OS=Acropora millepora OX=45264 PE=1 SV=1
+aug_v2a.03173.t1	sp|B3EWZ5|MLRP1_ACRMI	43.976	2677	5145	48	7.02e-21	105	sp|B3EWZ5|MLRP1_ACRMI MAM and LDL-receptor class A domain-containing protein 1 (Fragment) OS=Acropora millepora OX=45264 PE=1 SV=1
+aug_v2a.03173.t1	sp|B3EWZ5|MLRP1_ACRMI	37.037	2677	5145	48	1.41e-19	101	sp|B3EWZ5|MLRP1_ACRMI MAM and LDL-receptor class A domain-containing protein 1 (Fragment) OS=Acropora millepora OX=45264 PE=1 SV=1
+aug_v2a.03173.t1	sp|B3EWZ5|MLRP1_ACRMI	33.668	2677	5145	48	1.99e-19	100	sp|B3EWZ5|MLRP1_ACRMI MAM and LDL-receptor class A domain-containing protein 1 (Fragment) OS=Acropora millepora OX=45264 PE=1 SV=1
+aug_v2a.03173.t1	sp|B3EWZ5|MLRP1_ACRMI	39.375	2677	5145	48	2.41e-19	100	sp|B3EWZ5|MLRP1_ACRMI MAM and LDL-receptor class A domain-containing protein 1 (Fragment) OS=Acropora millepora OX=45264 PE=1 SV=1
+aug_v2a.03173.t1	sp|B3EWZ5|MLRP1_ACRMI	37.278	2677	5145	48	3.40e-19	99.8	sp|B3EWZ5|MLRP1_ACRMI MAM and LDL-receptor class A domain-containing protein 1 (Fragment) OS=Acropora millepora OX=45264 PE=1 SV=1
+aug_v2a.03173.t1	sp|B3EWZ5|MLRP1_ACRMI	47.458	2677	5145	48	4.85e-18	96.3	sp|B3EWZ5|MLRP1_ACRMI MAM and LDL-receptor class A domain-containing protein 1 (Fragment) OS=Acropora millepora OX=45264 PE=1 SV=1
+aug_v2a.03173.t1	sp|B3EWZ5|MLRP1_ACRMI	33.649	2677	5145	48	6.96e-18	95.5	sp|B3EWZ5|MLRP1_ACRMI MAM and LDL-receptor class A domain-containing protein 1 (Fragment) OS=Acropora millepora OX=45264 PE=1 SV=1
+aug_v2a.03173.t1	sp|B3EWZ5|MLRP1_ACRMI	39.130	2677	5145	48	9.98e-18	95.1	sp|B3EWZ5|MLRP1_ACRMI MAM and LDL-receptor class A domain-containing protein 1 (Fragment) OS=Acropora millepora OX=45264 PE=1 SV=1
+aug_v2a.03173.t1	sp|B3EWZ5|MLRP1_ACRMI	36.500	2677	5145	48	1.78e-17	94.4	sp|B3EWZ5|MLRP1_ACRMI MAM and LDL-receptor class A domain-containing protein 1 (Fragment) OS=Acropora millepora OX=45264 PE=1 SV=1
+aug_v2a.03173.t1	sp|B3EWZ5|MLRP1_ACRMI	39.759	2677	5145	48	2.62e-17	93.6	sp|B3EWZ5|MLRP1_ACRMI MAM and LDL-receptor class A domain-containing protein 1 (Fragment) OS=Acropora millepora OX=45264 PE=1 SV=1
+aug_v2a.03173.t1	sp|B3EWZ5|MLRP1_ACRMI	41.844	2677	5145	48	4.99e-17	92.8	sp|B3EWZ5|MLRP1_ACRMI MAM and LDL-receptor class A domain-containing protein 1 (Fragment) OS=Acropora millepora OX=45264 PE=1 SV=1
+aug_v2a.03173.t1	sp|B3EWZ5|MLRP1_ACRMI	37.363	2677	5145	48	1.09e-16	91.7	sp|B3EWZ5|MLRP1_ACRMI MAM and LDL-receptor class A domain-containing protein 1 (Fragment) OS=Acropora millepora OX=45264 PE=1 SV=1
+aug_v2a.03173.t1	sp|B3EWZ5|MLRP1_ACRMI	41.600	2677	5145	48	1.16e-16	91.7	sp|B3EWZ5|MLRP1_ACRMI MAM and LDL-receptor class A domain-containing protein 1 (Fragment) OS=Acropora millepora OX=45264 PE=1 SV=1
+aug_v2a.03173.t1	sp|B3EWZ5|MLRP1_ACRMI	39.157	2677	5145	48	1.29e-16	91.3	sp|B3EWZ5|MLRP1_ACRMI MAM and LDL-receptor class A domain-containing protein 1 (Fragment) OS=Acropora millepora OX=45264 PE=1 SV=1
+aug_v2a.03173.t1	sp|B3EWZ5|MLRP1_ACRMI	38.400	2677	5145	48	2.93e-16	90.1	sp|B3EWZ5|MLRP1_ACRMI MAM and LDL-receptor class A domain-containing protein 1 (Fragment) OS=Acropora millepora OX=45264 PE=1 SV=1
+aug_v2a.03173.t1	sp|B3EWZ5|MLRP1_ACRMI	43.182	2677	5145	48	2.97e-16	90.1	sp|B3EWZ5|MLRP1_ACRMI MAM and LDL-receptor class A domain-containing protein 1 (Fragment) OS=Acropora millepora OX=45264 PE=1 SV=1
+aug_v2a.03173.t1	sp|B3EWZ5|MLRP1_ACRMI	36.628	2677	5145	48	5.63e-16	89.4	sp|B3EWZ5|MLRP1_ACRMI MAM and LDL-receptor class A domain-containing protein 1 (Fragment) OS=Acropora millepora OX=45264 PE=1 SV=1
+aug_v2a.03173.t1	sp|B3EWZ5|MLRP1_ACRMI	40.458	2677	5145	48	1.59e-15	87.8	sp|B3EWZ5|MLRP1_ACRMI MAM and LDL-receptor class A domain-containing protein 1 (Fragment) OS=Acropora millepora OX=45264 PE=1 SV=1
+aug_v2a.03173.t1	sp|B3EWZ5|MLRP1_ACRMI	43.307	2677	5145	48	2.01e-15	87.4	sp|B3EWZ5|MLRP1_ACRMI MAM and LDL-receptor class A domain-containing protein 1 (Fragment) OS=Acropora millepora OX=45264 PE=1 SV=1
+aug_v2a.03173.t1	sp|B3EWZ5|MLRP1_ACRMI	40.602	2677	5145	48	2.30e-15	87.4	sp|B3EWZ5|MLRP1_ACRMI MAM and LDL-receptor class A domain-containing protein 1 (Fragment) OS=Acropora millepora OX=45264 PE=1 SV=1
+aug_v2a.03173.t1	sp|B3EWZ5|MLRP1_ACRMI	38.333	2677	5145	48	2.30e-15	87.4	sp|B3EWZ5|MLRP1_ACRMI MAM and LDL-receptor class A domain-containing protein 1 (Fragment) OS=Acropora millepora OX=45264 PE=1 SV=1
+aug_v2a.03173.t1	sp|B3EWZ5|MLRP1_ACRMI	41.406	2677	5145	48	5.27e-15	85.9	sp|B3EWZ5|MLRP1_ACRMI MAM and LDL-receptor class A domain-containing protein 1 (Fragment) OS=Acropora millepora OX=45264 PE=1 SV=1
+aug_v2a.03173.t1	sp|B3EWZ5|MLRP1_ACRMI	39.655	2677	5145	48	5.69e-15	85.9	sp|B3EWZ5|MLRP1_ACRMI MAM and LDL-receptor class A domain-containing protein 1 (Fragment) OS=Acropora millepora OX=45264 PE=1 SV=1
+aug_v2a.03173.t1	sp|B3EWZ5|MLRP1_ACRMI	45.385	2677	5145	48	5.93e-15	85.9	sp|B3EWZ5|MLRP1_ACRMI MAM and LDL-receptor class A domain-containing protein 1 (Fragment) OS=Acropora millepora OX=45264 PE=1 SV=1
+aug_v2a.03173.t1	sp|B3EWZ5|MLRP1_ACRMI	40.299	2677	5145	48	6.18e-15	85.9	sp|B3EWZ5|MLRP1_ACRMI MAM and LDL-receptor class A domain-containing protein 1 (Fragment) OS=Acropora millepora OX=45264 PE=1 SV=1
+aug_v2a.03173.t1	sp|B3EWZ5|MLRP1_ACRMI	40.602	2677	5145	48	8.57e-15	85.5	sp|B3EWZ5|MLRP1_ACRMI MAM and LDL-receptor class A domain-containing protein 1 (Fragment) OS=Acropora millepora OX=45264 PE=1 SV=1
+aug_v2a.03173.t1	sp|B3EWZ5|MLRP1_ACRMI	42.188	2677	5145	48	9.48e-15	85.1	sp|B3EWZ5|MLRP1_ACRMI MAM and LDL-receptor class A domain-containing protein 1 (Fragment) OS=Acropora millepora OX=45264 PE=1 SV=1
+aug_v2a.03173.t1	sp|B3EWZ5|MLRP1_ACRMI	35.754	2677	5145	48	2.03e-14	84.0	sp|B3EWZ5|MLRP1_ACRMI MAM and LDL-receptor class A domain-containing protein 1 (Fragment) OS=Acropora millepora OX=45264 PE=1 SV=1
+aug_v2a.03173.t1	sp|B3EWZ5|MLRP1_ACRMI	38.686	2677	5145	48	2.31e-14	84.0	sp|B3EWZ5|MLRP1_ACRMI MAM and LDL-receptor class A domain-containing protein 1 (Fragment) OS=Acropora millepora OX=45264 PE=1 SV=1
+aug_v2a.03173.t1	sp|B3EWZ5|MLRP1_ACRMI	28.994	2677	5145	48	2.34e-14	84.0	sp|B3EWZ5|MLRP1_ACRMI MAM and LDL-receptor class A domain-containing protein 1 (Fragment) OS=Acropora millepora OX=45264 PE=1 SV=1
+aug_v2a.03173.t1	sp|B3EWZ5|MLRP1_ACRMI	38.462	2677	5145	48	4.25e-14	83.2	sp|B3EWZ5|MLRP1_ACRMI MAM and LDL-receptor class A domain-containing protein 1 (Fragment) OS=Acropora millepora OX=45264 PE=1 SV=1
+aug_v2a.03173.t1	sp|B3EWZ5|MLRP1_ACRMI	41.538	2677	5145	48	5.51e-14	82.8	sp|B3EWZ5|MLRP1_ACRMI MAM and LDL-receptor class A domain-containing protein 1 (Fragment) OS=Acropora millepora OX=45264 PE=1 SV=1
+aug_v2a.03173.t1	sp|B3EWZ5|MLRP1_ACRMI	36.691	2677	5145	48	7.58e-14	82.4	sp|B3EWZ5|MLRP1_ACRMI MAM and LDL-receptor class A domain-containing protein 1 (Fragment) OS=Acropora millepora OX=45264 PE=1 SV=1
+aug_v2a.03173.t1	sp|B3EWZ5|MLRP1_ACRMI	34.839	2677	5145	48	7.77e-14	82.0	sp|B3EWZ5|MLRP1_ACRMI MAM and LDL-receptor class A domain-containing protein 1 (Fragment) OS=Acropora millepora OX=45264 PE=1 SV=1
+aug_v2a.03173.t1	sp|B3EWZ5|MLRP1_ACRMI	41.406	2677	5145	48	9.66e-14	82.0	sp|B3EWZ5|MLRP1_ACRMI MAM and LDL-receptor class A domain-containing protein 1 (Fragment) OS=Acropora millepora OX=45264 PE=1 SV=1
+aug_v2a.03173.t1	sp|B3EWZ5|MLRP1_ACRMI	30.986	2677	5145	48	1.02e-13	81.6	sp|B3EWZ5|MLRP1_ACRMI MAM and LDL-receptor class A domain-containing protein 1 (Fragment) OS=Acropora millepora OX=45264 PE=1 SV=1
+aug_v2a.03173.t1	sp|B3EWZ5|MLRP1_ACRMI	28.458	2677	5145	48	1.39e-13	81.3	sp|B3EWZ5|MLRP1_ACRMI MAM and LDL-receptor class A domain-containing protein 1 (Fragment) OS=Acropora millepora OX=45264 PE=1 SV=1
+aug_v2a.03173.t1	sp|B3EWZ5|MLRP1_ACRMI	39.669	2677	5145	48	8.12e-13	79.0	sp|B3EWZ5|MLRP1_ACRMI MAM and LDL-receptor class A domain-containing protein 1 (Fragment) OS=Acropora millepora OX=45264 PE=1 SV=1
+aug_v2a.03173.t1	sp|B3EWZ5|MLRP1_ACRMI	36.641	2677	5145	48	8.40e-13	79.0	sp|B3EWZ5|MLRP1_ACRMI MAM and LDL-receptor class A domain-containing protein 1 (Fragment) OS=Acropora millepora OX=45264 PE=1 SV=1
+aug_v2a.03173.t1	sp|B3EWZ5|MLRP1_ACRMI	39.669	2677	5145	48	1.07e-12	78.6	sp|B3EWZ5|MLRP1_ACRMI MAM and LDL-receptor class A domain-containing protein 1 (Fragment) OS=Acropora millepora OX=45264 PE=1 SV=1
+aug_v2a.03173.t1	sp|B3EWZ5|MLRP1_ACRMI	35.152	2677	5145	48	1.09e-12	78.6	sp|B3EWZ5|MLRP1_ACRMI MAM and LDL-receptor class A domain-containing protein 1 (Fragment) OS=Acropora millepora OX=45264 PE=1 SV=1
+aug_v2a.03173.t1	sp|B3EWZ5|MLRP1_ACRMI	35.385	2677	5145	48	1.39e-12	78.2	sp|B3EWZ5|MLRP1_ACRMI MAM and LDL-receptor class A domain-containing protein 1 (Fragment) OS=Acropora millepora OX=45264 PE=1 SV=1
+aug_v2a.03173.t1	sp|B3EWZ5|MLRP1_ACRMI	46.087	2677	5145	48	2.20e-12	77.4	sp|B3EWZ5|MLRP1_ACRMI MAM and LDL-receptor class A domain-containing protein 1 (Fragment) OS=Acropora millepora OX=45264 PE=1 SV=1
+aug_v2a.03173.t1	sp|B3EWZ5|MLRP1_ACRMI	38.298	2677	5145	48	2.40e-12	77.4	sp|B3EWZ5|MLRP1_ACRMI MAM and LDL-receptor class A domain-containing protein 1 (Fragment) OS=Acropora millepora OX=45264 PE=1 SV=1
+aug_v2a.03173.t1	sp|B3EWZ5|MLRP1_ACRMI	46.018	2677	5145	48	2.46e-12	77.4	sp|B3EWZ5|MLRP1_ACRMI MAM and LDL-receptor class A domain-containing protein 1 (Fragment) OS=Acropora millepora OX=45264 PE=1 SV=1
+aug_v2a.03173.t1	sp|B3EWZ5|MLRP1_ACRMI	40.367	2677	5145	48	3.24e-12	77.0	sp|B3EWZ5|MLRP1_ACRMI MAM and LDL-receptor class A domain-containing protein 1 (Fragment) OS=Acropora millepora OX=45264 PE=1 SV=1
+aug_v2a.03173.t1	sp|B3EWZ5|MLRP1_ACRMI	37.313	2677	5145	48	5.05e-12	76.3	sp|B3EWZ5|MLRP1_ACRMI MAM and LDL-receptor class A domain-containing protein 1 (Fragment) OS=Acropora millepora OX=45264 PE=1 SV=1
+aug_v2a.03173.t1	sp|B3EWZ5|MLRP1_ACRMI	39.706	2677	5145	48	1.06e-11	75.1	sp|B3EWZ5|MLRP1_ACRMI MAM and LDL-receptor class A domain-containing protein 1 (Fragment) OS=Acropora millepora OX=45264 PE=1 SV=1
+aug_v2a.03173.t1	sp|B3EWZ5|MLRP1_ACRMI	42.188	2677	5145	48	1.49e-11	74.7	sp|B3EWZ5|MLRP1_ACRMI MAM and LDL-receptor class A domain-containing protein 1 (Fragment) OS=Acropora millepora OX=45264 PE=1 SV=1
+aug_v2a.03173.t1	sp|B3EWZ5|MLRP1_ACRMI	34.395	2677	5145	48	2.48e-11	73.9	sp|B3EWZ5|MLRP1_ACRMI MAM and LDL-receptor class A domain-containing protein 1 (Fragment) OS=Acropora millepora OX=45264 PE=1 SV=1
+aug_v2a.03173.t1	sp|B3EWZ5|MLRP1_ACRMI	32.886	2677	5145	48	2.55e-11	73.9	sp|B3EWZ5|MLRP1_ACRMI MAM and LDL-receptor class A domain-containing protein 1 (Fragment) OS=Acropora millepora OX=45264 PE=1 SV=1
+aug_v2a.03173.t1	sp|B3EWZ5|MLRP1_ACRMI	41.379	2677	5145	48	4.35e-11	73.2	sp|B3EWZ5|MLRP1_ACRMI MAM and LDL-receptor class A domain-containing protein 1 (Fragment) OS=Acropora millepora OX=45264 PE=1 SV=1
+aug_v2a.03173.t1	sp|P21845|TRYB2_MOUSE	35.798	2677	276	9	3.82e-29	122	sp|P21845|TRYB2_MOUSE Tryptase beta-2 OS=Mus musculus OX=10090 GN=Tpsb2 PE=1 SV=2
+aug_v2a.03173.t1	sp|Q8BZ10|TM11G_MOUSE	36.100	2677	417	9	4.39e-29	126	sp|Q8BZ10|TM11G_MOUSE Transmembrane protease serine 11G OS=Mus musculus OX=10090 GN=Tmprss11g PE=2 SV=2
+aug_v2a.03173.t1	sp|Q5QSK2|TM11G_RAT	35.391	2677	417	9	4.43e-29	126	sp|Q5QSK2|TM11G_RAT Transmembrane protease serine 11G OS=Rattus norvegicus OX=10116 GN=Tmprss11g PE=2 SV=1
+aug_v2a.03173.t1	sp|Q86T26|TM11B_HUMAN	32.819	2677	416	9	4.69e-29	126	sp|Q86T26|TM11B_HUMAN Transmembrane protease serine 11B OS=Homo sapiens OX=9606 GN=TMPRSS11B PE=2 SV=3
+aug_v2a.03173.t1	sp|Q5K2P9|POLS2_RAT	34.296	2677	875	9	5.70e-29	130	sp|Q5K2P9|POLS2_RAT Polyserase-2 OS=Rattus norvegicus OX=10116 GN=Prss36 PE=2 SV=1
+aug_v2a.03173.t1	sp|Q5K2P9|POLS2_RAT	28.745	2677	875	9	7.48e-11	71.6	sp|Q5K2P9|POLS2_RAT Polyserase-2 OS=Rattus norvegicus OX=10116 GN=Prss36 PE=2 SV=1
+aug_v2a.03173.t1	sp|Q920S2|PRS41_MOUSE	32.877	2677	322	10	5.75e-29	123	sp|Q920S2|PRS41_MOUSE Serine protease 41 OS=Mus musculus OX=10090 GN=Prss41 PE=1 SV=1
+aug_v2a.03173.t1	sp|P06871|TRY1_CANLF	35.565	2677	246	9	7.25e-29	120	sp|P06871|TRY1_CANLF Cationic trypsin OS=Canis lupus familiaris OX=9615 PE=2 SV=1
+aug_v2a.03173.t1	sp|P81286|PLMN_SHEEP	37.603	2677	343	9	7.96e-29	123	sp|P81286|PLMN_SHEEP Plasminogen (Fragment) OS=Ovis aries OX=9940 GN=PLG PE=1 SV=1
+aug_v2a.03173.t1	sp|P00740|FA9_HUMAN	34.298	2677	461	9	1.01e-28	125	sp|P00740|FA9_HUMAN Coagulation factor IX OS=Homo sapiens OX=9606 GN=F9 PE=1 SV=2
+aug_v2a.03173.t1	sp|P16295|FA9_CAVPO	33.761	2677	285	9	1.16e-28	121	sp|P16295|FA9_CAVPO Coagulation factor IX (Fragment) OS=Cavia porcellus OX=10141 GN=F9 PE=2 SV=1
+aug_v2a.03173.t1	sp|Q6SA95|FA9_FELCA	34.959	2677	466	9	1.18e-28	125	sp|Q6SA95|FA9_FELCA Coagulation factor IX OS=Felis catus OX=9685 GN=F9 PE=3 SV=1
+aug_v2a.03173.t1	sp|P09582|ESTA_CANLF	32.692	2677	260	9	1.21e-28	120	sp|P09582|ESTA_CANLF Arginine esterase OS=Canis lupus familiaris OX=9615 PE=1 SV=1
+aug_v2a.03173.t1	sp|Q90627|TRY1_CHICK	36.032	2677	248	9	1.27e-28	120	sp|Q90627|TRY1_CHICK Trypsin I-P1 OS=Gallus gallus OX=9031 PE=2 SV=1
+aug_v2a.15481.t1	sp|P54763|EPHB2_MOUSE	35.942	938	986	94	7.50e-177	542	sp|P54763|EPHB2_MOUSE Ephrin type-B receptor 2 OS=Mus musculus OX=10090 GN=Ephb2 PE=1 SV=3
+aug_v2a.15481.t1	sp|P29323|EPHB2_HUMAN	35.942	938	1055	94	3.90e-175	539	sp|P29323|EPHB2_HUMAN Ephrin type-B receptor 2 OS=Homo sapiens OX=9606 GN=EPHB2 PE=1 SV=5
+aug_v2a.15481.t1	sp|O13146|EPHA3_DANRE	36.642	938	981	93	3.31e-174	535	sp|O13146|EPHA3_DANRE Ephrin type-A receptor 3 OS=Danio rerio OX=7955 GN=epha3 PE=2 SV=1
+aug_v2a.15481.t1	sp|P09759|EPHB1_RAT	36.258	938	984	93	1.11e-173	533	sp|P09759|EPHB1_RAT Ephrin type-B receptor 1 OS=Rattus norvegicus OX=10116 GN=Ephb1 PE=1 SV=2
+aug_v2a.15481.t1	sp|Q8CBF3|EPHB1_MOUSE	36.152	938	984	93	2.04e-173	533	sp|Q8CBF3|EPHB1_MOUSE Ephrin type-B receptor 1 OS=Mus musculus OX=10090 GN=Ephb1 PE=1 SV=1
+aug_v2a.15481.t1	sp|P54762|EPHB1_HUMAN	36.258	938	984	93	2.09e-173	533	sp|P54762|EPHB1_HUMAN Ephrin type-B receptor 1 OS=Homo sapiens OX=9606 GN=EPHB1 PE=1 SV=1
+aug_v2a.15481.t1	sp|Q07496|EPHA4_CHICK	35.331	938	986	93	3.89e-170	524	sp|Q07496|EPHA4_CHICK Ephrin type-A receptor 4 OS=Gallus gallus OX=9031 GN=EPHA4 PE=1 SV=2
+aug_v2a.15481.t1	sp|Q91736|EPB1B_XENLA	35.939	938	902	90	1.63e-168	517	sp|Q91736|EPB1B_XENLA Ephrin type-B receptor 1-B (Fragment) OS=Xenopus laevis OX=8355 GN=ephb1-b PE=1 SV=1
+aug_v2a.15481.t1	sp|P28693|EPHB2_CHICK	35.461	938	1004	94	2.35e-168	520	sp|P28693|EPHB2_CHICK Ephrin type-B receptor 2 OS=Gallus gallus OX=9031 GN=EPHB2 PE=1 SV=3
+aug_v2a.15481.t1	sp|Q07497|EPHB5_CHICK	35.000	938	1002	94	1.19e-166	516	sp|Q07497|EPHB5_CHICK Ephrin type-B receptor 5 OS=Gallus gallus OX=9031 GN=EPHB5 PE=2 SV=1
+aug_v2a.15481.t1	sp|Q90344|EPHB2_COTJA	35.118	938	987	94	9.08e-166	513	sp|Q90344|EPHB2_COTJA Ephrin type-B receptor 2 OS=Coturnix japonica OX=93934 GN=EPHB2 PE=2 SV=1
+aug_v2a.15481.t1	sp|P54764|EPHA4_HUMAN	35.090	938	986	93	2.03e-164	509	sp|P54764|EPHA4_HUMAN Ephrin type-A receptor 4 OS=Homo sapiens OX=9606 GN=EPHA4 PE=1 SV=1
+aug_v2a.15481.t1	sp|Q03137|EPHA4_MOUSE	34.984	938	986	93	1.56e-163	507	sp|Q03137|EPHA4_MOUSE Ephrin type-A receptor 4 OS=Mus musculus OX=10090 GN=Epha4 PE=1 SV=2
+aug_v2a.15481.t1	sp|Q91571|EPB1A_XENLA	35.497	938	985	93	3.13e-163	506	sp|Q91571|EPB1A_XENLA Ephrin type-B receptor 1-A OS=Xenopus laevis OX=8355 GN=ephb1-a PE=1 SV=1
+aug_v2a.15481.t1	sp|Q61772|EPHA7_MOUSE	34.421	938	998	93	1.50e-162	505	sp|Q61772|EPHA7_MOUSE Ephrin type-A receptor 7 OS=Mus musculus OX=10090 GN=Epha7 PE=1 SV=2
+aug_v2a.15481.t1	sp|Q91845|EPA4A_XENLA	35.313	938	986	93	2.78e-162	504	sp|Q91845|EPA4A_XENLA Ephrin type-A receptor 4-A OS=Xenopus laevis OX=8355 GN=epha4-a PE=2 SV=1
+aug_v2a.15481.t1	sp|P54759|EPHA7_RAT	34.421	938	998	93	3.42e-162	504	sp|P54759|EPHA7_RAT Ephrin type-A receptor 7 OS=Rattus norvegicus OX=10116 GN=Epha7 PE=1 SV=1
+aug_v2a.15481.t1	sp|Q15375|EPHA7_HUMAN	34.526	938	998	93	1.32e-161	502	sp|Q15375|EPHA7_HUMAN Ephrin type-A receptor 7 OS=Homo sapiens OX=9606 GN=EPHA7 PE=1 SV=3
+aug_v2a.15481.t1	sp|P54756|EPHA5_HUMAN	34.065	938	1037	93	1.70e-161	503	sp|P54756|EPHA5_HUMAN Ephrin type-A receptor 5 OS=Homo sapiens OX=9606 GN=EPHA5 PE=1 SV=3
+aug_v2a.15481.t1	sp|P54761|EPHB4_MOUSE	33.938	938	987	99	3.17e-160	498	sp|P54761|EPHB4_MOUSE Ephrin type-B receptor 4 OS=Mus musculus OX=10090 GN=Ephb4 PE=1 SV=2
+aug_v2a.15481.t1	sp|P54755|EPHA5_CHICK	34.310	938	1013	93	9.12e-160	498	sp|P54755|EPHA5_CHICK Ephrin type-A receptor 5 OS=Gallus gallus OX=9031 GN=EPHA5 PE=2 SV=1
+aug_v2a.15481.t1	sp|Q91694|EPA4B_XENLA	35.326	938	985	93	9.88e-160	497	sp|Q91694|EPA4B_XENLA Ephrin type-A receptor 4-B OS=Xenopus laevis OX=8355 GN=epha4-b PE=2 SV=1
+aug_v2a.15481.t1	sp|P54760|EPHB4_HUMAN	33.067	938	987	99	1.97e-159	496	sp|P54760|EPHB4_HUMAN Ephrin type-B receptor 4 OS=Homo sapiens OX=9606 GN=EPHB4 PE=1 SV=2
+aug_v2a.15481.t1	sp|O42422|EPHA7_CHICK	34.611	938	993	93	6.23e-159	495	sp|O42422|EPHA7_CHICK Ephrin type-A receptor 7 OS=Gallus gallus OX=9031 GN=EPHA7 PE=2 SV=1
+aug_v2a.15481.t1	sp|Q07494|EPHB1_CHICK	34.404	938	984	93	1.58e-158	494	sp|Q07494|EPHB1_CHICK Ephrin type-B receptor 1 (Fragment) OS=Gallus gallus OX=9031 GN=EPHB1 PE=2 SV=2
+aug_v2a.15481.t1	sp|P54754|EPHB3_MOUSE	33.916	938	993	96	3.09e-158	493	sp|P54754|EPHB3_MOUSE Ephrin type-B receptor 3 OS=Mus musculus OX=10090 GN=Ephb3 PE=1 SV=2
+aug_v2a.15481.t1	sp|Q07498|EPHB3_CHICK	34.455	938	988	95	4.32e-158	493	sp|Q07498|EPHB3_CHICK Ephrin type-B receptor 3 (Fragment) OS=Gallus gallus OX=9031 GN=EPHB3 PE=2 SV=1
+aug_v2a.15481.t1	sp|P54753|EPHB3_HUMAN	33.849	938	998	96	2.52e-157	491	sp|P54753|EPHB3_HUMAN Ephrin type-B receptor 3 OS=Homo sapiens OX=9606 GN=EPHB3 PE=1 SV=2
+aug_v2a.15481.t1	sp|Q91735|EPHB3_XENLA	33.333	938	974	96	7.22e-157	489	sp|Q91735|EPHB3_XENLA Ephrin type-B receptor 3 OS=Xenopus laevis OX=8355 GN=ephb3 PE=2 SV=1
+aug_v2a.15481.t1	sp|Q1KL86|EPHA2_MACFA	33.651	938	976	93	3.12e-154	483	sp|Q1KL86|EPHA2_MACFA Ephrin type-A receptor 2 OS=Macaca fascicularis OX=9541 GN=EPHA2 PE=2 SV=1
+aug_v2a.15481.t1	sp|P54758|EPHA6_RAT	33.402	938	1035	93	1.02e-153	483	sp|P54758|EPHA6_RAT Ephrin type-A receptor 6 OS=Rattus norvegicus OX=10116 GN=Epha6 PE=2 SV=2
+aug_v2a.15481.t1	sp|Q9UF33|EPHA6_HUMAN	33.367	938	1036	93	5.48e-153	481	sp|Q9UF33|EPHA6_HUMAN Ephrin type-A receptor 6 OS=Homo sapiens OX=9606 GN=EPHA6 PE=2 SV=3
+aug_v2a.15481.t1	sp|P29320|EPHA3_HUMAN	33.191	938	983	93	9.12e-153	479	sp|P29320|EPHA3_HUMAN Ephrin type-A receptor 3 OS=Homo sapiens OX=9606 GN=EPHA3 PE=1 SV=2
+aug_v2a.15481.t1	sp|P29317|EPHA2_HUMAN	33.510	938	976	93	3.42e-152	477	sp|P29317|EPHA2_HUMAN Ephrin type-A receptor 2 OS=Homo sapiens OX=9606 GN=EPHA2 PE=1 SV=2
+aug_v2a.15481.t1	sp|O08680|EPHA3_RAT	33.263	938	984	93	3.90e-152	477	sp|O08680|EPHA3_RAT Ephrin type-A receptor 3 OS=Rattus norvegicus OX=10116 GN=Epha3 PE=2 SV=1
+aug_v2a.15481.t1	sp|Q62413|EPHA6_MOUSE	33.094	938	1035	93	7.48e-152	478	sp|Q62413|EPHA6_MOUSE Ephrin type-A receptor 6 OS=Mus musculus OX=10090 GN=Epha6 PE=2 SV=2
+aug_v2a.15481.t1	sp|P54757|EPHA5_RAT	34.267	938	1005	90	1.08e-151	477	sp|P54757|EPHA5_RAT Ephrin type-A receptor 5 OS=Rattus norvegicus OX=10116 GN=Epha5 PE=1 SV=1
+aug_v2a.15481.t1	sp|Q03145|EPHA2_MOUSE	33.053	938	977	93	6.31e-150	471	sp|Q03145|EPHA2_MOUSE Ephrin type-A receptor 2 OS=Mus musculus OX=10090 GN=Epha2 PE=1 SV=3
+aug_v2a.15481.t1	sp|P29318|EPHA3_CHICK	32.796	938	983	92	1.82e-147	465	sp|P29318|EPHA3_CHICK Ephrin type-A receptor 3 OS=Gallus gallus OX=9031 GN=EPHA3 PE=1 SV=1
+aug_v2a.15481.t1	sp|P29319|EPHA3_MOUSE	32.804	938	983	93	5.31e-146	461	sp|P29319|EPHA3_MOUSE Ephrin type-A receptor 3 OS=Mus musculus OX=10090 GN=Epha3 PE=1 SV=1
+aug_v2a.15481.t1	sp|Q60629|EPHA5_MOUSE	40.653	938	876	55	9.55e-132	421	sp|Q60629|EPHA5_MOUSE Ephrin type-A receptor 5 OS=Mus musculus OX=10090 GN=Epha5 PE=1 SV=2
+aug_v2a.15481.t1	sp|Q5JZY3|EPHAA_HUMAN	29.769	938	1008	93	9.28e-118	387	sp|Q5JZY3|EPHAA_HUMAN Ephrin type-A receptor 10 OS=Homo sapiens OX=9606 GN=EPHA10 PE=1 SV=2
+aug_v2a.15481.t1	sp|P29322|EPHA8_HUMAN	47.815	938	1005	85	9.50e-117	384	sp|P29322|EPHA8_HUMAN Ephrin type-A receptor 8 OS=Homo sapiens OX=9606 GN=EPHA8 PE=1 SV=2
+aug_v2a.15481.t1	sp|P29322|EPHA8_HUMAN	24.742	938	1005	85	1.28e-19	98.6	sp|P29322|EPHA8_HUMAN Ephrin type-A receptor 8 OS=Homo sapiens OX=9606 GN=EPHA8 PE=1 SV=2
+aug_v2a.15481.t1	sp|P29321|EPHA8_RAT	47.684	938	372	37	9.91e-117	364	sp|P29321|EPHA8_RAT Ephrin type-A receptor 8 (Fragment) OS=Rattus norvegicus OX=10116 GN=Epha8 PE=2 SV=1
+aug_v2a.15481.t1	sp|O13147|EPHB3_DANRE	50.140	938	500	38	1.28e-115	366	sp|O13147|EPHB3_DANRE Ephrin type-B receptor 3 (Fragment) OS=Danio rerio OX=7955 GN=ephb3 PE=2 SV=1
+aug_v2a.15481.t1	sp|O09127|EPHA8_MOUSE	47.668	938	1004	84	1.64e-115	381	sp|O09127|EPHA8_MOUSE Ephrin type-A receptor 8 OS=Mus musculus OX=10090 GN=Epha8 PE=1 SV=2
+aug_v2a.15481.t1	sp|O09127|EPHA8_MOUSE	24.008	938	1004	84	5.63e-18	93.2	sp|O09127|EPHA8_MOUSE Ephrin type-A receptor 8 OS=Mus musculus OX=10090 GN=Epha8 PE=1 SV=2
+aug_v2a.15481.t1	sp|P0C0K7|EPHB6_RAT	28.364	938	1013	92	6.34e-112	371	sp|P0C0K7|EPHB6_RAT Ephrin type-B receptor 6 OS=Rattus norvegicus OX=10116 GN=Ephb6 PE=3 SV=3
+aug_v2a.15481.t1	sp|Q8BYG9|EPHAA_MOUSE	28.766	938	1007	93	2.10e-111	370	sp|Q8BYG9|EPHAA_MOUSE Ephrin type-A receptor 10 OS=Mus musculus OX=10090 GN=Epha10 PE=2 SV=2
+aug_v2a.15481.t1	sp|O13148|EPA4A_DANRE	57.143	938	292	28	1.54e-108	340	sp|O13148|EPA4A_DANRE Ephrin type-A receptor 4a (Fragment) OS=Danio rerio OX=7955 GN=epha4a PE=2 SV=1
+aug_v2a.15481.t1	sp|O08644|EPHB6_MOUSE	28.261	938	1014	92	2.71e-105	353	sp|O08644|EPHB6_MOUSE Ephrin type-B receptor 6 OS=Mus musculus OX=10090 GN=Ephb6 PE=2 SV=4
+aug_v2a.15481.t1	sp|O15197|EPHB6_HUMAN	28.247	938	1021	91	1.54e-102	346	sp|O15197|EPHB6_HUMAN Ephrin type-B receptor 6 OS=Homo sapiens OX=9606 GN=EPHB6 PE=1 SV=4
+aug_v2a.15481.t1	sp|P0C0K6|EPHB6_PANTR	28.277	938	1020	91	1.59e-102	346	sp|P0C0K6|EPHB6_PANTR Ephrin type-B receptor 6 OS=Pan troglodytes OX=9598 GN=EPHB6 PE=3 SV=4
+aug_v2a.15481.t1	sp|O61460|VAB1_CAEEL	35.766	938	1122	79	7.94e-77	276	sp|O61460|VAB1_CAEEL Ephrin receptor 1 OS=Caenorhabditis elegans OX=6239 GN=vab-1 PE=1 SV=1
+aug_v2a.15481.t1	sp|O61460|VAB1_CAEEL	23.788	938	1122	79	3.19e-15	84.3	sp|O61460|VAB1_CAEEL Ephrin receptor 1 OS=Caenorhabditis elegans OX=6239 GN=vab-1 PE=1 SV=1
+aug_v2a.15481.t1	sp|P42686|SRK1_SPOLA	42.435	938	505	29	1.64e-66	234	sp|P42686|SRK1_SPOLA Tyrosine-protein kinase isoform SRK1 OS=Spongilla lacustris OX=6055 GN=SRK1 PE=2 SV=1
+aug_v2a.15481.t1	sp|P42685|FRK_HUMAN	43.571	938	505	30	9.44e-66	233	sp|P42685|FRK_HUMAN Tyrosine-protein kinase FRK OS=Homo sapiens OX=9606 GN=FRK PE=1 SV=1
+aug_v2a.15481.t1	sp|Q922K9|FRK_MOUSE	46.154	938	512	27	6.44e-65	230	sp|Q922K9|FRK_MOUSE Tyrosine-protein kinase FRK OS=Mus musculus OX=10090 GN=Frk PE=1 SV=3
+aug_v2a.15481.t1	sp|P42688|SRK2_SPOLA	44.015	938	362	27	3.98e-64	223	sp|P42688|SRK2_SPOLA Tyrosine-protein kinase SRK2 (Fragment) OS=Spongilla lacustris OX=6055 GN=SRK2 PE=2 SV=1
+aug_v2a.15481.t1	sp|P42689|SRK3_SPOLA	42.966	938	334	28	5.14e-64	222	sp|P42689|SRK3_SPOLA Tyrosine-protein kinase SRK3 (Fragment) OS=Spongilla lacustris OX=6055 GN=SRK3 PE=2 SV=1
+aug_v2a.15481.t1	sp|Q62662|FRK_RAT	45.385	938	506	27	8.60e-64	227	sp|Q62662|FRK_RAT Tyrosine-protein kinase FRK OS=Rattus norvegicus OX=10116 GN=Frk PE=1 SV=3
+aug_v2a.15481.t1	sp|O45539|SRC2_CAEEL	43.173	938	507	29	1.31e-63	226	sp|O45539|SRC2_CAEEL Tyrosine protein-kinase src-2 OS=Caenorhabditis elegans OX=6239 GN=src-2 PE=1 SV=2
+aug_v2a.15481.t1	sp|Q02977|YRK_CHICK	45.946	938	536	27	3.65e-62	223	sp|Q02977|YRK_CHICK Proto-oncogene tyrosine-protein kinase Yrk OS=Gallus gallus OX=9031 GN=YRK PE=2 SV=2
+aug_v2a.15481.t1	sp|P18106|FER_DROME	44.961	938	1325	27	6.09e-62	233	sp|P18106|FER_DROME Tyrosine-protein kinase Fer OS=Drosophila melanogaster OX=7227 GN=FER PE=1 SV=3
+aug_v2a.15481.t1	sp|P00524|SRC_RSVSA	45.174	938	526	27	7.75e-62	222	sp|P00524|SRC_RSVSA Tyrosine-protein kinase transforming protein Src OS=Avian leukosis virus RSA OX=269446 GN=V-SRC PE=1 SV=5
+aug_v2a.15481.t1	sp|P00525|SRC_AVISR	45.174	938	526	27	7.75e-62	222	sp|P00525|SRC_AVISR Tyrosine-protein kinase transforming protein Src OS=Avian sarcoma virus (strain rASV1441) OX=11894 GN=V-SRC PE=1 SV=3
+aug_v2a.15481.t1	sp|P42690|SRK4_SPOLA	40.146	938	506	29	8.79e-62	221	sp|P42690|SRK4_SPOLA Tyrosine-protein kinase isoform SRK4 OS=Spongilla lacustris OX=6055 GN=SRK1 PE=2 SV=1
+aug_v2a.15481.t1	sp|P14084|SRC_AVISS	45.174	938	568	27	1.25e-61	223	sp|P14084|SRC_AVISS Tyrosine-protein kinase transforming protein Src OS=Avian sarcoma virus (strain S1) OX=11881 GN=V-SRC PE=3 SV=3
+aug_v2a.15481.t1	sp|P27446|FYN_XIPHE	45.174	938	537	27	1.93e-61	221	sp|P27446|FYN_XIPHE Tyrosine-protein kinase Fyn OS=Xiphophorus helleri OX=8084 GN=fyn PE=2 SV=3
+aug_v2a.15481.t1	sp|P12931|SRC_HUMAN	43.431	938	536	29	2.26e-61	221	sp|P12931|SRC_HUMAN Proto-oncogene tyrosine-protein kinase Src OS=Homo sapiens OX=9606 GN=SRC PE=1 SV=3
+aug_v2a.15481.t1	sp|Q1JPZ3|SRC_DANRE	43.066	938	534	29	2.27e-61	221	sp|Q1JPZ3|SRC_DANRE Proto-oncogene tyrosine-protein kinase Src OS=Danio rerio OX=7955 GN=src PE=1 SV=2
+aug_v2a.15481.t1	sp|P13116|SRC2_XENLA	44.788	938	532	27	2.70e-61	221	sp|P13116|SRC2_XENLA Tyrosine-protein kinase Src-2 OS=Xenopus laevis OX=8355 GN=src-b PE=2 SV=3
+aug_v2a.15481.t1	sp|P13115|SRC1_XENLA	44.788	938	532	27	4.12e-61	220	sp|P13115|SRC1_XENLA Tyrosine-protein kinase Src-1 OS=Xenopus laevis OX=8355 GN=src-a PE=2 SV=4
+aug_v2a.15481.t1	sp|Q9WUD9|SRC_RAT	43.066	938	536	29	5.48e-61	220	sp|Q9WUD9|SRC_RAT Proto-oncogene tyrosine-protein kinase Src OS=Rattus norvegicus OX=10116 GN=Src PE=1 SV=4
+aug_v2a.15481.t1	sp|P42683|LCK_CHICK	45.174	938	508	27	5.61e-61	219	sp|P42683|LCK_CHICK Proto-oncogene tyrosine-protein kinase LCK OS=Gallus gallus OX=9031 GN=LCK PE=2 SV=2
+aug_v2a.15481.t1	sp|P05480|SRC_MOUSE	43.066	938	541	29	6.68e-61	220	sp|P05480|SRC_MOUSE Neuronal proto-oncogene tyrosine-protein kinase Src OS=Mus musculus OX=10090 GN=Src PE=1 SV=4
+aug_v2a.15481.t1	sp|P00523|SRC_CHICK	43.066	938	533	29	6.96e-61	219	sp|P00523|SRC_CHICK Proto-oncogene tyrosine-protein kinase Src OS=Gallus gallus OX=9031 GN=SRC PE=1 SV=4
+aug_v2a.15481.t1	sp|P63185|SRC_RSVSE	44.788	938	526	27	7.12e-61	219	sp|P63185|SRC_RSVSE Tyrosine-protein kinase transforming protein Src OS=Rous sarcoma virus (strain Schmidt-Ruppin E) OX=270623 GN=V-SRC PE=1 SV=3
+aug_v2a.15481.t1	sp|P14085|SRC_AVIST	43.310	938	557	30	7.15e-61	220	sp|P14085|SRC_AVIST Tyrosine-protein kinase transforming protein Src OS=Avian sarcoma virus (strain S2) OX=11882 GN=V-SRC PE=3 SV=3
+aug_v2a.15481.t1	sp|Q05397|FAK1_HUMAN	37.716	938	1052	30	8.00e-61	228	sp|Q05397|FAK1_HUMAN Focal adhesion kinase 1 OS=Homo sapiens OX=9606 GN=PTK2 PE=1 SV=2
+aug_v2a.15481.t1	sp|Q6EWH2|FYNA_DANRE	44.788	938	537	27	8.55e-61	219	sp|Q6EWH2|FYNA_DANRE Tyrosine-protein kinase fyna OS=Danio rerio OX=7955 GN=fyna PE=1 SV=2
+aug_v2a.15481.t1	sp|Q01621|LCK_RAT	44.161	938	509	29	1.04e-60	218	sp|Q01621|LCK_RAT Proto-oncogene tyrosine-protein kinase LCK OS=Rattus norvegicus OX=10116 GN=Lck PE=1 SV=3
+aug_v2a.15481.t1	sp|O35346|FAK1_RAT	37.716	938	1055	30	1.43e-60	228	sp|O35346|FAK1_RAT Focal adhesion kinase 1 OS=Rattus norvegicus OX=10116 GN=Ptk2 PE=1 SV=1
+aug_v2a.15481.t1	sp|P06240|LCK_MOUSE	44.161	938	509	29	1.46e-60	218	sp|P06240|LCK_MOUSE Proto-oncogene tyrosine-protein kinase LCK OS=Mus musculus OX=10090 GN=Lck PE=1 SV=4
+aug_v2a.15481.t1	sp|P13406|FYN_XENLA	44.788	938	537	27	1.60e-60	219	sp|P13406|FYN_XENLA Tyrosine-protein kinase Fyn OS=Xenopus laevis OX=8355 GN=fyn PE=2 SV=3
+aug_v2a.15481.t1	sp|P15054|SRC_AVIS2	43.066	938	587	29	3.43e-60	219	sp|P15054|SRC_AVIS2 Tyrosine-protein kinase transforming protein Src OS=Avian sarcoma virus (strain PR2257) OX=11879 GN=V-SRC PE=3 SV=3
+aug_v2a.15481.t1	sp|P25020|SRC_RSVH1	44.015	938	526	27	5.35e-60	217	sp|P25020|SRC_RSVH1 Tyrosine-protein kinase transforming protein Src OS=Rous sarcoma virus (strain H-19) OX=11887 GN=V-SRC PE=1 SV=3
+aug_v2a.15481.t1	sp|Q05876|FYN_CHICK	45.174	938	534	27	5.95e-60	217	sp|Q05876|FYN_CHICK Tyrosine-protein kinase Fyn OS=Gallus gallus OX=9031 GN=FYN PE=1 SV=2
+aug_v2a.15481.t1	sp|P06241|FYN_HUMAN	44.015	938	537	27	6.80e-60	217	sp|P06241|FYN_HUMAN Tyrosine-protein kinase Fyn OS=Homo sapiens OX=9606 GN=FYN PE=1 SV=3
+aug_v2a.15481.t1	sp|Q9V9J3|SRC42_DROME	42.205	938	517	27	7.09e-60	216	sp|Q9V9J3|SRC42_DROME Tyrosine-protein kinase Src42A OS=Drosophila melanogaster OX=7227 GN=Src42A PE=1 SV=1
+aug_v2a.15481.t1	sp|P09760|FER_RAT	43.874	938	823	27	7.44e-60	223	sp|P09760|FER_RAT Tyrosine-protein kinase Fer OS=Rattus norvegicus OX=10116 GN=Fer PE=1 SV=2
+aug_v2a.15481.t1	sp|A1Y2K1|FYN_PIG	44.015	938	537	27	7.72e-60	217	sp|A1Y2K1|FYN_PIG Tyrosine-protein kinase Fyn OS=Sus scrofa OX=9823 GN=FYN PE=2 SV=2
+aug_v2a.15481.t1	sp|P31693|SRC_RSVPA	44.015	938	523	27	7.87e-60	216	sp|P31693|SRC_RSVPA Tyrosine-protein kinase transforming protein Src OS=Rous sarcoma virus (strain PA101T) OX=31667 GN=V-SRC PE=3 SV=3
+aug_v2a.15481.t1	sp|Q62844|FYN_RAT	44.015	938	537	27	7.88e-60	217	sp|Q62844|FYN_RAT Tyrosine-protein kinase Fyn OS=Rattus norvegicus OX=10116 GN=Fyn PE=1 SV=1
+aug_v2a.15481.t1	sp|P34152|FAK1_MOUSE	39.033	938	1090	29	7.93e-60	225	sp|P34152|FAK1_MOUSE Focal adhesion kinase 1 OS=Mus musculus OX=10090 GN=Ptk2 PE=1 SV=3
+aug_v2a.15481.t1	sp|P39688|FYN_MOUSE	44.015	938	537	27	8.03e-60	217	sp|P39688|FYN_MOUSE Tyrosine-protein kinase Fyn OS=Mus musculus OX=10090 GN=Fyn PE=1 SV=4
+aug_v2a.15481.t1	sp|P00526|SRC_RSVP	44.015	938	526	27	8.83e-60	216	sp|P00526|SRC_RSVP Tyrosine-protein kinase transforming protein Src OS=Rous sarcoma virus (strain Prague C) OX=11888 GN=V-SRC PE=1 SV=3
+aug_v2a.15481.t1	sp|A0JNB0|FYN_BOVIN	44.015	938	537	27	8.86e-60	216	sp|A0JNB0|FYN_BOVIN Tyrosine-protein kinase Fyn OS=Bos taurus OX=9913 GN=FYN PE=2 SV=1
+aug_v2a.15481.t1	sp|P70451|FER_MOUSE	43.874	938	823	27	1.11e-59	222	sp|P70451|FER_MOUSE Tyrosine-protein kinase Fer OS=Mus musculus OX=10090 GN=Fer PE=1 SV=2
+aug_v2a.15481.t1	sp|P09324|YES_CHICK	43.066	938	541	29	1.62e-59	216	sp|P09324|YES_CHICK Tyrosine-protein kinase Yes OS=Gallus gallus OX=9031 GN=YES1 PE=1 SV=3
+aug_v2a.15481.t1	sp|Q04736|YES_MOUSE	43.796	938	541	29	2.22e-59	216	sp|Q04736|YES_MOUSE Tyrosine-protein kinase Yes OS=Mus musculus OX=10090 GN=Yes1 PE=1 SV=3
+aug_v2a.15481.t1	sp|Q00944|FAK1_CHICK	37.722	938	1053	29	2.46e-59	224	sp|Q00944|FAK1_CHICK Focal adhesion kinase 1 OS=Gallus gallus OX=9031 GN=PTK2 PE=1 SV=2
+aug_v2a.20445.t2	sp|Q96DM1|PGBD4_HUMAN	27.358	1174	585	32	1.96e-36	150	sp|Q96DM1|PGBD4_HUMAN PiggyBac transposable element-derived protein 4 OS=Homo sapiens OX=9606 GN=PGBD4 PE=2 SV=3
+aug_v2a.20445.t2	sp|Q8N328|PGBD3_HUMAN	27.379	1174	593	40	1.82e-32	138	sp|Q8N328|PGBD3_HUMAN PiggyBac transposable element-derived protein 3 OS=Homo sapiens OX=9606 GN=PGBD3 PE=1 SV=3
+aug_v2a.20445.t2	sp|P0DP91|ERPG3_HUMAN	27.379	1174	1061	40	5.20e-31	135	sp|P0DP91|ERPG3_HUMAN Chimeric ERCC6-PGBD3 protein OS=Homo sapiens OX=9606 GN=CSB-PGBD3 PE=1 SV=1
+aug_v2a.20445.t2	sp|P35525|CLCN2_RAT	43.689	1174	907	9	2.37e-15	85.1	sp|P35525|CLCN2_RAT Chloride channel protein 2 OS=Rattus norvegicus OX=10116 GN=Clcn2 PE=1 SV=1
+aug_v2a.20445.t2	sp|Q9WU45|CLCN2_CAVPO	57.377	1174	902	5	1.01e-14	83.2	sp|Q9WU45|CLCN2_CAVPO Chloride channel protein 2 OS=Cavia porcellus OX=10141 GN=CLCN2 PE=2 SV=1
+aug_v2a.20445.t2	sp|Q9R0A1|CLCN2_MOUSE	44.330	1174	908	8	1.17e-14	82.8	sp|Q9R0A1|CLCN2_MOUSE Chloride channel protein 2 OS=Mus musculus OX=10090 GN=Clcn2 PE=1 SV=2
+aug_v2a.20445.t2	sp|P51788|CLCN2_HUMAN	57.377	1174	898	5	1.24e-14	82.8	sp|P51788|CLCN2_HUMAN Chloride channel protein 2 OS=Homo sapiens OX=9606 GN=CLCN2 PE=1 SV=2
+aug_v2a.20445.t2	sp|P51789|CLCN2_RABIT	52.000	1174	898	6	1.32e-14	82.8	sp|P51789|CLCN2_RABIT Chloride channel protein 2 OS=Oryctolagus cuniculus OX=9986 GN=CLCN2 PE=2 SV=1
+aug_v2a.20445.t2	sp|Q03278|PO21_NASVI	26.961	1174	1025	16	1.70e-13	79.0	sp|Q03278|PO21_NASVI Retrovirus-related Pol polyprotein from type-1 retrotransposable element R2 (Fragment) OS=Nasonia vitripennis OX=7425 PE=3 SV=2
+aug_v2a.20445.t2	sp|Q9VGH7|CLCN2_DROME	55.556	1174	1193	5	8.28e-13	77.0	sp|Q9VGH7|CLCN2_DROME Chloride channel protein 2 OS=Drosophila melanogaster OX=7227 GN=ClC-a PE=2 SV=3
+aug_v2a.20445.t2	sp|P16423|POLR_DROME	31.111	1174	1057	15	1.04e-12	76.6	sp|P16423|POLR_DROME Retrovirus-related Pol polyprotein from type-2 retrotransposable element R2DM OS=Drosophila melanogaster OX=7227 GN=pol PE=3 SV=1
+aug_v2a.20445.t2	sp|Q64347|CLCN1_MOUSE	55.000	1174	994	5	5.79e-11	70.9	sp|Q64347|CLCN1_MOUSE Chloride channel protein 1 OS=Mus musculus OX=10090 GN=Clcn1 PE=1 SV=3

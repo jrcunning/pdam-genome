@@ -1,0 +1,213 @@
+pdam_00011120-RA	73e28e7e60392b9c9c245c29e4ac31f5	5550	Pfam	PF00147	Fibrinogen beta and gamma chains, C-terminal globular domain	1215	1262	1.8E-4	T	10-06-2017	IPR002181	Fibrinogen, alpha/beta/gamma chain, C-terminal globular domain
+pdam_00011120-RA	73e28e7e60392b9c9c245c29e4ac31f5	5550	Pfam	PF00014	Kunitz/Bovine pancreatic trypsin inhibitor domain	1748	1799	1.2E-10	T	10-06-2017	IPR002223	Pancreatic trypsin inhibitor Kunitz domain	GO:0004867
+pdam_00011120-RA	73e28e7e60392b9c9c245c29e4ac31f5	5550	Pfam	PF00014	Kunitz/Bovine pancreatic trypsin inhibitor domain	5384	5435	1.1E-11	T	10-06-2017	IPR002223	Pancreatic trypsin inhibitor Kunitz domain	GO:0004867
+pdam_00011120-RA	73e28e7e60392b9c9c245c29e4ac31f5	5550	Pfam	PF12661	Human growth factor-like EGF	5293	5311	0.013	T	10-06-2017	IPR013032	EGF-like, conserved site
+pdam_00011120-RA	73e28e7e60392b9c9c245c29e4ac31f5	5550	Pfam	PF12661	Human growth factor-like EGF	1655	1672	0.052	T	10-06-2017	IPR013032	EGF-like, conserved site
+pdam_00011120-RA	73e28e7e60392b9c9c245c29e4ac31f5	5550	Pfam	PF01477	PLAT/LH2 domain	5054	5159	4.4E-16	T	10-06-2017	IPR001024	PLAT/LH2 domain	GO:0005515
+pdam_00011120-RA	73e28e7e60392b9c9c245c29e4ac31f5	5550	Pfam	PF13385	Concanavalin A-like lectin/glucanases superfamily	229	370	4.2E-24	T	10-06-2017
+pdam_00011120-RA	73e28e7e60392b9c9c245c29e4ac31f5	5550	Pfam	PF13385	Concanavalin A-like lectin/glucanases superfamily	4649	4770	8.6E-8	T	10-06-2017
+pdam_00011120-RA	73e28e7e60392b9c9c245c29e4ac31f5	5550	Pfam	PF00090	Thrombospondin type 1 domain	1158	1207	6.9E-9	T	10-06-2017	IPR000884	Thrombospondin type-1 (TSP1) repeat
+pdam_00011120-RA	73e28e7e60392b9c9c245c29e4ac31f5	5550	Pfam	PF00090	Thrombospondin type 1 domain	1505	1541	6.8E-9	T	10-06-2017	IPR000884	Thrombospondin type-1 (TSP1) repeat
+pdam_00011120-RA	73e28e7e60392b9c9c245c29e4ac31f5	5550	Pfam	PF00090	Thrombospondin type 1 domain	879	930	7.7E-7	T	10-06-2017	IPR000884	Thrombospondin type-1 (TSP1) repeat
+pdam_00011120-RA	73e28e7e60392b9c9c245c29e4ac31f5	5550	Pfam	PF00090	Thrombospondin type 1 domain	1115	1145	0.038	T	10-06-2017	IPR000884	Thrombospondin type-1 (TSP1) repeat
+pdam_00011120-RA	73e28e7e60392b9c9c245c29e4ac31f5	5550	Pfam	PF00090	Thrombospondin type 1 domain	1055	1107	1.7E-11	T	10-06-2017	IPR000884	Thrombospondin type-1 (TSP1) repeat
+pdam_00011120-RA	73e28e7e60392b9c9c245c29e4ac31f5	5550	Pfam	PF00090	Thrombospondin type 1 domain	1443	1494	1.0E-8	T	10-06-2017	IPR000884	Thrombospondin type-1 (TSP1) repeat
+pdam_00011120-RA	73e28e7e60392b9c9c245c29e4ac31f5	5550	Pfam	PF00090	Thrombospondin type 1 domain	755	803	2.2E-11	T	10-06-2017	IPR000884	Thrombospondin type-1 (TSP1) repeat
+pdam_00011120-RA	73e28e7e60392b9c9c245c29e4ac31f5	5550	Pfam	PF00090	Thrombospondin type 1 domain	520	571	9.3E-11	T	10-06-2017	IPR000884	Thrombospondin type-1 (TSP1) repeat
+pdam_00011120-RA	73e28e7e60392b9c9c245c29e4ac31f5	5550	Pfam	PF00090	Thrombospondin type 1 domain	996	1048	4.1E-10	T	10-06-2017	IPR000884	Thrombospondin type-1 (TSP1) repeat
+pdam_00011120-RA	73e28e7e60392b9c9c245c29e4ac31f5	5550	Pfam	PF00090	Thrombospondin type 1 domain	694	746	5.5E-9	T	10-06-2017	IPR000884	Thrombospondin type-1 (TSP1) repeat
+pdam_00011120-RA	73e28e7e60392b9c9c245c29e4ac31f5	5550	Pfam	PF00090	Thrombospondin type 1 domain	579	626	2.8E-12	T	10-06-2017	IPR000884	Thrombospondin type-1 (TSP1) repeat
+pdam_00011120-RA	73e28e7e60392b9c9c245c29e4ac31f5	5550	Pfam	PF00090	Thrombospondin type 1 domain	635	687	5.8E-11	T	10-06-2017	IPR000884	Thrombospondin type-1 (TSP1) repeat
+pdam_00011120-RA	73e28e7e60392b9c9c245c29e4ac31f5	5550	Pfam	PF00090	Thrombospondin type 1 domain	938	989	1.7E-10	T	10-06-2017	IPR000884	Thrombospondin type-1 (TSP1) repeat
+pdam_00011120-RA	73e28e7e60392b9c9c245c29e4ac31f5	5550	Pfam	PF00090	Thrombospondin type 1 domain	821	871	1.6E-10	T	10-06-2017	IPR000884	Thrombospondin type-1 (TSP1) repeat
+pdam_00017137-RA	6cbc9df6f945d25c5eabc09332ef054c	3070	Pfam	PF00354	Pentaxin family	2377	2568	4.3E-15	T	10-06-2017	IPR001759	Pentraxin-related
+pdam_00017137-RA	6cbc9df6f945d25c5eabc09332ef054c	3070	Pfam	PF02494	HYR domain	530	611	8.5E-18	T	10-06-2017	IPR003410	HYR domain
+pdam_00017137-RA	6cbc9df6f945d25c5eabc09332ef054c	3070	Pfam	PF02494	HYR domain	1101	1181	8.7E-9	T	10-06-2017	IPR003410	HYR domain
+pdam_00017137-RA	6cbc9df6f945d25c5eabc09332ef054c	3070	Pfam	PF02494	HYR domain	252	333	6.4E-11	T	10-06-2017	IPR003410	HYR domain
+pdam_00017137-RA	6cbc9df6f945d25c5eabc09332ef054c	3070	Pfam	PF02494	HYR domain	806	886	1.8E-8	T	10-06-2017	IPR003410	HYR domain
+pdam_00017137-RA	6cbc9df6f945d25c5eabc09332ef054c	3070	Pfam	PF02494	HYR domain	1018	1097	8.1E-5	T	10-06-2017	IPR003410	HYR domain
+pdam_00017137-RA	6cbc9df6f945d25c5eabc09332ef054c	3070	Pfam	PF07645	Calcium-binding EGF domain	83	122	7.6E-4	T	10-06-2017	IPR001881	EGF-like calcium-binding domain	GO:0005509
+pdam_00017137-RA	6cbc9df6f945d25c5eabc09332ef054c	3070	Pfam	PF12661	Human growth factor-like EGF	2091	2112	0.0088	T	10-06-2017	IPR013032	EGF-like, conserved site
+pdam_00017137-RA	6cbc9df6f945d25c5eabc09332ef054c	3070	Pfam	PF12661	Human growth factor-like EGF	2624	2644	0.0021	T	10-06-2017	IPR013032	EGF-like, conserved site
+pdam_00017137-RA	6cbc9df6f945d25c5eabc09332ef054c	3070	Pfam	PF00084	Sushi repeat (SCR repeat)	910	950	2.1E-5	T	10-06-2017	IPR000436	Sushi/SCR/CCP domain
+pdam_00017137-RA	6cbc9df6f945d25c5eabc09332ef054c	3070	Pfam	PF00084	Sushi repeat (SCR repeat)	486	529	0.0025	T	10-06-2017	IPR000436	Sushi/SCR/CCP domain
+pdam_00017137-RA	6cbc9df6f945d25c5eabc09332ef054c	3070	Pfam	PF00084	Sushi repeat (SCR repeat)	194	244	0.0036	T	10-06-2017	IPR000436	Sushi/SCR/CCP domain
+pdam_00017137-RA	6cbc9df6f945d25c5eabc09332ef054c	3070	Pfam	PF00084	Sushi repeat (SCR repeat)	149	186	3.9E-5	T	10-06-2017	IPR000436	Sushi/SCR/CCP domain
+pdam_00017137-RA	6cbc9df6f945d25c5eabc09332ef054c	3070	Pfam	PF00084	Sushi repeat (SCR repeat)	701	741	6.0E-6	T	10-06-2017	IPR000436	Sushi/SCR/CCP domain
+pdam_00017137-RA	6cbc9df6f945d25c5eabc09332ef054c	3070	Pfam	PF00084	Sushi repeat (SCR repeat)	746	799	2.3E-5	T	10-06-2017	IPR000436	Sushi/SCR/CCP domain
+pdam_00017137-RA	6cbc9df6f945d25c5eabc09332ef054c	3070	Pfam	PF00084	Sushi repeat (SCR repeat)	422	462	4.6E-5	T	10-06-2017	IPR000436	Sushi/SCR/CCP domain
+pdam_00017137-RA	6cbc9df6f945d25c5eabc09332ef054c	3070	Pfam	PF00008	EGF-like domain	2315	2347	3.4E-5	T	10-06-2017	IPR000742	EGF-like domain
+pdam_00017137-RA	6cbc9df6f945d25c5eabc09332ef054c	3070	Pfam	PF00008	EGF-like domain	1934	1963	2.9E-5	T	10-06-2017	IPR000742	EGF-like domain
+pdam_00017137-RA	6cbc9df6f945d25c5eabc09332ef054c	3070	Pfam	PF00008	EGF-like domain	1896	1926	4.9E-5	T	10-06-2017	IPR000742	EGF-like domain
+pdam_00017137-RA	6cbc9df6f945d25c5eabc09332ef054c	3070	Pfam	PF00008	EGF-like domain	1744	1773	5.9E-7	T	10-06-2017	IPR000742	EGF-like domain
+pdam_00017137-RA	6cbc9df6f945d25c5eabc09332ef054c	3070	Pfam	PF00008	EGF-like domain	1858	1887	6.1E-7	T	10-06-2017	IPR000742	EGF-like domain
+pdam_00017137-RA	6cbc9df6f945d25c5eabc09332ef054c	3070	Pfam	PF00008	EGF-like domain	1668	1697	1.0E-6	T	10-06-2017	IPR000742	EGF-like domain
+pdam_00017137-RA	6cbc9df6f945d25c5eabc09332ef054c	3070	Pfam	PF00008	EGF-like domain	2010	2040	1.4E-6	T	10-06-2017	IPR000742	EGF-like domain
+pdam_00017137-RA	6cbc9df6f945d25c5eabc09332ef054c	3070	Pfam	PF00008	EGF-like domain	1782	1812	2.6E-6	T	10-06-2017	IPR000742	EGF-like domain
+pdam_00017137-RA	6cbc9df6f945d25c5eabc09332ef054c	3070	Pfam	PF00008	EGF-like domain	2201	2230	3.7E-6	T	10-06-2017	IPR000742	EGF-like domain
+pdam_00017137-RA	6cbc9df6f945d25c5eabc09332ef054c	3070	Pfam	PF00008	EGF-like domain	1592	1621	3.2E-6	T	10-06-2017	IPR000742	EGF-like domain
+pdam_00017137-RA	6cbc9df6f945d25c5eabc09332ef054c	3070	Pfam	PF00008	EGF-like domain	2239	2268	4.2E-5	T	10-06-2017	IPR000742	EGF-like domain
+pdam_00017137-RA	6cbc9df6f945d25c5eabc09332ef054c	3070	Pfam	PF00008	EGF-like domain	1972	2002	1.3E-5	T	10-06-2017	IPR000742	EGF-like domain
+pdam_00017137-RA	6cbc9df6f945d25c5eabc09332ef054c	3070	Pfam	PF00008	EGF-like domain	1630	1660	4.0E-6	T	10-06-2017	IPR000742	EGF-like domain
+pdam_00017137-RA	6cbc9df6f945d25c5eabc09332ef054c	3070	Pfam	PF00008	EGF-like domain	2277	2306	1.2E-4	T	10-06-2017	IPR000742	EGF-like domain
+pdam_00017137-RA	6cbc9df6f945d25c5eabc09332ef054c	3070	Pfam	PF00008	EGF-like domain	2124	2153	1.6E-7	T	10-06-2017	IPR000742	EGF-like domain
+pdam_00017137-RA	6cbc9df6f945d25c5eabc09332ef054c	3070	Pfam	PF00008	EGF-like domain	1706	1736	1.5E-6	T	10-06-2017	IPR000742	EGF-like domain
+pdam_00017137-RA	6cbc9df6f945d25c5eabc09332ef054c	3070	Pfam	PF00008	EGF-like domain	1820	1849	2.1E-7	T	10-06-2017	IPR000742	EGF-like domain
+pdam_00017137-RA	6cbc9df6f945d25c5eabc09332ef054c	3070	Pfam	PF00008	EGF-like domain	2048	2077	2.4E-6	T	10-06-2017	IPR000742	EGF-like domain
+pdam_00017137-RA	6cbc9df6f945d25c5eabc09332ef054c	3070	Pfam	PF07699	Putative ephrin-receptor like	1485	1532	1.2E-11	T	10-06-2017	IPR011641	Tyrosine-protein kinase ephrin type A/B receptor-like
+pdam_00017137-RA	6cbc9df6f945d25c5eabc09332ef054c	3070	Pfam	PF07699	Putative ephrin-receptor like	1539	1586	4.2E-9	T	10-06-2017	IPR011641	Tyrosine-protein kinase ephrin type A/B receptor-like
+pdam_00017137-RA	6cbc9df6f945d25c5eabc09332ef054c	3070	Pfam	PF07699	Putative ephrin-receptor like	1431	1478	8.6E-12	T	10-06-2017	IPR011641	Tyrosine-protein kinase ephrin type A/B receptor-like
+pdam_00017137-RA	6cbc9df6f945d25c5eabc09332ef054c	3070	Pfam	PF07699	Putative ephrin-receptor like	2883	2930	1.1E-10	T	10-06-2017	IPR011641	Tyrosine-protein kinase ephrin type A/B receptor-like
+pdam_00007559-RA	a53d84961c7c6c3f208f1acf0de2ae92	4834	Pfam	PF00754	F5/8 type C domain	2608	2740	1.1E-25	T	10-06-2017	IPR000421	Coagulation factor 5/8 C-terminal domain
+pdam_00007559-RA	a53d84961c7c6c3f208f1acf0de2ae92	4834	Pfam	PF00754	F5/8 type C domain	2933	3069	1.1E-22	T	10-06-2017	IPR000421	Coagulation factor 5/8 C-terminal domain
+pdam_00007559-RA	a53d84961c7c6c3f208f1acf0de2ae92	4834	Pfam	PF00754	F5/8 type C domain	2451	2586	2.7E-25	T	10-06-2017	IPR000421	Coagulation factor 5/8 C-terminal domain
+pdam_00007559-RA	a53d84961c7c6c3f208f1acf0de2ae92	4834	Pfam	PF00754	F5/8 type C domain	2762	2901	5.3E-25	T	10-06-2017	IPR000421	Coagulation factor 5/8 C-terminal domain
+pdam_00007559-RA	a53d84961c7c6c3f208f1acf0de2ae92	4834	Pfam	PF00754	F5/8 type C domain	3092	3225	2.6E-27	T	10-06-2017	IPR000421	Coagulation factor 5/8 C-terminal domain
+pdam_00007559-RA	a53d84961c7c6c3f208f1acf0de2ae92	4834	Pfam	PF00431	CUB domain	3602	3711	4.2E-19	T	10-06-2017	IPR000859	CUB domain
+pdam_00007559-RA	a53d84961c7c6c3f208f1acf0de2ae92	4834	Pfam	PF00354	Pentaxin family	3300	3466	1.8E-10	T	10-06-2017	IPR001759	Pentraxin-related
+pdam_00007559-RA	a53d84961c7c6c3f208f1acf0de2ae92	4834	Pfam	PF00057	Low-density lipoprotein receptor domain class A	1987	2022	2.6E-8	T	10-06-2017	IPR002172	Low-density lipoprotein (LDL) receptor class A repeat	GO:0005515
+pdam_00007559-RA	a53d84961c7c6c3f208f1acf0de2ae92	4834	Pfam	PF00057	Low-density lipoprotein receptor domain class A	2024	2058	9.3E-10	T	10-06-2017	IPR002172	Low-density lipoprotein (LDL) receptor class A repeat	GO:0005515
+pdam_00007559-RA	a53d84961c7c6c3f208f1acf0de2ae92	4834	Pfam	PF00629	MAM domain, meprin/A5/mu	1861	1975	1.1E-14	T	10-06-2017	IPR000998	MAM domain	GO:0016020
+pdam_00007559-RA	a53d84961c7c6c3f208f1acf0de2ae92	4834	Pfam	PF00629	MAM domain, meprin/A5/mu	4	96	3.0E-13	T	10-06-2017	IPR000998	MAM domain	GO:0016020
+pdam_00007559-RA	a53d84961c7c6c3f208f1acf0de2ae92	4834	Pfam	PF00629	MAM domain, meprin/A5/mu	3471	3585	2.9E-13	T	10-06-2017	IPR000998	MAM domain	GO:0016020
+pdam_00007559-RA	a53d84961c7c6c3f208f1acf0de2ae92	4834	Pfam	PF00629	MAM domain, meprin/A5/mu	305	459	1.0E-37	T	10-06-2017	IPR000998	MAM domain	GO:0016020
+pdam_00007559-RA	a53d84961c7c6c3f208f1acf0de2ae92	4834	Pfam	PF00629	MAM domain, meprin/A5/mu	116	261	1.5E-24	T	10-06-2017	IPR000998	MAM domain	GO:0016020
+pdam_00007559-RA	a53d84961c7c6c3f208f1acf0de2ae92	4834	Pfam	PF00629	MAM domain, meprin/A5/mu	2127	2282	4.0E-41	T	10-06-2017	IPR000998	MAM domain	GO:0016020
+pdam_00007559-RA	a53d84961c7c6c3f208f1acf0de2ae92	4834	Pfam	PF13385	Concanavalin A-like lectin/glucanases superfamily	978	1121	1.1E-7	T	10-06-2017
+pdam_00007559-RA	a53d84961c7c6c3f208f1acf0de2ae92	4834	Pfam	PF00001	7 transmembrane receptor (rhodopsin family)	4013	4277	1.3E-28	T	10-06-2017	IPR000276	G protein-coupled receptor, rhodopsin-like	GO:0004930|GO:0007186|GO:0016021
+pdam_00007559-RA	a53d84961c7c6c3f208f1acf0de2ae92	4834	Pfam	PF13855	Leucine rich repeat	3908	3963	2.8E-15	T	10-06-2017	IPR001611	Leucine-rich repeat	GO:0005515
+pdam_00007559-RA	a53d84961c7c6c3f208f1acf0de2ae92	4834	Pfam	PF13855	Leucine rich repeat	3812	3871	2.8E-11	T	10-06-2017	IPR001611	Leucine-rich repeat	GO:0005515
+pdam_00007559-RA	a53d84961c7c6c3f208f1acf0de2ae92	4834	Pfam	PF00059	Lectin C-type domain	809	923	1.3E-12	T	10-06-2017	IPR001304	C-type lectin-like
+pdam_00007559-RA	a53d84961c7c6c3f208f1acf0de2ae92	4834	Pfam	PF00059	Lectin C-type domain	1365	1474	6.0E-9	T	10-06-2017	IPR001304	C-type lectin-like
+pdam_00017017-RA	cbdcf9db1c69ee8bf91e99add906d2ba	3215	Pfam	PF02010	REJ domain	975	1451	5.4E-64	T	10-06-2017	IPR002859	PKD/REJ-like domain
+pdam_00017017-RA	cbdcf9db1c69ee8bf91e99add906d2ba	3215	Pfam	PF00801	PKD domain	767	831	6.6E-8	T	10-06-2017	IPR000601	PKD domain
+pdam_00017017-RA	cbdcf9db1c69ee8bf91e99add906d2ba	3215	Pfam	PF00801	PKD domain	293	349	8.1E-11	T	10-06-2017	IPR000601	PKD domain
+pdam_00017017-RA	cbdcf9db1c69ee8bf91e99add906d2ba	3215	Pfam	PF08016	Polycystin cation channel	2552	3058	5.7E-99	T	10-06-2017	IPR013122	Polycystin cation channel, PKD1/PKD2
+pdam_00017017-RA	cbdcf9db1c69ee8bf91e99add906d2ba	3215	Pfam	PF01477	PLAT/LH2 domain	2083	2197	9.2E-20	T	10-06-2017	IPR001024	PLAT/LH2 domain	GO:0005515
+pdam_00017017-RA	cbdcf9db1c69ee8bf91e99add906d2ba	3215	Pfam	PF01825	GPCR proteolysis site, GPS, motif	1975	2013	4.4E-8	T	10-06-2017	IPR000203	GPS motif
+pdam_00015681-RA	546aa43cc2c9935f7c4b2f87c86c47f5	1669	Pfam	PF13692	Glycosyl transferases group 1	1266	1409	1.0E-16	T	10-06-2017
+pdam_00015681-RA	546aa43cc2c9935f7c4b2f87c86c47f5	1669	Pfam	PF02338	OTU-like cysteine protease	1539	1634	5.4E-10	T	10-06-2017	IPR003323	OTU domain
+pdam_00015681-RA	546aa43cc2c9935f7c4b2f87c86c47f5	1669	Pfam	PF08477	Ras of Complex, Roc, domain of DAPkinase	489	523	3.3E-6	T	10-06-2017	IPR013684	Mitochondrial Rho-like	GO:0005525|GO:0007264
+pdam_00015681-RA	546aa43cc2c9935f7c4b2f87c86c47f5	1669	Pfam	PF13855	Leucine rich repeat	180	236	5.1E-9	T	10-06-2017	IPR001611	Leucine-rich repeat	GO:0005515
+pdam_00015681-RA	546aa43cc2c9935f7c4b2f87c86c47f5	1669	Pfam	PF13855	Leucine rich repeat	21	76	1.3E-6	T	10-06-2017	IPR001611	Leucine-rich repeat	GO:0005515
+pdam_00015681-RA	546aa43cc2c9935f7c4b2f87c86c47f5	1669	Pfam	PF13855	Leucine rich repeat	112	168	1.2E-12	T	10-06-2017	IPR001611	Leucine-rich repeat	GO:0005515
+pdam_00000116-RA	de77a50581fc4c8e5c53b17579b760f0	4171	Pfam	PF14670	Coagulation Factor Xa inhibitory site	2806	2842	2.4E-10	T	10-06-2017
+pdam_00000116-RA	de77a50581fc4c8e5c53b17579b760f0	4171	Pfam	PF14670	Coagulation Factor Xa inhibitory site	1574	1610	5.2E-9	T	10-06-2017
+pdam_00000116-RA	de77a50581fc4c8e5c53b17579b760f0	4171	Pfam	PF14670	Coagulation Factor Xa inhibitory site	317	349	2.1E-8	T	10-06-2017
+pdam_00000116-RA	de77a50581fc4c8e5c53b17579b760f0	4171	Pfam	PF00530	Scavenger receptor cysteine-rich domain	2986	3084	7.6E-25	T	10-06-2017	IPR001190	SRCR domain	GO:0005044|GO:0016020
+pdam_00000116-RA	de77a50581fc4c8e5c53b17579b760f0	4171	Pfam	PF00530	Scavenger receptor cysteine-rich domain	2864	2958	4.0E-27	T	10-06-2017	IPR001190	SRCR domain	GO:0005044|GO:0016020
+pdam_00000116-RA	de77a50581fc4c8e5c53b17579b760f0	4171	Pfam	PF00530	Scavenger receptor cysteine-rich domain	498	595	2.3E-26	T	10-06-2017	IPR001190	SRCR domain	GO:0005044|GO:0016020
+pdam_00000116-RA	de77a50581fc4c8e5c53b17579b760f0	4171	Pfam	PF00530	Scavenger receptor cysteine-rich domain	620	715	1.5E-29	T	10-06-2017	IPR001190	SRCR domain	GO:0005044|GO:0016020
+pdam_00000116-RA	de77a50581fc4c8e5c53b17579b760f0	4171	Pfam	PF00530	Scavenger receptor cysteine-rich domain	1817	1913	1.4E-27	T	10-06-2017	IPR001190	SRCR domain	GO:0005044|GO:0016020
+pdam_00000116-RA	de77a50581fc4c8e5c53b17579b760f0	4171	Pfam	PF00530	Scavenger receptor cysteine-rich domain	3100	3195	1.6E-27	T	10-06-2017	IPR001190	SRCR domain	GO:0005044|GO:0016020
+pdam_00000116-RA	de77a50581fc4c8e5c53b17579b760f0	4171	Pfam	PF00530	Scavenger receptor cysteine-rich domain	1632	1726	3.0E-27	T	10-06-2017	IPR001190	SRCR domain	GO:0005044|GO:0016020
+pdam_00000116-RA	de77a50581fc4c8e5c53b17579b760f0	4171	Pfam	PF00530	Scavenger receptor cysteine-rich domain	376	470	1.9E-25	T	10-06-2017	IPR001190	SRCR domain	GO:0005044|GO:0016020
+pdam_00000116-RA	de77a50581fc4c8e5c53b17579b760f0	4171	Pfam	PF00530	Scavenger receptor cysteine-rich domain	1753	1805	1.4E-12	T	10-06-2017	IPR001190	SRCR domain	GO:0005044|GO:0016020
+pdam_00000116-RA	de77a50581fc4c8e5c53b17579b760f0	4171	Pfam	PF00058	Low-density lipoprotein receptor repeat class B	2619	2659	9.1E-10	T	10-06-2017	IPR000033	LDLR class B repeat
+pdam_00000116-RA	de77a50581fc4c8e5c53b17579b760f0	4171	Pfam	PF00058	Low-density lipoprotein receptor repeat class B	1382	1422	1.6E-9	T	10-06-2017	IPR000033	LDLR class B repeat
+pdam_00000116-RA	de77a50581fc4c8e5c53b17579b760f0	4171	Pfam	PF00058	Low-density lipoprotein receptor repeat class B	127	165	4.1E-10	T	10-06-2017	IPR000033	LDLR class B repeat
+pdam_00016255-RA	6c42668689d32208243455216c4636a9	2540	Pfam	PF13181	Tetratricopeptide repeat	83	106	0.075	T	10-06-2017	IPR019734	Tetratricopeptide repeat	GO:0005515
+pdam_00016255-RA	6c42668689d32208243455216c4636a9	2540	Pfam	PF12770	CHAT domain	2394	2506	2.0E-33	T	10-06-2017	IPR024983	CHAT domain
+pdam_00016255-RA	6c42668689d32208243455216c4636a9	2540	Pfam	PF12770	CHAT domain	2109	2385	7.5E-54	T	10-06-2017	IPR024983	CHAT domain
+pdam_00016255-RA	6c42668689d32208243455216c4636a9	2540	Pfam	PF13176	Tetratricopeptide repeat	586	618	8.7E-5	T	10-06-2017	IPR019734	Tetratricopeptide repeat	GO:0005515
+pdam_00016255-RA	6c42668689d32208243455216c4636a9	2540	Pfam	PF13176	Tetratricopeptide repeat	1386	1420	3.6E-8	T	10-06-2017	IPR019734	Tetratricopeptide repeat	GO:0005515
+pdam_00016255-RA	6c42668689d32208243455216c4636a9	2540	Pfam	PF13176	Tetratricopeptide repeat	1066	1100	0.0044	T	10-06-2017	IPR019734	Tetratricopeptide repeat	GO:0005515
+pdam_00016255-RA	6c42668689d32208243455216c4636a9	2540	Pfam	PF13176	Tetratricopeptide repeat	1186	1220	1.0E-4	T	10-06-2017	IPR019734	Tetratricopeptide repeat	GO:0005515
+pdam_00016255-RA	6c42668689d32208243455216c4636a9	2540	Pfam	PF13176	Tetratricopeptide repeat	866	898	0.0016	T	10-06-2017	IPR019734	Tetratricopeptide repeat	GO:0005515
+pdam_00016255-RA	6c42668689d32208243455216c4636a9	2540	Pfam	PF13424	Tetratricopeptide repeat	146	214	1.3E-8	T	10-06-2017
+pdam_00016255-RA	6c42668689d32208243455216c4636a9	2540	Pfam	PF13424	Tetratricopeptide repeat	708	776	1.8E-9	T	10-06-2017
+pdam_00016255-RA	6c42668689d32208243455216c4636a9	2540	Pfam	PF13424	Tetratricopeptide repeat	985	1056	2.0E-11	T	10-06-2017
+pdam_00016255-RA	6c42668689d32208243455216c4636a9	2540	Pfam	PF13424	Tetratricopeptide repeat	307	376	2.3E-14	T	10-06-2017
+pdam_00016255-RA	6c42668689d32208243455216c4636a9	2540	Pfam	PF13424	Tetratricopeptide repeat	505	575	2.9E-15	T	10-06-2017
+pdam_00016255-RA	6c42668689d32208243455216c4636a9	2540	Pfam	PF13424	Tetratricopeptide repeat	906	975	3.3E-16	T	10-06-2017
+pdam_00016255-RA	6c42668689d32208243455216c4636a9	2540	Pfam	PF13424	Tetratricopeptide repeat	1780	1853	5.0E-10	T	10-06-2017
+pdam_00016255-RA	6c42668689d32208243455216c4636a9	2540	Pfam	PF13424	Tetratricopeptide repeat	1305	1376	4.5E-14	T	10-06-2017
+pdam_00016255-RA	6c42668689d32208243455216c4636a9	2540	Pfam	PF13424	Tetratricopeptide repeat	784	856	1.3E-14	T	10-06-2017
+pdam_00016255-RA	6c42668689d32208243455216c4636a9	2540	Pfam	PF13424	Tetratricopeptide repeat	224	292	3.7E-13	T	10-06-2017
+pdam_00016255-RA	6c42668689d32208243455216c4636a9	2540	Pfam	PF13424	Tetratricopeptide repeat	425	495	1.2E-14	T	10-06-2017
+pdam_00016255-RA	6c42668689d32208243455216c4636a9	2540	Pfam	PF13424	Tetratricopeptide repeat	1425	1496	4.2E-15	T	10-06-2017
+pdam_00016255-RA	6c42668689d32208243455216c4636a9	2540	Pfam	PF13424	Tetratricopeptide repeat	1224	1296	4.7E-15	T	10-06-2017
+pdam_00016255-RA	6c42668689d32208243455216c4636a9	2540	Pfam	PF13424	Tetratricopeptide repeat	629	696	1.2E-13	T	10-06-2017
+pdam_00016255-RA	6c42668689d32208243455216c4636a9	2540	Pfam	PF13424	Tetratricopeptide repeat	1585	1655	2.1E-15	T	10-06-2017
+pdam_00016255-RA	6c42668689d32208243455216c4636a9	2540	Pfam	PF13424	Tetratricopeptide repeat	1505	1575	4.7E-12	T	10-06-2017
+pdam_00016255-RA	6c42668689d32208243455216c4636a9	2540	Pfam	PF13424	Tetratricopeptide repeat	1104	1176	1.1E-14	T	10-06-2017
+pdam_00016255-RA	6c42668689d32208243455216c4636a9	2540	Pfam	PF13424	Tetratricopeptide repeat	1665	1736	3.7E-10	T	10-06-2017
+pdam_00019033-RA	4cd366b6ba29a4c228c35364696c6149	2419	Pfam	PF02373	JmjC domain, hydroxylase	2249	2353	7.1E-10	T	10-06-2017	IPR003347	JmjC domain
+pdam_00003551-RA	03a62b8aaea0098128e145f95b932267	3155	Pfam	PF13087	AAA domain	2377	2440	9.2E-18	T	10-06-2017
+pdam_00003551-RA	03a62b8aaea0098128e145f95b932267	3155	Pfam	PF13087	AAA domain	1192	1375	1.3E-40	T	10-06-2017
+pdam_00003551-RA	03a62b8aaea0098128e145f95b932267	3155	Pfam	PF13385	Concanavalin A-like lectin/glucanases superfamily	789	943	1.2E-6	T	10-06-2017
+pdam_00003551-RA	03a62b8aaea0098128e145f95b932267	3155	Pfam	PF13086	AAA domain	529	678	6.1E-11	T	10-06-2017
+pdam_00003551-RA	03a62b8aaea0098128e145f95b932267	3155	Pfam	PF13086	AAA domain	1054	1179	1.3E-13	T	10-06-2017
+pdam_00012968-RA	744c0d5ffafc909d8ff82e13685d11c3	8081	Pfam	PF00754	F5/8 type C domain	5883	6007	2.6E-21	T	10-06-2017	IPR000421	Coagulation factor 5/8 C-terminal domain
+pdam_00012968-RA	744c0d5ffafc909d8ff82e13685d11c3	8081	Pfam	PF00754	F5/8 type C domain	809	941	3.0E-23	T	10-06-2017	IPR000421	Coagulation factor 5/8 C-terminal domain
+pdam_00012968-RA	744c0d5ffafc909d8ff82e13685d11c3	8081	Pfam	PF00754	F5/8 type C domain	5726	5858	7.8E-27	T	10-06-2017	IPR000421	Coagulation factor 5/8 C-terminal domain
+pdam_00012968-RA	744c0d5ffafc909d8ff82e13685d11c3	8081	Pfam	PF00754	F5/8 type C domain	7882	8013	6.7E-23	T	10-06-2017	IPR000421	Coagulation factor 5/8 C-terminal domain
+pdam_00012968-RA	744c0d5ffafc909d8ff82e13685d11c3	8081	Pfam	PF00754	F5/8 type C domain	3466	3582	2.0E-22	T	10-06-2017	IPR000421	Coagulation factor 5/8 C-terminal domain
+pdam_00012968-RA	744c0d5ffafc909d8ff82e13685d11c3	8081	Pfam	PF00754	F5/8 type C domain	5045	5175	7.0E-23	T	10-06-2017	IPR000421	Coagulation factor 5/8 C-terminal domain
+pdam_00012968-RA	744c0d5ffafc909d8ff82e13685d11c3	8081	Pfam	PF00754	F5/8 type C domain	6654	6786	2.1E-29	T	10-06-2017	IPR000421	Coagulation factor 5/8 C-terminal domain
+pdam_00012968-RA	744c0d5ffafc909d8ff82e13685d11c3	8081	Pfam	PF00754	F5/8 type C domain	3263	3433	6.1E-17	T	10-06-2017	IPR000421	Coagulation factor 5/8 C-terminal domain
+pdam_00012968-RA	744c0d5ffafc909d8ff82e13685d11c3	8081	Pfam	PF00754	F5/8 type C domain	7415	7546	1.6E-25	T	10-06-2017	IPR000421	Coagulation factor 5/8 C-terminal domain
+pdam_00012968-RA	744c0d5ffafc909d8ff82e13685d11c3	8081	Pfam	PF00754	F5/8 type C domain	7266	7391	1.1E-25	T	10-06-2017	IPR000421	Coagulation factor 5/8 C-terminal domain
+pdam_00012968-RA	744c0d5ffafc909d8ff82e13685d11c3	8081	Pfam	PF00754	F5/8 type C domain	3605	3737	4.4E-22	T	10-06-2017	IPR000421	Coagulation factor 5/8 C-terminal domain
+pdam_00012968-RA	744c0d5ffafc909d8ff82e13685d11c3	8081	Pfam	PF00754	F5/8 type C domain	4273	4404	2.0E-24	T	10-06-2017	IPR000421	Coagulation factor 5/8 C-terminal domain
+pdam_00012968-RA	744c0d5ffafc909d8ff82e13685d11c3	8081	Pfam	PF00754	F5/8 type C domain	4596	4709	1.8E-20	T	10-06-2017	IPR000421	Coagulation factor 5/8 C-terminal domain
+pdam_00012968-RA	744c0d5ffafc909d8ff82e13685d11c3	8081	Pfam	PF00754	F5/8 type C domain	4733	4864	2.6E-22	T	10-06-2017	IPR000421	Coagulation factor 5/8 C-terminal domain
+pdam_00012968-RA	744c0d5ffafc909d8ff82e13685d11c3	8081	Pfam	PF00754	F5/8 type C domain	7727	7857	2.8E-26	T	10-06-2017	IPR000421	Coagulation factor 5/8 C-terminal domain
+pdam_00012968-RA	744c0d5ffafc909d8ff82e13685d11c3	8081	Pfam	PF00754	F5/8 type C domain	5571	5702	1.9E-24	T	10-06-2017	IPR000421	Coagulation factor 5/8 C-terminal domain
+pdam_00012968-RA	744c0d5ffafc909d8ff82e13685d11c3	8081	Pfam	PF00754	F5/8 type C domain	1110	1242	7.1E-28	T	10-06-2017	IPR000421	Coagulation factor 5/8 C-terminal domain
+pdam_00012968-RA	744c0d5ffafc909d8ff82e13685d11c3	8081	Pfam	PF00754	F5/8 type C domain	1733	1867	8.1E-25	T	10-06-2017	IPR000421	Coagulation factor 5/8 C-terminal domain
+pdam_00012968-RA	744c0d5ffafc909d8ff82e13685d11c3	8081	Pfam	PF00754	F5/8 type C domain	6965	7097	1.5E-24	T	10-06-2017	IPR000421	Coagulation factor 5/8 C-terminal domain
+pdam_00012968-RA	744c0d5ffafc909d8ff82e13685d11c3	8081	Pfam	PF00754	F5/8 type C domain	31	160	8.6E-25	T	10-06-2017	IPR000421	Coagulation factor 5/8 C-terminal domain
+pdam_00012968-RA	744c0d5ffafc909d8ff82e13685d11c3	8081	Pfam	PF00754	F5/8 type C domain	2046	2178	4.0E-22	T	10-06-2017	IPR000421	Coagulation factor 5/8 C-terminal domain
+pdam_00012968-RA	744c0d5ffafc909d8ff82e13685d11c3	8081	Pfam	PF00754	F5/8 type C domain	5377	5547	9.8E-20	T	10-06-2017	IPR000421	Coagulation factor 5/8 C-terminal domain
+pdam_00012968-RA	744c0d5ffafc909d8ff82e13685d11c3	8081	Pfam	PF00754	F5/8 type C domain	6812	6941	2.8E-24	T	10-06-2017	IPR000421	Coagulation factor 5/8 C-terminal domain
+pdam_00012968-RA	744c0d5ffafc909d8ff82e13685d11c3	8081	Pfam	PF00754	F5/8 type C domain	3762	3892	2.0E-24	T	10-06-2017	IPR000421	Coagulation factor 5/8 C-terminal domain
+pdam_00012968-RA	744c0d5ffafc909d8ff82e13685d11c3	8081	Pfam	PF00754	F5/8 type C domain	3961	4091	1.5E-21	T	10-06-2017	IPR000421	Coagulation factor 5/8 C-terminal domain
+pdam_00012968-RA	744c0d5ffafc909d8ff82e13685d11c3	8081	Pfam	PF00754	F5/8 type C domain	978	1090	1.6E-19	T	10-06-2017	IPR000421	Coagulation factor 5/8 C-terminal domain
+pdam_00012968-RA	744c0d5ffafc909d8ff82e13685d11c3	8081	Pfam	PF00754	F5/8 type C domain	2952	3084	1.3E-28	T	10-06-2017	IPR000421	Coagulation factor 5/8 C-terminal domain
+pdam_00012968-RA	744c0d5ffafc909d8ff82e13685d11c3	8081	Pfam	PF00754	F5/8 type C domain	6030	6162	1.9E-27	T	10-06-2017	IPR000421	Coagulation factor 5/8 C-terminal domain
+pdam_00012968-RA	744c0d5ffafc909d8ff82e13685d11c3	8081	Pfam	PF00754	F5/8 type C domain	4117	4249	6.9E-28	T	10-06-2017	IPR000421	Coagulation factor 5/8 C-terminal domain
+pdam_00012968-RA	744c0d5ffafc909d8ff82e13685d11c3	8081	Pfam	PF00754	F5/8 type C domain	184	316	1.6E-22	T	10-06-2017	IPR000421	Coagulation factor 5/8 C-terminal domain
+pdam_00012968-RA	744c0d5ffafc909d8ff82e13685d11c3	8081	Pfam	PF00754	F5/8 type C domain	7122	7239	2.8E-20	T	10-06-2017	IPR000421	Coagulation factor 5/8 C-terminal domain
+pdam_00012968-RA	744c0d5ffafc909d8ff82e13685d11c3	8081	Pfam	PF00754	F5/8 type C domain	6342	6473	4.6E-21	T	10-06-2017	IPR000421	Coagulation factor 5/8 C-terminal domain
+pdam_00012968-RA	744c0d5ffafc909d8ff82e13685d11c3	8081	Pfam	PF00754	F5/8 type C domain	1893	2022	2.7E-25	T	10-06-2017	IPR000421	Coagulation factor 5/8 C-terminal domain
+pdam_00012968-RA	744c0d5ffafc909d8ff82e13685d11c3	8081	Pfam	PF00754	F5/8 type C domain	340	471	3.2E-27	T	10-06-2017	IPR000421	Coagulation factor 5/8 C-terminal domain
+pdam_00012968-RA	744c0d5ffafc909d8ff82e13685d11c3	8081	Pfam	PF00754	F5/8 type C domain	5200	5330	1.1E-21	T	10-06-2017	IPR000421	Coagulation factor 5/8 C-terminal domain
+pdam_00012968-RA	744c0d5ffafc909d8ff82e13685d11c3	8081	Pfam	PF00754	F5/8 type C domain	497	630	2.9E-27	T	10-06-2017	IPR000421	Coagulation factor 5/8 C-terminal domain
+pdam_00012968-RA	744c0d5ffafc909d8ff82e13685d11c3	8081	Pfam	PF00754	F5/8 type C domain	2351	2481	3.2E-23	T	10-06-2017	IPR000421	Coagulation factor 5/8 C-terminal domain
+pdam_00012968-RA	744c0d5ffafc909d8ff82e13685d11c3	8081	Pfam	PF00754	F5/8 type C domain	3117	3239	4.0E-25	T	10-06-2017	IPR000421	Coagulation factor 5/8 C-terminal domain
+pdam_00012968-RA	744c0d5ffafc909d8ff82e13685d11c3	8081	Pfam	PF00754	F5/8 type C domain	4889	5019	1.2E-24	T	10-06-2017	IPR000421	Coagulation factor 5/8 C-terminal domain
+pdam_00012968-RA	744c0d5ffafc909d8ff82e13685d11c3	8081	Pfam	PF00754	F5/8 type C domain	2639	2771	3.9E-22	T	10-06-2017	IPR000421	Coagulation factor 5/8 C-terminal domain
+pdam_00012968-RA	744c0d5ffafc909d8ff82e13685d11c3	8081	Pfam	PF00754	F5/8 type C domain	2507	2626	7.5E-24	T	10-06-2017	IPR000421	Coagulation factor 5/8 C-terminal domain
+pdam_00012968-RA	744c0d5ffafc909d8ff82e13685d11c3	8081	Pfam	PF00754	F5/8 type C domain	4428	4560	1.9E-24	T	10-06-2017	IPR000421	Coagulation factor 5/8 C-terminal domain
+pdam_00012968-RA	744c0d5ffafc909d8ff82e13685d11c3	8081	Pfam	PF00754	F5/8 type C domain	7571	7702	3.6E-23	T	10-06-2017	IPR000421	Coagulation factor 5/8 C-terminal domain
+pdam_00012968-RA	744c0d5ffafc909d8ff82e13685d11c3	8081	Pfam	PF00754	F5/8 type C domain	1423	1553	2.7E-20	T	10-06-2017	IPR000421	Coagulation factor 5/8 C-terminal domain
+pdam_00012968-RA	744c0d5ffafc909d8ff82e13685d11c3	8081	Pfam	PF00754	F5/8 type C domain	2203	2327	8.7E-22	T	10-06-2017	IPR000421	Coagulation factor 5/8 C-terminal domain
+pdam_00012968-RA	744c0d5ffafc909d8ff82e13685d11c3	8081	Pfam	PF00754	F5/8 type C domain	2796	2926	9.7E-22	T	10-06-2017	IPR000421	Coagulation factor 5/8 C-terminal domain
+pdam_00012968-RA	744c0d5ffafc909d8ff82e13685d11c3	8081	Pfam	PF00754	F5/8 type C domain	1267	1397	1.1E-26	T	10-06-2017	IPR000421	Coagulation factor 5/8 C-terminal domain
+pdam_00012968-RA	744c0d5ffafc909d8ff82e13685d11c3	8081	Pfam	PF00754	F5/8 type C domain	655	785	1.9E-18	T	10-06-2017	IPR000421	Coagulation factor 5/8 C-terminal domain
+pdam_00012968-RA	744c0d5ffafc909d8ff82e13685d11c3	8081	Pfam	PF00754	F5/8 type C domain	6498	6628	1.2E-21	T	10-06-2017	IPR000421	Coagulation factor 5/8 C-terminal domain
+pdam_00012968-RA	744c0d5ffafc909d8ff82e13685d11c3	8081	Pfam	PF00754	F5/8 type C domain	6190	6317	1.7E-22	T	10-06-2017	IPR000421	Coagulation factor 5/8 C-terminal domain
+pdam_00012968-RA	744c0d5ffafc909d8ff82e13685d11c3	8081	Pfam	PF00754	F5/8 type C domain	1578	1708	2.3E-23	T	10-06-2017	IPR000421	Coagulation factor 5/8 C-terminal domain
+pdam_00013642-RA	d6d73707575836e4c3a0f4609652640b	626	Pfam	PF00059	Lectin C-type domain	445	537	5.2E-15	T	10-06-2017	IPR001304	C-type lectin-like
+pdam_00013642-RA	d6d73707575836e4c3a0f4609652640b	626	Pfam	PF00059	Lectin C-type domain	174	281	3.1E-17	T	10-06-2017	IPR001304	C-type lectin-like
+pdam_00013642-RA	d6d73707575836e4c3a0f4609652640b	626	Pfam	PF00024	PAN domain	49	123	1.2E-4	T	10-06-2017	IPR003609	PAN/Apple domain
+pdam_00002640-RA	714b3f951ac84db6b0fbbf38b07051c0	3193	Pfam	PF00644	Poly(ADP-ribose) polymerase catalytic domain	3023	3193	3.2E-27	T	10-06-2017	IPR012317	Poly(ADP-ribose) polymerase, catalytic domain	GO:0003950
+pdam_00002640-RA	714b3f951ac84db6b0fbbf38b07051c0	3193	Pfam	PF00644	Poly(ADP-ribose) polymerase catalytic domain	1407	1491	4.8E-11	T	10-06-2017	IPR012317	Poly(ADP-ribose) polymerase, catalytic domain	GO:0003950
+pdam_00002640-RA	714b3f951ac84db6b0fbbf38b07051c0	3193	Pfam	PF01661	Macro domain	2642	2743	2.1E-12	T	10-06-2017	IPR002589	Macro domain
+pdam_00002640-RA	714b3f951ac84db6b0fbbf38b07051c0	3193	Pfam	PF01661	Macro domain	555	628	1.1E-9	T	10-06-2017	IPR002589	Macro domain
+pdam_00002640-RA	714b3f951ac84db6b0fbbf38b07051c0	3193	Pfam	PF01661	Macro domain	677	750	7.4E-7	T	10-06-2017	IPR002589	Macro domain
+pdam_00002640-RA	714b3f951ac84db6b0fbbf38b07051c0	3193	Pfam	PF01661	Macro domain	848	945	6.9E-12	T	10-06-2017	IPR002589	Macro domain
+pdam_00002640-RA	714b3f951ac84db6b0fbbf38b07051c0	3193	Pfam	PF01661	Macro domain	2468	2541	1.4E-10	T	10-06-2017	IPR002589	Macro domain
+pdam_00002640-RA	714b3f951ac84db6b0fbbf38b07051c0	3193	Pfam	PF01661	Macro domain	1023	1127	2.4E-13	T	10-06-2017	IPR002589	Macro domain
+pdam_00011309-RA	038fb3788cdf7d43cf355b9c8b6554d5	2053	Pfam	PF07719	Tetratricopeptide repeat	730	756	3.5E-5	T	10-06-2017	IPR013105	Tetratricopeptide repeat 2
+pdam_00011309-RA	038fb3788cdf7d43cf355b9c8b6554d5	2053	Pfam	PF13374	Tetratricopeptide repeat	683	716	0.003	T	10-06-2017
+pdam_00011309-RA	038fb3788cdf7d43cf355b9c8b6554d5	2053	Pfam	PF00931	NB-ARC domain	142	366	1.6E-6	T	10-06-2017	IPR002182	NB-ARC	GO:0043531
+pdam_00011309-RA	038fb3788cdf7d43cf355b9c8b6554d5	2053	Pfam	PF00791	ZU5 domain	1145	1226	8.1E-5	T	10-06-2017	IPR000906	ZU5 domain
+pdam_00011309-RA	038fb3788cdf7d43cf355b9c8b6554d5	2053	Pfam	PF13424	Tetratricopeptide repeat	767	834	2.7E-11	T	10-06-2017
+pdam_00019619-RA	2c4caf82f1c6eb5ca8f8d07693cc6d1c	1920	Pfam	PF03372	Endonuclease/Exonuclease/phosphatase family	1188	1317	4.0E-6	T	10-06-2017	IPR005135	Endonuclease/exonuclease/phosphatase
+pdam_00014102-RA	c2cfd74f2e3a8a0dea9145826fa4e97e	1215	Pfam	PF00854	POT family	766	1146	1.6E-90	T	10-06-2017	IPR000109	Proton-dependent oligopeptide transporter family	GO:0005215|GO:0006810|GO:0016020
+pdam_00014102-RA	c2cfd74f2e3a8a0dea9145826fa4e97e	1215	Pfam	PF00854	POT family	209	581	9.6E-88	T	10-06-2017	IPR000109	Proton-dependent oligopeptide transporter family	GO:0005215|GO:0006810|GO:0016020
+pdam_00013121-RA	5c3aa9562baeda4473d9c7250f487b80	4484	Pfam	PF05168	HEPN domain	4347	4473	3.2E-18	T	10-06-2017	IPR007842	HEPN domain
+pdam_00014870-RA	6533db54241dad55012e6b5c658d8f00	679	Pfam	PF13650	Aspartyl protease	456	506	1.1E-6	T	10-06-2017
+pdam_00014870-RA	6533db54241dad55012e6b5c658d8f00	679	Pfam	PF03564	Protein of unknown function (DUF1759)	160	275	7.6E-19	T	10-06-2017	IPR005312	Protein of unknown function DUF1759

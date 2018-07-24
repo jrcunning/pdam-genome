@@ -1,0 +1,63 @@
+
+------------------------- topGOdata object -------------------------
+
+ Description:
+   -  My project 
+
+ Ontology:
+   -  BP 
+
+ 12702 available genes (all genes from the array):
+   - symbol:  pdam_00021770 pdam_00021774 pdam_00021772 pdam_00022010 pdam_00022012  ...
+   - 184  significant genes. 
+
+ 7548 feasible genes (genes that can be used in the analysis):
+   - symbol:  pdam_00021774 pdam_00022012 pdam_00012251 pdam_00012254 pdam_00012274  ...
+   - 93  significant genes. 
+
+ GO graph (nodes with at least  1  genes):
+   - a graph with directed edges
+   - number of nodes = 2614 
+   - number of edges = 5770 
+
+------------------------- topGOdata object -------------------------
+
+       GO.ID                                        Term Annotated Significant
+1 GO:0035434          copper ion transmembrane transport         8           2
+2 GO:0007165                         signal transduction      1930          32
+3 GO:0046654       tetrahydrofolate biosynthetic process         1           1
+4 GO:0051092 positive regulation of NF-kappaB transcr...         2           1
+5 GO:0070836                            caveola assembly         3           1
+6 GO:0051607                   defense response to virus        26           2
+7 GO:0006355 regulation of transcription, DNA-templat...       492          12
+8 GO:0000183                 chromatin silencing at rDNA         4           1
+9 GO:0045132              meiotic chromosome segregation         4           1
+  Expected Rank in classicFisher classicFisher elimFisher topgoFisher
+1     0.10                     4         0.004      0.004      0.0040
+2    23.78                    28         0.035      0.035      0.0042
+3     0.01                    13         0.012      0.012      0.0123
+4     0.02                    24         0.024      0.024      0.0245
+5     0.04                    29         0.037      0.037      0.0365
+6     0.32                    39         0.040      0.040      0.0403
+7     6.06                    18         0.017      0.017      0.0456
+8     0.05                    47         0.048      0.048      0.0484
+9     0.05                    48         0.048      0.048      0.0484
+  parentchildFisher
+1             0.014
+2             0.639
+3             0.143
+4             0.667
+5             1.000
+6             0.655
+7             0.298
+8             0.800
+9             0.143
+[1] "Term GO:0035434 genes: pdam_00007015,pdam_00019463"
+[1] "Term GO:0007165 genes: pdam_00001905,pdam_00003150,pdam_00005661,pdam_00006281,pdam_00007753,pdam_00007837,pdam_00009194,pdam_00010427,pdam_00011670,pdam_00013529,pdam_00013766,pdam_00013768,pdam_00014026,pdam_00014397,pdam_00015331,pdam_00015332,pdam_00015336,pdam_00015337,pdam_00019552,pdam_00020431,pdam_00020432,pdam_00020794,pdam_00022225,pdam_00022374,pdam_00023006,pdam_00023007,pdam_00023010,pdam_00023069,pdam_00023362,pdam_00023363,pdam_00023989,pdam_00026002"
+[1] "Term GO:0046654 genes: pdam_00012021"
+[1] "Term GO:0051092 genes: pdam_00001754"
+[1] "Term GO:0070836 genes: pdam_00020799"
+[1] "Term GO:0051607 genes: pdam_00000549,pdam_00002131"
+[1] "Term GO:0006355 genes: pdam_00000650,pdam_00001754,pdam_00002777,pdam_00003254,pdam_00008346,pdam_00010679,pdam_00014012,pdam_00018945,pdam_00020193,pdam_00022518,pdam_00022988,pdam_00023727"
+[1] "Term GO:0000183 genes: pdam_00023727"
+[1] "Term GO:0045132 genes: pdam_00022127"
