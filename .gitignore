@@ -1,6 +1,8 @@
 manuscript/*
 old_files/*
 SciRep_submission/*
+Rmd/analysis_cache/*
+annotation/pdam_annot.tbl/*
 
 fullblast.txt
 .RData*
