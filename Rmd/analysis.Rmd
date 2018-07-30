@@ -361,9 +361,9 @@ colnames(fams) <- c("gene", "ortho")
 divs$ortho <- rownames(divs)
 divs$pval <- divadj[rownames(divs)]
 out <- merge(divs, fams)
-out2 <- merge(out, sphits, by="gene", all = TRUE)[,c(2:11,1,13,18)]
+out2 <- merge(out, sphits, by="gene", all = TRUE)[,c(2:11,1,18,20)]
 colnames(out2) <- c("ortholog_group", "Pdam", "Spis", "Adig", "Ofav", "Ampl", "Disc", "Aipt",
-                    "Nema", "pval", "rep_gene", "SwissProt_tophit", "E-value")
+                    "Nema", "pval", "rep_gene", "E-value","SwissProt_tophit")
 write.table(out2, file="output/Supplementary_Table_S1.txt", quote=F, row.names=F)
 ```
 ![](../figures/Fig3_coral_divgenes_heatmap.png)
