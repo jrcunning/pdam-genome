@@ -319,6 +319,8 @@ sphits$V1 <- str_replace_all(sphits$V1, "-RA", "")
 fams <- read.table("orthologs/coral_diversified/longest_genes-fams.txt", row.names=NULL)
 sphits <- merge(fams, sphits, by="V1")
 sphits$labels <- stringr::str_extract(as.character(sphits$V9), " [^O]*")
+sphits$uniacc <- stringr::str_extract(as.character(sphits$V9), "(?<=\\|)[^|]*(?=\\|)")
+sphits$labels <- paste0(sphits$labels, "[", sphits$uniacc, "]")
 
 # heatmap of gene family size of coral-diversified genes
 rot <- function(x) "[<-"(x, , rev(x))
@@ -338,7 +340,7 @@ box()
 axis(side=3, at=quantile(par("usr")[1:2], c(1, 3, 5, 7, 9, 11, 13, 15)*0.0625),
      labels=rev(c("Nv", "Ap", "Af", "Ds", "Ad", "Of", "Sp", "Pd")), cex.axis=0.75)
 abline(v=0.5)
-text(par("usr")[2]+0.01, quantile(par("usr")[3:4], seq(0.025,0.975,len=21)), hits, xpd=NA, adj=0, cex=0.75)
+text(par("usr")[2]+0.01, quantile(par("usr")[3:4], seq(0.025,0.975,len=21)), hits, xpd=NA, adj=0, cex=0.675)
 mtext(side=3, "Anthozoa", line=2.5, adj=0)
 segments(par("usr")[1], 1.19, par("usr")[2], 1.19, xpd=NA, lwd=1.5)
 mtext(side=3, "Scleractinia", line=1.3, adj=0)
